@@ -1,0 +1,34 @@
+name: Diagnosticar acceso a LABORA
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probar:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 4
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Leer LABORA y su alias público
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request,socket,json
+          from concurrent.futures import ThreadPoolExecutor
+          def probe(host):
+            result={'host':host}
+            try:
+              result['addresses']=sorted(set(i[4][0] for i in socket.getaddrinfo(host,443,type=socket.SOCK_STREAM)))
+              url='https://'+host+'/es/programes-mixtos-d-ocupacio/escuelas-taller'
+              with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=7) as r:
+                result.update(status=r.status,url=r.url,bytes=len(r.read(300000)))
+            except Exception as exc:result['error']=str(exc)
+            print(json.dumps(result),flush=True)
+          with ThreadPoolExecutor(2) as pool:list(pool.map(probe,['labora.gva.es','www.labora.gva.es']))
+          PY
