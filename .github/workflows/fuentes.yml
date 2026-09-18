@@ -1,0 +1,37 @@
+name: Comprobar fuentes principales desde GitHub
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fuentes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Leer índices y tablones completos
+        run: |
+          python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor
+          from monitor import inspect_resource,utcnow
+          sources=json.loads(Path('sources.json').read_text())['sources']
+          with ThreadPoolExecutor(4) as pool: results=list(pool.map(inspect_resource,sources))
+          summary={'finished':utcnow(),'sources':[{'entity':r['resource']['entity'],'url':r['resource']['url'],'ok':r['ok'],'error':r.get('error'),'discovered':len(r.get('children',[])),'board':r.get('details',{}).get('board_evidence')} for r in results]}
+          Path('fuentes.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          sys.exit(0 if all(r['ok'] for r in results) else 2)
+          PY
+      - name: Contrastar conectividad de LABORA
+        if: failure()
+        run: curl --ipv4 --connect-timeout 8 --max-time 20 -A 'Mozilla/5.0' -o /dev/null -w 'HTTP %{http_code}\n' 'https://labora.gva.es/es/programes-mixtos-d-ocupacio/escuelas-taller'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fuentes-principales
+          path: fuentes.json
