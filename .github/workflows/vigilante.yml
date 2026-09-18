@@ -6,6 +6,10 @@ on:
         description: 'Enviar avisos (requiere secretos y autorización previa)'
         type: boolean
         default: false
+      inicializar:
+        description: 'Crear inventario inicial sin avisar de documentos históricos'
+        type: boolean
+        default: false
   schedule:
     - cron: '17 * * * *'
 permissions:
@@ -51,9 +55,12 @@ jobs:
           HEARTBEAT_DEFERRED: '1'
           EVENT: ${{ github.event_name }}
           SEND_MANUAL: ${{ inputs.enviar }}
+          INITIALIZE: ${{ inputs.inicializar }}
         run: |
           if [ "$EVENT" = schedule ]; then
             python monitor.py --scheduled --deliver
+          elif [ "$INITIALIZE" = true ]; then
+            python monitor.py --initialize
           elif [ "$SEND_MANUAL" = true ]; then
             python monitor.py --deliver
           else

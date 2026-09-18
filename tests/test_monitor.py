@@ -46,6 +46,18 @@ class Logic(unittest.TestCase):
    p=Path(t)/'state.json';m.write_json(p,{'resources':{stale['url']:stale},'pending':{},'gaps_reported':[]})
    m.run({'sources':[root],'max_resources':2},p,t)
   self.assertEqual(calls,[root['url'],fresh['url']])
+ def test_initial_inventory_does_not_read_historical_pdfs(self):
+  root={'entity':'Silla','url':'https://silla.e-oer.com/root','kind':'page'}
+  old_pdf={'entity':'Silla','url':'https://silla.e-oer.com/archive.pdf','kind':'pdf','depth':1}
+  calls=[]
+  def read(r):
+   calls.append(r['url']);return dict(resource=r,ok=True,hash='baseline',details={},kind=r['kind'],text='Taller',children=[old_pdf] if r['kind']=='page' else [])
+  with tempfile.TemporaryDirectory() as t,patch.object(m,'inspect_resource',side_effect=read):
+   m.run({'sources':[root]},Path(t)/'state.json',t,initialize=True)
+   state=json.loads((Path(t)/'state.json').read_text())
+  self.assertEqual(calls,[root['url']])
+  self.assertEqual(state['resources'][root['url']]['children'],[old_pdf['url']])
+  self.assertEqual(state['pending'],{})
  def test_unreachable_host_stops_repeated_downloads(self):
   m.HOST_FAILURES.clear()
   with patch.object(m,'urlopen',side_effect=m.URLError('unreachable')) as fetch,patch.object(m.time,'sleep'):

@@ -338,6 +338,7 @@ def transition(old, result, now):
             event = {"type":"fallo_fuente","entity":r["entity"],"url":r["url"],"message":result["error"]}
         return record,event
     record.update(status="verificada",last_success=now,hash=result["hash"],details=result["details"],kind=result["kind"])
+    record["children"] = [canonical(x["url"]) for x in result.get("children", [])]
     for key in ('byte_hash','extraction_version','http_cache'):
         if key in result:record[key]=result[key]
     record.pop("error",None)
@@ -385,13 +386,14 @@ def scheduled_now(now):
     local = now.astimezone(ZoneInfo("Europe/Madrid"))
     return (local.weekday() < 5 and (8 <= local.hour <= 20 or local.hour in (6,22))) or (local.weekday() >= 5 and local.hour == 9)
 
-def run(config, state_path, runtime, deliver=False):
+def run(config, state_path, runtime, deliver=False, initialize=False):
     with HOST_LOCK:
         HOST_FAILURES.clear()
         HOST_NEXT.clear()
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     original_resources=dict(state['resources'])
+    bootstrap = not original_resources
     runtime.mkdir(parents=True, exist_ok=True)
     state['in_progress']={'started':utcnow(),'checked':0}
     write_json(state_path,state)
@@ -424,7 +426,7 @@ def run(config, state_path, runtime, deliver=False):
                 results.append(result)
                 record,event=transition(original_resources.get(u),result,utcnow())
                 state['resources'][u]=record
-                if event:
+                if event and not (initialize and bootstrap and event['type']=='fuente_nueva'):
                     event['version']=record.get('hash',result.get('error',''))
                     for key,older in list(state['pending'].items()):
                         if older.get('url')==event.get('url'):state['pending'].pop(key)
@@ -432,8 +434,15 @@ def run(config, state_path, runtime, deliver=False):
                 state['in_progress']['checked']=len(results)
                 if len(results)==1 or len(results)%10==0:write_json(state_path,state)
                 if result["ok"]:
+                    previous_children=set((original_resources.get(u) or {}).get('children',[]))
                     for child in result["children"]:
-                        if child["kind"] == "pdf" or child["depth"] <= config.get("max_depth",2):
+                        # On the first pass, page hashes inventory every historical link.
+                        # Later passes fully read only newly discovered PDFs, while pages
+                        # remain traversed so a new link is noticed immediately.
+                        read_child = child["kind"] != "pdf" and child["depth"] <= config.get("max_depth",2)
+                        if child["kind"] == "pdf" and not bootstrap and canonical(child["url"]) not in previous_children:
+                            read_child = True
+                        if read_child:
                             if child["url"] not in seen:
                                 queue[child["url"]] = child
             if not queue and historical:
@@ -444,7 +453,7 @@ def run(config, state_path, runtime, deliver=False):
         u = canonical(result["resource"]["url"])
         record,event = transition(original_resources.get(u),result,now)
         state["resources"][u] = record
-        if event:
+        if event and not (initialize and bootstrap and event['type']=='fuente_nueva'):
             # Couple event identity to version; delivery failures remain pending.
             event["version"] = record.get("hash",result.get("error",""))
             events.append(event)
@@ -515,11 +524,12 @@ def main():
     parser.add_argument("--runtime",default="runtime")
     parser.add_argument("--deliver",action="store_true",help="Enviar únicamente después de configurar y autorizar el canal")
     parser.add_argument("--scheduled",action="store_true")
+    parser.add_argument("--initialize",action="store_true",help="Crear la base inicial sin avisar por documentos históricos")
     args = parser.parse_args()
     if args.scheduled and not scheduled_now(datetime.now(timezone.utc)):
         print("Fuera de franja; no se comprueban fuentes. El flujo de GitHub comprueba por separado la señal de vida.")
         return 0
-    return run(json.loads(Path(args.config).read_text(encoding="utf-8")),args.state,args.runtime,args.deliver)
+    return run(json.loads(Path(args.config).read_text(encoding="utf-8")),args.state,args.runtime,args.deliver,args.initialize)
 
 if __name__ == "__main__":
     sys.exit(main())
