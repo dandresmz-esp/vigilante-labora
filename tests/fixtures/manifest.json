@@ -1,0 +1,38 @@
+{
+  "alzira_calendario.pdf": {
+    "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-33-pdf",
+    "sha256": "db52d592744b07d7651aa484411c58ebda44456bbed850c0f16d2f078dc03c7e",
+    "bytes": 434396,
+    "snapshot_date": "2026-09-18"
+  },
+  "alzira_puesto.pdf": {
+    "url": "https://www.idea-alzira.com/_files/ugd/bfeeef_97f7d3f625f64c0eab14a5b633016238.pdf",
+    "sha256": "752506b04ed2fc7356e7b58c0183ef3dbe20c05c88ceb8e87934a7260f9f620b",
+    "bytes": 833119,
+    "snapshot_date": "2026-09-18"
+  },
+  "silla_abril.pdf": {
+    "url": "https://silla.e-oer.com/wp-content/uploads/sites/20/2026/04/62-Edicte-publicacio-seleccio-vacant-docent-jardinera-SEFYCU-8016520.pdf",
+    "sha256": "78573190cb6e0cc36ea913c6324b30acf136d73d24dd328389d94756c312db0a",
+    "bytes": 504271,
+    "snapshot_date": "2026-09-18"
+  },
+  "silla_mayo.pdf": {
+    "url": "https://silla.e-oer.com/wp-content/uploads/sites/20/2026/05/73_Edicte-publicacio-convocatoria-seleccio_Vacnt-docent-jardineria-SEFYCU-8150042.pdf",
+    "sha256": "2a99cdfe63c7a8bf1c7518d04752b57892c43741c6056108b0103421080553b8",
+    "bytes": 504847,
+    "snapshot_date": "2026-09-18"
+  },
+  "morella_febrero.pdf": {
+    "url": "https://www.morella.net/wp-content/uploads/2026/02/3.-Oferta-docente-Taller-Empleo-Morella-2025-EOCB-FICHAS-Y-BASES.pdf",
+    "sha256": "edd43f236435e90db5790f1f9b1556d544c3b471133c9dc9b3ee4691f8363494",
+    "bytes": 1546854,
+    "snapshot_date": "2026-09-18"
+  },
+  "morella_marzo.pdf": {
+    "url": "https://www.morella.net/wp-content/uploads/2026/03/Oferta-docente-TE-Morella-especialidad-EOCB-Bases-Fichas.pdf",
+    "sha256": "61113b6f20ae52df63b35c966c08eee8f83f924abe4fa18016a655cff271cd78",
+    "bytes": 1520616,
+    "snapshot_date": "2026-09-18"
+  }
+}

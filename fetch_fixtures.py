@@ -1,5 +1,5 @@
 """Public historical cases for independent audit; no user application documents."""
-import hashlib,json,sys
+import hashlib,json,sys,time
 from pathlib import Path
 from urllib.request import urlopen,Request
 from concurrent.futures import ThreadPoolExecutor
@@ -13,7 +13,14 @@ SOURCES={
 ROOT=Path(__file__).resolve().parent/'tests'/'fixtures'
 def download(item):
  name,url=item
- with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'application/pdf'}),timeout=45) as response:data=response.read(24000000)
+ cached=ROOT/name
+ if cached.exists():
+  data=cached.read_bytes()
+  manifest_path=ROOT/'manifest.json'
+  expected=json.loads(manifest_path.read_text(encoding='utf8')).get(name,{}).get('sha256') if manifest_path.exists() else None
+  if not expected or hashlib.sha256(data).hexdigest()!=expected:raise ValueError(name+': copia histórica sin hash verificado')
+ else:
+  with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'application/pdf'}),timeout=45) as response:data=response.read(24000000)
  if not data.startswith(b'%PDF'):raise ValueError(name+': no es PDF')
  (ROOT/name).write_bytes(data)
  return name,{'url':url,'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)}

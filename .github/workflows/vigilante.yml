@@ -37,6 +37,7 @@ jobs:
             git show FETCH_HEAD:state.json > runtime/state.json
           fi
       - name: Comprobar fuentes
+        id: comprobar
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -45,6 +46,7 @@ jobs:
           ALERT_FROM: ${{ secrets.ALERT_FROM }}
           ALERT_TO: ${{ secrets.ALERT_TO }}
           HEARTBEAT_URL: ${{ secrets.HEARTBEAT_URL }}
+          HEARTBEAT_DEFERRED: '1'
           EVENT: ${{ github.event_name }}
           SEND_MANUAL: ${{ inputs.enviar }}
         run: |
@@ -56,6 +58,7 @@ jobs:
             python monitor.py
           fi
       - name: Guardar estado incluso ante fallos
+        id: persistir
         if: always()
         shell: bash
         run: |
@@ -80,6 +83,11 @@ jobs:
               git -c "http.https://github.com/.extraheader=$HEADER" push origin estado-vigilante
             fi
           fi
+      - name: Señal externa después de conservar estado
+        if: always() && steps.persistir.outcome == 'success' && (github.event_name == 'schedule' || inputs.enviar)
+        env:
+          HEARTBEAT_URL: ${{ secrets.HEARTBEAT_URL }}
+        run: python heartbeat.py --check-outcome '${{ steps.comprobar.outcome }}'
       - name: Informe de ejecución (sin documentos originales)
         if: always()
         uses: actions/upload-artifact@v4

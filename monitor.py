@@ -35,6 +35,7 @@ MAX_BYTES = 24 * 1024 * 1024
 PDF_RENDER_LOCK = threading.Lock()
 HOST_LOCK = threading.Lock()
 HOST_FAILURES = {}
+HOST_NEXT = {}
 EXTRACTION_VERSION = 2
 ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "silla.e-oer.com", "silla.sede.dival.es", "sedeelectronica.alzira.es"}
 # Observed document storage redirect used by IDEA's own PDF links.
@@ -239,6 +240,9 @@ def fetch(url, validators=None):
         if validators.get('last_modified'):headers['If-Modified-Since']=validators['last_modified']
     for attempt in range(2):
         try:
+            with HOST_LOCK:
+                now=time.monotonic();delay=max(0,HOST_NEXT.get(host,0)-now);HOST_NEXT[host]=now+delay+0.5
+            if delay:time.sleep(delay)
             with urlopen(Request(url, headers=headers), timeout=22) as response:
                 if urlsplit(response.url).hostname not in ALLOWED_HOSTS:
                     raise ValueError("Redirección fuera de fuentes permitidas")
@@ -254,7 +258,7 @@ def fetch(url, validators=None):
             last = exc
             if attempt == 0:
                 time.sleep(1)
-    if isinstance(last,(TimeoutError,ConnectionError,URLError)) and (not isinstance(last,HTTPError) or last.code >= 500):
+    if isinstance(last,(TimeoutError,ConnectionError,URLError)) and (not isinstance(last,HTTPError) or last.code >= 500 or last.code in (403,429)):
         with HOST_LOCK:
             HOST_FAILURES[host] = HOST_FAILURES.get(host,0)+1
     raise RuntimeError(str(last))
@@ -363,6 +367,7 @@ def scheduled_now(now):
 def run(config, state_path, runtime, deliver=False):
     with HOST_LOCK:
         HOST_FAILURES.clear()
+        HOST_NEXT.clear()
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     runtime.mkdir(parents=True, exist_ok=True)
@@ -448,7 +453,9 @@ def run(config, state_path, runtime, deliver=False):
                 report["delivery"] = "sin_novedades"
             # Heartbeat certifies execution, not full source coverage; independent service must alert on silence.
             ping = os.environ.get("HEARTBEAT_URL")
-            if ping:
+            if os.environ.get('HEARTBEAT_DEFERRED')=='1':
+                report['external_watchdog']='pendiente_de_persistir_estado'
+            elif ping:
                 if urlsplit(ping).scheme != "https":
                     raise RuntimeError("HEARTBEAT_URL debe usar HTTPS")
                 with urlopen(Request(ping,method="POST",data=b"completed"),timeout=15) as response:

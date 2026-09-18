@@ -1,0 +1,39 @@
+name: Comprobar canales de aviso
+on:
+  workflow_dispatch:
+    inputs:
+      correo:
+        description: Enviar un único correo de prueba
+        type: boolean
+        default: false
+      latido:
+        description: Enviar una única señal al supervisor externo
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Correo de prueba
+        if: inputs.correo
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_FROM: ${{ secrets.ALERT_FROM }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: python -c "from monitor import send_mail; send_mail('Prueba del vigilante LABORA / Alzira / Silla', 'Este correo comprueba el canal de avisos. La vigilancia automática está pendiente de activación. Confirma que lo recibes en el correo y que aparece la notificación en el móvil.')"
+      - name: Señal única para probar detección de silencio
+        if: inputs.latido
+        env:
+          HEARTBEAT_URL: ${{ secrets.HEARTBEAT_URL }}
+        run: python -c "from heartbeat import send; send(); print('Señal de prueba enviada')"
