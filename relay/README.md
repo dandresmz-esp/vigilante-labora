@@ -1,6 +1,6 @@
 # Prueba de acceso alternativa a LABORA
 
-Estado: preparado y probado localmente; NO desplegado ni validado contra LABORA desde Cloudflare.
+Estado a 18/09/2026: desplegado en el plan gratuito, con región Madrid. Verificadas las cinco páginas de LABORA y el PDF de Alzira a través del lector. La prueba de las once fuentes principales desde GitHub ha pasado: ejecución 35379264678. Esto acredita acceso, no la aceptación final del vigilante.
 
 Los servidores probados de GitHub (Ubuntu, Windows y macOS) no conectaron con LABORA. Esta pieza permite probar el acceso desde otra red, cerca de Madrid, manteniendo el programa principal. Solo admite páginas y documentos públicos de LABORA, requiere una clave y conserva los bytes originales. No usa IA.
 
