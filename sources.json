@@ -82,7 +82,22 @@
       "entity": "Picanya",
       "url": "https://picanya.org/api/contents/picanya/collections/articulos?nodeTypes=Noticia&limit=20",
       "kind": "api"
-    }
+    },
+    {"entity":"Alcàsser","url":"https://alcasser.sedelectronica.es/board","kind":"board"},
+    {"entity":"La Font de la Figuera","url":"https://lafontdelafiguera.sedelectronica.es/board","kind":"board"},
+    {"entity":"Benaguasil","url":"https://benaguasil.sede.dival.es/tablondeanuncios/","kind":"board"},
+    {"entity":"Ribera Baixa","url":"https://mancomunitatriberabaixa.sedelectronica.es/board","kind":"board"},
+    {"entity":"Massamagrell","url":"https://massamagrell.sedelectronica.es/board","kind":"board"},
+    {"entity":"Sedaví","url":"https://sedavi.sede.dival.es/tablondeanuncios/","kind":"board"},
+    {"entity":"Manises","url":"https://manises.sedipualba.es/tablondeanuncios/","kind":"board"},
+    {"entity":"Ontinyent","url":"https://ontinyent.sedipualba.es/tablondeanuncios/","kind":"board"},
+    {"entity":"Alfafar","url":"https://alfafar.sedelectronica.es/board","kind":"board"},
+    {"entity":"Algemesí","url":"https://sede.algemesi.es/eAdmin/Tablon.do?action=inicioTablon","kind":"snapshot"},
+    {"entity":"Rafelbunyol","url":"https://rafelbunyol.sedelectronica.es/board","kind":"board"},
+    {"entity":"Ayora","url":"https://ayora.sedelectronica.es/board","kind":"board"},
+    {"entity":"Bétera","url":"https://betera.sedelectronica.es/board","kind":"board"},
+    {"entity":"Mislata","url":"https://www.mislata.es/es/informate/tablon-de-anuncios","kind":"snapshot"},
+    {"entity":"Simat de la Valldigna","url":"https://simatdelavalldigna.sede.dival.es/tablondeanuncios/","kind":"board"}
   ],
   "coverage_gaps": []
 }

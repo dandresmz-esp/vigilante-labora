@@ -41,6 +41,7 @@ EXTRACTION_VERSION = 2
 ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "silla.e-oer.com", "silla.sede.dival.es", "sedeelectronica.alzira.es", "aytosagunto.es", "www.aytosagunto.es", "sagunto.portalemp.com", "picanya.portalemp.com", "picanya.org", "www.picanya.org"}
 # Observed document storage redirect used by IDEA's own PDF links.
 ALLOWED_HOSTS.add("0b6e09b9-fe3a-4f21-b15a-c9ff5db0fc9a.filesusr.com")
+ALLOWED_HOSTS.update({"simatdelavalldigna.sede.dival.es","mancomunitatriberabaixa.sedelectronica.es","sede.algemesi.es","ontinyent.sedipualba.es","lafontdelafiguera.sedelectronica.es","betera.sedelectronica.es","benaguasil.sede.dival.es","alfafar.sedelectronica.es","sedavi.sede.dival.es","alcasser.sedelectronica.es","manises.sedipualba.es","www.mislata.es","rafelbunyol.sedelectronica.es","massamagrell.sedelectronica.es","ayora.sedelectronica.es"})
 MONTHS = {"enero":1,"gener":1,"febrero":2,"febrer":2,"marzo":3,"marc":3,"abril":4,"mayo":5,"maig":5,"junio":6,"juny":6,"julio":7,"juliol":7,"agosto":8,"agost":8,"septiembre":9,"setembre":9,"octubre":10,"noviembre":11,"novembre":11,"diciembre":12,"desembre":12}
 
 def utcnow():
@@ -325,6 +326,11 @@ def inspect_resource(resource):
             page = Page()
             page.feed(data.decode("utf-8", errors="replace"))
             text = page.text()
+            if resource["kind"] == "snapshot":
+                if len(text) < 100 or not any(k in fold(text) for k in ("tablon","anuncio","edicto","ocupacio","empleo")):
+                    raise ValueError("Tablón vacío o estructura no reconocida")
+                normalized=normalize(text)
+                return {"ok":True,"resource":resource,"text":text,"normalized":normalized,"hash":digest(normalized),"details":details(text),"children":[],"kind":"snapshot","byte_hash":byte_hash,"extraction_version":EXTRACTION_VERSION,"http_cache":http_cache}
             if len(text) < 200 or not any(k in fold(text) for k in ("taller", "ocupacio", "empleo", "formacio", "labora", "anuncio", "edicto")):
                 raise ValueError("Contenido no reconocido, vacío o página de error")
             children = candidates(page, resource["url"], resource["entity"], resource.get("depth",0))

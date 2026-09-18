@@ -28,6 +28,17 @@ def collect(resource):
    b=r.read(4000000);charset=r.headers.get_content_charset() or 'utf-8'
   return b.decode(charset,errors='replace')
  url=resource['url'];first=get(url);pages=[first];children=[]
+ host=__import__('urllib.parse',fromlist=['urlsplit']).urlsplit(url).hostname or ''
+ if host.endswith('.sedelectronica.es'):
+  if 'AdvertisementBoardListPanel' not in first:raise ValueError('Tablón electrónico: estructura no reconocida')
+  parts=[];ids=set()
+  for row in re.findall(r'<tr\b.*?</tr>',first,re.S|re.I):
+   found=re.search(r'href="([^"]*/preview-document/([^"]+))"',row,re.I)
+   if not found:continue
+   detail=urljoin(url,html.unescape(found[1]));ids.add(found[2]);p=Page();p.feed(row);parts.append(p.text())
+   if any(w in fold(p.text()) for w in ('docent','taller','formacio','empleo','ocupacio','labora','profesor','monitor')):
+    children.append({'entity':resource['entity'],'url':detail,'kind':'notice','depth':1,'label':p.text()[:180]})
+  return '\n'.join(parts),children,{'pages':1,'announcements':len(ids),'validation':'server_listing_read'}
  if resource['entity']=='Alzira':
   total_match=re.search(r'var TOTAL_LENGTH\s*=\s*(\d+)',first)
   size_match=re.search(r'var PAGINATION\s*=\s*(\d+)',first)
