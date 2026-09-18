@@ -370,7 +370,10 @@ def run(config, state_path, runtime, deliver=False):
         HOST_NEXT.clear()
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
+    original_resources=dict(state['resources'])
     runtime.mkdir(parents=True, exist_ok=True)
+    state['in_progress']={'started':utcnow(),'checked':0}
+    write_json(state_path,state)
     queue = {canonical(r["url"]):dict(r,depth=0) for r in config["sources"]}
     # Discover new material before spending the budget on detached historical links.
     historical = {u:{k:r[k] for k in ("url","entity","kind","depth","label") if k in r} for u,r in state['resources'].items()}
@@ -398,6 +401,15 @@ def run(config, state_path, runtime, deliver=False):
                 u = canonical(result["resource"]["url"])
                 seen.add(u)
                 results.append(result)
+                record,event=transition(original_resources.get(u),result,utcnow())
+                state['resources'][u]=record
+                if event:
+                    event['version']=record.get('hash',result.get('error',''))
+                    for key,older in list(state['pending'].items()):
+                        if older.get('url')==event.get('url'):state['pending'].pop(key)
+                    state['pending'][event_id(event)]=event
+                state['in_progress']['checked']=len(results)
+                if len(results)==1 or len(results)%10==0:write_json(state_path,state)
                 if result["ok"]:
                     for child in result["children"]:
                         if child["kind"] == "pdf" or child["depth"] <= config.get("max_depth",2):
@@ -409,7 +421,7 @@ def run(config, state_path, runtime, deliver=False):
     now,events = utcnow(),[]
     for result in results:
         u = canonical(result["resource"]["url"])
-        record,event = transition(state["resources"].get(u),result,now)
+        record,event = transition(original_resources.get(u),result,now)
         state["resources"][u] = record
         if event:
             # Couple event identity to version; delivery failures remain pending.
@@ -425,6 +437,10 @@ def run(config, state_path, runtime, deliver=False):
     if overflow:
         events.append({"type":"limite_alcanzado","message":"Se alcanzó el límite de recursos; cobertura incompleta. No es una ejecución íntegra."})
     for event in events:
+        event['detected_at']=now
+        if event.get('url'):
+            for key,older in list(state['pending'].items()):
+                if older.get('url')==event['url']:state['pending'].pop(key)
         state["pending"][event_id(event)] = event
     coverage = {}
     for entity in sorted({s["entity"] for s in config["sources"]}):
@@ -440,14 +456,11 @@ def run(config, state_path, runtime, deliver=False):
     if deliver:
         try:
             if state["pending"]:
-                # Split large baselines; acknowledge only successfully sent chunks.
+                # One digest per pass, including the initial historical baseline.
                 entries = list(state["pending"].items())
-                for start in range(0,len(entries),25):
-                    chunk = entries[start:start+25]
-                    send_mail("Vigilante: novedades o incidencias (LABORA/Alzira/Silla)",mail_body([v for k,v in chunk],report))
-                    for k,v in chunk:
-                        state["pending"].pop(k,None)
-                    write_json(state_path,state)
+                send_mail("Vigilante: novedades o incidencias (LABORA/Alzira/Silla)",mail_body([v for k,v in entries],report))
+                state['pending'].clear()
+                write_json(state_path,state)
                 report["delivery"] = "aceptada_por_SMTP_pendiente_confirmar_recepcion"
             else:
                 report["delivery"] = "sin_novedades"
@@ -467,6 +480,8 @@ def run(config, state_path, runtime, deliver=False):
             report["delivery"] = "fallo: " + type(exc).__name__ # do not expose secrets in logs
             failure = True
     state["last_execution"] = now
+    state.pop('in_progress',None)
+    report['pending_events']=len(state['pending'])
     write_json(state_path,state)
     write_json(runtime/"informe.json",report)
     print(json.dumps(report,ensure_ascii=False,indent=2))
@@ -481,7 +496,7 @@ def main():
     parser.add_argument("--scheduled",action="store_true")
     args = parser.parse_args()
     if args.scheduled and not scheduled_now(datetime.now(timezone.utc)):
-        print("Fuera de franja; no se comprueban fuentes ni se emite latido.")
+        print("Fuera de franja; no se comprueban fuentes. El flujo de GitHub comprueba por separado la señal de vida.")
         return 0
     return run(json.loads(Path(args.config).read_text(encoding="utf-8")),args.state,args.runtime,args.deliver)
 

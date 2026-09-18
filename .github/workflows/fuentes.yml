@@ -18,10 +18,16 @@ jobs:
           python - <<'PY'
           import json,sys
           from pathlib import Path
-          from concurrent.futures import ThreadPoolExecutor
+          from concurrent.futures import ThreadPoolExecutor,as_completed
           from monitor import inspect_resource,utcnow
           sources=json.loads(Path('sources.json').read_text())['sources']
-          with ThreadPoolExecutor(4) as pool: results=list(pool.map(inspect_resource,sources))
+          results=[]
+          with ThreadPoolExecutor(4) as pool:
+            for f in as_completed([pool.submit(inspect_resource,r) for r in sources]):
+              result=f.result();results.append(result)
+              partial={'finished':None,'checked':len(results),'expected':len(sources),'sources':[{'entity':r['resource']['entity'],'url':r['resource']['url'],'ok':r['ok'],'error':r.get('error')} for r in results]}
+              Path('fuentes.json').write_text(json.dumps(partial,ensure_ascii=False,indent=2))
+              print(result['resource']['entity'],result['resource']['url'],result['ok'],flush=True)
           summary={'finished':utcnow(),'sources':[{'entity':r['resource']['entity'],'url':r['resource']['url'],'ok':r['ok'],'error':r.get('error'),'discovered':len(r.get('children',[])),'board':r.get('details',{}).get('board_evidence')} for r in results]}
           Path('fuentes.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
           print(json.dumps(summary,ensure_ascii=False,indent=2))
