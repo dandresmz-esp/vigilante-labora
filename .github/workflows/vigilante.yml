@@ -1,4 +1,4 @@
-name: Vigilante LABORA Alzira Silla
+name: Vigilante de talleres LABORA y municipios
 on:
   workflow_dispatch:
     inputs:

@@ -25,7 +25,7 @@ El primer pase prepara también avisos de documentos históricos para establecer
 
 1. Crear un repositorio para este proyecto. Subir únicamente el código, configuración, pruebas y documentación. No subir `runtime`, documentación personal, certificados, secretos ni el ZIP de la candidatura.
 2. Ejecutar manualmente «Pruebas de aceptación reproducibles».
-3. Ejecutar «Vigilante LABORA Alzira Silla» con `enviar=false`. Revisar cobertura y recursos alcanzados.
+3. Ejecutar «Vigilante de talleres LABORA y municipios» con `enviar=false`. Revisar cobertura y recursos alcanzados.
 4. Configurar secretos de Actions: `SMTP_HOST`, `SMTP_PORT` (465), `SMTP_USER`, `SMTP_PASSWORD`, `ALERT_FROM`, `ALERT_TO` y `HEARTBEAT_URL`. Destinatario: configurar el correo elegido; introducirlo como secreto, no publicarlo en el código.
 5. Usar una credencial SMTP específica del servicio. No escribir la contraseña principal de correo en archivos ni en el chat.
 6. Configurar un servicio externo, por ejemplo [Healthchecks](https://healthchecks.io/docs/configuring_checks/), con avisos al correo elegido. `HEARTBEAT_URL` es la dirección HTTPS de recepción. En producción: periodo de 1 hora y margen de 1 hora. GitHub envía la señal cada hora, también fuera de la franja de lectura de fuentes, después de conservar el estado. Así se detecta el silencio en unas dos horas sin depender del ordenador. Para la prueba de ausencia de ejecución: con la programación todavía desactivada, usar temporalmente periodo de 1 minuto y margen de 1 minuto; ejecutar una señal manual con «Comprobar canales de aviso»; no enviar ninguna más y confirmar que el servicio externo avisa. Después cambiar a 1 hora + 1 hora antes de activar. No declarar esta prueba superada por enviar una señal manual de error.

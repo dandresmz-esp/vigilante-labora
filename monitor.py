@@ -370,7 +370,7 @@ def event_id(event):
     return digest(json.dumps(event, sort_keys=True, ensure_ascii=False))
 
 def mail_body(events, report):
-    lines = ["VIGILANTE LABORA / ALZIRA / SILLA", "Comprobación: " + report["finished"],
+    lines = ["VIGILANTE DE TALLERES — LABORA Y MUNICIPIOS", "Comprobación: " + report["finished"],
              "Los avisos son cambios detectados, no una confirmación de que puedas acceder al puesto.", ""]
     for event in events:
         lines += [event["type"] + " — " + event.get("entity", ""),event.get("label", ""),event.get("url", ""),event.get("message", "")]
@@ -507,7 +507,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
             if state["pending"]:
                 # One digest per pass, including the initial historical baseline.
                 entries = list(state["pending"].items())
-                send_mail("Vigilante: novedades o incidencias (LABORA/Alzira/Silla)",mail_body([v for k,v in entries],report))
+                send_mail("Vigilante: novedades o incidencias de talleres",mail_body([v for k,v in entries],report))
                 state['pending'].clear()
                 write_json(state_path,state)
                 report["delivery"] = "aceptada_por_SMTP_pendiente_confirmar_recepcion"
