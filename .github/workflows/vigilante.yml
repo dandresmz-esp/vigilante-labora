@@ -40,6 +40,8 @@ jobs:
         id: comprobar
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          LABORA_RELAY_URL: ${{ secrets.LABORA_RELAY_URL }}
+          LABORA_RELAY_TOKEN: ${{ secrets.LABORA_RELAY_TOKEN }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}

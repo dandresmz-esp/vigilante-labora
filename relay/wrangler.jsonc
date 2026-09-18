@@ -1,0 +1,7 @@
+{
+  "name": "vigilante-labora-lector",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-18",
+  "placement": {"region": "gcp:europe-southwest1"},
+  "workers_dev": true
+}

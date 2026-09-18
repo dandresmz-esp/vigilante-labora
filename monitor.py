@@ -24,7 +24,8 @@ from datetime import datetime, timezone
 from email.message import EmailMessage
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlsplit, urlunsplit, quote, unquote
-from urllib.request import Request, urlopen
+from urllib.request import Request, urlopen, build_opener, HTTPRedirectHandler
+from urllib.parse import urlencode
 from urllib.error import HTTPError, URLError
 from zoneinfo import ZoneInfo
 
@@ -226,6 +227,11 @@ def candidates(page, base, entity, depth):
             found[url] = {"entity":entity,"url":url,"kind":"pdf" if doc else "page","depth":depth+1,"label":label,"context":context}
     return list(found.values())
 
+class NoRelayRedirect(HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        raise ValueError('Redirección del lector no permitida')
+
+
 def fetch(url, validators=None):
     host = urlsplit(url).hostname
     if host not in ALLOWED_HOSTS:
@@ -235,6 +241,19 @@ def fetch(url, validators=None):
             raise RuntimeError("Web temporalmente inaccesible tras varios fallos; lectura pendiente hasta siguiente ejecución")
     last = None
     headers={'User-Agent':AGENT}
+    relay = os.environ.get('LABORA_RELAY_URL') if host == 'labora.gva.es' else None
+    request_url = url
+    opener = urlopen
+    if relay:
+        endpoint = urlsplit(relay)
+        if endpoint.scheme != 'https' or endpoint.hostname != 'vigilante-labora-lector.vigilante-dandresmz-esp.workers.dev' or endpoint.username or endpoint.password or endpoint.port not in (None,443) or endpoint.query or endpoint.fragment:
+            raise ValueError('Dirección del lector no permitida')
+        token = os.environ.get('LABORA_RELAY_TOKEN')
+        if not token:
+            raise ValueError('Falta credencial del lector')
+        headers.update({'Authorization':'Bearer '+token,'User-Agent':'Mozilla/5.0 (compatible; VigilanteLabora/1.0)'})
+        request_url = relay.rstrip('/')+'/?'+urlencode({'url':url})
+        opener = build_opener(NoRelayRedirect()).open
     if validators:
         if validators.get('etag'):headers['If-None-Match']=validators['etag']
         if validators.get('last_modified'):headers['If-Modified-Since']=validators['last_modified']
@@ -243,8 +262,10 @@ def fetch(url, validators=None):
             with HOST_LOCK:
                 now=time.monotonic();delay=max(0,HOST_NEXT.get(host,0)-now);HOST_NEXT[host]=now+delay+0.5
             if delay:time.sleep(delay)
-            with urlopen(Request(url, headers=headers), timeout=22) as response:
-                if urlsplit(response.url).hostname not in ALLOWED_HOSTS:
+            with opener(Request(request_url, headers=headers), timeout=30 if relay else 22) as response:
+                if relay and urlsplit(response.headers.get('X-Source-URL','')).hostname != 'labora.gva.es':
+                    raise ValueError('Origen del lector no verificado')
+                if not relay and urlsplit(response.url).hostname not in ALLOWED_HOSTS:
                     raise ValueError("Redirección fuera de fuentes permitidas")
                 data = response.read(MAX_BYTES + 1)
                 if len(data) > MAX_BYTES:
