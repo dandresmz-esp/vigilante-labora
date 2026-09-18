@@ -408,8 +408,8 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         HOST_NEXT.clear()
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
-    if initialize and state.get('in_progress'):
-        # An interrupted first inventory is not a trustworthy comparison base.
+    if initialize:
+        # An explicit baseline starts clean and never carries historical alerts.
         state = {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     original_resources=dict(state['resources'])
     bootstrap = not original_resources

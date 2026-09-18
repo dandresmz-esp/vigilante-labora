@@ -80,7 +80,7 @@
     },
     {
       "entity": "Picanya",
-      "url": "https://picanya.org/api/contents/picanya/collections/articulos?nodeTypes=Noticia&sort=-date&limit=100",
+      "url": "https://picanya.org/api/contents/picanya/collections/articulos?nodeTypes=Noticia&limit=20",
       "kind": "api"
     }
   ],
