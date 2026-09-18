@@ -57,6 +57,31 @@
       "entity": "Silla",
       "url": "https://silla.sede.dival.es/tablondeanuncios/",
       "kind": "board"
+    },
+    {
+      "entity": "Sagunt",
+      "url": "https://aytosagunto.es/es/ayuntamiento/administracion/empleo/",
+      "kind": "index"
+    },
+    {
+      "entity": "Sagunt",
+      "url": "https://aytosagunto.es/es/ayuntamiento/areas-y-servicios/economia-y-desarrollo/promocion-economica-e-industrial/formacion-y-empleo/escuela-taller/",
+      "kind": "page"
+    },
+    {
+      "entity": "Sagunt",
+      "url": "https://sagunto.portalemp.com/ofertas.html",
+      "kind": "index"
+    },
+    {
+      "entity": "Picanya",
+      "url": "https://picanya.portalemp.com/ofertas.html",
+      "kind": "index"
+    },
+    {
+      "entity": "Picanya",
+      "url": "https://picanya.org/api/contents/picanya/collections/articulos?nodeTypes=Noticia&sort=-date&limit=100",
+      "kind": "api"
     }
   ],
   "coverage_gaps": []

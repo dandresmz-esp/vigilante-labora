@@ -38,7 +38,7 @@ HOST_LOCK = threading.Lock()
 HOST_FAILURES = {}
 HOST_NEXT = {}
 EXTRACTION_VERSION = 2
-ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "silla.e-oer.com", "silla.sede.dival.es", "sedeelectronica.alzira.es"}
+ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "silla.e-oer.com", "silla.sede.dival.es", "sedeelectronica.alzira.es", "aytosagunto.es", "www.aytosagunto.es", "sagunto.portalemp.com", "picanya.portalemp.com", "picanya.org", "www.picanya.org"}
 # Observed document storage redirect used by IDEA's own PDF links.
 ALLOWED_HOSTS.add("0b6e09b9-fe3a-4f21-b15a-c9ff5db0fc9a.filesusr.com")
 MONTHS = {"enero":1,"gener":1,"febrero":2,"febrer":2,"marzo":3,"marc":3,"abril":4,"mayo":5,"maig":5,"junio":6,"juny":6,"julio":7,"juliol":7,"agosto":8,"agost":8,"septiembre":9,"setembre":9,"octubre":10,"noviembre":11,"novembre":11,"diciembre":12,"desembre":12}
@@ -223,6 +223,11 @@ def candidates(page, base, entity, depth):
             selected = doc or "/programas-mixtos-de-formacion-empleo/" in p.path
             if "/va/" in p.path:
                 selected = False
+        elif entity == "Sagunt":
+            selected = doc or (p.hostname in ("aytosagunto.es","www.aytosagunto.es") and any(x in p.path for x in ("/administracion/empleo/","/formacion-y-empleo/")))
+            selected = selected or (p.hostname == "sagunto.portalemp.com" and "/ofertas.html" in p.path)
+        elif entity == "Picanya":
+            selected = doc or (p.hostname == "picanya.portalemp.com" and "/ofertas.html" in p.path)
         if selected and url != canonical(base):
             found[url] = {"entity":entity,"url":url,"kind":"pdf" if doc else "page","depth":depth+1,"label":label,"context":context}
     return list(found.values())
@@ -305,6 +310,17 @@ def inspect_resource(resource):
         children = []
         if is_pdf:
             text = extract_pdf(data)
+        elif resource["kind"] == "api":
+            payload=json.loads(data.decode("utf-8"))
+            items=payload.get("items",[]) if isinstance(payload,dict) else []
+            words=("ocupacio","ocupación","empleo","taller","formacio","formación","docent","fotae","escola")
+            selected=[x for x in items if any(w in fold(json.dumps(x,ensure_ascii=False)) for w in words)]
+            text=json.dumps(selected,ensure_ascii=False,sort_keys=True)
+            children=[]
+            for match in re.findall(r'https://[^\s"<>\\]+',text):
+                docurl=canonical(match.rstrip(').,;'))
+                if urlsplit(docurl).hostname in ALLOWED_HOSTS and ('.pdf' in urlsplit(docurl).path.lower() or '/documents/' in urlsplit(docurl).path):
+                    children.append(dict(entity=resource['entity'],url=docurl,kind='pdf',depth=resource.get('depth',0)+1,label='Documento enlazado'))
         else:
             page = Page()
             page.feed(data.decode("utf-8", errors="replace"))
@@ -392,6 +408,9 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         HOST_NEXT.clear()
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
+    if initialize and state.get('in_progress'):
+        # An interrupted first inventory is not a trustworthy comparison base.
+        state = {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     original_resources=dict(state['resources'])
     bootstrap = not original_resources
     runtime.mkdir(parents=True, exist_ok=True)

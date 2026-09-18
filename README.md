@@ -47,6 +47,8 @@ Si una web acumula tres descargas fallidas por conexión o errores de servidor, 
 - LABORA: cinco páginas de programas; descubrimiento de calendarios de cualquier año enlazado.
 - Alzira: índice de formación IDEA, Escola Taller y páginas de programas descubiertas.
 - Silla: índice de programas mixtos y sus páginas/documentos.
+- Sagunt: sección municipal de empleo, Escuela Taller y ofertas de Sagunto Emplea.
+- Picanya: ofertas de su portal municipal y noticias oficiales filtradas por empleo, formación y talleres. Incluye el promotor FOTAE/2026/33/46, Escola de Jardineria José Casabán II.
 - Tablones municipales de Alzira y Silla: lectores de listado y paginación incorporados. Compara todos los títulos y fechas del listado; profundiza en anuncios con términos de empleo, formación o talleres. Una modificación de una ficha cuyo título/listado no cambia podría pasar inadvertida si no fue seleccionada para lectura; revisar esta limitación en la auditoría.
 - BOP y otros municipios: fuera de esta primera versión.
 - Morella: solo material histórico de prueba; no se amplía la vigilancia a esa entidad.

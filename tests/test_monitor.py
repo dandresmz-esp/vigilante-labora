@@ -30,6 +30,12 @@ class Logic(unittest.TestCase):
   self.assertEqual(len(c),1);self.assertEqual(c[0]['kind'],'pdf')
  def test_ignore_scripts(self):
   p=m.Page();p.feed('<script>999random</script><p>Convocatoria</p>');self.assertEqual(p.text(),'Convocatoria')
+ def test_picanya_api_keeps_relevant_news_only(self):
+  r={'entity':'Picanya','url':'https://picanya.org/api/contents/picanya/collections/articulos?limit=100','kind':'api'}
+  payload=json.dumps({'items':[{'title':'Escola taller de jardineria','date':'2026-09-18'},{'title':'Concert de música','date':'2026-09-18'}]}).encode()
+  with patch.object(m,'fetch',return_value=(payload,'application/json',{})):
+   result=m.inspect_resource(r)
+  self.assertTrue(result['ok']);self.assertIn('jardineria',result['text']);self.assertNotIn('Concert',result['text'])
  def test_http_304_reuses_verified_text(self):
   r={'entity':'Silla','url':'https://silla.e-oer.com/test.pdf','kind':'pdf','_cache':{'byte_hash':'raw','extraction_version':m.EXTRACTION_VERSION,'hash':'normalized','details':{},'http_cache':{'etag':'v1'}}}
   with patch.object(m,'fetch',return_value=(None,'application/pdf',{'etag':'v1'})),patch.object(m,'extract_pdf') as extract:
@@ -57,6 +63,15 @@ class Logic(unittest.TestCase):
    state=json.loads((Path(t)/'state.json').read_text())
   self.assertEqual(calls,[root['url']])
   self.assertEqual(state['resources'][root['url']]['children'],[old_pdf['url']])
+  self.assertEqual(state['pending'],{})
+ def test_initialize_discards_interrupted_partial_state(self):
+  root={'entity':'Silla','url':'https://silla.e-oer.com/root','kind':'page'}
+  result=dict(resource=root,ok=True,hash='clean',details={},kind='page',text='Taller',children=[])
+  partial={'version':1,'resources':{'https://silla.e-oer.com/partial.pdf':{'entity':'Silla','url':'https://silla.e-oer.com/partial.pdf','kind':'pdf'}},'pending':{'old':{'type':'fuente_nueva'}},'gaps_reported':[],'in_progress':{'checked':1}}
+  with tempfile.TemporaryDirectory() as t,patch.object(m,'inspect_resource',return_value=result):
+   p=Path(t)/'state.json';m.write_json(p,partial);m.run({'sources':[root]},p,t,initialize=True)
+   state=json.loads(p.read_text())
+  self.assertNotIn('https://silla.e-oer.com/partial.pdf',state['resources'])
   self.assertEqual(state['pending'],{})
  def test_unreachable_host_stops_repeated_downloads(self):
   m.HOST_FAILURES.clear()
