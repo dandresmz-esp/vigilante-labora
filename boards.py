@@ -36,8 +36,9 @@ def collect(resource):
    found=re.search(r'href="([^"]*/preview-document/([^"]+))"',row,re.I)
    if not found:continue
    detail=urljoin(url,html.unescape(found[1]));ids.add(found[2]);p=Page();p.feed(row);parts.append(p.text())
-   if any(w in fold(p.text()) for w in ('docent','taller','formacio','empleo','ocupacio','labora','profesor','monitor')):
-    children.append({'entity':resource['entity'],'url':detail,'kind':'notice','depth':1,'label':p.text()[:180]})
+   # The preview page contains volatile session data. The stable board row already
+   # includes document identity, description and publication date, so comparing
+   # the full listing detects additions without false changes from the wrapper.
   return '\n'.join(parts),children,{'pages':1,'announcements':len(ids),'validation':'server_listing_read'}
  if resource['entity']=='Alzira':
   total_match=re.search(r'var TOTAL_LENGTH\s*=\s*(\d+)',first)
