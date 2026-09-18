@@ -1,0 +1,90 @@
+name: Vigilante LABORA Alzira Silla
+on:
+  workflow_dispatch:
+    inputs:
+      enviar:
+        description: 'Enviar avisos (requiere secretos y autorización previa)'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: vigilante-state
+  cancel-in-progress: false
+jobs:
+  comprobar:
+    if: github.event_name == 'workflow_dispatch' || vars.VIGILANTE_ACTIVO == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependencias y lector de escaneados
+        run: |
+          python -m pip install -r requirements.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-spa tesseract-ocr-cat
+      - name: Recuperar estado persistente
+        shell: bash
+        run: |
+          mkdir -p runtime
+          if git ls-remote --exit-code --heads origin estado-vigilante >/dev/null 2>&1; then
+            git fetch origin estado-vigilante
+            git show FETCH_HEAD:state.json > runtime/state.json
+          fi
+      - name: Comprobar fuentes
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_FROM: ${{ secrets.ALERT_FROM }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          HEARTBEAT_URL: ${{ secrets.HEARTBEAT_URL }}
+          EVENT: ${{ github.event_name }}
+          SEND_MANUAL: ${{ inputs.enviar }}
+        run: |
+          if [ "$EVENT" = schedule ]; then
+            python monitor.py --scheduled --deliver
+          elif [ "$SEND_MANUAL" = true ]; then
+            python monitor.py --deliver
+          else
+            python monitor.py
+          fi
+      - name: Guardar estado incluso ante fallos
+        if: always()
+        shell: bash
+        run: |
+          if [ -f runtime/state.json ]; then
+            mkdir -p /tmp/vigilante-state
+            cp runtime/state.json /tmp/vigilante-state/state.json
+            if [ -f runtime/informe.json ]; then
+              cp runtime/informe.json /tmp/vigilante-state/informe.json
+            fi
+            cd /tmp/vigilante-state
+            git init -b estado-vigilante
+            git config user.name 'vigilante-bot'
+            git config user.email 'vigilante-bot@users.noreply.github.com'
+            git remote add origin "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git"
+            HEADER=$(git -C "$GITHUB_WORKSPACE" config --get http.https://github.com/.extraheader)
+            if git -c "http.https://github.com/.extraheader=$HEADER" fetch origin estado-vigilante; then
+              git reset --soft FETCH_HEAD
+            fi
+            git add .
+            if ! git diff --cached --quiet; then
+              git commit -m 'Estado de la comprobación y cola de avisos'
+              git -c "http.https://github.com/.extraheader=$HEADER" push origin estado-vigilante
+            fi
+          fi
+      - name: Informe de ejecución (sin documentos originales)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: informe-vigilante
+          path: runtime/informe.json
+          if-no-files-found: ignore
+          retention-days: 7

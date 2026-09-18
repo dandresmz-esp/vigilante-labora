@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "max_resources": 2000,
+  "max_depth": 2,
+  "sources": [
+    {
+      "entity": "LABORA",
+      "url": "https://labora.gva.es/es/programes-mixtos-d-ocupacio/escuelas-taller",
+      "kind": "page"
+    },
+    {
+      "entity": "LABORA",
+      "url": "https://labora.gva.es/es/programes-mixtos-d-ocupacio/talleres-de-empleo",
+      "kind": "page"
+    },
+    {
+      "entity": "LABORA",
+      "url": "https://labora.gva.es/es/programes-mixtos-d-ocupacio/accion-inserta",
+      "kind": "page"
+    },
+    {
+      "entity": "LABORA",
+      "url": "https://labora.gva.es/es/programes-mixtos-d-ocupacio/talento-joven",
+      "kind": "page"
+    },
+    {
+      "entity": "LABORA",
+      "url": "https://labora.gva.es/es/tallers-d-ocupacio-per-a-dones",
+      "kind": "page"
+    },
+    {
+      "entity": "Alzira",
+      "url": "https://www.idea-alzira.com/formacion",
+      "kind": "index"
+    },
+    {
+      "entity": "Alzira",
+      "url": "https://www.idea-alzira.com/escolataller",
+      "kind": "page"
+    },
+    {
+      "entity": "Silla",
+      "url": "https://silla.e-oer.com/buscas-empleo/programas-de-empleo/programas-mixtos-de-formacion-empleo/",
+      "kind": "index"
+    },
+    {
+      "entity": "Silla",
+      "url": "https://silla.e-oer.com/buscas-empleo/programas-de-empleo/programas-mixtos-de-formacion-empleo/to-silla-avanca-iv-fotae-2025-5-46/",
+      "kind": "page"
+    },
+    {
+      "entity": "Alzira",
+      "url": "https://sedeelectronica.alzira.es/PortalCiudadano/tablonEdictos.do?formAction=btTablonEdictos",
+      "kind": "board"
+    },
+    {
+      "entity": "Silla",
+      "url": "https://silla.sede.dival.es/tablondeanuncios/",
+      "kind": "board"
+    }
+  ],
+  "coverage_gaps": []
+}
