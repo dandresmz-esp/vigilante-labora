@@ -1,8 +1,8 @@
 {
-  "finished": "2026-09-18T20:35:31.396948+00:00",
+  "finished": "2026-09-18T20:39:09.860403+00:00",
   "checked": 160,
-  "new_events": 1,
-  "pending_events": 1,
+  "new_events": 0,
+  "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alzira": {
@@ -18,9 +18,9 @@
       "unvalidated_sources": 0
     },
     "Picanya": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 4,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Sagunt": {
