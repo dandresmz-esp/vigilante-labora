@@ -1,0 +1,131 @@
+{
+  "finished": "2026-09-20T07:25:35.915927+00:00",
+  "checked": 232,
+  "new_events": 2,
+  "pending_events": 0,
+  "overflow": false,
+  "coverage": {
+    "Alcàsser": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Alfafar": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Algemesí": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Alzira": {
+      "status": "lectura_verificada",
+      "resources": 9,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Ayora": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Benaguasil": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Bétera": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "LABORA": {
+      "status": "lectura_verificada",
+      "resources": 5,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "La Font de la Figuera": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Manises": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Massamagrell": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Mislata": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Ontinyent": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Picanya": {
+      "status": "lectura_verificada",
+      "resources": 4,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Rafelbunyol": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Ribera Baixa": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Sagunt": {
+      "status": "lectura_verificada",
+      "resources": 118,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Sedaví": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Silla": {
+      "status": "lectura_verificada",
+      "resources": 81,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Simat de la Valldigna": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    }
+  },
+  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "external_watchdog": "pendiente_de_persistir_estado"
+}
