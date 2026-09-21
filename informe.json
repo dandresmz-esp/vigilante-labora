@@ -1,8 +1,8 @@
 {
-  "finished": "2026-09-21T09:28:28.318532+00:00",
-  "checked": 258,
+  "finished": "2026-09-21T10:27:34.777016+00:00",
+  "checked": 261,
   "actionable_events": 0,
-  "suppressed_events": 2,
+  "suppressed_events": 7,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -98,13 +98,13 @@
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
-      "resources": 10,
+      "resources": 12,
       "failures": 0,
       "unvalidated_sources": 0
     },
     "Sagunt": {
       "status": "lectura_verificada",
-      "resources": 118,
+      "resources": 119,
       "failures": 0,
       "unvalidated_sources": 0
     },
