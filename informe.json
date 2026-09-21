@@ -1,5 +1,5 @@
 {
-  "finished": "2026-09-21T09:15:30.790307+00:00",
+  "finished": "2026-09-21T09:18:34.207465+00:00",
   "checked": 258,
   "actionable_events": 0,
   "suppressed_events": 0,
@@ -127,6 +127,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "no_solicitada",
-  "external_watchdog": "no_configurado"
+  "delivery": "sin_novedades",
+  "external_watchdog": "pendiente_de_persistir_estado"
 }
