@@ -292,6 +292,10 @@ def fetch(url, validators=None):
 
 def inspect_resource(resource):
     try:
+        if resource['kind']=='listing_notice':
+            text=" ".join((resource.get('label',''),resource.get('context',''))).strip()
+            normalized=normalize(text)
+            return dict(ok=True,resource=resource,text=text,normalized=normalized,hash=digest(normalized),details=details(text),children=[],kind='listing_notice')
         if resource['kind']=='board':
             from boards import collect
             text,children,evidence=collect(resource)
@@ -357,7 +361,7 @@ def transition(old, result, now):
         record.update(status="fallando",error=result["error"])
         event = None
         if not old or old.get("status") != "fallando":
-            event = {"type":"fallo_fuente","entity":r["entity"],"url":r["url"],"message":result["error"]}
+            event = {"type":"fallo_fuente","category":"fallo","entity":r["entity"],"url":r["url"],"message":result["error"]}
         return record,event
     record.update(status="verificada",last_success=now,hash=result["hash"],details=result["details"],kind=result["kind"])
     record["children"] = [canonical(x["url"]) for x in result.get("children", [])]
@@ -369,26 +373,111 @@ def transition(old, result, now):
     typ = "contenido_modificado" if changed else "fuente_recuperada" if recovered else "fuente_nueva" if not old else None
     event = None
     if typ:
-        event = {"type":typ,"entity":r["entity"],"url":r["url"],"label":r.get("label",""),"details":result["details"],"previous_details":(old or {}).get("details"),"message":"Revisar documento: no se presupone que sea una convocatoria abierta."}
+        event = {"type":typ,"entity":r["entity"],"url":r["url"],"kind":result.get("kind",r.get("kind","")),"label":r.get("label","").strip(),"excerpt":normalize(result.get("text", ""))[:1200],"details":result["details"],"previous_details":(old or {}).get("details")}
+        event.update(classify_event(event))
     return record,event
 
 def event_id(event):
     return digest(json.dumps(event, sort_keys=True, ensure_ascii=False))
 
+PROGRAM_TERMS = (
+    "taller de empleo", "talleres de empleo", "taller d'ocupacio", "tallers d'ocupacio",
+    "escuela taller", "escuelas taller", "escola taller", "escoles taller",
+    "programa mixto", "ocupacio-formacio", "empleo-formacion", "et formem",
+    "t'avalem", "talento joven", "accio inserta", "accion inserta",
+    "fotae", "fotaem", "festa", "fetf",
+)
+STAFF_TERMS = (
+    "docent", "profesor", "formador", "monitor", "director", "personal directiv",
+    "auxiliar administrativ", "orientador", "coordinador", "seleccion de personal",
+    "seleccio de personal",
+)
+OPPORTUNITY_TERMS = (
+    "convocatoria", "convocatoria publica", "bases de seleccion", "bases seleccio",
+    "presentacion de documentacion", "presentacio de documentacio", "presentacion de solicitudes",
+    "presentacio de sollicituds", "plazo de solicitud", "termini de sollicitud",
+    "oferta de empleo", "oferta d'ocupacio", "bolsa", "borsa", "vacante", "vacant",
+    "seleccion", "seleccio", "sustitucion", "substitucio", "renuncia", "puesto de", "lloc de", "plaza de",
+)
+CLOSED_TERMS = (
+    "acta provisional", "acta definitiva", "acta final", "puntuacion final",
+    "baremacion", "baremacio", "resolucion de alegaciones", "resolucio d'allegacions",
+    "lista provisional", "lista definitiva", "admitidos", "admesos", "cerrada", "tancada",
+)
+IRRELEVANT_TERMS = (
+    "talleres de personas mayores", "taller de personas mayores", "tallers de persones majors",
+    "taller cultural", "talleres culturales",
+)
+
+def classify_event(event):
+    """Decide locally whether a detected change deserves an email."""
+    if event.get("type") in ("fallo_fuente", "cobertura_incompleta", "limite_alcanzado"):
+        return {"category":"fallo","message":"El vigilante no ha podido completar esta comprobación."}
+    if event.get("type") == "fuente_recuperada":
+        return {"category":"suprimido","reason":"fuente_recuperada"}
+    # Listings and index pages are discovery mechanisms. Their children are read
+    # separately; emailing the aggregate hash caused the repeated municipal noise.
+    if event.get("kind") in ("board", "page", "snapshot"):
+        return {"category":"suprimido","reason":"indice_actualizado"}
+    hay = fold(" ".join((event.get("label",""),event.get("excerpt",""),event.get("url",""))))
+    if any(term in hay for term in IRRELEVANT_TERMS):
+        return {"category":"suprimido","reason":"actividad_no_laboral"}
+    program = any(term in hay for term in PROGRAM_TERMS)
+    staff = any(term in hay for term in STAFF_TERMS)
+    opportunity = any(term in hay for term in OPPORTUNITY_TERMS)
+    closed = any(term in hay for term in CLOSED_TERMS)
+    # AGAO is retained as a profile marker from Claude's handover. It improves
+    # the explanation, but never turns an alumnado notice into a vacancy.
+    profile = [term.upper() for term in ("agao", "coml", "adg", "imai0110") if term in hay]
+    alumnado_only = any(term in hay for term in ("seleccion de alumnado", "seleccio d'alumnat", "alumnado-trabajador", "alumnat-treballador")) and not staff
+    if alumnado_only:
+        return {"category":"suprimido","reason":"seleccion_de_alumnado"}
+    listing_match=event.get("kind")=="listing_notice" and staff and opportunity
+    if not ((program and staff and opportunity) or listing_match) or (closed and not any(term in hay for term in ("convocatoria", "vacante", "vacant", "plazo", "termini", "presentacion", "presentacio"))):
+        return {"category":"suprimido","reason":"sin_convocatoria_de_personal"}
+    info=event.get("details",{})
+    urgent=bool(info.get("deadlines") or info.get("relative_deadlines"))
+    return {
+        "category":"accion" if urgent else "revisar",
+        "message":"Abre el enlace oficial hoy y comprueba el plazo y los requisitos antes de preparar la solicitud.",
+        "profile_matches":profile,
+    }
+
+def deliverable(event):
+    return event.get("category") in ("accion", "revisar", "fallo")
+
+def mail_subject(events):
+    relevant=[e for e in events if e.get("category") in ("accion","revisar")]
+    failures=[e for e in events if e.get("category")=="fallo"]
+    if relevant:
+        lead=relevant[0]
+        prefix="ACCIÓN HOY" if any(e.get("category")=="accion" for e in relevant) else "REVISAR HOY"
+        if len(relevant)==1:
+            return f"{prefix}: posible plaza de taller en {lead.get('entity','municipio')}"
+        return f"{prefix}: {len(relevant)} posibles plazas de talleres"
+    if failures:
+        if len(failures)==1:return f"FALLO DEL VIGILANTE: no se pudo comprobar {failures[0].get('entity','una fuente')}"
+        return f"FALLO DEL VIGILANTE: {len(failures)} fuentes sin comprobar"
+    return "Vigilante de talleres"
+
 def mail_body(events, report):
-    lines = ["VIGILANTE DE TALLERES — LABORA Y MUNICIPIOS", "Comprobación: " + report["finished"],
-             "Los avisos son cambios detectados, no una confirmación de que puedas acceder al puesto.", ""]
+    lines = ["VIGILANTE DE TALLERES — AVISO QUE REQUIERE ATENCIÓN", "Comprobación: " + report["finished"], ""]
     for event in events:
-        lines += [event["type"] + " — " + event.get("entity", ""),event.get("label", ""),event.get("url", ""),event.get("message", "")]
+        heading={"accion":"ACCIÓN HOY","revisar":"REVISAR HOY","fallo":"FALLO DE VIGILANCIA"}.get(event.get("category"),"REVISAR")
+        lines += [heading + " — " + event.get("entity", ""),event.get("label", "") or "Documento o anuncio oficial",event.get("message", ""),"Enlace oficial: " + event.get("url", "")]
         info = event.get("details", {})
-        for deadline in info.get("deadlines", []):
-            lines.append("Fechas del documento: " + deadline["start"] + " a " + deadline["end"])
-        for relative in info.get("relative_deadlines", [])[:4]:
-            lines.append("Plazo relativo (revisar publicación): " + relative)
-        if info and not info.get("deadlines"):
-            lines.append("Plazo: consultar el documento; no identificado con seguridad.")
+        for deadline in info.get("deadlines", [])[:3]:
+            lines.append("Plazo detectado: " + deadline["start"] + " a " + deadline["end"])
+        if info.get("relative_deadlines"):
+            lines.append("Plazo breve o relativo: compruébalo en el documento oficial.")
+        if event.get("category") in ("accion","revisar") and not info.get("deadlines") and not info.get("relative_deadlines"):
+            lines.append("Plazo: no identificado con seguridad; revisa el enlace hoy.")
+        if event.get("profile_matches"):
+            lines.append("Coincidencias con tu perfil: " + ", ".join(event["profile_matches"]))
         lines.append("")
-    lines.append("Cobertura: " + json.dumps(report["coverage"], ensure_ascii=False))
+    failures=sum(v["failures"] for v in report["coverage"].values())
+    lines.append(f"Estado del vigilante: {len(report['coverage'])} entidades controladas; {failures} fuentes fallando.")
+    lines.append("Este aviso detecta una posible oportunidad; la convocatoria oficial decide el plazo y los requisitos.")
     return "\n".join(lines)
 
 def send_mail(subject, body):
@@ -414,6 +503,9 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         HOST_NEXT.clear()
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
+    # Version 1 queued every changed index. Discard those legacy digests so the
+    # new release cannot resend old municipal noise after deployment.
+    state["pending"]={k:v for k,v in state.get("pending",{}).items() if deliverable(v)}
     if initialize:
         # An explicit baseline starts clean and never carries historical alerts.
         state = {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
@@ -426,6 +518,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     # Discover new material before spending the budget on detached historical links.
     historical = {u:{k:r[k] for k in ("url","entity","kind","depth","label") if k in r} for u,r in state['resources'].items()}
     seen,results = set(),[]
+    suppressed=[]
     limit = config.get("max_resources",220)
     overflow = False
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -451,7 +544,9 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
                 results.append(result)
                 record,event=transition(original_resources.get(u),result,utcnow())
                 state['resources'][u]=record
-                if event and not (initialize and bootstrap and event['type']=='fuente_nueva'):
+                if event and not deliverable(event):
+                    suppressed.append(event)
+                if event and deliverable(event) and not (initialize and bootstrap and event['type']=='fuente_nueva'):
                     event['version']=record.get('hash',result.get('error',''))
                     for key,older in list(state['pending'].items()):
                         if older.get('url')==event.get('url'):state['pending'].pop(key)
@@ -478,7 +573,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         u = canonical(result["resource"]["url"])
         record,event = transition(original_resources.get(u),result,now)
         state["resources"][u] = record
-        if event and not (initialize and bootstrap and event['type']=='fuente_nueva'):
+        if event and deliverable(event) and not (initialize and bootstrap and event['type']=='fuente_nueva'):
             # Couple event identity to version; delivery failures remain pending.
             event["version"] = record.get("hash",result.get("error",""))
             events.append(event)
@@ -487,10 +582,10 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     for gap in config.get("coverage_gaps",[]):
         key = event_id(gap)
         if key not in state["gaps_reported"]:
-            events.append({"type":"cobertura_incompleta","entity":gap["entity"],"url":gap["url"],"message":gap["reason"]})
+            events.append({"type":"cobertura_incompleta","category":"fallo","entity":gap["entity"],"url":gap["url"],"message":gap["reason"]})
             state["gaps_reported"].append(key)
     if overflow:
-        events.append({"type":"limite_alcanzado","message":"Se alcanzó el límite de recursos; cobertura incompleta. No es una ejecución íntegra."})
+        events.append({"type":"limite_alcanzado","category":"fallo","message":"Se alcanzó el límite de recursos; cobertura incompleta. No es una ejecución íntegra."})
     for event in events:
         event['detected_at']=now
         if event.get('url'):
@@ -503,7 +598,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         failures = sum(r["status"] == "fallando" for r in rr)
         gaps = sum(g["entity"] == entity for g in config.get("coverage_gaps",[]))
         coverage[entity] = {"status":"parcial" if failures or gaps or overflow else "lectura_verificada", "resources":len(rr),"failures":failures,"unvalidated_sources":gaps}
-    report = {"finished":now,"checked":len(results),"new_events":len(events),"pending_events":len(state["pending"]),"overflow":overflow,"coverage":coverage,"delivery":"no_solicitada","external_watchdog":"no_configurado"}
+    report = {"finished":now,"checked":len(results),"actionable_events":len(events),"suppressed_events":len(suppressed),"pending_events":len(state["pending"]),"overflow":overflow,"coverage":coverage,"delivery":"no_solicitada","external_watchdog":"no_configurado"}
     preview = mail_body(list(state["pending"].values()),report)
     (runtime/"aviso_preparado.txt").write_text(preview,encoding="utf-8")
     write_json(state_path,state) # persist outbox before trying SMTP
@@ -513,7 +608,8 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
             if state["pending"]:
                 # One digest per pass, including the initial historical baseline.
                 entries = list(state["pending"].items())
-                send_mail("Vigilante: novedades o incidencias de talleres",mail_body([v for k,v in entries],report))
+                outgoing=[v for k,v in entries]
+                send_mail(mail_subject(outgoing),mail_body(outgoing,report))
                 state['pending'].clear()
                 write_json(state_path,state)
                 report["delivery"] = "aceptada_por_SMTP_pendiente_confirmar_recepcion"

@@ -1,8 +1,8 @@
-# Vigilante LABORA, Alzira y Silla
+# Vigilante LABORA y talleres municipales
 
-Primera versión sin IA: descarga páginas y calendarios, descubre enlaces, compara texto y prepara avisos. No usa APIs de modelos ni tokens. No presenta solicitudes.
+Vigilancia sin IA: descarga páginas y calendarios, descubre enlaces, compara texto y prepara avisos. No usa APIs de modelos ni tokens. No presenta solicitudes.
 
-**No está desplegado ni aceptado en producción.** Se han incorporado los tablones electrónicos y comprobado su paginación: Alzira, 14 anuncios en dos páginas; Silla, 77 anuncios en tres páginas (17/09/2026). Esto verifica la lectura de esos listados, no acredita cobertura universal de cada ayuntamiento. El correo y la supervisión externa se deben configurar y verificar antes de activar la programación.
+Está desplegado en `dandresmz-esp/vigilante-labora`, con correo y supervisión externa. La variable `VIGILANTE_ACTIVO` permite pausarlo durante mantenimiento. La cobertura incluye LABORA y los 19 promotores valencianos identificados en los calendarios de 2026; cada fuente conserva su propio estado de lectura.
 
 ## Uso local y auditoría
 
@@ -19,7 +19,7 @@ El último comando solo lee fuentes y prepara `runtime/aviso_preparado.txt`; no 
 
 Los PDF escaneados requieren Tesseract con idiomas español y catalán. GitHub instala ese lector. Si no existe en el ordenador, se registra un fallo de lectura; no se interpreta como ausencia de novedades. El OCR y sus fechas deben comprobarse sobre muestras antes de aceptación.
 
-El primer pase prepara también avisos de documentos históricos para establecer la referencia; **no significa que las plazas estén abiertas**. Las fechas se extraen del documento; un plazo relativo no se convierte automáticamente en fecha de cierre. Los documentos con varias fechas requieren revisión. No se deduce el año del reloj ni se filtra por titulación.
+El primer pase crea el inventario sin avisar de documentos históricos. Los cambios de índices y tablones se registran sin correo. Solo se envía `ACCIÓN HOY` o `REVISAR HOY` cuando aparecen juntas señales de programa mixto, selección de personal y convocatoria; `FALLO DEL VIGILANTE` indica que una fuente quedó sin comprobar. Las fechas se extraen de forma conservadora y siempre se conserva el enlace oficial.
 
 ## Activación en GitHub
 
@@ -49,11 +49,11 @@ Si una web acumula tres descargas fallidas por conexión o errores de servidor, 
 - Silla: índice de programas mixtos y sus páginas/documentos.
 - Sagunt: sección municipal de empleo, Escuela Taller y ofertas de Sagunto Emplea.
 - Picanya: ofertas de su portal municipal y noticias oficiales filtradas por empleo, formación y talleres. Incluye el promotor FOTAE/2026/33/46, Escola de Jardineria José Casabán II.
-- Tablones municipales de Alzira y Silla: lectores de listado y paginación incorporados. Compara todos los títulos y fechas del listado; profundiza en anuncios con términos de empleo, formación o talleres. Una modificación de una ficha cuyo título/listado no cambia podría pasar inadvertida si no fue seleccionada para lectura; revisar esta limitación en la auditoría.
-- BOP y otros municipios: fuera de esta primera versión.
+- Tablones municipales: lectores para las plataformas usadas por los 19 promotores. Los listados completos detectan incorporaciones; las filas relevantes se conservan por separado para no avisar por cambios de tráfico, cultura u otras materias.
+- BOP: no es la fuente primaria de esta vigilancia; LABORA y las webs y tablones de cada promotor se comprueban en paralelo.
 - Morella: solo material histórico de prueba; no se amplía la vigilancia a esa entidad.
-- Límite de 2000 recursos por pase y profundidad de dos niveles para páginas; los PDF enlazados se leen. Alcanzar el límite genera incidencia visible. La lista debe revisarse si aumenta.
-- El contenido nuevo o modificado se avisa sin decidir automáticamente si pertenece a una plaza apta para la persona interesada. Puede incluir resultados, alumnado o documentos históricos; no son ofertas garantizadas.
+- Límite configurado de recursos por pase y profundidad de dos niveles para páginas; los PDF nuevos enlazados se leen. Alcanzar el límite genera una incidencia visible.
+- El filtro local elimina alumnado, actas de resultados y actividades no laborales cuando no contienen una convocatoria de personal. No decide si Daniel cumple los requisitos: una alerta sigue siendo una posible oportunidad que debe revisarse.
 - La extracción de fechas es conservadora y no interpreta jurídicamente plazos, festivos ni discrepancias. La alerta siempre conserva el enlace oficial.
 - No hay garantía de ejecución puntual de GitHub ni disponibilidad de las páginas.
 

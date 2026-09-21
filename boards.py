@@ -35,10 +35,18 @@ def collect(resource):
   for row in re.findall(r'<tr\b.*?</tr>',first,re.S|re.I):
    found=re.search(r'href="([^"]*/preview-document/([^"]+))"',row,re.I)
    if not found:continue
-   detail=urljoin(url,html.unescape(found[1]));ids.add(found[2]);p=Page();p.feed(row);parts.append(p.text())
-   # The preview page contains volatile session data. The stable board row already
-   # includes document identity, description and publication date, so comparing
-   # the full listing detects additions without false changes from the wrapper.
+   detail=urljoin(url,html.unescape(found[1]));ids.add(found[2]);p=Page();p.feed(row);label=p.text();parts.append(label)
+   # Preserve the stable row as its own resource. The preview wrapper contains
+   # volatile session data, so it must not be downloaded or hashed.
+   hay=fold(label)
+   staff=any(w in hay for w in ('docent','formador','monitor','director','personal','auxiliar administrativ','orientador','coordinador'))
+   opportunity=any(w in hay for w in ('convoc','seleccio','seleccion','vacant','vacante','borsa','bolsa','substituc','sustituc','renuncia','bases','plazo','termini'))
+   program=any(w in hay for w in ('taller de empleo','taller d ocupacio','tallers d ocupacio','escuela taller','escola taller','programa mixt','fotae','festa','fetf','formem','avalem','labora'))
+   if opportunity and (staff or program):
+    children.append({'entity':resource['entity'],'url':detail,'kind':'listing_notice','depth':1,'label':label[:350]})
+  # The preview page contains volatile session data. The stable board row already
+  # includes document identity, description and publication date, so comparing
+  # the full listing detects additions without false changes from the wrapper.
   return '\n'.join(parts),children,{'pages':1,'announcements':len(ids),'validation':'server_listing_read'}
  if resource['entity']=='Alzira':
   total_match=re.search(r'var TOTAL_LENGTH\s*=\s*(\d+)',first)
@@ -63,20 +71,21 @@ def collect(resource):
  else:
   count_matches=re.findall(r'P(?:á|&#225;)gina\s+\d+\s+de\s+(\d+)',first)
   count=max(map(int,count_matches)) if count_matches else 1
-  if count>20:raise ValueError('Silla: más de 20 páginas, revisar límite')
+  entity=resource['entity']
+  if count>20:raise ValueError(f'{entity}: más de 20 páginas, revisar límite')
   page_field='ctl00$ctl00$cphM$cph$ddlPaginaAnuncios'
   current=first
   for n in range(1,count):
    form=Form();form.feed(current)
-   if page_field not in form.fields:raise ValueError('Silla: selector de página ausente')
+   if page_field not in form.fields:raise ValueError(f'{entity}: selector de página ausente')
    form.fields[page_field]=str(n);form.fields['__EVENTTARGET']=page_field;form.fields['__EVENTARGUMENT']=''
    current=get(url,form.fields);pages.append(current)
   parts=[];ids=set();signatures=set()
   for source in pages:
    page_ids=set(re.findall(r'anuncio\.aspx\?id=(\d+)',source))
-   if not page_ids:raise ValueError('Silla: listado vacío o ilegible; requiere comprobación')
+   if not page_ids:raise ValueError(f'{entity}: listado vacío o ilegible; requiere comprobación')
    signature=tuple(sorted(page_ids))
-   if signature in signatures:raise ValueError('Silla: la paginación devuelve anuncios repetidos')
+   if signature in signatures:raise ValueError(f'{entity}: la paginación devuelve anuncios repetidos')
    signatures.add(signature);ids.update(page_ids)
    # All announcement titles/dates are compared, regardless of applicant profile.
    for row in re.findall(r'<tr\b.*?</tr>',source,re.S|re.I):
@@ -84,6 +93,6 @@ def collect(resource):
     if not found:continue
     p=Page();p.feed(row);parts.append(p.text())
     if any(w in fold(p.text()) for w in ('docent','taller','formacio','empleo','ocupacio','labora','avanca')):
-     children.append({'entity':'Silla','url':urljoin(url,'anuncio.aspx?id='+found[1]),'kind':'notice','depth':1,'label':p.text()[:180]})
+     children.append({'entity':entity,'url':urljoin(url,'anuncio.aspx?id='+found[1]),'kind':'notice','depth':1,'label':p.text()[:180]})
   total=len(ids)
  return '\n'.join(parts),children,{'pages':len(pages),'announcements':total,'validation':'all_listing_pages_read'}

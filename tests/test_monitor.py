@@ -95,6 +95,34 @@ class Logic(unittest.TestCase):
  def test_no_change_no_alert(self):
   r={'entity':'Silla','url':'https://silla.e-oer.com/test','kind':'pdf'}
   self.assertIsNone(m.transition(dict(r,status='verificada',hash='abc'),dict(resource=r,ok=True,hash='abc',details={},kind='pdf'),'now')[1])
+ def test_generic_board_change_is_suppressed(self):
+  r={'entity':'Manises','url':'https://manises.sedipualba.es/tablondeanuncios/','kind':'board'}
+  old=dict(r,status='verificada',hash='old')
+  result=dict(resource=r,ok=True,hash='new',details={},kind='board',text='Nuevo anuncio de tráfico',children=[])
+  event=m.transition(old,result,'now')[1]
+  self.assertEqual(event['category'],'suprimido')
+ def test_people_workshop_is_suppressed(self):
+  event={'type':'fuente_nueva','kind':'notice','entity':'Manises','url':'https://example.test/1','label':'Talleres de personas mayores','excerpt':'Inscripciones para actividades culturales','details':{}}
+  self.assertEqual(m.classify_event(event)['category'],'suprimido')
+ def test_relevant_teacher_vacancy_is_actionable(self):
+  event={'type':'fuente_nueva','kind':'pdf','entity':'Alzira','url':'https://example.test/2.pdf','label':'Convocatoria docente','excerpt':'Selección de personal docente del programa Escuela Taller FESTA. Plazo del 21/09/2026 al 22/09/2026','details':m.details('Plazo del 21/09/2026 al 22/09/2026')}
+  classified=m.classify_event(event)
+  self.assertEqual(classified['category'],'accion')
+  event.update(classified)
+  self.assertIn('ACCIÓN HOY',m.mail_subject([event]))
+ def test_stable_board_row_is_reviewable_without_downloading_wrapper(self):
+  r={'entity':'Bétera','url':'https://betera.sedelectronica.es/preview-document/abc','kind':'listing_notice','label':'Convocatoria selección docente Escuela Taller FESTA'}
+  with patch.object(m,'fetch') as fetch:
+   result=m.inspect_resource(r)
+  fetch.assert_not_called()
+  event=m.transition(None,result,'now')[1]
+  self.assertEqual(event['category'],'revisar')
+ def test_alumnado_agao_is_suppressed(self):
+  event={'type':'fuente_nueva','kind':'notice','entity':'Manises','url':'https://example.test/3','label':'Selección de alumnado AGAO Taller de Empleo','excerpt':'alumnado-trabajador','details':{}}
+  self.assertEqual(m.classify_event(event)['category'],'suprimido')
+ def test_failure_gets_failure_subject(self):
+  event={'type':'fallo_fuente','category':'fallo','entity':'Silla','url':'https://example.test','message':'404'}
+  self.assertIn('FALLO DEL VIGILANTE',m.mail_subject([event]))
  def test_madrid_schedule(self):
   self.assertTrue(m.scheduled_now(datetime(2026,9,17,6,7,tzinfo=timezone.utc)))
   self.assertFalse(m.scheduled_now(datetime(2026,9,17,3,7,tzinfo=timezone.utc)))
@@ -103,7 +131,7 @@ class Logic(unittest.TestCase):
   self.assertFalse(m.scheduled_now(datetime(2026,9,19,8,7,tzinfo=timezone.utc)))
  def test_dry_run_and_failed_delivery(self):
   r={'entity':'Silla','url':'https://silla.e-oer.com/test','kind':'pdf'}
-  result=dict(resource=r,ok=True,hash='abc',details={},kind='pdf',children=[],text='Docente')
+  result=dict(resource=r,ok=True,hash='abc',details=m.details('Plazo del 21/09/2026 al 22/09/2026'),kind='pdf',children=[],text='Convocatoria de personal docente del programa Taller de Empleo. Plazo del 21/09/2026 al 22/09/2026')
   with tempfile.TemporaryDirectory() as t,patch.object(m,'inspect_resource',return_value=result),patch.object(m,'send_mail') as send:
    m.run({'sources':[r]},Path(t)/'state.json',t);send.assert_not_called()
    send.side_effect=RuntimeError('SMTP down')
@@ -119,6 +147,10 @@ class Historical(unittest.TestCase):
   if not (self.root/n).exists():self.skipTest('PDF oficial no disponible: '+n+'; aceptación histórica pendiente')
   return m.extract_pdf((self.root/n).read_bytes())
  def test_alzira_vacancy(self):self.assertIn('IMAI0110',self.text('alzira_puesto.pdf'))
+ def test_alzira_vacancy_is_classified(self):
+  text=self.text('alzira_puesto.pdf')
+  event={'type':'fuente_nueva','kind':'pdf','entity':'Alzira','url':'https://www.idea-alzira.com/alzira_puesto.pdf','label':'','excerpt':m.normalize(text)[:1200], 'details':m.details(text)}
+  self.assertIn(m.classify_event(event)['category'],('accion','revisar'))
  def test_pdf_regenerated_metadata(self):
   original=(self.root/'alzira_puesto.pdf').read_bytes()
   writer=PdfWriter(clone_from=io.BytesIO(original))

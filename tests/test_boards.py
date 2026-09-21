@@ -38,3 +38,15 @@ class Pagination(unittest.TestCase):
  def test_silla_empty_page_fails(self):
   with patch.object(boards,'build_opener',return_value=Opener(['Página 1 de 1'])), self.assertRaisesRegex(ValueError,'vacío'):
    boards.collect({'entity':'Silla','url':'https://silla.sede.dival.es/tablondeanuncios/'})
+ def test_dival_board_preserves_entity(self):
+  page='Página 1 de 1<tr><a href="anuncio.aspx?id=7">Selección docente Taller de Empleo</a></tr>'
+  with patch.object(boards,'build_opener',return_value=Opener([page])):
+   text,children,evidence=boards.collect({'entity':'Manises','url':'https://manises.sedipualba.es/tablondeanuncios/'})
+  self.assertEqual(children[0]['entity'],'Manises')
+ def test_modern_board_emits_stable_relevant_row(self):
+  page='<div class="AdvertisementBoardListPanel"><table><tr><a href="/preview-document/abc">Convocatoria selección docente Escuela Taller FESTA</a></tr><tr><a href="/preview-document/xyz">Corte de tráfico</a></tr></table></div>'
+  with patch.object(boards,'build_opener',return_value=Opener([page])):
+   text,children,evidence=boards.collect({'entity':'Bétera','url':'https://betera.sedelectronica.es/board'})
+  self.assertEqual(len(children),1)
+  self.assertEqual(children[0]['kind'],'listing_notice')
+  self.assertEqual(children[0]['entity'],'Bétera')
