@@ -1,8 +1,8 @@
 {
-  "finished": "2026-09-22T13:29:27.698730+00:00",
+  "finished": "2026-09-22T14:28:28.986067+00:00",
   "checked": 282,
-  "actionable_events": 1,
-  "suppressed_events": 6,
+  "actionable_events": 0,
+  "suppressed_events": 1,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -127,6 +127,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "delivery": "sin_novedades",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
