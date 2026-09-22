@@ -1,8 +1,8 @@
 {
-  "finished": "2026-09-22T06:32:25.774170+00:00",
-  "checked": 266,
+  "finished": "2026-09-22T07:27:47.766910+00:00",
+  "checked": 273,
   "actionable_events": 0,
-  "suppressed_events": 2,
+  "suppressed_events": 127,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -44,7 +44,7 @@
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 4,
+      "resources": 5,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -62,7 +62,7 @@
     },
     "Manises": {
       "status": "lectura_verificada",
-      "resources": 57,
+      "resources": 63,
       "failures": 0,
       "unvalidated_sources": 0
     },
