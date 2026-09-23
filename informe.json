@@ -1,6 +1,6 @@
 {
-  "finished": "2026-09-23T08:29:03.875516+00:00",
-  "checked": 285,
+  "finished": "2026-09-23T09:28:28.436658+00:00",
+  "checked": 286,
   "actionable_events": 0,
   "suppressed_events": 3,
   "pending_events": 0,
@@ -104,7 +104,7 @@
     },
     "Sagunt": {
       "status": "lectura_verificada",
-      "resources": 122,
+      "resources": 123,
       "failures": 0,
       "unvalidated_sources": 0
     },
