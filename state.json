@@ -6,9 +6,9 @@
       "url": "https://labora.gva.es/es/programes-mixtos-d-ocupacio/escuelas-taller",
       "kind": "page",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "62af1bed492a68ef607c801f7fb83037db15cc5112f33dd6131c28625ef19f37",
       "details": {
         "codes": [],
@@ -25,11 +25,11 @@
         "https://labora.gva.es/es/tallers-d-ocupacio-per-a-dones",
         "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-33-pdf"
       ],
-      "byte_hash": "da5fcb239d432380b1a5c6065b6a3ca1ca4db9bebc9be486a959ba198b36aa4b",
+      "byte_hash": "084c87907a8a7a44670f3207f42d1587ab3ee9eec9c429a387c6af150aefa683",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
-        "last_modified": "Wed, 23 Sep 2026 20:26:04 GMT"
+        "last_modified": "Thu, 24 Sep 2026 04:26:13 GMT"
       }
     },
     "https://labora.gva.es/es/programes-mixtos-d-ocupacio/talleres-de-empleo": {
@@ -37,9 +37,9 @@
       "url": "https://labora.gva.es/es/programes-mixtos-d-ocupacio/talleres-de-empleo",
       "kind": "page",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "af556136d884792cfaca24b664ef15ba070b9b53c63329f8fe684c25e8b05706",
       "details": {
         "codes": [],
@@ -56,11 +56,11 @@
         "https://labora.gva.es/es/tallers-d-ocupacio-per-a-dones",
         "https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-91_-pdf"
       ],
-      "byte_hash": "30775a25b7c9526a6d892983ed60c4d31ec41ada52f4f6a2796866fe915518eb",
+      "byte_hash": "2fdd4c220532ad8d4a1c0f7e77dcebb6d2c80967036731aa693b83ca4e84cb29",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
-        "last_modified": "Wed, 23 Sep 2026 20:26:04 GMT"
+        "last_modified": "Thu, 24 Sep 2026 04:26:14 GMT"
       }
     },
     "https://labora.gva.es/es/programes-mixtos-d-ocupacio/accion-inserta": {
@@ -68,9 +68,9 @@
       "url": "https://labora.gva.es/es/programes-mixtos-d-ocupacio/accion-inserta",
       "kind": "page",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a47a4698781f0a5d89ad24be8d75fbc5b20b38c13ee6f6a59d99792745dcb3c5",
       "details": {
         "codes": [],
@@ -87,11 +87,11 @@
         "https://labora.gva.es/es/tallers-d-ocupacio-per-a-dones",
         "https://labora.gva.es/documents/d/labora/fechas-presen-documen-accion-inserta-2025-37-pdf"
       ],
-      "byte_hash": "03e58f4ded68c56e02ad9233376ebfe4dd4c9d4f86df6e579102b39ac3ce5a0f",
+      "byte_hash": "3476c44239ec364f4c9a2049f7474c71b0ff2638f708fdfc7fba8caf6d190533",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
-        "last_modified": "Wed, 23 Sep 2026 20:26:05 GMT"
+        "last_modified": "Thu, 24 Sep 2026 04:26:14 GMT"
       }
     },
     "https://labora.gva.es/es/programes-mixtos-d-ocupacio/talento-joven": {
@@ -99,9 +99,9 @@
       "url": "https://labora.gva.es/es/programes-mixtos-d-ocupacio/talento-joven",
       "kind": "page",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "544b0ef13470833bbffa61a897c4c599d8b99f3bdf231fe9ac458fd26dcf2e87",
       "details": {
         "codes": [],
@@ -118,11 +118,11 @@
         "https://labora.gva.es/es/tallers-d-ocupacio-per-a-dones",
         "https://labora.gva.es/documents/d/labora/fechas-presen-documen-talento-joven-garantia-juvenil-2025-38-pdf"
       ],
-      "byte_hash": "e60abc67a14a512e01ec06b62f5cf36698f4bacc186efdd220d94cf56dab8ebb",
+      "byte_hash": "92928d6e97c46f9c6eb014751c0077f6610cd6af88bc91136d6fe553a830daab",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
-        "last_modified": "Wed, 23 Sep 2026 20:26:04 GMT"
+        "last_modified": "Thu, 24 Sep 2026 04:26:14 GMT"
       }
     },
     "https://labora.gva.es/es/tallers-d-ocupacio-per-a-dones": {
@@ -130,9 +130,9 @@
       "url": "https://labora.gva.es/es/tallers-d-ocupacio-per-a-dones",
       "kind": "page",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "61e05e1434d95377cc9b259c209092cf9f2962eb55c5559750405023fa625a82",
       "details": {
         "codes": [],
@@ -148,11 +148,11 @@
         "https://labora.gva.es/es/programes-mixtos-d-ocupacio/accion-inserta",
         "https://labora.gva.es/es/programes-mixtos-d-ocupacio/talento-joven"
       ],
-      "byte_hash": "e26ab768b221f500e591284e81ad7a44c24867b7e6c97bdda087978a50fd1b5a",
+      "byte_hash": "308cdadb6be0e971486d5a0ad5205aa9d085dc3fd850fb8f8b4952bc56f5a72d",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
-        "last_modified": "Wed, 23 Sep 2026 20:26:05 GMT"
+        "last_modified": "Thu, 24 Sep 2026 04:26:15 GMT"
       }
     },
     "https://www.idea-alzira.com/formacion": {
@@ -160,9 +160,9 @@
       "url": "https://www.idea-alzira.com/formacion",
       "kind": "index",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "d60fe602e6c6552edfa0e39475db3c748f2ae56d742208e2bd98c000e37f11cf",
       "details": {
         "codes": [],
@@ -192,9 +192,9 @@
       "url": "https://www.idea-alzira.com/escolataller",
       "kind": "page",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ba8f865d5b925a71b566c3b40a9b44edbb849bc94ff215c52a0939b6d7752a34",
       "details": {
         "codes": [
@@ -279,9 +279,9 @@
       "url": "https://silla.e-oer.com/buscas-empleo/programas-de-empleo/programas-mixtos-de-formacion-empleo/",
       "kind": "index",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a1163278e4821a9e196c6a92772fe44ea0b2b5e487f144fd9edefcd3591d6cd0",
       "details": {
         "codes": [],
@@ -322,9 +322,9 @@
       "url": "https://silla.e-oer.com/buscas-empleo/programas-de-empleo/programas-mixtos-de-formacion-empleo/to-silla-avanca-iv-fotae-2025-5-46/",
       "kind": "page",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8c4849ae99504c09d5d4f5637d719ec4a4ab92295628bf465e4ff3aa300bee91",
       "details": {
         "codes": [
@@ -412,9 +412,9 @@
       "url": "https://sedeelectronica.alzira.es/PortalCiudadano/tablonEdictos.do?formAction=btTablonEdictos",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "bb8dd9248d797020b2a9673d1ba3de063d64f2c3f8d9c1ee6e5bbda4b36851b3",
       "details": {
         "board_evidence": {
@@ -433,9 +433,9 @@
       "url": "https://silla.sede.dival.es/tablondeanuncios/",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a408eea508188ede9217787e6665b7c2e8057f1ee759f63cb7be7e8565967026",
       "details": {
         "board_evidence": {
@@ -459,9 +459,9 @@
       "url": "https://aytosagunto.es/es/ayuntamiento/administracion/empleo/",
       "kind": "index",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "7173a9a1da2da44bdcd8f5f6cb176cb01d32b97e3bf0f19b3950279d63a4c16e",
       "details": {
         "codes": [],
@@ -496,9 +496,9 @@
       "url": "https://aytosagunto.es/es/ayuntamiento/areas-y-servicios/economia-y-desarrollo/promocion-economica-e-industrial/formacion-y-empleo/escuela-taller/",
       "kind": "page",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4d1d3a4c51617798ede2a4d30270199c43a7e3981bb9bf02d7a8453c05d40f4e",
       "details": {
         "codes": [
@@ -601,9 +601,9 @@
       "url": "https://sagunto.portalemp.com/ofertas.html",
       "kind": "index",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "7be15e59985cefea4aacb01e5ee425add6c57fc700f0b9498c5b33d8bef1b060",
       "details": {
         "codes": [],
@@ -617,7 +617,7 @@
         "https://sagunto.portalemp.com/ofertas.html?lng=va",
         "https://sagunto.portalemp.com/ofertas.html?lng=es"
       ],
-      "byte_hash": "572ac594aba44fa58e3f9d9401d27896336e35a290445e4e00647e215dcb3c10",
+      "byte_hash": "8dd4991a8bb74fd974edc0720ffdbc2fc3d1a57a715930ddc27fa8e4eace1652",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -629,9 +629,9 @@
       "url": "https://picanya.portalemp.com/ofertas.html",
       "kind": "index",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0640e498905251a9b379d9dc0c92465a0608f5fc16b692f544a93812db8d7cdd",
       "details": {
         "codes": [],
@@ -645,7 +645,7 @@
         "https://picanya.portalemp.com/ofertas.html?lng=es",
         "https://picanya.portalemp.com/ofertas.html?lng=va"
       ],
-      "byte_hash": "859bf68f1dae368cee34e6f8d40480f23c4181655c9342b6d46cc60556dec82b",
+      "byte_hash": "704175042289cc50bd4d69af5c067c0bfa031b6c8100be581d425b54b0025be4",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -657,9 +657,9 @@
       "url": "https://picanya.org/api/contents/picanya/collections/articulos?nodeTypes=Noticia&limit=20",
       "kind": "api",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8751d4039669fa51b3d56bde235ac8586ef811f38a30b9d7f91473291484fa73",
       "details": {
         "codes": [
@@ -690,9 +690,9 @@
       "url": "https://alcasser.sedelectronica.es/board",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "3237e3d571da4b3511c387fbd692cc554576e2f858aae656b5f61650c58a1957",
       "details": {
         "board_evidence": {
@@ -712,9 +712,9 @@
       "url": "https://lafontdelafiguera.sedelectronica.es/board",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b5392a5097118e64412d955d69edc1e6707c5287d9c0b9edd9b37ec49a880d1f",
       "details": {
         "board_evidence": {
@@ -733,9 +733,9 @@
       "url": "https://benaguasil.sede.dival.es/tablondeanuncios/",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "081bcc7290269e00b2db8f532ab7977d42d14294c357023513613e33cdb43dc6",
       "details": {
         "board_evidence": {
@@ -752,9 +752,9 @@
       "url": "https://mancomunitatriberabaixa.sedelectronica.es/board",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6a66563388e88ba080b965607dd8899aa54818485aa9d76a01c785d5b70e54a3",
       "details": {
         "board_evidence": {
@@ -782,9 +782,9 @@
       "url": "https://massamagrell.sedelectronica.es/board",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "bca13e83502d05acedfe5baf988f23c46c1587b321a66c078dd70808b61f428b",
       "details": {
         "board_evidence": {
@@ -801,14 +801,14 @@
       "url": "https://sedavi.sede.dival.es/tablondeanuncios/",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
-      "hash": "790c11840e382ea672e98637d20924c764df71a4d447fa1447962e8e2d9caa8c",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
+      "hash": "b25e0e2888a242d3f5efb803266038da5aaf6c29c0ae46821f481d5f211a1675",
       "details": {
         "board_evidence": {
           "pages": 1,
-          "announcements": 24,
+          "announcements": 23,
           "validation": "all_listing_pages_read"
         },
         "deadline_status": "fechas_de_exposicion_no_plazos_de_solicitud"
@@ -822,9 +822,9 @@
       "url": "https://manises.sedipualba.es/tablondeanuncios/",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "cc2c1226cf932202919c113c9c53d92f95d385e3f4021859c898cb56026e4e56",
       "details": {
         "board_evidence": {
@@ -900,9 +900,9 @@
       "url": "https://ontinyent.sedipualba.es/tablondeanuncios/",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "c237ae8fa1d9ee969fb28db015b1119b55aae8fdb4f039b2f6c6d65d8fda5980",
       "details": {
         "board_evidence": {
@@ -919,10 +919,10 @@
       "url": "https://alfafar.sedelectronica.es/board",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
-      "hash": "5e7aab53663fe8997a7e400c4996376cca3e34f379db11a967e8f73b1d099a5a",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
+      "hash": "f970d937935e3c8a91ca766dc1dccd112ff711bd834a8aee887f6f3dc1eeb195",
       "details": {
         "board_evidence": {
           "pages": 1,
@@ -936,8 +936,8 @@
         "https://alfafar.sedelectronica.es/preview-document/ab91184c-1a19-4012-b99b-2a43de789536",
         "https://alfafar.sedelectronica.es/preview-document/625533d0-99ee-4a29-9b6a-f800f65e7173",
         "https://alfafar.sedelectronica.es/preview-document/834021ad-0bec-4a9e-9089-ebb988e65d13",
-        "https://alfafar.sedelectronica.es/preview-document/2a9f4cfb-c3bf-438c-a6bc-fe226f16d346",
-        "https://alfafar.sedelectronica.es/preview-document/8f283e40-5962-4063-9262-a526cbb64310"
+        "https://alfafar.sedelectronica.es/preview-document/8f283e40-5962-4063-9262-a526cbb64310",
+        "https://alfafar.sedelectronica.es/preview-document/4de06805-88b4-4cff-91d7-0b4ea2708f5c"
       ]
     },
     "https://sede.algemesi.es/eAdmin/Tablon.do?action=inicioTablon": {
@@ -945,13 +945,18 @@
       "url": "https://sede.algemesi.es/eAdmin/Tablon.do?action=inicioTablon",
       "kind": "snapshot",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
-      "hash": "6f3c4fcc1fb887f6b9c5f4e28480b5f8b045e051e8edb6af2332c47111bde9c8",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
+      "hash": "11e03d382b31cd54d24317fda6a6c7478de420d2ef4361052aeaea8ea8d32143",
       "details": {
         "codes": [],
         "deadlines": [
+          {
+            "start": "2026-09-24",
+            "end": "2026-10-28",
+            "evidence": "24/09/2026 - 28/10/2026"
+          },
           {
             "start": "2026-09-23",
             "end": "2026-10-28",
@@ -1134,7 +1139,7 @@
         "deadline_status": "fechas_explicitas"
       },
       "children": [],
-      "byte_hash": "aa814046b2205bf728e7677c8ff5ee612189856bc7942bf8bb7bb9393a01dacf",
+      "byte_hash": "d6d4ad6e4b5ef19f6807cf459d7f05b009fb5629c359759debc1167ca68ca154",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -1146,9 +1151,9 @@
       "url": "https://rafelbunyol.sedelectronica.es/board",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "cde969885b0a5501a509f3404c20b31817913f30e02c4491d285a45b10b1af8a",
       "details": {
         "board_evidence": {
@@ -1169,9 +1174,9 @@
       "url": "https://ayora.sedelectronica.es/board",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e97983ebe623b416963ffd92220f884679d4ee846ae4e83f5ad409104018164f",
       "details": {
         "board_evidence": {
@@ -1192,9 +1197,9 @@
       "url": "https://betera.sedelectronica.es/board",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "76f9aecf26e6d06f449c65d27e6ca149f04730ad7d661efa0623bf68727a20d5",
       "details": {
         "board_evidence": {
@@ -1216,9 +1221,9 @@
       "url": "https://www.mislata.es/es/informate/tablon-de-anuncios",
       "kind": "snapshot",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "1b580c2000100b639d1015ca7558bb130f4a791d7afea1f55e2241ad8359baff",
       "details": {
         "codes": [],
@@ -1243,8 +1248,8 @@
       "byte_hash": "b508140bff8a7cd01e3320816f2f140b037020c0fd7b2f9f76ab6738b77f4946",
       "extraction_version": 2,
       "http_cache": {
-        "etag": "\"1790195175\"",
-        "last_modified": "Wed, 23 Sep 2026 20:26:15 GMT"
+        "etag": "\"1790223984\"",
+        "last_modified": "Thu, 24 Sep 2026 04:26:24 GMT"
       }
     },
     "https://simatdelavalldigna.sede.dival.es/tablondeanuncios/": {
@@ -1252,9 +1257,9 @@
       "url": "https://simatdelavalldigna.sede.dival.es/tablondeanuncios/",
       "kind": "board",
       "depth": 0,
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8a2704fd5fd8f5afb9e8df1fccf1c31ade7ec4017ed0bd38aef2a17025c83e7d",
       "details": {
         "board_evidence": {
@@ -1274,9 +1279,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Descubre más",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "cbff9557ab2157845110ad0eadca38c59307bbd89a7692081f6cda3fe0b74089",
       "details": {
         "codes": [],
@@ -1361,9 +1366,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Taller d'Ocupació per a dones",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e54eb1815fa47a9e81b0dfb994ac9dc54141817456b5aa1268bc0c5313090448",
       "details": {
         "codes": [
@@ -1544,9 +1549,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Et Formem",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "18fdf580a0dde63a48abf5fdc335cbe487713ffbb876ab751531655ac6291b8b",
       "details": {
         "codes": [],
@@ -1579,9 +1584,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Descubre más",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "22e017f789ddc88e514837a480c9f0870b6dc0e4029992119c4ea77bd4b1e3c7",
       "details": {
         "codes": [],
@@ -1700,9 +1705,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Descubre más",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "55ee8e282f9123fb4093e20499495cb48638405503d9523ea6d601ee76d92aad",
       "details": {
         "codes": [
@@ -1735,9 +1740,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Et Formem Silla Emplea II",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8dbf5b4bcc810dbf3fc22124c12cdbfc6710f00af1352e0bfc22d7deae8ea20b",
       "details": {
         "codes": [],
@@ -1763,9 +1768,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Et Formem Silla Emplea 2ª Etapa",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b27215f5fa47452c9df68cf407883b4e27c588814d9dbc4751a93bd0f2898737",
       "details": {
         "codes": [],
@@ -1791,9 +1796,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO Descobrim Silla",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2d46ecbf4a5ecea6205c55f602e943d69ecd2f7a8f2d318961d2b830ce0e2737",
       "details": {
         "codes": [],
@@ -1819,9 +1824,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO Silla en Marxa IV",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "c62dd01e3e71f8be67b358fb07aae104fee47511071783a9523244790fb42ccd",
       "details": {
         "codes": [],
@@ -1847,9 +1852,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Et Formem Silla Emplea III",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "90f2b2e483698933a7a2b88ecdfb4cfe02be5990d5327b407b7a2289b599d888",
       "details": {
         "codes": [
@@ -1931,9 +1936,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO Silla en Marxa V",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "80d9a155f1b713024ad547f2839f7b7bc1ddf9aba29b431d8a678c5c494d30a9",
       "details": {
         "codes": [
@@ -2012,9 +2017,9 @@
       "kind": "page",
       "depth": 1,
       "label": "ET FORMEM Descobrim Silla (FETF/202/9/46)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "be25909ef07935a229a4246d20301e406dd5b72a30abda9ebe6f6d257765e32b",
       "details": {
         "codes": [
@@ -2103,9 +2108,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO Silla en Marxa VI",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "78aae8e4e099aa336eb042697a1a4e62e9bf34fc42448d5299add983703235b5",
       "details": {
         "codes": [
@@ -2233,9 +2238,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO PER A DONES SILLA CREA FUTUR (FOTAEM/2022/24/46)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "1253718ef82e23a368c80ab2205467fc3c6dba7bdd050770feb9dc10360f2e43",
       "details": {
         "codes": [
@@ -2332,9 +2337,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO SILLA AVANÇA (FOTAE/2022/27/46)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "21e405959ff6940ec95b94209b099100a81b548ee06773b245dbbda6c49e92e3",
       "details": {
         "codes": [],
@@ -2420,9 +2425,9 @@
       "kind": "page",
       "depth": 1,
       "label": "T’AVALEM SILLA TALENT JOVE",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f0523a4b068a39aa459c98c611a7521086a0891a54a7fb97d31b2d8a8033b48f",
       "details": {
         "codes": [
@@ -2507,9 +2512,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO SILLA AVANÇA II",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "bf7caff11da6af64ec18091cc760cb70f4d0c9f2b4fe5b87fc8abb5dbbd11196",
       "details": {
         "codes": [],
@@ -2578,9 +2583,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO SILLA CREA FUTUR II",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "7139c01e355d83f481327d3fdd74a8a6ad7bcbef6a9f9ef895e5dd53c1957a38",
       "details": {
         "codes": [],
@@ -2641,9 +2646,9 @@
       "kind": "page",
       "depth": 1,
       "label": "T’AVALEM SILLA TALENT JOVE II (FOTVA/2023/32/46)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b7c89936a06e4f8fd3451ac44a56446a9b6a209eff05aa2003628db731994e12",
       "details": {
         "codes": [
@@ -2733,9 +2738,9 @@
       "kind": "page",
       "depth": 1,
       "label": "TO SILLA AVANÇA III (FOTAE/2024/38/46)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4302dbe631a4febbd9a7a12b8da319dcf7bb7bade657df05fa1d6d7ad8cabd40",
       "details": {
         "codes": [
@@ -2820,9 +2825,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Taller Silla Talent Jove III (FOTAV/2025/25/46)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "c64b2b18704d63ec3160917ce9ff764360499ed03483d7bb0a35621170e783ed",
       "details": {
         "codes": [
@@ -2900,9 +2905,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "Anuncio\n01_Vocal_JGL\nANUNCI INFORMACIÓ PÚBLICA ESTUDI DE DETALL PARCEL·LA B14 SECTOR TULELL\nANUNCI INFORMACIÓ PÚBLICA DE L' ESTUDI DE DETALL PARCEL·LA B14 SECTOR TULELL\nPublicado: ",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ea4c218014699af3ac2ebe3eac3ca15d76094ec73fbd593d7e56c6206860b619",
       "details": {
         "codes": [],
@@ -2916,7 +2921,7 @@
         "https://sedeelectronica.alzira.es:443/PortalCiudadano/download/files/Cookies_es.pdf",
         "https://sedeelectronica.alzira.es:443/PortalCiudadano/download/files/Cookies_es.pdf"
       ],
-      "byte_hash": "53908622d644cd7705d39eceee38d64b28f6c41da5358f8119bfa88cfddb5027",
+      "byte_hash": "4b7c2052a99897fb175201afd2b1a3d9f180211484c3690b7314207c747a1cdd",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -2929,9 +2934,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "07/09/2026 - 06/10/2026\nAlçament d'actes ocupació obra 2697 -PYO: publicació en el tauler el calendari i relació bens",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "9a40609e6b610c0c3ae1eb8817df0484c7eaaaeb9e6feedeca37e149506a890f",
       "details": {
         "codes": [],
@@ -2947,7 +2952,7 @@
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=127443&modo=guardar",
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=127444&modo=guardar"
       ],
-      "byte_hash": "8ab2271f546118d5ca06a0b6c514067ec0bedf1cbc1bd32849f55b97cfa83439",
+      "byte_hash": "32a7b6a96b7e3763f5ad89cdb59f9e5ed6d26648feee42edab54a899c4eb1eb3",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -2960,9 +2965,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "08/07/2026 - 31/12/2026\nOferta d'Ocupació Pública 2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "3fabaea5e05452db8b85f1578318057991a6157a28bd08f1e2dbc98c067cda11",
       "details": {
         "codes": [],
@@ -2977,7 +2982,7 @@
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=124538&modo=guardar",
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=124536&modo=guardar"
       ],
-      "byte_hash": "719661151d2a0ad239e25d17efff627968d6ff9deaf34202c2b165d6beffe18e",
+      "byte_hash": "a8043a9e19350b378d056122f3dc51924475a130244b5e2323c7117137953206",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -2990,9 +2995,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "15/07/2021\nAprovació de l'Oferta d'Ocupació Pública per a l'exercici 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a127a26d3dfff9c1e789a7b9392b8796a7fd35fa46be1f9443ce7ac1c00977b0",
       "details": {
         "codes": [],
@@ -3005,7 +3010,7 @@
       "children": [
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=38665&modo=guardar"
       ],
-      "byte_hash": "c1c1117f41fb333cda993ca151ea256b6681a9793ddcb67c41a01f8b444793a5",
+      "byte_hash": "d906a1bd0116fb0710e4d788869767c62c39392baa933e8a8249c0d7d3265f15",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -3018,9 +3023,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "22/12/2020\nEDICTE SOBRE RESOLUCIÓ D’AL·LEGACIONS I LA PUBLICACIÓ D’ACTES DEFINITIVES DEL TALLER D’ OCUPACIÓ SILLA EN MARXA V (expedient FOTAE/2020/20/46)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "c273f623c52b049c7a106a7c3fa5a1088392e485600cff2402325bc1f2f9bc08",
       "details": {
         "codes": [
@@ -3041,7 +3046,7 @@
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=33728&modo=guardar",
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=33729&modo=guardar"
       ],
-      "byte_hash": "ce51b830d8f73fd7bd5d42ddbeb01a4adf54869852cec6c8347750b5e574f555",
+      "byte_hash": "017f758bfafa55c72655948c68e21f133415e0e1774e3a33004a0cc2a2dd4d20",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -3054,9 +3059,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "22/12/2020\nEDICTE SOBRE LA PUBLICACIÓDE AL·LEGACIONS D’ACTES DEL TALLER D’OCUPACIÓ SILLA EN MARXA V (expedient FOTAE/2020/20/46)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "d90d8c672c366fdbb70efc38afee153a6fd31e88b593daaa1c1435c28798cc4c",
       "details": {
         "codes": [],
@@ -3070,7 +3075,7 @@
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=33716&modo=guardar",
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=33717&modo=guardar"
       ],
-      "byte_hash": "9149d2f3ff9e229ee8406d3e2611ab332ce836337540c7358c2363de841ff2d8",
+      "byte_hash": "52f64b7f1ad3e2ca70cd97da71e0fe2a592a5185b64831d01f66504911d51089",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -3083,9 +3088,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Preguntas frecuentes",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "db88ecc508c9208940637043d9b387a3084c81d46ed133aef1501588729ae42c",
       "details": {
         "codes": [],
@@ -3181,9 +3186,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Oferta Pública Municipal - Bolsas",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "25fd83c5f2ef9fac6d35276b05a727590579edc69a346b80403218fdef1d7472",
       "details": {
         "codes": [],
@@ -3245,9 +3250,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Oferta Pública Municipal",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8b3bacf09c0e10733e00c9705f30c930383adc64fbc204dc797aa0395f9b627e",
       "details": {
         "codes": [],
@@ -3334,9 +3339,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Proceso estabilización 2022 concurso oposición",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8bedecb634b26c4b1fb934adb8acddba1c9d83f1f70c6e8587b8b0aef9e1c326",
       "details": {
         "codes": [],
@@ -3379,9 +3384,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Proceso estabilización 2022 concurso",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "d074aa79d66c081025258a38cffbd67e232ab25a6f37c718309de28553a7e0d7",
       "details": {
         "codes": [],
@@ -3427,9 +3432,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Concursos Internos",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6011e6a8c4e305569a03808f048e2f050d19376f0068844ae369c206b2c94084",
       "details": {
         "codes": [],
@@ -3476,9 +3481,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Plan Formación Interno",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "114427e2d8b628d3e71a799d4936df1d5cf00f83c8bfe43055e66e4dff371d02",
       "details": {
         "codes": [],
@@ -3518,9 +3523,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Relación de puestos de trabajo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "002bf9a897b2e8e36823a74d4102a4c794c9656bc773c4ea095dc15436e5bcad",
       "details": {
         "codes": [],
@@ -3563,9 +3568,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Instancia procedimiento selectivo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "56474d148359a50ca2d7bb9223bbd0f92e56948c71795f37bffb58fe74dcea7a",
       "details": {
         "codes": [],
@@ -3602,9 +3607,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Autorización inexistencia de antecedentes de delitos sexuales",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b50f460154364e81a64b44e2cca27d131731267060462c84be0a858e078cea57",
       "details": {
         "codes": [],
@@ -3641,9 +3646,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Oferta Pública Ayuntamiento",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "c0530155dc9ee1efc3516f8e315d8f5af2472d93aadb3630c2cdf787a96fd303",
       "details": {
         "codes": [],
@@ -3738,9 +3743,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Formación y Empleo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5eec8a7cf24e00040db7a748e39b578f0d35dd2f64841d05cd541f926825eadf",
       "details": {
         "codes": [],
@@ -3785,9 +3790,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Bases generales bolsas temporales",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fca7bf7900d6f2acd346165cb01affb42ffa8fae2b96e07c5c63de919df1c8eb",
       "details": {
         "codes": [],
@@ -3877,9 +3882,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Reglamento regulador bolsas de empleo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e1ac4d48ccc8c0aefe7f31e0b9d1799f6dc7b710a138dfc20db9641cad29fc9a",
       "details": {
         "codes": [],
@@ -3969,9 +3974,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Docentes programa abierto ciudadanía \"Ciutat Educadora\" (complementaria)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2ea688c08e6b5c273d3cae891c37d9aad9ede0a76baeb5a33e980d627f3f7457",
       "details": {
         "codes": [],
@@ -4066,9 +4071,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Monitores de Ocio y Tiempo Libre",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b62bf7291625fda40abbf6da3697cdf7b0fbcde3379fccf5a0d21c956df190bd",
       "details": {
         "codes": [],
@@ -4178,9 +4183,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Auxiliares administrativos",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "74ecfcbe77fe61a5de05b8ab48dc9ca66f93203971136070f52ac04e0db81b10",
       "details": {
         "codes": [],
@@ -4292,9 +4297,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Coordinadores, socorristas de embarcación Playas",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a9313a9c8ee900c029b95f21e8f17a5071e402ce1e8c76c5c7dd163018e53c4a",
       "details": {
         "codes": [],
@@ -4421,9 +4426,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Monitores/as Campus Infantiles Deportivos",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "782fe76be97fc1df1463476e173b2b92682eb45c6b1bc8978b713a1a692caf2d",
       "details": {
         "codes": [],
@@ -4528,9 +4533,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Psicólogos",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "91a66bb9b4685616de6fcaa1fe899615decce25965b04da899f3ab8839ca734f",
       "details": {
         "codes": [],
@@ -4621,9 +4626,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Monitores de Actividad Física y Recreativa",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "76fcd9b10988d1a69d9bfa9fce5c79b5bd75e501f1ff7014eaceb7f5ebec8669",
       "details": {
         "codes": [],
@@ -4726,9 +4731,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Monitores Socorristas de Actividades Acuáticas",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0a6064df81ec2215213f5cce297e6f504396b327578304218ef0c10fb9961ee8",
       "details": {
         "codes": [],
@@ -4832,9 +4837,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Subalterno",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "147f977e7dad277fb4103efc91c1d6ae98a19d3cba33f1d06bde713528f5f906",
       "details": {
         "codes": [],
@@ -4957,9 +4962,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Arquitecto Técnico",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6e670bed2dbd60c097bdb78130a20a62740fd8fb3ff20e8e5abffab5677334f4",
       "details": {
         "codes": [],
@@ -5065,9 +5070,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Educador Ambiental",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f90544169408337e269d675b58df87814bb46943f6270df1ea7645b4d6b41fbe",
       "details": {
         "codes": [],
@@ -5168,9 +5173,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Técnico de Administración General",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2ede9a29673b8d24af5f3338ffa42e56e8670bd8ab0ab01185a908283e3cd4e2",
       "details": {
         "codes": [],
@@ -5273,9 +5278,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Administrativos OEP 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6f70a46cf191a6d9ea8bd35c520aeadedf193197bc5f995aae93bf2d5ed13ada",
       "details": {
         "codes": [],
@@ -5392,9 +5397,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Arquitecto OEP 2020",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5440a9d1e8a089dd1c463074cc9d3523b3cbb1effc16f42a276cc2f0d71b1d1b",
       "details": {
         "codes": [],
@@ -5502,9 +5507,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Técnico Gestión de Administración General",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "90765921ee757912ad8d073e9706ecfc6a13d4c33a09c466bd09f66d803037d1",
       "details": {
         "codes": [],
@@ -5611,9 +5616,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Técnico Auxiliar Urbanismo OEP 2022",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "416af18d5e32741259c217a2118a48fa85d1c32875e86eb5fd562085150c37fb",
       "details": {
         "codes": [],
@@ -5715,9 +5720,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Agentes Policía Local OEP 2023",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0a371b2615ac6403206823665c87289044616771e3e89d7718aa79b7e96a300a",
       "details": {
         "codes": [],
@@ -5841,9 +5846,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Ingeniero/a Técnico/a Agrícola OEP 2024",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "39a59c7d096c67b898e257222c131ec569d020bd348903e2339d4e6f5b1c1e45",
       "details": {
         "codes": [],
@@ -5956,9 +5961,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Ingeniero/a Técnico/a Industrial OEP 2022",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "569e9da018a807d8a6fde6e7d917499b4438c3b4f5d7d3e817507435f6c9abab",
       "details": {
         "codes": [],
@@ -6062,9 +6067,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Arquitecto/a Técnico/a OEP 2022",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "02e8e5f4e344956f8d57711b6d4cc6abbdfd82befc84001c0efe68d38a72da53",
       "details": {
         "codes": [],
@@ -6168,9 +6173,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Animador/a Juvenil OEP 2022",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "349b818a174b2847bd55894bc9f7b018e1d11fc3cee0961c1d1224bb24679970",
       "details": {
         "codes": [],
@@ -6282,9 +6287,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Trabajador/a social OEP 2022-2023",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0039b9d5391f4bb9d75a2249721f21418cd88950838cfd6a1e510aa15b5c381a",
       "details": {
         "codes": [],
@@ -6389,9 +6394,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Guardas rural OEP 2023-2024",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f042e6552092cc5ad556662e66de8f6daabab290b0559e4274206e2f882b700b",
       "details": {
         "codes": [],
@@ -6484,9 +6489,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Administrativos de Administración General OEP 2025",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2753e6ccd3838f65b162653bfa632d0d928b7ff843f599d92cdf2461267d5b24",
       "details": {
         "codes": [],
@@ -6579,9 +6584,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Educador Social",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "9030348d2151b274925fb0cf172ee2c9df26e80d78c04ddd2be192a19df3fbc9",
       "details": {
         "codes": [],
@@ -6674,9 +6679,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Comisario A1 OEP 2025",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "975fcca987b38cce5e4a10eed4ceb6fb8118cba80d471674cfb831e5bdf15d3e",
       "details": {
         "codes": [],
@@ -6776,9 +6781,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Inspector A2 OEP 2025",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0c94e1d3c3e1ebb45e808b6de737114f970ad590d49f0e82fbe6f1bc10d6571e",
       "details": {
         "codes": [],
@@ -6878,9 +6883,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Técnico Prevención Riesgos Laborales",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e9f1419294ee3b2e27b44436a0755060f585d7497c8ccd41523e0d7755a771b0",
       "details": {
         "codes": [],
@@ -6971,9 +6976,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Bases generales",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ff616a4dc2e8b0961c3ab4e7bf846b371212cf5a93a020ee5c058d5223d1ef1c",
       "details": {
         "codes": [],
@@ -7063,9 +7068,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Anuncio BOE",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e2cc9554963c25cfe89fcd82cd4b4b6fd204aea59b74d03f14e77573971aca40",
       "details": {
         "codes": [],
@@ -7155,9 +7160,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Administrativo de administración general",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "928ad75fa8a2302df7be134c3ed5686e9948c4fb6fb596dd658b02a89d586fc3",
       "details": {
         "codes": [],
@@ -7255,9 +7260,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Auxiliar administrativo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "3b32a0bc4a11579e30f7c6964f9f542bc3d9a50236e1ad9231829aa719ad7c65",
       "details": {
         "codes": [],
@@ -7353,9 +7358,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Subalterno",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5ffbd6ab1442203610e77542adf35a69eae85c10c402ef54856b8d92b61141d5",
       "details": {
         "codes": [],
@@ -7456,9 +7461,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Arquitecto",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "25ac759a43f2c23424100e588f33f157b71e3a238febccead0e615bb47a154b4",
       "details": {
         "codes": [],
@@ -7557,9 +7562,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Técnico Medio Turismo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "57b2df75505f4c8889ece11dd7eb7f0f004dba261ffd02325873c9223905881f",
       "details": {
         "codes": [],
@@ -7654,9 +7659,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Bases generales",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f11153501387802d388006d395859664ec7c139a2df87f0553771bd29a29e367",
       "details": {
         "codes": [],
@@ -7746,9 +7751,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Rectificación de errores",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0291961e6dffb78e123fd89f1506c76d495d1bdc825a78b625403dfc55a89149",
       "details": {
         "codes": [],
@@ -7838,9 +7843,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Funcionarios",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "d6a31d7e023680130c56c8f221357fd73d8abd8c0fd95d252114777493587f9c",
       "details": {
         "codes": [],
@@ -7893,9 +7898,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Personal Laboral",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "d5ba14b5bc4743fbdb3930b321409a84f0dbc88e07965b511775d6c05cf42270",
       "details": {
         "codes": [],
@@ -7947,9 +7952,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Inspector de policía",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b16a7c8469f40fda02cc25808083171f9cd29ebc772082c8eab8885885c9ad85",
       "details": {
         "codes": [],
@@ -8043,9 +8048,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Jefatura Sección Servicios Sociales",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "657815d149947435773af9f53cb389a16f38f066e92ef56691381f4d2f008055",
       "details": {
         "codes": [],
@@ -8137,9 +8142,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Secretaría de Alcaldía",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "7f5c5d58f5184f80bce5000cc128fa35d391972c9d786f3f0731e1b8fd3f5858",
       "details": {
         "codes": [],
@@ -8232,9 +8237,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Técnico Auxiliar de Mantenimiento (mejora empleo)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "96c8c6fe97d6f23a71dc48fef4ff95e596063efdafcd1d63cee9a580d1c8c18a",
       "details": {
         "codes": [],
@@ -8326,9 +8331,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Encargado de Mantenimiento",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5cba637dc40dc46f88a238633fc4ddd50a0f6e181e85b148f9a3280064c42294",
       "details": {
         "codes": [],
@@ -8421,9 +8426,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Jefatura de Mantenimiento",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "08bb37ae642d95ed1fd1a9fb4979bf0fdb656e1d74747827d3fd5d4291e02e08",
       "details": {
         "codes": [],
@@ -8515,9 +8520,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Técnico de Administración General - Cultura",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "57e04c1a97c4b83036ebc92882413c03fbcc327ce09db4d48852f779fb9e2512",
       "details": {
         "codes": [],
@@ -8607,9 +8612,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Jefatura de Sección Patrimonio",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a352491fa6e6dbe94f28c9bc09876322903e12bb8fc2f84188cbaf179876f702",
       "details": {
         "codes": [],
@@ -8701,9 +8706,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Jefatura de Sección SAIC",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ac5cc25887b17a188dc595f4e58a009b222676820b7b2aa3b3ffadae5e6da35d",
       "details": {
         "codes": [],
@@ -8795,9 +8800,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Coordinador/a de la Unidad Técnica de Deportes",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "3d250edfd6119f68b4b7d0279fa4d6511f6089001902bb94dcbd833236bbdc8a",
       "details": {
         "codes": [],
@@ -8890,9 +8895,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Coordinador Ingeniero de Actividades",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e0660096bf21c4c0fed529c2a6dcb35abab049e68e2f11fa30f4f61506ad7420",
       "details": {
         "codes": [],
@@ -8984,9 +8989,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Valencià",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "17accee59d47364073a3f87bb047267ff758ad6f148b78b2a2dd73eee688cc85",
       "details": {
         "codes": [],
@@ -9000,7 +9005,7 @@
         "https://sagunto.portalemp.com/ofertas.html?lng=es",
         "https://sagunto.portalemp.com/ofertas.html"
       ],
-      "byte_hash": "b26b89295f0e3a0d484138f5229eac953b56865254cb393ac1dcf515ad6c4eaa",
+      "byte_hash": "c60b82fa70d587692679284e90d3f231c1b76e1f05a37a2d14f8224c62b33cff",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9013,9 +9018,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Castellano",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4221dbbc635ec321c69495d27193461711f05f75f2204fd8c70a645d5048676a",
       "details": {
         "codes": [],
@@ -9029,7 +9034,7 @@
         "https://sagunto.portalemp.com/ofertas.html?lng=va",
         "https://sagunto.portalemp.com/ofertas.html"
       ],
-      "byte_hash": "7d04a24e8d66656f816bd9e78d57e0eae3aa1d535c57e170003e737b70ab2cf9",
+      "byte_hash": "73557ddf0e00dc43f716f7768a570e7c1c8bd5065ae9facddeff25a1fc256cc6",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9042,9 +9047,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Castellano",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "09fa70f45f080c2dffd26b48818dc760ca470e237c005a535e688dd83e4878b6",
       "details": {
         "codes": [],
@@ -9058,7 +9063,7 @@
         "https://picanya.portalemp.com/ofertas.html?lng=va",
         "https://picanya.portalemp.com/ofertas.html"
       ],
-      "byte_hash": "07b0890bde39ba7f500dc4db26a69438eff5beee8be1cc5dc1ff462657402892",
+      "byte_hash": "e468b9b66e8f1be553f770a382cc9103c9c2743cb2936b91cc13643e499bd135",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9071,9 +9076,9 @@
       "kind": "page",
       "depth": 1,
       "label": "Valencià",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "3079c36886700b6f1a3002ee3dc689bf4a7cdbb48a059e30cfc065b816e12620",
       "details": {
         "codes": [],
@@ -9087,7 +9092,7 @@
         "https://picanya.portalemp.com/ofertas.html?lng=es",
         "https://picanya.portalemp.com/ofertas.html"
       ],
-      "byte_hash": "aebcad0553e86b420a72fb26fcf8b75f94c248c941ae72a3a2ad149ad5464c8d",
+      "byte_hash": "2655dc5b85cb669871a3fe5bad537ce9601ba9c75ca7fffad142ef37d4999335",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9100,9 +9105,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "Acta_Lista definitiva_fecha tercer ejercicio_proceso Agentes Policía Local\n3546/2024\nSelecciones de Personal y Provisiones de Puestos\nOcupació pública\nAnuncio_lista definitiva_fecha tercer ejercicio_proceso Agentes Policía Local\n14/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "c39a3a08ca66372fb80ee91cc146f486c37b3a25d5282b6c6e12a1e6b83791ec",
       "details": {
         "codes": [],
@@ -9120,9 +9125,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "Instrucciones_Examen_Tipo_Test_Policia_Local_Alcasser 22.09.26\n3546/2024\nSelecciones de Personal y Provisiones de Puestos\nOcupació pública\nInstrucciones tercer ejercicio proceso Agentes Policía Local\n14/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "21043152c1ae36834e8d007d9b38b0d18ea8925e437314b236a345f3b404a992",
       "details": {
         "codes": [],
@@ -9140,9 +9145,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "Anuncio resolución alegaciones_lista definitiva aprobados_proceso estabilización_Administrativo/a\n1822/2025\nSelecciones de Personal y Provisiones de Puestos\nOcupació pública\nAnuncio resolución alegaciones_lista definitiva aprobados_proceso estabilización Administrativo/a\n08/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2ad56e11000071a9bf463256d43663ad4b67ef3ef16b8dc0908603d811bd9cf3",
       "details": {
         "codes": [],
@@ -9160,9 +9165,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "RESOLUCIO 2026-0609 [Resolución de Alcaldía finalización curso y convocatoria prueba evaluatoria]\n413/2026\nPlanificació i Ordenació de Personal\nAnuncis\nConvocatoria prueba evaluatoria proceso funcionarización.\n17/08/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "aa0aa60a27ccdf30965e66c790366f955f43b42c6d67cbf5e533f490cea3a4ee",
       "details": {
         "codes": [],
@@ -9180,9 +9185,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCI LLISTA PROVISIONAL EDUC. SOCIAL EEIIA I TRIBUNAL\n702/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nANUNCI LLISTA PROVISIONAL EDUC. SOCIAL EEIIA I TRIBUNAL\n17/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e158f45aca20415f0506109a2edd08225daa0b95427b61e10d90daec550d3b48",
       "details": {
         "codes": [],
@@ -9200,9 +9205,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCI BORSA PSICOLEG JOVENTUT LLISTAT DEFINITIU, TRIBUNAL, DATA EXAMEN\n1338/2025\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nANUNCI BORSA PSICÒLEG JOVENTUT LLISTAT DEFINITIU, TRIBUNAL I DATA PRIMER EXAMEN\n15/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ab4893d3c93f0abfb6d2dd63b85e6dc42b37e1980b4dca4ab791d3f9629dce07",
       "details": {
         "codes": [],
@@ -9220,9 +9225,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCI RELACIÓ APROVATS I CONSTITUCIÓ BORSA tecnic admin\n872/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nANUNCI RELACIÓ D'APROVATS I CONSTITUCIÓ D'UN\nLLOC DE TREBALL VACANT DE TÈCNIC/A ADMINISTRATIU/VA DE SSAPB\n15/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0dd684256bc90e14a5e1b30720e62e0be11a60641210559ee93b94de5ceee338",
       "details": {
         "codes": [],
@@ -9240,9 +9245,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "Anunci 1.\n872/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nANUNCI RESULTAT FASE CONCURS TÉCNIC ADMINISTRATIU\n14/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ed3d7763abd77580ea8bbfe1a8ca146270beb8fb3696649b397d873210f65f46",
       "details": {
         "codes": [],
@@ -9260,9 +9265,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCI llista definitiva i Tribunal Qualificador millora d'ocupació T. Administratiu\n872/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nBORSA D´OCUPACIÓ PROCÉS INTERN TÈCNIC/A ADMINISTRATIU/VA\n04/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "378f2d4c5cdbd8f33506adeef3f5d4f721500746ed6bb0c3140bd6f35f73d992",
       "details": {
         "codes": [],
@@ -9280,9 +9285,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCI RELACIÓ APROVATS I CONSTITUCIÓ BORSA.\n516/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nBORSA PROMOTOR/A D' IGUALTAT SSAPB 2026\n03/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "1f4d00a5884479cdc2b494789cba758a5459ddff3b1935cfe4125e02cae48ac8",
       "details": {
         "codes": [],
@@ -9300,9 +9305,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "EDICTE 5 BAREMACIO CONCURS I ENTREVISTA\n243/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nEDICTE 5 BAREMACIO CONCURS I ENTREVISTA\n19/08/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "1c53c9e666e910f3e72ce9fd930138e6b0350c29160c2e4fa5b1d5f7389e3041",
       "details": {
         "codes": [],
@@ -9320,9 +9325,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCI OBERTURA CODIS, AL·LEGACIONS PROMOTOR D'IGUALTAT\n516/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nANUNCI OBERTURA CODIS, AL·LEGACIONS PROMOTOR D'IGUALTAT\n18/08/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "9804da70590478c61d6bea8027e2401091c139c04bfcbf908980410d6ec993ca",
       "details": {
         "codes": [],
@@ -9340,9 +9345,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "BASES CONVOCATÒRIA\n701/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nBORSA PSICÒLEG/A EEIIA\n12/08/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6d49edf9c19635f7c626e4c42c45769ad7830cc6f06f098b8d61078c2266e786",
       "details": {
         "codes": [],
@@ -9360,9 +9365,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "29/11/2024 - 31/12/2026\nAmpliación Oferta Pública de Empleo 2024",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ac4c340e48b5b3bd03f620bef1e5a5177c00e676547621a7b4dce8c783a55273",
       "details": {
         "codes": [],
@@ -9376,7 +9381,7 @@
         "https://sedavi.sede.dival.es/tablondeanuncios/documento.aspx?id=88775&modo=guardar",
         "https://sedavi.sede.dival.es/tablondeanuncios/documento.aspx?id=88776&modo=guardar"
       ],
-      "byte_hash": "778f95993eca5ae5fd3eda3d4a1ae405c7e6447cf7b1aed57314d0f2cdbc7d2b",
+      "byte_hash": "48c067666390f8cc5ceaa00d1650a9fff657d1210f2d3cb0cac6726078f449d6",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9389,9 +9394,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "21/09/2026 - 24/09/2026\nResolución aprobación listados provisionales Talleres de personas mayores curso 2026-2027",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "95a5bb00f607559d9f6d516b3530b106cd219b111d39ca222c412c404dd6c1f6",
       "details": {
         "codes": [],
@@ -9405,7 +9410,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=128116&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=128117&modo=guardar"
       ],
-      "byte_hash": "5bb9fb9b74ace71b161ebab2e2e0d2dce279418175dd97dfbdf1f9f81d2307e5",
+      "byte_hash": "35545234fe54d98a6ee5ca2fd128e0930c571ecda02b3ab573a5ce165d270706",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9418,9 +9423,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "18/09/2026 - 30/10/2026\nListado candidaturas preseleccionadas Labora TE - Medioambiente 2 certificado",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "071abdcdf210f060967924cd5ce26e3adad1c00c08623320d6f78ad83d3575b3",
       "details": {
         "codes": [],
@@ -9434,7 +9439,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=128048&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=128049&modo=guardar"
       ],
-      "byte_hash": "a5da30aaf9755420e574bf704f55a9c7b78e6451da8601375ed94da5dafdbf97",
+      "byte_hash": "96f9b7125090c047209843342bcc47985a219976a6e4004daab3b0166577d86d",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9447,9 +9452,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "16/09/2026 - 30/09/2026\nListado candidaturas preseleccionadas Labora TE - Jardinería 2 certificado",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2be52f3616fa8b4087e152d58e5b5a31858be85621668f04277aa92f23eebdd3",
       "details": {
         "codes": [],
@@ -9463,7 +9468,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=127953&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=127954&modo=guardar"
       ],
-      "byte_hash": "4030c182fdf7707bcd80d9d61aeb8dec3f19956197060c77ace1c9fc8bda7372",
+      "byte_hash": "7b7e13be4e753989223a13359b3c8e2059b6a8cd88947d179dc8bd3793b07104",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9476,9 +9481,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "09/09/2026 - 07/10/2026\nLICENCIA AMBIENTAL ALQUILER VEHÍCULOS Y TALLER REPARACIÓN VEHÍCULOS PRIVADO C/ MAESTRO SERRANO, 43A.",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "afae3512f50a7004da35adf179c92089a48423b0aa8665ab98b640172b95b0ab",
       "details": {
         "codes": [],
@@ -9492,7 +9497,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=127517&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=127518&modo=guardar"
       ],
-      "byte_hash": "cb840236118013bbc13dc06a467ed62859fd3278ed0d7ec41adbee28746b62e0",
+      "byte_hash": "e1725db83dc840a01ffd63e8dce125714bc40a83a58d1a34b71e2726629ee94d",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9505,9 +9510,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "07/09/2026 - 13/11/2026\nEdicto información pública MP31 PGOU",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "94baaeb967a6f1285a384a506fa2599971c730a1a10214db275d3dc61e372c44",
       "details": {
         "codes": [],
@@ -9521,7 +9526,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=127355&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=127356&modo=guardar"
       ],
-      "byte_hash": "a040f49f72c4e78922de9b84ae4ce4cc64a87d4e99912a72166aa8c2b69ec929",
+      "byte_hash": "8b2e9178d3cd5ed3cc32293f9d4908d75d2102fec13167fee02f0b538f10c395",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9534,9 +9539,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "22/07/2022\nInformació publica de l’acord plenari adoptat sobre aprovació del Pla d’ordenació de recursos humans de l’any 2022",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fda483a1d95f9bd016b5027c204e4c8de5c7b59b6408b693c723e8198c06726a",
       "details": {
         "codes": [],
@@ -9549,7 +9554,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=47762&modo=guardar"
       ],
-      "byte_hash": "466b58bf94e7d69314e3dd14fe6462afb09510c13a524c0ae11658ea9d355bb3",
+      "byte_hash": "5dd7e22d77fc484d9ab905036eebdce91a8c1ed3ba85d8d3ba55aba9148580ba",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9562,9 +9567,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "10/03/2022\nACTA FINAL SUSTITUCION DOCENTE JARDINERIA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fdea16298e461d5beeea8204fbd934e811af3d1ec542f6d914bac6d9f25257e4",
       "details": {
         "codes": [],
@@ -9577,7 +9582,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=43913&modo=guardar"
       ],
-      "byte_hash": "fa4278c9cfdb468102688a6fa5395f3d060d6cdc76074b008ae0258bad3137c2",
+      "byte_hash": "e9e8cca51a8367e0fb0e9d71f17b736e13b64195f12c4f17e78f31db5f56629c",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9590,9 +9595,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "10/03/2022\nACTA ENTREVISTA SUSTITUCION DOCENTE JARDINEWRIA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "67887bf142d36fdf96fb9818679e7a828095b634bcb5da0a2391298f4f0ef976",
       "details": {
         "codes": [],
@@ -9605,7 +9610,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=43912&modo=guardar"
       ],
-      "byte_hash": "91675d5091be0ef8a43cc840b9343d9b4398e610d0567d99b129d3eef7f9c315",
+      "byte_hash": "e08da035f0c0026f97d0eb1cd76ea1acf68d84c4ba53126e064399aaa2b4e921",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9618,9 +9623,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "10/03/2022\nACTA PUNTUACIONES SUSTITUCION DOCENTE DE JARDINERIA DEL TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b8835a0df18d3262abe97a442c94faf6910b918b1798f2a74513de298e453d4b",
       "details": {
         "codes": [],
@@ -9635,7 +9640,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=43885&modo=guardar"
       ],
-      "byte_hash": "852aa0b35c2eab27603137f56b7ead14e097e58134d33cd7eb22ef4fac7567ee",
+      "byte_hash": "436750175d60e9ae9dbe0dd48e5c43a43caa8420629567145bc8f0714f3d5435",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9648,9 +9653,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "02/03/2022\nACTA ENTREVISTA DEL DOCENTE DE ALBAÑILERIA DE TE MANISES 2021 PARA CUBRIR BAJA",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b5c0a0b7315592ff31f7c74acc1aa10b5c9228d8c34c49de294235c2c07b3bf3",
       "details": {
         "codes": [],
@@ -9663,7 +9668,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=43579&modo=guardar"
       ],
-      "byte_hash": "cd8caca8989f8dbf78a26ddf2181aac642b19e5cf6a3d3d57b95f791052beea4",
+      "byte_hash": "b2591baf9726e6252627c961d2fec50070d94914f997e6b49121b1cfead2a83a",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9676,9 +9681,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "01/03/2022\nACTA PROVISONAL PUNTUACIONES PARA CUBRIR BAJA DOCENTE ALBAÑILERIA DEL TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a7565960811a1629a72e325e2e5ada2b84c43373c697ba671237c11305dc0075",
       "details": {
         "codes": [],
@@ -9691,7 +9696,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=43533&modo=guardar"
       ],
-      "byte_hash": "076fec5fec2f0c6e3abbc323407cabca784534d721b6daca83e883344d12da3c",
+      "byte_hash": "9f240fb28761b378f006a9640eede4785d2846878fd13377a81bdd2e16e09d17",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9704,9 +9709,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "04/02/2022\nACTA DEFINITIVA DOCENTE JARDINERIA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "343ef9b7b099ebfedcc9c86045e009e8edaf1063ba87b1a7d9d40491468b2ed5",
       "details": {
         "codes": [],
@@ -9719,7 +9724,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=42937&modo=guardar"
       ],
-      "byte_hash": "2a191628ce99d166f6f212202d0fcd15c509434e8debb26aa72339d5cec27b30",
+      "byte_hash": "925f092cd82bfeb85d3a95757c5e0c7391e854ce033a0b92222afcae5c0e22fe",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9732,9 +9737,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "03/02/2022\nACTA ENTREVISTA DOCENTE JARDINERIA TE MANISES 2021.",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6c0bb8b1638930c184e29da57e3156aa3b326cf3181c9d741577d53355630b12",
       "details": {
         "codes": [],
@@ -9747,7 +9752,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=42908&modo=guardar"
       ],
-      "byte_hash": "c26afaf46538474132ee90b1e762b85ae9d8f22e55958c306b9ad14ddf8e31be",
+      "byte_hash": "d810beb37ac63105d52e272dfd019e96cfe09a50f96c6e4658f9718e45bf377c",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9760,9 +9765,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "01/02/2022\nACTA SELECION DOCENTE JARDINERIA PARA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "3b643b4611f0c2271b2057b4323b958a792b77c3315f6806967e92a06204ce11",
       "details": {
         "codes": [],
@@ -9775,7 +9780,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=42823&modo=guardar"
       ],
-      "byte_hash": "739c66dd9682ed5f79bde5d967eea5362f677968fa27c007132599c7856c7200",
+      "byte_hash": "4b959f169205e0b7b2567e6b6d67a9903fab241cb8eb12f158ceae3ce58571a2",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9788,9 +9793,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "14/01/2022\nACTA DE ENTREVISTA DOCENTE DE JARDINERÍA T'AVALEM",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f4abfa40c155a44f005f37b88e5014a545159b3db523ea589876326988099a4d",
       "details": {
         "codes": [],
@@ -9803,7 +9808,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=42437&modo=guardar"
       ],
-      "byte_hash": "a160b16f66dbad9ea1bfca9c6fd72713df0d665175e7d3f2605b1ab211a499a0",
+      "byte_hash": "7301c40671aa2c5abe7aa5ede495631d2bcfe74951515dc5d8645515e3190e78",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9816,9 +9821,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "11/01/2022\nACTA FINAL SUSTITUCION DOCENTE ALBAÑILERÍA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f701ea9a64e0ec6825c0dc2bd0094213bdafc98978d8af5221ba9adb9f569cc5",
       "details": {
         "codes": [],
@@ -9831,7 +9836,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=42367&modo=guardar"
       ],
-      "byte_hash": "a7efae3680fd4fbdf4c1cfb70735bc0763e9b8703f458f651af69d57e592716a",
+      "byte_hash": "0c4137b91f2a81918430790ad6a059e963dff2605f3bb41e8125b68b85349e67",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9844,9 +9849,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "04/01/2022\nACTA PUNTUACION ENTREVISTA DOCENTE ALBAÑILERIA",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "d4723e02dacccc1480cd9e58294a3c0bc3a85dea011767b1ad9ed383b3b42c89",
       "details": {
         "codes": [],
@@ -9859,7 +9864,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=42288&modo=guardar"
       ],
-      "byte_hash": "f30b6062d9ebfc984f31821d88716e85ff798b4c466d5c4208fe1b309f20c7a1",
+      "byte_hash": "bb06a8074e6b42d9d856f38f514f6f9447da1195272c2881760e09907513fd34",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9872,9 +9877,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "03/01/2022\nACTA PROVISI0ONAL PUNTUACION DOCENTE ALBAÑILERIA",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a1be273ef1932103689ad64e508e01d261f940d40a6dbd52b835aea0ba6e8668",
       "details": {
         "codes": [],
@@ -9887,7 +9892,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=42255&modo=guardar"
       ],
-      "byte_hash": "c9e83909acba9bfddc88c49686832079dc79e8226ff6074f0f5d19bc7d47cd4e",
+      "byte_hash": "8b45bd7ef3d16039183f1decc510d07cdd9083c207f3552245ebf1c472118976",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9900,9 +9905,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "14/12/2021\nNUEVO PROCESO SELECCIÓN DOCENTE PÌNTUTRA T'AVALEM",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6eb72b6fe0b768e19ae7922b9fe0cbfc93aa6b6ca834fa3bc57b78cd88f09496",
       "details": {
         "codes": [],
@@ -9916,7 +9921,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=41766&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=41767&modo=guardar"
       ],
-      "byte_hash": "e2338d94e0e6e6972fbcafabe4828dd19c0671a0e7bc1ad29f40ec141a200054",
+      "byte_hash": "fdbc40a8de6520e35c497af8b55a552f25e5371861602f52b03de27b7da52881",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9929,9 +9934,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "14/12/2021\nACTA RESOLUCION RECLAMACIONES DOCENTE JARDINERÍA T'AVALEM",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b5bbd39af84261aa7345af635f87be75c56bd05d98524e7bc6cf1a37e4440be3",
       "details": {
         "codes": [],
@@ -9944,7 +9949,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=41762&modo=guardar"
       ],
-      "byte_hash": "0771df2425e167d691f24a9cc626970119c46ff3359eab63169d7028e669d9f5",
+      "byte_hash": "2f070dba4a71d2415a242899eca573beab86e6c20d9d8f0c8c7cfd927caf7cd3",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9957,9 +9962,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "14/12/2021\nACTA RESOLUCION RECLAMACIONES DOCENTE PINTURA T'AVALEM",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6735842b3ea89b50d19a0d595a6103b00a587bd9d7c1a9bd2be8996c47ab1629",
       "details": {
         "codes": [],
@@ -9972,7 +9977,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=41759&modo=guardar"
       ],
-      "byte_hash": "0dc622aab69bdd579458974d1ff686b825dc1bb54ebc0b54809e4f437ef96611",
+      "byte_hash": "7c5f7f04b2db09c971aa2d475425502aa2a90ecb0a0a300df023b3c7ad4f91b4",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -9985,9 +9990,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "01/12/2021\nACTA BAREMACIÓN T'AVALEM DOCENTE PINTURA",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "c9214ed1ff23a5216ac073798e3bd01f3cb5d6389e416830384b1cdf75404c60",
       "details": {
         "codes": [],
@@ -10002,7 +10007,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=41398&modo=guardar"
       ],
-      "byte_hash": "d9eb9ea2f97094b11a5444a8662829a4a5c9290d71d5e6a227604e818a4e8a27",
+      "byte_hash": "7603a9b976f310a0a164149cf5fe486245f51ff15ff9f759c82671ba6976b5e6",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10015,9 +10020,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "01/12/2021\nACTA BAREMACIÓN T'AVALEM DOCENTE JARDINERÍA",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "3ff24107dc71b5f092e7be9c0185178efb99d76dcc62f88f5306b1cd40852133",
       "details": {
         "codes": [],
@@ -10032,7 +10037,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=41396&modo=guardar"
       ],
-      "byte_hash": "6430770f44b01678eca394395270d4b87707bca9d6fd815d8f9f790e88dea245",
+      "byte_hash": "358f3d961e3e28d6e373718eb6703b53d75a6f6af78192cdcc76ad0d32861ec9",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10045,9 +10050,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "26/11/2021\nANUNCIO NUEVO PROCESO SELECTIVO DOCENTE ALBAÑILERIA TE MANISS 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4c70b5f10b53c0e5096cf7973d11a42479e402f3347c0d9256854ad23dbb435c",
       "details": {
         "codes": [],
@@ -10065,7 +10070,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=41284&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=41285&modo=guardar"
       ],
-      "byte_hash": "5c50704a969110b2eed7bb57baefae48bbf28c2b62a890627698cb10586d5b60",
+      "byte_hash": "cd45474e1e608da525ef6037243187f2c33c1e2899a57925fd9d16880f06f4dc",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10078,9 +10083,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "11/11/2021\nACTA DEFINITIVA DOCENTE JARDINERÍA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "bfe40ac99ec5d40ec9846c47ef567ae14ba2fcd4466d1d6fd3483c4b5aca1826",
       "details": {
         "codes": [],
@@ -10093,7 +10098,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40921&modo=guardar"
       ],
-      "byte_hash": "a226c8c53db625f969aa408730d964effdeb3c3fed1d105ce916dbd256ad8a4c",
+      "byte_hash": "70236fc5d0f32d6caec4663728276f0b1b324f208d6decedfaabdefae071edb5",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10106,9 +10111,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "11/11/2021\nACTA DEFINITIVA DOCENTE DE APOYO TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "00dc60b7a71ef0a23b64cb78f3082debde8726399933332c72f905880940003d",
       "details": {
         "codes": [],
@@ -10121,7 +10126,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40920&modo=guardar"
       ],
-      "byte_hash": "48cfbad5b38c7c9c807d0531cda675162a861d3483067adef1d248babf21ef3c",
+      "byte_hash": "55c3776c7fe4724ae356187efe6085b5dc220635495ad15ca34385e13f6c32f3",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10134,9 +10139,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "05/11/2021\nACTA DEFINITIVA DOCENTE JARDINERÍA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2ecfa7ab62afcda3b96a1050a54eabccac9f30d5d2da0bea57c45f2b913e98e7",
       "details": {
         "codes": [],
@@ -10149,7 +10154,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40718&modo=guardar"
       ],
-      "byte_hash": "caac9184f9d0f3d699815f4cb1c94bb7e4f586b50dabf3a15ddd307a9117cb16",
+      "byte_hash": "3d5a67e8479641e2675b6fe7550cd17981a3e664d3cc6d9a638ceb1d728d9467",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10162,9 +10167,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "05/11/2021\nACTA DEFINITIVA DOCENTE APOYO TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "20da89db66e6513dbef46cb0644a576e932fd01c5d18e298de26d096e1f9112b",
       "details": {
         "codes": [],
@@ -10177,7 +10182,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40717&modo=guardar"
       ],
-      "byte_hash": "1bd87dc1b78413e8895476a4d0d48a0e99968a0206c3dca3e405ebef3b49034b",
+      "byte_hash": "f87615c2d368d5aaba8f5f811a1fbcb9699f796d580e903e4f6ed8203786df06",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10190,9 +10195,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "05/11/2021\nACTA DEFINITIVA DOCENTE ALBAÑILERÍA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ed5c95f827f901360442c272735cc3755c0cd2dd061cf3a9d9a175dc9e19f6ed",
       "details": {
         "codes": [],
@@ -10205,7 +10210,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40716&modo=guardar"
       ],
-      "byte_hash": "27bb2c72fd8597e8bd3446bdd48f0634a8200679c8222a251e889d5e193afa5b",
+      "byte_hash": "8283985571d2c149911d07ae138ad5c72e000818f8f3d4902c637bae608c598d",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10218,9 +10223,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "05/11/2021\nACTA DEFINITIVA DOCENTE ADCION TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e653566eebc21feb245e3918da50e9f42cd5ccf661d767ae1e16474a32385da1",
       "details": {
         "codes": [],
@@ -10233,7 +10238,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40715&modo=guardar"
       ],
-      "byte_hash": "a023381cf4541f8f441bc10493961979afcafc849bf74886684f586852966a90",
+      "byte_hash": "5ea71b9b8928cadb9e039b6399ada0cc63cbae5cac9c1befede8d0e5ee0f65eb",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10246,9 +10251,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "25/10/2021\nACTA PUNTUACIÓN ENTREVISTA DOCENTE JARDINERÍA PARA EL TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6a7ac5efcb76694e87546be5743de7d960baed05d013a8a8eb18adebb23f2478",
       "details": {
         "codes": [],
@@ -10263,7 +10268,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40433&modo=guardar"
       ],
-      "byte_hash": "9df0c693b96af7ab3d0bf7a8620cd49c4c90d9e23fe2087c562050cb050cb5d1",
+      "byte_hash": "829eb6fe1e0c565db109cf10e002e95a247403997fdecc03d0f700d511ca5dd8",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10276,9 +10281,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "25/10/2021\nACTA PUNTUACIÓN ENTREVISTA DOCENTE APOYO PARA EL TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8c01c51f76dddc871eff665cf66e4a42e0a10df9fca98ebc3efd6c31839d9cf7",
       "details": {
         "codes": [],
@@ -10293,7 +10298,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40432&modo=guardar"
       ],
-      "byte_hash": "5e68eb676e987b4a3c24dc5d7005f6b6eaf757f5725e68aafcacc908e189ba17",
+      "byte_hash": "13dc010a951ab4ecc2d09c47d4404cefac460f4c10c1ebd06e506b2197612304",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10306,9 +10311,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "25/10/2021\nACTA PUNTUACIÓN ENTREVISTA DOCENTE ALBAÑILERÍA PARA EL TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "06fc46d2afc43d616a4c4bed9e23ae9f5c6806410b428cc190299161e394ca4a",
       "details": {
         "codes": [],
@@ -10323,7 +10328,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40431&modo=guardar"
       ],
-      "byte_hash": "32af7e7f377950a7003ef72b482948ef67b33d24e5aad9a0c9e505b8c6caa6d4",
+      "byte_hash": "fdf6e6d667e7a26bffd53cbde4485f672d5a376c1aa81a1970b509e7bb7d9768",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10336,9 +10341,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "25/10/2021\nACTA PUNTUACIÓN ENTREVISTA DOCENTE ADCIÓN PARA EL TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "eae963102393ed8388011816ea5e404c486b94caf545d88435e9883d0cb7c205",
       "details": {
         "codes": [],
@@ -10353,7 +10358,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40430&modo=guardar"
       ],
-      "byte_hash": "154d28d62f5efdf752a582a58bc190520a20bac0b6d621894835861c7182dfe3",
+      "byte_hash": "a1abcfde84ed5e784d86eb3c8bc42f2bb890633be72524890bd56b1c185694bd",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10366,9 +10371,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "14/10/2021\nACTA DEFINITIVA PUNTUACIÓN DOCENTE JARDINERÍA TE MANISES 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "874d19fc65ef179d3341e9461d2999e26a7d22afe3c8aa5f3e110137b0e7edc3",
       "details": {
         "codes": [],
@@ -10381,7 +10386,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40208&modo=guardar"
       ],
-      "byte_hash": "87fd8174d53c9a54bc404eea7f2f175e369038c5d74b81eeb799ecb0b93ed260",
+      "byte_hash": "2e3077536db2b990a71c585ca7fab4e98002b1c7939f9bea6dac8ce5b374b417",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10394,9 +10399,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "14/10/2021\nACTA DEFINITIVA PUNTUACIÓN DOCENTE ACTIVIDADES ADTIVAS TE MANISS 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ad5fdfd6fe282e4e369c6bad99dcdbe41b77ca92b9a4383c12eca3d2aed3cefc",
       "details": {
         "codes": [],
@@ -10409,7 +10414,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40205&modo=guardar"
       ],
-      "byte_hash": "c6e28220bba5e6ff3e9a20bae9461bd6670310cb58f112d2bcd2ec76422e013f",
+      "byte_hash": "b4449c138cbba800afd10923071d597054231ef5be1065546b119e73214f4cfe",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10422,9 +10427,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "14/10/2021\nACTA DEFINITIVA PUNTUACIÓN DOCENTE APOYO TE MANISS 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e8408237fffe961851cd972a0e280645c98aa16db5b316ef2708a7c8131a568c",
       "details": {
         "codes": [],
@@ -10437,7 +10442,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40204&modo=guardar"
       ],
-      "byte_hash": "517da322aba20ec56d5aea06a3e3fc718acb1be9235456ea02c3d280cfa37e13",
+      "byte_hash": "891c5846eed8b00c1fc8367038ad1bcf25c366420a14e0e6df098fb54bb40c0a",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10450,9 +10455,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "14/10/2021\nACTA DEFINITIVA PUNTUACIÓN DOCENTE ALBAÑILERÍA TE MANISS 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f57cb72bd9d0c039019adad0d302322e4bcb92fd1c8f98614ad9d768874baf01",
       "details": {
         "codes": [],
@@ -10465,7 +10470,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=40203&modo=guardar"
       ],
-      "byte_hash": "ffffa792f3f41fed9527b3058e0503d175e0cd6e9cb8aacb84b749551050cdd3",
+      "byte_hash": "259a8e7cd8a6aed1ed269917384bdfe8e00fcd7475850e8e1e7b0807989e8815",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10478,9 +10483,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "27/09/2021\nACTA DOCENTE ALBAÑILERÍA TE MANISES",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "76b1a0422bf44eb2e3b3beab1eec56fb3e8815f06cfc93d7194b610f73c7fd56",
       "details": {
         "codes": [],
@@ -10493,7 +10498,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=39777&modo=guardar"
       ],
-      "byte_hash": "9d896467dc387da990192927f3a35932534d8a3be4433a215df827e9be7433ec",
+      "byte_hash": "46e4ee57293555b9dfd57b43ef24c791bc2bb0514b6546aa756ce147f4796928",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10506,9 +10511,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "27/09/2021\nACTA DOCENTE JARDINERÍA TE MANISES",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8c45b9f1a3d73938e21a49aebf64e026d3c1f3c20971f27c399a5eae57bf6a7c",
       "details": {
         "codes": [],
@@ -10521,7 +10526,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=39776&modo=guardar"
       ],
-      "byte_hash": "b9c54476e138d89d35c0b0b897c1a8586d35f54fa033a42ff75fe19dd8d5f01f",
+      "byte_hash": "392e7643a819ccd12dbd460dbf3438c53a3bb247e92e16dc8b715ef81496e5ba",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10534,9 +10539,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "27/09/2021\nACTA DOCENTE ACTIV ADTIVAS TE MANISES",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "299b775346a9e134b8a55349229a55dae12e3fabcb9c3a4086b0584dd2e115ff",
       "details": {
         "codes": [],
@@ -10549,7 +10554,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=39775&modo=guardar"
       ],
-      "byte_hash": "015ed8782eeaa18b81ef2f1c56b4645abc797a42a044525b7ff3bbb9d083c5f6",
+      "byte_hash": "f4643a70cd49e42b5f2e4d68f758b2651ba0b6f8e7f7788904410ca8834f5451",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10562,9 +10567,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "27/09/2021\nACTA DOCENTE APOYO TE MANISES",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f669df86136c014318ef90e98d7d1c4ad53a0240a2dead618247c6fc6a2a7e97",
       "details": {
         "codes": [],
@@ -10577,7 +10582,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=39768&modo=guardar"
       ],
-      "byte_hash": "001923d5f8532b3b5818c4ca6f338d08e23e03e79be36605c4bbc7c1938cea42",
+      "byte_hash": "237069d86eb77984bd7fbfb7bf0fd37b9d031590ede1177dbb80b44e32009d92",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10590,9 +10595,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "23/07/2021\nEdicto inicio proceso selectivo personal directivo, docente y administrativo del TE Manises 2021",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "7ae272e1f993046dbb08da9a2441a329791dae776ca756d9f7ef003a23cd9a02",
       "details": {
         "codes": [],
@@ -10607,7 +10612,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=38823&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=38824&modo=guardar"
       ],
-      "byte_hash": "84010e57ffc1868106c7873397d783035a6fe4ad6f5e3933582af43e3a6feec3",
+      "byte_hash": "734818cacfd1e02ba1eaa261578e8e544e34547e366ac746cd61cd7a6ebd513f",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10620,9 +10625,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "26/01/2021\nActa selección Docente Certificado profesionalidad",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "28fb8a48f572b6dbe3f2b7d7032c636bc144fcbb72715c93824a4420397714a0",
       "details": {
         "codes": [],
@@ -10635,7 +10640,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=34927&modo=guardar"
       ],
-      "byte_hash": "67da6b602c198d6cc5ee52cc1a4d74ddc98cb05c3fb0b2d9fe4b92def255c793",
+      "byte_hash": "074f78f3c6501704e35cb9a832b67f2ed93ab4cdb149e89bbb1ded860acd572a",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10648,9 +10653,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "07/01/2020\nActas desempate Docente albañilería TE Manises 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e119f50d0db4a9347a58e9bb4a6430d1cb593a73bcfa54a88a3f0d4768515690",
       "details": {
         "codes": [],
@@ -10663,7 +10668,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=20836&modo=guardar"
       ],
-      "byte_hash": "19a53bd05355a157775c8dc80922b87e5203793d0ff1bbc42451790b0af35935",
+      "byte_hash": "1d096b81bdd604b133c1ef72bba33c1bf3ed019a7f6546e606d3453965c29d74",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10676,9 +10681,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "03/01/2020\nACTA DEFINITIVA DESPUÉS DE ALEGACIONES DEL PROFESOR/A DE ALBAÑILERÍA DEL TALLER DE EMPLEO MANISES 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "bb9fc73f8c41f05d7d80119ef24d918dcdae10bea67d116acd9359cae653a27f",
       "details": {
         "codes": [],
@@ -10691,7 +10696,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=20822&modo=guardar"
       ],
-      "byte_hash": "d207ce625f68e49d378ce59c0adbf35986bb0fc2b5a24179640ca9ebdea3ef94",
+      "byte_hash": "adb70b928a9da86ef5fba05e95e39adb5e58148e1dc429efe50bc3b16e27cd75",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10704,9 +10709,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "03/01/2020\nACTA DEFINITIVA DESPUÉS DE ALEGACIONES DEL PROFESOR/A DE PINTURA DEL TALLER DE EMPLEO MANISES 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "45762d6a8654a563f42e249f2798ccdee4115a88cfbf610f95a9e4fb57fd77cd",
       "details": {
         "codes": [],
@@ -10719,7 +10724,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=20821&modo=guardar"
       ],
-      "byte_hash": "1e36e1379fdc897942ea4b746e8a57e1035c9b5da5bbb766217ab7b235d17557",
+      "byte_hash": "24fc3249777f9d004e0ba10a77546625a45d019093254612f5de26719a4de709",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10732,9 +10737,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "03/01/2020\nACTA DEFINITIVA DESPUÉS DE ALEGACIONES DE PROFESOR/A DE JARDINERÍA DEL TALLER DE EMPLEO MANISES 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0311c8b662dc3cb0f3f9ed5ce01c2849b1aecd6ebe2450e3aa60e7cfb9a8293d",
       "details": {
         "codes": [],
@@ -10747,7 +10752,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=20820&modo=guardar"
       ],
-      "byte_hash": "142ee9e0a8dbc617aad0247dce3d8e7d508d088f41860902acedca96050f89c4",
+      "byte_hash": "a3fbf24f8bdada96b3d7773d2720dcbd822c0f409bde7baef965660703a55756",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10760,9 +10765,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "03/01/2020\nACTA DEFINITIVA DESPUÉS DE ALEGACIONES DEL DIRECTOR/A DEL TALLER DE EMPLEO DE MANISES 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0a41e60fea2149d50fee65290a304da9d3c202b66af6ab5b445da4baf4b036fd",
       "details": {
         "codes": [],
@@ -10775,7 +10780,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=20819&modo=guardar"
       ],
-      "byte_hash": "ef574b02e47a4f33f2dfd59734417d73f2c7133a37eb4b01634f2ac9084626d9",
+      "byte_hash": "0a461d73022b93a98c00d0b043d9829f2cdb737f39053130860c020d83e88f9f",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10788,9 +10793,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "03/01/2020\nACTA DEFINITIVA DESPUÉS DE ALEGACIONES DE AUXILIAR ADMINISTRATIVO DEL TALLER DE EMPLEO 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5c3e6808f1cc4288b38097a88478147292403ffa9f36528004a8facfb8fa8e33",
       "details": {
         "codes": [],
@@ -10803,7 +10808,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=20818&modo=guardar"
       ],
-      "byte_hash": "902cfebd73b7c4da2d97881ed7a651ee7ef854edaa72cab3a6c373c668ba3536",
+      "byte_hash": "af5100b2b5c308d9ad0d44022c0970ccf5d6fa4420a62f33e987d0d89a663f0d",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10816,9 +10821,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "03/01/2020\nACTA DEFINITIVA DESPUÉS DE ALEGACIONES DEL PROFESOR/A DEL APOYO DEL TALLER DE EMPLEO 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "9c8ba12a65f83b71f745db3990ba4a7b209d83df0094854a55e3ae9ef22ff032",
       "details": {
         "codes": [],
@@ -10831,7 +10836,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=20817&modo=guardar"
       ],
-      "byte_hash": "18aebe8de6ddef9d0ac6649443bf8d7ab0827943571df49aa225b6e50cc87cbb",
+      "byte_hash": "2d264b35ec5930e1a329df400dfefcc78210b23130cbcd2647cb7244564b4716",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10844,9 +10849,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "27/12/2019\nACTAS DEFINITIVAS DE SELECCIÓN DE PARTICIPANTES EN EL TALLER DE EMPLEO MANISES 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "dfcbe21857c0f194e55e4933bb2bcd8380971187af78581bbb14b5849a5fd554",
       "details": {
         "codes": [],
@@ -10859,7 +10864,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=20654&modo=guardar"
       ],
-      "byte_hash": "aeb264f68307a46ff982a9f6e2f603d6b4fd0da9f16b1c10bfe585a533243480",
+      "byte_hash": "f37db30d41f1d3ba8c72ae5eeab231cd057bfde534427a21294d6b7f0c5da50d",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10872,9 +10877,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "10/07/2019\nAcuerdo de colaboración entre LABORA y el Ayuntamiento de Manises para la prestación conjunta de servicios de intermediación laboral mediante la implantación del servici",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "831b92af1179de2acc30d08c1a16797da39f12bb5a366e470c980d9956c58cb8",
       "details": {
         "codes": [],
@@ -10887,7 +10892,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=16277&modo=guardar"
       ],
-      "byte_hash": "5792c987fcea99b7fb7455995bd835162acb135a54db199d81eaac343c6cb0c7",
+      "byte_hash": "4fff132a30b5b167e1b318abd0bcef4283929e1a1247523833778eb55adf1a43",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10900,9 +10905,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "19/06/2019\nBecas post-grado de colaboración del ayuntamiento de Manises 2019. Resolución de adjudicación.",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "c79441e95587a25032d8da5e351102c7eb0d686cef6a153dac5c03117602be82",
       "details": {
         "codes": [],
@@ -10915,7 +10920,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=15567&modo=guardar"
       ],
-      "byte_hash": "1b139c4e9d063bd45f1ed9f78ade982a1517abe0521d67baf5f34c1b51ced179",
+      "byte_hash": "17ab9895f6141c9c4dff1ef33f317d57ac4b7acb0991e3cd63e25f4b953c239b",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10928,9 +10933,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "05/06/2019\nPropuesta de adjudicación provisional. Becas post-grado de colaboración del ayuntamiento de Manises 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2747b1efc1b7f669d6cf04272a5a83456c253c4636609f176de89f8054130fac",
       "details": {
         "codes": [],
@@ -10943,7 +10948,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=15035&modo=guardar"
       ],
-      "byte_hash": "de7ac398bacbb4069eca0b47ce41220b5c1b8476da443b25d0bb3b14e8261bd4",
+      "byte_hash": "13024b003599591ad377db426901965cede890ee06caf7409825fb523275c9f8",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10956,9 +10961,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "04/06/2019\nActa de selección de las becas post-grado de colaboración del ayuntamiento de Manises 2019",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e6b7ba0678d1d33578b35d46a553cba61ff05c02ca61706fdbebff8c5833d7f3",
       "details": {
         "codes": [],
@@ -10971,7 +10976,7 @@
       "children": [
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=15012&modo=guardar"
       ],
-      "byte_hash": "a71df759027c2327ad555d0393d99bcf46337c404edd416e617850a899dc1afb",
+      "byte_hash": "4c2c6ead383606d57a65241d68714e088ad55f3c499870fa2bec92e705711466",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -10984,9 +10989,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCIO NOTA 2º EJERCICIO\n3188/2026\nSelecciones de Personal y Provisiones de Puestos\nAnuncios\nANUNCIO NOTA 2 EJERCICIO PROCESO SELECTIVO POR PROMOCION INTERNA 2 PLAZAS TAG (A1)\n18/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "7d80861e66751ad91be6041bee8811aa2760e85989dffbf384e9e35cad6f0ffc",
       "details": {
         "codes": [],
@@ -11004,9 +11009,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCIO NOTA 1º EJERCICIO Y FECHA SEGUNDO\n3188/2026\nSelecciones de Personal y Provisiones de Puestos\nAnuncios\nANUNCIO RESULTADO PRIMER EJERCICIO Y FECHA DEL SEGUNDO PROCESO SELECTIVO 2 PLAZAS DE TAG POR PROMOCION INTERNA\n16/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6603e028517073abbfb2c6ad6cb7d85169d823a31ce2ccda406de0fd7d4715e6",
       "details": {
         "codes": [],
@@ -11024,9 +11029,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "Anuncio BOP nº 176, listado provisional aspirantes admitidos/as y excluidos/as y Órgano técnico selección Asesor/a jurídico\n5090/2026\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nAnuncio lista provisional aspirantes admitidos/as y excluidos/as y Órgano técnico de selección proceso selectivo asesor/a jurídico.\n15/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4b30bf61cea6fbe928a5bc3db5b429a76132087eefd0bae3e7ab2823d9d45359",
       "details": {
         "codes": [],
@@ -11044,9 +11049,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCIO. Puntuación TOTAL y Propuesta de nombramiento. Proceso selectivo INGENIERO INDUSTRIAL.\n4399/2026\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nPuntuación total y propuesta de nombramiento del proceso selectivo de Ingeniero/a Industrial por promoción interna.\n09/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "1ebba1c4c6693f763a4632a82dfa5178ea463168ae57b7f296de0f8c77f24679",
       "details": {
         "codes": [],
@@ -11064,9 +11069,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "DIFUSION SELECCION ALUMNADO TALLERES EMPLEO 2026\n677/2026\nSubvencions Sol·licitades a Una altra Administració\nAjudes i Subvencions\nANUNCIO - PRÓXIMA SELECCIÓN ALUMNADO PROGRAMA TALLER DE EMPLEO \"RAFELBUNYOL, NOVES OPORTUNITATS II\"\n18/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "33dce8f02cf7e9ea1d48b4212cbc1aed00d4f292e8721b845631fcbf73dff345",
       "details": {
         "codes": [],
@@ -11084,9 +11089,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "REMARASA TCAE. RESOLUCION DEFINIVA ADMISIONES\n1262/2026\nSeleccions de Personal i Provisions de Llocs de treball\nOcupació pública\nREMARASA PUESTOS FIJOS TCAE: RESOLUCIÓN DEFINITIVA DE ADMISIONES Y EXCLUSIONES, E INFORMACIÓN SOBRE LA FECHA DE LA PRUEBA SELECTIVA\n01/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fbdc9dc579fdbd0b51aa23c7e396f8c1cf56729fdb2b784b4508c4c26a8da96c",
       "details": {
         "codes": [],
@@ -11104,9 +11109,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "BASES CONCURSO MIELES CLARAS Y OSCUARAS. FERIA DE LA MIEL 2026\n2995/2026\nActividades o Cursos\nAyudas y Subvenciones\nConcurso de mieles y de platos elaborados con miel\n15/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "470ec6b4574c9388adf0b0fbed41c58ac98f07b8e45fc8537a08291627f1f8dd",
       "details": {
         "codes": [],
@@ -11124,9 +11129,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "BASES CONCURSO PLATOS ELABORADOS CON MIEL. FERIA DE LA MIEL 2026\n2995/2026\nActividades o Cursos\nAyudas y Subvenciones\nConcurso de mieles y de platos elaborados con miel\n15/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "aa61267e0f479f354aaf1f686d957093e14480b937a3c6b196ab7c991214450a",
       "details": {
         "codes": [],
@@ -11144,9 +11149,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "DECRETO 2026-0729 [DECRETO PROPUESTA NOMBRAMIENTO]\n3447/2022\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nDecreto de Alcaldía del proceso de estabilización de Auxiliar de Enfermería. Expediente. 3447/2022.\n21/08/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fcfdafcf503a80f850c3c884610208efa037077b19515bcf5a1550f83124e814",
       "details": {
         "codes": [],
@@ -11164,9 +11169,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "BOP Nº 181 CORRECCION ERRORES TIS\n10419/2026\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nBOP Nº 181 corrección errores proceso selectivo dos plazas Técnico/a Inclusión Social\n21/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "07791ab0bdcd79ac5a2c15799ecb8d7d615d66d0b9cde5b6ab67c48508e8651c",
       "details": {
         "codes": [],
@@ -11184,9 +11189,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "BOP Nº 177 BASES AGENTE PL PROCESO ESTABILIZACION\n7988/2026\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nBOP Nº 177 Bases proceso selectivo un Agente PL mediante proceso de estabilización\n15/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "25329dccaf03d44d81d5fd595d7f815a2e64261a96822fa0ae37db447989ac41",
       "details": {
         "codes": [],
@@ -11204,9 +11209,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "BOP Nº 177 BASES OFICIAL PL PROMOCION INTERNA\n3859/2026\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nBOP Nº 177 Bases proceso selectivo tres plazas de Oficial PL, dos mediante promoción interna ordinaria y una mediante promoción interna interadministrativa\n15/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ab7fb97cacf8085bc4a79d92ad90b204e0a8e5daebb067df1acbe0040f927606",
       "details": {
         "codes": [],
@@ -11224,9 +11229,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "1/4/2026 - 31/12/2026\nBOPV 62 Oferta Pública d'Ocupació 2026 (1 04 2026)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6b6447b890d0ca4c89e1267113dd11f9d8d8d12a3169f6dc92f1c72044cd0aa2",
       "details": {
         "codes": [],
@@ -11239,7 +11244,7 @@
       "children": [
         "https://simatdelavalldigna.sede.dival.es/tablondeanuncios/documento.aspx?id=118412&modo=guardar"
       ],
-      "byte_hash": "76bddfa1af47510e84dc96b032bdf42c97925403633929ab6d6d8026160ed275",
+      "byte_hash": "c6584d5dad379e5395b5ff891a6c96b15f638e6bd1ffc37677725d0ac5d4aeb0",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -11252,9 +11257,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Sagunto Emplea",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "96b42e7a58c9665d33c2ce1b8e3b90faea7fe3c06899b567c481c244a4062ca7",
       "details": {
         "codes": [],
@@ -11344,9 +11349,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Servicio de atención a demandantes de empleo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "9fab51a587745fedc4207621bc92a53fea9952d2f6c60a22f97059da56d9c7c1",
       "details": {
         "codes": [],
@@ -11436,9 +11441,9 @@
       "kind": "page",
       "depth": 2,
       "label": "SOM COMARCA",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "286ebcba2a4300e7ad8399b0ced661483c302cb827a3195f48482b997688e01b",
       "details": {
         "codes": [],
@@ -11528,9 +11533,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Píldoras formativas para la búsqueda de empleo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "faa6deb53eac14b49f8ab5dea4cc9e5aa8a0a0a10fcc13c4fbd64408c8fe23fc",
       "details": {
         "codes": [],
@@ -11620,9 +11625,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Píldoras formativas para la digitalización de la ciudadanía",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "37fe842f783bc4c91fe6cc20707e8d60c59c9b1fbe1fa3d03442ee9b042b6a1f",
       "details": {
         "codes": [],
@@ -11712,9 +11717,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Taller de Empleo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b07448de17be67e00c2bc33c8796e204c17c2764da01fe19c21fcb878d128c1e",
       "details": {
         "codes": [
@@ -11808,9 +11813,9 @@
       "kind": "page",
       "depth": 2,
       "label": "ETRAME",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5160214e485b9b791f47cf859f03d14853b8f41225ab718debeb168a3619271e",
       "details": {
         "codes": [],
@@ -11900,9 +11905,9 @@
       "kind": "page",
       "depth": 2,
       "label": "EMCORP",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "1b8fe4e4d5449a100d2c76a2b81400eb4978917072f6f06d897f536b221403f6",
       "details": {
         "codes": [],
@@ -11992,9 +11997,9 @@
       "kind": "page",
       "depth": 2,
       "label": "EMDONA",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "23dae1fb41cf6358f466565fa6f33698bedeaabbe8ed1299978c1a9138207d25",
       "details": {
         "codes": [],
@@ -12084,9 +12089,9 @@
       "kind": "page",
       "depth": 2,
       "label": "AEDL",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2250879def8db814ef8ddc08726e3892b96b3b15e76ef8a64157f4c7155f4f68",
       "details": {
         "codes": [],
@@ -12176,9 +12181,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Ferias de empleo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fe94a53eb2a89739fce6abf4ec1fb67d7096123df0fc782151dff2064aad491b",
       "details": {
         "codes": [],
@@ -12268,9 +12273,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Programa Valor Público de la Universitat de València",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5cb87e596fea72208007aed61177e1a576578f3c8adae8e8de1dbb26a7237202",
       "details": {
         "codes": [],
@@ -12360,9 +12365,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Formación profesional para el empleo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ed8a07facc8619fbfd5bc84ed4bba29d3952fdc9869248f4576fc36f4607bb16",
       "details": {
         "codes": [],
@@ -12452,9 +12457,9 @@
       "kind": "page",
       "depth": 2,
       "label": "ECOVID",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "1a2c67d48ed32f40862bb5b3db31f1d7bc07e08a154b834dc2b64a19f3148ee2",
       "details": {
         "codes": [],
@@ -12544,9 +12549,9 @@
       "kind": "page",
       "depth": 2,
       "label": "EPLAYAS",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "81ec711445f10d577a2c5859ce9099063c57ab33093f2020e831f36edb53dd45",
       "details": {
         "codes": [],
@@ -12636,9 +12641,9 @@
       "kind": "page",
       "depth": 2,
       "label": "EMPUJU",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6ba5db2e41632c716873e161b7e52c4fbe383ffd91245557a13c442db78b3dfe",
       "details": {
         "codes": [],
@@ -12728,9 +12733,9 @@
       "kind": "page",
       "depth": 2,
       "label": "EXPLUS",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0573b366dc30871ed81aa47ec3ef6f2a05f5478d473136f6cd0646a76706f7d0",
       "details": {
         "codes": [],
@@ -12820,9 +12825,9 @@
       "kind": "page",
       "depth": 2,
       "label": "EMDISC",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "92289fd5113baa84f9cf9c428481e0c03126ddcc09bf78fa739f54170ff79e88",
       "details": {
         "codes": [],
@@ -12912,9 +12917,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Administrativo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "cb61206ae7ca3716eb1f47ab53bee2aba1225a5a9f2fa10dc35f031a871eeb80",
       "details": {
         "codes": [],
@@ -13009,9 +13014,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Arqueólogo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "708ceb4ee31f2b91497d9cea37c464d3707825f0e37b384b149f8fbc4cca56ba",
       "details": {
         "codes": [],
@@ -13106,9 +13111,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Técnico Medio Educador",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "7bd4b6c90a50b477886165565cecf0356f2c47ec8dc86a81beecdd963d225f6f",
       "details": {
         "codes": [],
@@ -13203,9 +13208,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Técnico Iniciativas Comerciales",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "98172456e79d1cb7fa60fc15cf5b8df2e87300a303073b8a11524ef4cbfef636",
       "details": {
         "codes": [],
@@ -13299,9 +13304,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Arquitecto",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6e9fce49d4d136af195c5f34628720c41dc34a208049348b7fe4cb619f67177c",
       "details": {
         "codes": [],
@@ -13397,9 +13402,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Técnico Auxiliar de Archivos y Bibliotecas",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2ab92711eaa1b2fde3e057120da68ef63a86eb9c92d0a91988b6b1606b54134e",
       "details": {
         "codes": [],
@@ -13493,9 +13498,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Ingeniero Técnico Obras Públicas",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "44ec288415f861cf770ccddb739c637edec0ddde6cefb201d06f4c8c73abd4ae",
       "details": {
         "codes": [],
@@ -13588,9 +13593,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Técnico Auxiliar Informática",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "9a7e67974ac42b2069306858c7f657711f1ce0f89994a4da3bbf57a7f9f57f5f",
       "details": {
         "codes": [],
@@ -13683,9 +13688,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Educador Social",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "2bc7b6a1f6a9645cd1f82c7f4c09d49a56da1ae70da1668e16867d2c30af94e7",
       "details": {
         "codes": [],
@@ -13782,9 +13787,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Educador C1",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5e6ea2a3581322091d25e3e71c8452768b2e4007a6b0a2f55f7b4d1f5d309f12",
       "details": {
         "codes": [],
@@ -13879,9 +13884,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Trabajador Social",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "0290fa1db63be929d388442a11dd0dc1a088795b6c7437ee50002c96be8dd2dc",
       "details": {
         "codes": [],
@@ -13976,9 +13981,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Auxiliar Turismo C2",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5d6b4bf214540a92f800236be2ac456e5f13f44b7727582e6cf18298711e77fb",
       "details": {
         "codes": [],
@@ -14073,9 +14078,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Auxiliar Administrativo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ce1838fe510a018a6162b6e7aa05c099118ae1eedfd6e3d872cb4b50fa1745e3",
       "details": {
         "codes": [],
@@ -14170,9 +14175,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Conserje de Mantenimiento",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "7aa995045c5e2f3453aa3da33e0343f9ba9d71782efa1bb7aad635af44cf68e6",
       "details": {
         "codes": [],
@@ -14265,9 +14270,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Subalterno",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "24727afe91d891db90033fdae89f4df1b28bc3c710731b68cc4bd2c3734ed03c",
       "details": {
         "codes": [],
@@ -14365,9 +14370,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Operario de Cementerio",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "41892d6fdaae21c2739c7569a3e0e17b0ffc3e870c86a4a9f807d1ec5d322892",
       "details": {
         "codes": [],
@@ -14462,9 +14467,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Sexólogo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "da6192484df29e7b691ae065893124c1e8a8070887980a9e067f979c890b3789",
       "details": {
         "codes": [],
@@ -14558,9 +14563,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Auxiliar Proyectos Acción Social C1",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "9aaaf68de8132fa31a92ee48b2fe890658a135af2089ee17b697084e6fa645ed",
       "details": {
         "codes": [],
@@ -14654,9 +14659,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Educador C1",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8888f7fe3219f7d9e2ae5f8089bd6c5b3bbf2002d4245f9708d93b63410167bb",
       "details": {
         "codes": [],
@@ -14751,9 +14756,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Monitor/a de Actividades Acuáticas",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "217803f2a1d8147fca43b56d6311b3386d371decb231eb5a200fe038bcad748d",
       "details": {
         "codes": [],
@@ -14849,9 +14854,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Técnico Auxiliar de Archivos",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "daf22122678c68f6845e316c3499312e8341242cfbe0bf83a6326d688bd32c4d",
       "details": {
         "codes": [],
@@ -14945,9 +14950,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Profesores Conservatorio",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "183f1a17e534233a1d79f19d97b9299569dd95b3199282025e70647c5f1dc60a",
       "details": {
         "codes": [],
@@ -15042,9 +15047,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Agentes de Desarrollo Local",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ecb13600eb91288ddabc328bdd5e4b9636d58625eac61dc2ec431beb605e849b",
       "details": {
         "codes": [],
@@ -15138,9 +15143,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Trabajador Social",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "85a491bf3ee6b5f13da2b0f409b92fbd47ce8539cb43947011f0b946fcc952e5",
       "details": {
         "codes": [],
@@ -15237,9 +15242,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Monitores UP C1",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f722ffe3a072670a8f574062a91288c536f0f9b21a523937b94e544ed7af100d",
       "details": {
         "codes": [],
@@ -15333,9 +15338,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Técnico Auxiliar Proyectos Comunitarios",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "75102f2508ee9747ef09660fce48746f45752d647cb4f1dc56d179ec9b543154",
       "details": {
         "codes": [],
@@ -15429,9 +15434,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Monitores de Actividades Físicas",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "f74b20048631751dc62b6d622751a8da018a93878e3399f3e1a3e85f78f3fddb",
       "details": {
         "codes": [],
@@ -15527,9 +15532,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Subalternos",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "bcc6039c45bc52c9ab576e36381f656efb9ee1fb695164c7cac1b15e2dafcf84",
       "details": {
         "codes": [],
@@ -15624,9 +15629,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Auxiliar Administrativo",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a477a0c2639a38b02bd99f8abef41bd19873c2fc04ed6e8c2c89c4b2ae9ab7a4",
       "details": {
         "codes": [],
@@ -15721,9 +15726,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Monitor/a UP",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "d3701c1a5847d3269548b1a36e2b5ce4505218535c9dcfab0ad997dc49592768",
       "details": {
         "codes": [],
@@ -15816,9 +15821,9 @@
       "kind": "page",
       "depth": 2,
       "label": "Operario de Mantenimiento",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "ce179a68c6a6b257cc3aaaad10e3e730e06d7b5d63fe5535e496653380de0732",
       "details": {
         "codes": [],
@@ -15911,9 +15916,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCI BOP 2026_11345\n242/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nNOMENAMENT TÈCNIC/A DEPARTAMENT DE JOVENTUT\n21/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "84248efff20942682bc8513f6cbf8bba72fa2f3942da2c71cdd743917c7894c0",
       "details": {
         "codes": [],
@@ -15931,9 +15936,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "DECRETO 2026-0457 [Resolució de la Presidència Tècnica de Joventut.]\n242/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nNOMENAMENT TÈCNIC/A DEPARTAMENT DE JOVENTUT\n22/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "475f91aba93a81fc978e6f97c5d4b358ae3326a02477be3282b3db5598588aff",
       "details": {
         "codes": [],
@@ -15951,9 +15956,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "RA 9037 de 18/09/2026 Constitución Bolsa de Trabajo.",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5ae0f174fbb3d7cbb4a76d8a8d3ed6b424bf1af6870ef4afee2b5de5e9a007df",
       "details": {
         "codes": [],
@@ -15977,9 +15982,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "DECRETO 2026-0489 [Resolució de la Presidència_ Psicologa EEIIA]\n243/2026\nSeleccions de Personal i Provisions de Llocs de treball\nEmpleo Público\nNOMENAMENT PSICÒLEG/A DEPARTAMENT EEIIA\n22/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "66a1c51c558c09490fc77a710835aabb13558ebfb923dc420e4c8e22894c33ff",
       "details": {
         "codes": [],
@@ -15997,9 +16002,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "Plantilla respuestas tipo test - conserje telefonista 21-9-26\n2871/2026\nSelecciones de Personal y Provisiones de Puestos\nAnuncios\nPLANTILLA RESPUESTAS TEST PROCESO SELECTIVO CONSERJE-TELEFONISTA\n21/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "5725bf32bfbfb7e44aca626c864778959f5084aedb236a61bed5abbe3d771718",
       "details": {
         "codes": [],
@@ -16017,9 +16022,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCIO. Resultados PRIMER EJERCICIO de la FASE DE OPOSICIÓN y convocatoria SEGUNDO EJERCICIO. Proceso selectivo TMAE, Turno libre.\n5149/2026\nSelecciones de Personal y Provisiones de Puestos\nAnuncios\nResultado PRIMER EJERCICIO y convocatoria SEGUNDO EJERCICIO. Proceso selectivo TMAE, Turno libre.\n21/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fbc7cc7cbb32d0842cb59b3490b1deeef556be42e4beb78c73968314795a2721",
       "details": {
         "codes": [],
@@ -16037,9 +16042,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "RESOLUCIO 2026-0333 [Resolución creación bolsa Maestro/a Educación Infantil]\n132/2026\nSeleccions de Personal i Provisions de Llocs de treball\nOcupació pública\nBolsa de Empleo Maestro/a Educación Infantil\n12/05/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "3323d9f5b458e5baf1afd28997036c11e6ec5f751ac7a76bc1213bd49d574cb4",
       "details": {
         "codes": [],
@@ -16057,9 +16062,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "REMARASA TCAE: INFORMACION PRUEBA SELECTIVA\n1262/2026\nSeleccions de Personal i Provisions de Llocs de treball\nOcupació pública\nREMARASA PUESTOS FIJOS TCAE: RESOLUCIÓN DEFINITIVA DE ADMISIONES Y EXCLUSIONES, E INFORMACIÓN SOBRE LA FECHA DE LA PRUEBA SELECTIVA\n01/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "db37d6aeee8a8d4b76289c919ff153a92dc4df5c607a8a741282fcf0de8a9c88",
       "details": {
         "codes": [],
@@ -16077,9 +16082,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "22/09/2026 - 15/10/2026\nListado candidaturas preseleccionadas Labora TE - Jardinería 2 certificado II listado",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "6f7ea14b69809b173a38b86b88b5a562bfc87eede6a8ffc4dafa852db601cb40",
       "details": {
         "codes": [],
@@ -16093,7 +16098,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=128240&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=128241&modo=guardar"
       ],
-      "byte_hash": "d5ca5a95e65abbb5367b07ca9b64ed956c9f850942e48e65a310929a44b9fa38",
+      "byte_hash": "2abf03bcea6e9fadcb2e316ce2cdffc86436a82cdd6c98562cd43d47d3c78e6e",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -16106,9 +16111,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "22/09/2026 - 22/10/2026\nEDICTO LICENCIA AMBIENTAL APARCAMIENTO Y TALLER DE MANTENIMIENTO AUTOBUSES C/ MARINA BAIXA, 4.",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "a9e5172c862e0a72549cdb8645887b347b80ff82b5058a97672e29b3cef1633d",
       "details": {
         "codes": [],
@@ -16122,7 +16127,7 @@
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=128233&modo=guardar",
         "https://manises.sedipualba.es/tablondeanuncios/documento.aspx?id=128234&modo=guardar"
       ],
-      "byte_hash": "3657d2af186d2612d940590a97a939697b170d199592f3cb38efd9805e624fb9",
+      "byte_hash": "4e11492b8f2ba2abace6dce91069b440fb91b0cb17b7ed939d3054f546ae7a33",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -16135,9 +16140,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "EDICTO LISTA PROVISIONAL 1º EJER ADMINIS FECHA 2º EXAMEN-ANONIM\n396/2026\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nEdicto resultado provisional primer ejercicio tipo test y fecha segundo ejercicio proceso selectivo dos plazas de administrativo/a por promoción interna\n22/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "d184961a3b12a77979b8199ce39be0837f2831afabdeb383439e25594eb91b7d",
       "details": {
         "codes": [],
@@ -16155,9 +16160,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "\r\n                        \r\n                    ",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "02e60af0b928fa13312536451b32be3e69109c7cc4f9ad6b8699f36fa3f7e061",
       "details": {
         "codes": [],
@@ -16185,9 +16190,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "\r\n                        \r\n                    ",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4d544d1379d5f02741d70b2165bb2149159dd03819348700ac9d4fb234bedd4f",
       "details": {
         "codes": [],
@@ -16213,9 +16218,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "\r\n                        \r\n                    ",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "1891e1bdb939ea27aee55abbde741daa137fb28f904d130ecb656d4afd1dc18a",
       "details": {
         "codes": [],
@@ -16241,9 +16246,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "\r\n                        \r\n                    ",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b8f5928eb1e027beae5ea5a390b455a65067de7a0a73595502952daedf3ac466",
       "details": {
         "codes": [],
@@ -16269,9 +16274,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ANUNCIO requerimiento méritos a los aspirantes\n3188/2026\nSelecciones de Personal y Provisiones de Puestos\nAnuncios\nANUNCIO PROCESO SELECTIVO 2 PLAZAS TAG A1 PROMOCIÓN INTERNA SOBRE REQUERIMIENTO MÉRITOS\n22/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "bcadafd35fa3e6cd51b63ac69766d7d44c13ea8b8b880da4964a7685b6a607fd",
       "details": {
         "codes": [],
@@ -16289,9 +16294,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "Plantilla respuestas tipo test - conserje telefonista con plazo alegaciones preguntas\n2871/2026\nSelecciones de Personal y Provisiones de Puestos\nAnuncios\nanuncio plantilla de respuestas prueba tipo test conserje/notificador con plazo alegaciones preguntas\n22/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "265e751d88e9a446ca03ddb233d0aed73c4624afdccc4e9c5df9ce158384fe29",
       "details": {
         "codes": [],
@@ -16309,9 +16314,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "PLANTILLA TIPO TEST ADMINISTRATIVO PROMO INTERNA\n396/2026\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nPlantilla examen primer ejercicio proceso selectivo dos plazas administrativo/a por promoción interna\n22/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4d4ba0f7430a84fdea5e6d02c6a1ee0bdc08e9e7220f189355cd59c38923ee14",
       "details": {
         "codes": [],
@@ -16329,9 +16334,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "Fichas acciones formativas (actualizado el 22/09/2026)",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "83d29b72d54f30681a869c7e3e2288f467ddaa190f820a14a3a07966c53642b3",
       "details": {
         "codes": [],
@@ -16355,9 +16360,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "Anuncio 4.- Resultado segundo ejercicio de la fase Oposición",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "8f1b07577f2e1a4fd08eefdcbe288d10d2c22b0ecb723e5bcb3a1cb1d19ed498",
       "details": {
         "codes": [],
@@ -16381,9 +16386,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "Examen_tipo_test_plantilla_respuestas_proceso Agentes Policía Local\n3546/2024\nSelecciones de Personal y Provisiones de Puestos\nOcupació pública\nPublicación examen tipo test-plantilla respuestas proceso selectivo Agentes Policía Local\n22/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fe96bc7e9ec3e0c1839781dceaf705ebf7328fff63f27793a2522e069696a491",
       "details": {
         "codes": [],
@@ -16401,9 +16406,9 @@
       "kind": "notice",
       "depth": 1,
       "label": "22/09/2026 - 20/10/2026\nEdicto información pública Fra Nui España, SL",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "fab85ba08de66e4e3bc87804fbc20828621f1e8ad8550baaf43760095b0d91fa",
       "details": {
         "codes": [],
@@ -16417,7 +16422,7 @@
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=128303&modo=guardar",
         "https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=128304&modo=guardar"
       ],
-      "byte_hash": "e1a2b8b441a1221d9f59e1282abcff74f8fa493d215a748a7270f277a1bacc07",
+      "byte_hash": "7f3df0838555b514f2488b7e8d4cd9d1d8f2b5de8c1477dacd1f33856acee2d8",
       "extraction_version": 2,
       "http_cache": {
         "etag": null,
@@ -16430,9 +16435,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "\r\n                        \r\n                    ",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "372c92dc1a4b4389cffbf77b8fa0a8af4de966af8c3067a3907b9d2796f77619",
       "details": {
         "codes": [],
@@ -16458,9 +16463,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "\r\n                        \r\n                    ",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4a14d0e6137d8313e367fc007dfa92bff36b25dbb074cb429854d8b9ea74ae15",
       "details": {
         "codes": [],
@@ -16486,9 +16491,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "Anuncio 4.- Resultados del segundo ejercicio de la fase de oposición.",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "e15a5f71da650ccd175a2af7b8b63d8ce4b8fdbf6846843f62863b7fef2ffa54",
       "details": {
         "codes": [],
@@ -16514,9 +16519,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "ACTA TRIBUNAL CALIFICADOR CONCURSO OPOSICIÓN 2 AUXILIAR DE TURISMOS\n3452/2022\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nActa de constitución del tribunal para la fase oposición del 2 de septiembre de 2026 del proceso de dos plazas de Auxiliar de Turismo\n23/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b33858e2d5ebb09abbef0c6806e1d9156b2e426736e551381c8bdd4348f957cc",
       "details": {
         "codes": [],
@@ -16534,9 +16539,9 @@
       "kind": "listing_notice",
       "depth": 1,
       "label": "BOP Nº 183 CORRECCION ERRORES AGENTE IGUALDAD\n10417/2026\nSelecciones de Personal y Provisiones de Puestos\nEmpleo Público\nBOP Nº 183 Corrección errores proceso selectivo Técnico/a Agente de Igualdad\n23/09/2026",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "dda8ddc212d85c4a923e65f0bd62c8242ee1ca775a1f07178c7465035d91e39d",
       "details": {
         "codes": [],
@@ -16554,9 +16559,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "Plantilla de corrección del 2º ejercicio de la fase de oposición.",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "59c211de1b942a56ed2252d1e2f8fa2df0029bc29e246321c0e44b4afe58a48d",
       "details": {
         "codes": [],
@@ -16580,9 +16585,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "Plantilla resultados segundo ejercicio de la fase de oposición.",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "4e54f4adad4ef227748161fbaae911978a56762685f0f64c824ca3779970a9e5",
       "details": {
         "codes": [],
@@ -16606,9 +16611,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "Anuncio 5.- Resultado fase oposición, resultado fase concurso, Puntuación final procedimiento selectivo y propuesta de formación de bolsa para el nombramiento .",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "b919bdb6941c1ac9291bdcdfeaf67aa9d93f9c57f8c9bdc20ba3474e5e0a77bb",
       "details": {
         "codes": [],
@@ -16632,9 +16637,9 @@
       "kind": "pdf",
       "depth": 2,
       "label": "Anuncio 5.- Resultado fase oposición, resultado fase concurso, Puntuación final procedimiento selectivo y propuesta de formación de bolsa para el nombramiento .",
-      "last_attempt": "2026-09-23T20:28:07.801367+00:00",
+      "last_attempt": "2026-09-24T04:28:13.649444+00:00",
       "status": "verificada",
-      "last_success": "2026-09-23T20:28:07.801367+00:00",
+      "last_success": "2026-09-24T04:28:13.649444+00:00",
       "hash": "93a3fc1e42dce567da787bec6aa9752144edee6bd8824c690c750a97cf54c4f3",
       "details": {
         "codes": [],
@@ -16657,5 +16662,5 @@
   },
   "pending": {},
   "gaps_reported": [],
-  "last_execution": "2026-09-23T20:28:07.801367+00:00"
+  "last_execution": "2026-09-24T04:28:13.649444+00:00"
 }
