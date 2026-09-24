@@ -1,14 +1,14 @@
 {
-  "finished": "2026-09-24T07:28:52.355054+00:00",
-  "checked": 289,
+  "finished": "2026-09-24T08:30:19.209212+00:00",
+  "checked": 290,
   "actionable_events": 0,
-  "suppressed_events": 117,
+  "suppressed_events": 3,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 5,
+      "resources": 6,
       "failures": 0,
       "unvalidated_sources": 0
     },
