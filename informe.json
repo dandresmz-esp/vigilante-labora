@@ -1,8 +1,8 @@
 {
-  "finished": "2026-09-25T11:28:10.410705+00:00",
-  "checked": 294,
+  "finished": "2026-09-25T12:33:43.611245+00:00",
+  "checked": 298,
   "actionable_events": 0,
-  "suppressed_events": 2,
+  "suppressed_events": 122,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -62,7 +62,7 @@
     },
     "Manises": {
       "status": "lectura_verificada",
-      "resources": 63,
+      "resources": 66,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -98,7 +98,7 @@
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
-      "resources": 13,
+      "resources": 14,
       "failures": 0,
       "unvalidated_sources": 0
     },
