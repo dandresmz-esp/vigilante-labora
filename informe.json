@@ -1,8 +1,8 @@
 {
-  "finished": "2026-09-25T08:29:56.896173+00:00",
-  "checked": 292,
+  "finished": "2026-09-25T09:29:25.251616+00:00",
+  "checked": 293,
   "actionable_events": 0,
-  "suppressed_events": 2,
+  "suppressed_events": 3,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -14,7 +14,7 @@
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 9,
+      "resources": 10,
       "failures": 0,
       "unvalidated_sources": 0
     },
