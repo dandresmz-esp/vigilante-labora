@@ -1,8 +1,8 @@
 {
-  "finished": "2026-09-28T06:37:15.634685+00:00",
-  "checked": 299,
+  "finished": "2026-09-28T07:31:33.111678+00:00",
+  "checked": 300,
   "actionable_events": 0,
-  "suppressed_events": 116,
+  "suppressed_events": 2,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -44,7 +44,7 @@
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 8,
+      "resources": 9,
       "failures": 0,
       "unvalidated_sources": 0
     },
