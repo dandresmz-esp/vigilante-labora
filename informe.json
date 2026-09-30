@@ -1,8 +1,8 @@
 {
-  "finished": "2026-09-30T10:31:16.846486+00:00",
-  "checked": 312,
+  "finished": "2026-09-30T11:28:41.827827+00:00",
+  "checked": 315,
   "actionable_events": 0,
-  "suppressed_events": 1,
+  "suppressed_events": 7,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -62,7 +62,7 @@
     },
     "Manises": {
       "status": "lectura_verificada",
-      "resources": 66,
+      "resources": 68,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -104,7 +104,7 @@
     },
     "Sagunt": {
       "status": "lectura_verificada",
-      "resources": 129,
+      "resources": 130,
       "failures": 0,
       "unvalidated_sources": 0
     },
