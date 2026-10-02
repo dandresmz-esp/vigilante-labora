@@ -75,7 +75,7 @@ jobs:
           fi
       - name: Guardar estado incluso ante fallos
         id: persistir
-        if: always()
+        if: always() && inputs.prueba_correo != true
         shell: bash
         run: |
           if [ -f runtime/state.json ]; then
