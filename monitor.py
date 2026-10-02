@@ -42,7 +42,7 @@ ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "sil
 # Observed document storage redirect used by IDEA's own PDF links.
 ALLOWED_HOSTS.add("0b6e09b9-fe3a-4f21-b15a-c9ff5db0fc9a.filesusr.com")
 ALLOWED_HOSTS.update({"simatdelavalldigna.sede.dival.es","mancomunitatriberabaixa.sedelectronica.es","sede.algemesi.es","ontinyent.sedipualba.es","lafontdelafiguera.sedelectronica.es","betera.sedelectronica.es","benaguasil.sede.dival.es","alfafar.sedelectronica.es","sedavi.sede.dival.es","alcasser.sedelectronica.es","manises.sedipualba.es","www.mislata.es","rafelbunyol.sedelectronica.es","massamagrell.sedelectronica.es","ayora.sedelectronica.es"})
-ALLOWED_HOSTS.update({"sede.valencia.es","oficinavirtual.ribarroja.es"})
+ALLOWED_HOSTS.update({"sede.valencia.es","oficinavirtual.ribarroja.es","sede.lliria.es"})
 MONTHS = {"enero":1,"gener":1,"febrero":2,"febrer":2,"marzo":3,"marc":3,"abril":4,"mayo":5,"maig":5,"junio":6,"juny":6,"julio":7,"juliol":7,"agosto":8,"agost":8,"septiembre":9,"setembre":9,"octubre":10,"noviembre":11,"novembre":11,"diciembre":12,"desembre":12}
 
 # LABORA still links these 2025 lists, but both official document URLs return 404.
@@ -397,6 +397,11 @@ def transition(old, result, now):
     if typ:
         event = {"type":typ,"entity":r["entity"],"url":r["url"],"kind":result.get("kind",r.get("kind","")),"label":r.get("label","").strip(),"excerpt":normalize(result.get("text", ""))[:1200],"details":result["details"],"previous_details":(old or {}).get("details")}
         event.update(classify_event(event))
+    if urlsplit(r["url"]).hostname == "sede.lliria.es":
+        current=result["details"].get("board_evidence",{}).get("relevant",[])
+        previous={(item["id"],item["label"]) for item in (old or {}).get("details",{}).get("board_evidence",{}).get("relevant",[])}
+        added=[item for item in current if (item["id"],item["label"]) not in previous]
+        event={"type":"contenido_modificado" if old else "fuente_nueva","category":"revisar","entity":r["entity"],"url":r["url"],"kind":"listing_notice","label":"; ".join(item["label"] for item in added)[:350],"message":"Nueva publicación sobre selección de personal de talleres en el tablón oficial de Llíria. Comprueba el anuncio y su plazo."} if added else None
     return record,event
 
 def event_id(event):

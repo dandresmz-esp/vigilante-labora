@@ -101,6 +101,7 @@
     {"entity":"Simat de la Valldigna","url":"https://simatdelavalldigna.sede.dival.es/tablondeanuncios/","kind":"board"}
     ,{"entity":"València","url":"https://sede.valencia.es/sede/edictos/index/materia/AE","kind":"board"}
     ,{"entity":"Riba-roja de Túria","url":"https://oficinavirtual.ribarroja.es/PortalCiudadania/tablonEdictos.do?formAction=btTablonEdictos","kind":"board"}
+    ,{"entity":"Llíria","url":"https://sede.lliria.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS_TABLON","kind":"board"}
   ],
   "coverage_gaps": []
 }

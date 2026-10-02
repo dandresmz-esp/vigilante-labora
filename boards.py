@@ -1,10 +1,34 @@
 """Read-only navigation of public municipal boards, including pagination."""
 import re
 import html
+import json
 from html.parser import HTMLParser
 from urllib.parse import urlencode,urljoin
 from urllib.request import build_opener,HTTPCookieProcessor,Request
 from http.cookiejar import CookieJar
+
+def lliria_listing(source, today):
+ match=re.search(r'var dataset_TABLON\s*=\s*(\[.*?\]);',source,re.S)
+ if not match:raise ValueError('Llíria: no se encontró el listado oficial de anuncios')
+ from datetime import date
+ rows=json.loads(match[1])
+ if not isinstance(rows,list) or not rows:raise ValueError('Llíria: listado vacío o ilegible')
+ from monitor import fold
+ parts=[];relevant=[]
+ for row in rows:
+  date_parts=row.get('pubDateIni') or {}
+  published=date(int(date_parts['year']),int(date_parts['month']),int(date_parts['day']))
+  title=' '.join(row['descriptionProc'].split())
+  identity=str(row['dboid'])
+  label=f'{published.isoformat()} {title}'
+  parts.append(identity+' '+label)
+  hay=fold(title)
+  program=any(w in hay for w in ('taller de empleo','taller d ocupacio','escola taller','escuela taller','talento joven','talent jove','fotav','fotae','festa'))
+  staff=any(w in hay for w in ('docent','formador','monitor','director','personal','auxiliar','orientador','coordinador'))
+  opportunity=any(w in hay for w in ('convoc','selecci','vacant','bolsa','borsa','sustituc','substituc','bases','plazo','termini'))
+  if (today-published).days<=30 and program and staff and opportunity:
+   relevant.append({'id':identity,'label':label})
+ return '\n'.join(parts),relevant,len(rows)
 
 class Form(HTMLParser):
  def __init__(self):super().__init__();self.fields={};self.select=None;self.first=True
@@ -26,11 +50,14 @@ def collect(resource):
  opener=build_opener(HTTPCookieProcessor(CookieJar()))
  def get(url,fields=None):
   req=Request(url,data=urlencode(fields).encode() if fields is not None else None,headers={'User-Agent':'VigilanteProgramasEmpleo/0.1'})
-  with opener.open(req,timeout=25) as r:
+  with opener.open(req,timeout=120 if 'sede.lliria.es' in url else 25) as r:
    b=r.read(4000000);charset=r.headers.get_content_charset() or 'utf-8'
   return b.decode(charset,errors='replace')
  url=resource['url'];first=get(url);pages=[first];children=[]
  host=__import__('urllib.parse',fromlist=['urlsplit']).urlsplit(url).hostname or ''
+ if host=='sede.lliria.es':
+  listed,relevant,count=lliria_listing(first,datetime.now(ZoneInfo('Europe/Madrid')).date())
+  return listed,[],{'pages':1,'announcements':count,'relevant':relevant,'validation':'embedded_official_listing_read'}
  if host=='sede.valencia.es':
   matches=re.findall(r'href="([^"]*/sede/edictos/detalle/[^"]+)"[^>]*>(.*?)</a>',first,re.S|re.I)
   if not matches:raise ValueError('València: tablón de empleo vacío o ilegible')

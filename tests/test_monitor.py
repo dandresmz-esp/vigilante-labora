@@ -122,6 +122,14 @@ class Logic(unittest.TestCase):
  def test_unrelated_sagunt_pdf_is_not_discovered(self):
   p=m.Page();p.feed('<a href="https://aytosagunto.es/media/bop-lista-acuaticos.pdf">Lista provisional de acuáticos</a>')
   self.assertEqual(m.candidates(p,'https://aytosagunto.es/es/ayuntamiento/administracion/empleo/','Sagunt',0),[])
+ def test_lliria_board_alerts_only_for_new_relevant_row(self):
+  r={'entity':'Llíria','url':'https://sede.lliria.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS_TABLON','kind':'board'}
+  row={'id':'17','label':'2026-10-02 Convocatoria selección personal docente Taller de Empleo'}
+  result={'resource':r,'ok':True,'hash':'new','details':{'board_evidence':{'relevant':[row]}},'kind':'board','text':row['label'],'children':[]}
+  old=dict(r,status='verificada',hash='old',details={'board_evidence':{'relevant':[]}})
+  self.assertEqual(m.transition(old,result,'now')[1]['category'],'revisar')
+  old['details']['board_evidence']['relevant']=[row]
+  self.assertIsNone(m.transition(old,result,'now')[1])
  def test_relevant_teacher_vacancy_is_actionable(self):
   event={'type':'fuente_nueva','kind':'pdf','entity':'Alzira','url':'https://example.test/2.pdf','label':'Convocatoria docente','excerpt':'Selección de personal docente del programa Escuela Taller FESTA. Plazo del 21/09/2026 al 22/09/2026','details':m.details('Plazo del 21/09/2026 al 22/09/2026')}
   classified=m.classify_event(event,today=date(2026,9,21))

@@ -1,7 +1,16 @@
 import unittest
+from datetime import date
 from unittest.mock import patch
 from email.message import Message
 import boards
+
+class LliriaListing(unittest.TestCase):
+ def test_reads_embedded_official_rows_and_relevant_selection(self):
+  page='var dataset_TABLON = [{"dboid":"17","descriptionProc":"Convocatoria seleccion personal docente Taller de Empleo","pubDateIni":{"year":2026,"month":10,"day":2}},{"dboid":"18","descriptionProc":"Subvencion de deportes","pubDateIni":{"year":2026,"month":10,"day":2}}];'
+  text,relevant,count=boards.lliria_listing(page,date(2026,10,2))
+  self.assertEqual(count,2)
+  self.assertIn('Subvencion de deportes',text)
+  self.assertEqual([item['id'] for item in relevant],['17'])
 
 class Response:
  def __init__(self,text):self.data=text.encode();self.headers=Message()
