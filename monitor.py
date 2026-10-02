@@ -37,7 +37,7 @@ PDF_RENDER_LOCK = threading.Lock()
 HOST_LOCK = threading.Lock()
 HOST_FAILURES = {}
 HOST_NEXT = {}
-EXTRACTION_VERSION = 3
+EXTRACTION_VERSION = 4
 ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "silla.e-oer.com", "silla.sede.dival.es", "sedeelectronica.alzira.es", "aytosagunto.es", "www.aytosagunto.es", "sagunto.portalemp.com", "picanya.portalemp.com", "picanya.org", "www.picanya.org"}
 # Observed document storage redirect used by IDEA's own PDF links.
 ALLOWED_HOSTS.add("0b6e09b9-fe3a-4f21-b15a-c9ff5db0fc9a.filesusr.com")
@@ -509,7 +509,8 @@ def mail_subject(events):
     return "Vigilante de talleres"
 
 def mail_body(events, report):
-    lines = ["VIGILANTE DE TALLERES — AVISO QUE REQUIERE ATENCIÓN", "Comprobación: " + report["finished"], ""]
+    from catalog import REGISTER_URL
+    lines = ["VIGILANTE DE TALLERES — AVISO QUE REQUIERE ATENCIÓN", "Comprobación: " + report["finished"], "Registro ordenado: " + REGISTER_URL, ""]
     for event in events:
         heading={"accion":"ACCIÓN HOY","revisar":"REVISAR HOY","seguimiento":"PROYECTO APROBADO — SEGUIR SELECCIÓN","fallo":"FALLO DE VIGILANCIA"}.get(event.get("category"),"REVISAR")
         lines += [heading + " — " + event.get("entity", ""),event.get("label", "") or "Documento o anuncio oficial",event.get("message", ""),"Enlace oficial: " + event.get("url", "")]
@@ -552,6 +553,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     from promoters import approved_promoters, fold as promoter_fold, verified_board
+    from catalog import approved_projects, opportunity, render_register
     # Remove these obsolete failures from old inventories and the outbox.
     for url in RETIRED_BROKEN_DOCUMENTS:
         state["resources"].pop(url, None)
@@ -575,6 +577,8 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         # An explicit baseline starts clean and never carries historical alerts.
         state = {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     discoveries = state.setdefault("promoter_discovery", {})
+    project_catalog = state.setdefault("project_catalog", {})
+    opportunities = state.setdefault("opportunities", {})
     configured_entities = {promoter_fold(source["entity"]) for source in config["sources"]}
     for key,entry in list(discoveries.items()):
         if promoter_fold(entry.get("name","")) in configured_entities:
@@ -621,6 +625,12 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
                 break
             for result in pool.map(inspect_resource,batch):
                 u = canonical(result["resource"]["url"])
+                if result["ok"] and result["resource"]["entity"] == "LABORA" and result["kind"] == "pdf" and result.get("text"):
+                    current_year = datetime.now(ZoneInfo("Europe/Madrid")).year
+                    for item in approved_projects(result["text"],u,{current_year,current_year+1}):
+                        old_item = project_catalog.get(item["id"])
+                        if not old_item or len(item["specialties"]) > len(old_item.get("specialties",[])) or (old_item["status"].endswith("verificar") and not item["status"].endswith("verificar")):
+                            project_catalog[item["id"]] = item
                 if result["ok"] and result["resource"]["entity"] == "LABORA" and result["kind"] == "pdf" and result.get("text"):
                     probe = {"type":"fuente_nueva","kind":"pdf","entity":"LABORA","url":u,"label":result["resource"].get("label",""),"excerpt":normalize(result["text"])[:1200],"details":result["details"]}
                     if classify_event(probe).get("category") == "seguimiento":
@@ -691,6 +701,9 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         events.append({"type":"limite_alcanzado","category":"fallo","message":"Se alcanzó el límite de recursos; cobertura incompleta. No es una ejecución íntegra."})
     for event in events:
         event['detected_at']=now
+        entry = opportunity(event)
+        if entry and entry["url"]:
+            opportunities[entry["url"]] = entry
         if event.get('url') and event.get('type') != 'cobertura_incompleta':
             for key,older in list(state['pending'].items()):
                 if older.get('url')==event['url']:state['pending'].pop(key)
@@ -704,6 +717,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     report = {"finished":now,"checked":len(results),"actionable_events":len(events),"suppressed_events":len(suppressed),"pending_events":len(state["pending"]),"overflow":overflow,"coverage":coverage,"delivery":"no_solicitada","external_watchdog":"no_configurado"}
     preview = mail_body(list(state["pending"].values()),report)
     (runtime/"aviso_preparado.txt").write_text(preview,encoding="utf-8")
+    (runtime/"registro.md").write_text(render_register(project_catalog,opportunities,now),encoding="utf-8")
     write_json(state_path,state) # persist outbox before trying SMTP
     failure = any(not r["ok"] for r in results) or overflow or bool(dynamic_gaps)
     if deliver:

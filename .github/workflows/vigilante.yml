@@ -77,6 +77,9 @@ jobs:
             if [ -f runtime/informe.json ]; then
               cp runtime/informe.json /tmp/vigilante-state/informe.json
             fi
+            if [ -f runtime/registro.md ]; then
+              cp runtime/registro.md /tmp/vigilante-state/registro.md
+            fi
             cd /tmp/vigilante-state
             git init -b estado-vigilante
             git config user.name 'vigilante-bot'
