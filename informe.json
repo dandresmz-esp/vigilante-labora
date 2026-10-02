@@ -1,9 +1,9 @@
 {
-  "finished": "2026-10-02T11:25:40.471049+00:00",
+  "finished": "2026-10-02T11:29:36.013392+00:00",
   "checked": 354,
   "actionable_events": 0,
-  "suppressed_events": 2,
-  "pending_events": 9,
+  "suppressed_events": 0,
+  "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alcàsser": {
@@ -127,6 +127,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "no_solicitada",
-  "external_watchdog": "no_configurado"
+  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "external_watchdog": "pendiente_de_persistir_estado"
 }
