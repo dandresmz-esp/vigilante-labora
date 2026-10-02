@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-02T12:56:50.891609+00:00",
-  "checked": 395,
+  "finished": "2026-10-02T13:14:17.910481+00:00",
+  "checked": 397,
   "actionable_events": 0,
-  "suppressed_events": 93,
+  "suppressed_events": 2,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -87,6 +87,12 @@
     "La Font de la Figuera": {
       "status": "lectura_verificada",
       "resources": 4,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Llíria": {
+      "status": "lectura_verificada",
+      "resources": 1,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -182,15 +188,9 @@
     },
     "Xativa": {
       "status": "lectura_verificada",
-      "resources": 3,
+      "resources": 4,
       "failures": 0,
       "unvalidated_sources": 0
-    },
-    "lliria": {
-      "status": "parcial",
-      "resources": 0,
-      "failures": 0,
-      "unvalidated_sources": 1
     }
   },
   "delivery": "no_solicitada",
