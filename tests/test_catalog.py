@@ -30,6 +30,7 @@ CARLET
         row=opportunity(event)
         self.assertEqual(row["project_id"],"Sin vinculación confirmada")
         self.assertEqual(row["deadline"],"Plazo por confirmar en el anuncio")
+        self.assertEqual(row["deadline_end"],"")
 
     def test_register_cites_official_source_and_keeps_sections_separate(self):
         project=approved_projects(self.sample,"https://labora.gva.es/list.pdf",{2026})[0]

@@ -36,8 +36,14 @@ def approved_projects(text, source_url, years):
         else:
             locality = re.search(r"LOCALIDAD OBJETO DE ACTUACI.N GRUPO ESPECIALIDADES ALUMNOS SUBV\. M.XIMA\s+([^\n]+)", section, re.I)
             place = " ".join(locality.group(1).split()).title() if locality else ""
+            if not any(char.isalpha() for char in place):
+                place = ""
             entity = "Entidad por verificar" + (" (" + place + ")" if place else "")
         period = re.search(r"\b(\d{2}/\d{2}/\d{2,4})\s*[-–]\s*(\d{2}/\d{2}/\d{2,4})\b", header)
+        period_text = " – ".join(period.groups()) if period else "No indicado"
+        suspicious_period = bool(period and abs(int(period.group(2).split("/")[-1]) - int(period.group(1).split("/")[-1])) > 2)
+        if suspicious_period:
+            period_text = "Por verificar en PDF (" + period_text + ")"
         specialties = []
         for specialty in SPECIALTY.finditer(section):
             specialty_code = specialty.group(1).upper()
@@ -50,9 +56,9 @@ def approved_projects(text, source_url, years):
             "province": {"03":"Alicante","12":"Castellón","46":"Valencia"}[code.split("/")[-1]],
             "entity": entity, "specialties": specialties,
             "profile_match": any(item["code"].startswith(PROFILE_PREFIXES) or item["code"] == "IMAI0110" for item in specialties) if specialties else None,
-            "project_period": " – ".join(period.groups()) if period else "No indicado",
+            "project_period": period_text,
             "application_deadline": "No publicado en este listado",
-            "status": "Proyecto aprobado; datos por verificar" if not specialties or entity.startswith("Entidad por verificar") else "Proyecto aprobado; selección por seguir",
+            "status": "Proyecto aprobado; datos por verificar" if not specialties or entity.startswith("Entidad por verificar") or suspicious_period else "Proyecto aprobado; selección por seguir",
             "source_url": source_url,
         })
     return rows
@@ -68,7 +74,8 @@ def opportunity(event):
     match = PROJECT.search(" ".join((event.get("label", ""), event.get("excerpt", ""))))
     return {"url":event.get("url", ""),"project_id":match.group().upper() if match else "Sin vinculación confirmada",
             "entity":event.get("entity", ""),"title":event.get("label", "") or "Anuncio oficial",
-            "deadline":deadline,"detected_at":event.get("detected_at", ""),"status":event["category"]}
+            "deadline":deadline,"deadline_end":max((item["end"] for item in deadlines),default=""),
+            "detected_at":event.get("detected_at", ""),"status":event["category"]}
 
 
 def escape(value):
@@ -103,7 +110,10 @@ def render_register(projects, opportunities, checked_at):
     if not entries:
         lines.append("| — | — | No hay convocatorias nuevas pendientes de revisar | — | — | — | — |")
     for item in entries[:100]:
-        fields=[item["detected_at"][:10],item["entity"],item["title"],item["project_id"],item["deadline"],item["status"],"[Anuncio oficial]("+item["url"]+")"]
+        status = "Plazo finalizado" if item.get("deadline_end") and item["deadline_end"] < local_time.date().isoformat() else item["status"]
+        if not item.get("deadline_end") and item.get("detected_at", "")[:10] < date.fromordinal(local_time.date().toordinal() - 30).isoformat():
+            status = "Antiguo; vigencia por verificar"
+        fields=[item["detected_at"][:10],item["entity"],item["title"],item["project_id"],item["deadline"],status,"[Anuncio oficial]("+item["url"]+")"]
         lines.append("| " + " | ".join(escape(x) for x in fields) + " |")
     lines.append("")
     return "\n".join(lines)

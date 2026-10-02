@@ -37,7 +37,7 @@ PDF_RENDER_LOCK = threading.Lock()
 HOST_LOCK = threading.Lock()
 HOST_FAILURES = {}
 HOST_NEXT = {}
-EXTRACTION_VERSION = 4
+EXTRACTION_VERSION = 5
 ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "silla.e-oer.com", "silla.sede.dival.es", "sedeelectronica.alzira.es", "aytosagunto.es", "www.aytosagunto.es", "sagunto.portalemp.com", "picanya.portalemp.com", "picanya.org", "www.picanya.org"}
 # Observed document storage redirect used by IDEA's own PDF links.
 ALLOWED_HOSTS.add("0b6e09b9-fe3a-4f21-b15a-c9ff5db0fc9a.filesusr.com")
@@ -629,7 +629,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
                     current_year = datetime.now(ZoneInfo("Europe/Madrid")).year
                     for item in approved_projects(result["text"],u,{current_year,current_year+1}):
                         old_item = project_catalog.get(item["id"])
-                        if not old_item or len(item["specialties"]) > len(old_item.get("specialties",[])) or (old_item["status"].endswith("verificar") and not item["status"].endswith("verificar")):
+                        if not old_item or len(item["specialties"]) >= len(old_item.get("specialties",[])):
                             project_catalog[item["id"]] = item
                 if result["ok"] and result["resource"]["entity"] == "LABORA" and result["kind"] == "pdf" and result.get("text"):
                     probe = {"type":"fuente_nueva","kind":"pdf","entity":"LABORA","url":u,"label":result["resource"].get("label",""),"excerpt":normalize(result["text"])[:1200],"details":result["details"]}
