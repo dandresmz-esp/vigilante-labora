@@ -151,6 +151,7 @@ class Logic(unittest.TestCase):
   event={'type':'fuente_nueva','kind':'pdf','entity':'LABORA','url':'https://labora.gva.es/documents/d/labora/listado-festa-2026','label':'','excerpt':content,'details':m.details(content)}
   classified=m.classify_event(event,today=date(2026,10,2))
   self.assertEqual(classified['category'],'seguimiento')
+  self.assertFalse(m.deliverable(dict(event,**classified)))
   self.assertNotIn('ACCIÓN HOY',m.mail_subject([dict(event,**classified)]))
  def test_next_year_approved_list_is_detected_without_reconfiguration(self):
   content='LISTADO PROYECTOS VALENCIA. Ejercicio 2027. Estado Ayuda: APROBADOS. FESTA/2027/24/46 ALZIRA. IMAI0110.'

@@ -10,6 +10,7 @@ PROJECT = re.compile(r"\b(?:FOTAE|FESTA|FOTAV)/20\d{2}/\d+/(?:03|12|46)\b", re.I
 SPECIALTY = re.compile(r"(?m)^\s*\d+\s+([A-Z]{4}\d{4})\s+([^\n]{3,110})", re.I)
 PROFILE_PREFIXES = ("AGAO", "ADG", "COML")
 REGISTER_URL = "https://github.com/dandresmz-esp/vigilante-labora/blob/estado-vigilante/registro.md"
+CATALOG_URL = "https://github.com/dandresmz-esp/vigilante-labora/blob/estado-vigilante/catalogo.md"
 
 
 def fold(value):
@@ -82,7 +83,7 @@ def escape(value):
     return str(value).replace("|", "\\|").replace("\n", " ").strip()
 
 
-def render_register(projects, opportunities, checked_at):
+def render_catalogue(projects, opportunities, checked_at):
     local_time = datetime.fromisoformat(checked_at).astimezone(ZoneInfo("Europe/Madrid"))
     current_year = local_time.year
     rows = [p for p in projects.values() if p["year"] in (current_year, current_year + 1)]
@@ -123,4 +124,51 @@ def render_register(projects, opportunities, checked_at):
         fields=[item["detected_at"][:10],item["entity"],item["title"],item["project_id"],item["deadline"],status,"[Anuncio oficial]("+item["url"]+")"]
         lines.append("| " + " | ".join(escape(x) for x in fields) + " |")
     lines.append("")
+    return "\n".join(lines)
+
+
+def render_register(projects, opportunities, checked_at, coverage=None):
+    """Action page: show application windows before background project data."""
+    local_time = datetime.fromisoformat(checked_at).astimezone(ZoneInfo("Europe/Madrid"))
+    today = local_time.date().isoformat()
+    live, review, future = [], [], []
+    for item in opportunities.values():
+        end = item.get("deadline_end", "")
+        if end and end < today:
+            continue
+        deadline = item.get("deadline", "")
+        intervals = re.findall(r"(20\d{2}-\d{2}-\d{2}) a (20\d{2}-\d{2}-\d{2})", deadline)
+        if any(start <= today <= finish for start, finish in intervals):
+            live.append(item)
+        elif intervals and all(start > today for start, _ in intervals):
+            future.append(item)
+        elif item.get("detected_at", "")[:10] >= date.fromordinal(local_time.date().toordinal() - 30).isoformat():
+            review.append(item)
+    lines = ["# Plazas de talleres: qué hacer hoy", "",
+             "Última comprobación: " + local_time.strftime("%d/%m/%Y %H:%M") + " (hora peninsular).", "",
+             "**El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.", "",
+             "## Plazo abierto: presenta la solicitud", ""]
+    incomplete = [name for name, result in (coverage or {}).items() if result.get("status") != "lectura_verificada"]
+    if incomplete:
+        lines[4:4] = ["**Vigilancia incompleta en: " + escape(", ".join(incomplete)) + ".** Puede haber anuncios aún no detectados.", ""]
+    def add_items(items):
+        for item in sorted(items, key=lambda row: (row.get("deadline_end") or "9999", row.get("entity", ""))):
+            lines.extend(["- **" + escape(item.get("entity", "Entidad")) + "** — " + escape(item.get("title", "Anuncio de personal")),
+                          "  - Plazo: " + escape(item.get("deadline", "Por confirmar en el anuncio")),
+                          "  - [Abrir el anuncio oficial](" + item["url"] + ")", ""])
+    if live:
+        add_items(live)
+    else:
+        lines.extend(["No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.", ""])
+    lines.extend(["## Revisar hoy: plazo sin confirmar", ""])
+    if review:
+        add_items(review)
+    else:
+        lines.extend(["No hay anuncios recientes pendientes de confirmar.", ""])
+    lines.extend(["## Próximas aperturas conocidas", ""])
+    if future:
+        add_items(future)
+    else:
+        lines.extend(["No hay aperturas futuras confirmadas.", ""])
+    lines.extend(["[Ver proyectos aprobados para seguimiento](" + CATALOG_URL + "). Su aprobación todavía no permite solicitar una plaza.", ""])
     return "\n".join(lines)

@@ -19,7 +19,7 @@ El último comando solo lee fuentes y prepara `runtime/aviso_preparado.txt`; no 
 
 Los PDF escaneados requieren Tesseract con idiomas español y catalán. GitHub instala ese lector. Si no existe en el ordenador, se registra un fallo de lectura; no se interpreta como ausencia de novedades. El OCR y sus fechas deben comprobarse sobre muestras antes de aceptación.
 
-El primer pase crea el inventario sin avisar de documentos históricos. Los cambios de índices y tablones se registran sin correo. `ACCIÓN HOY` exige un plazo explícito abierto en la fecha de comprobación; los plazos vencidos se descartan y los futuros quedan en `REVISAR HOY`. Los listados de proyectos aprobados del año vigente o siguiente con especialidades afines generan `PROYECTOS APROBADOS`, que pide seguir la selección de personal sin presentarlos como plazas abiertas. Las páginas generales de LABORA permanecen vigiladas y permiten descubrir nuevos enlaces cada año. `FALLO DEL VIGILANTE` indica que una fuente quedó sin comprobar. Las fechas se extraen de forma conservadora y siempre se conserva el enlace oficial.
+El primer pase crea el inventario sin avisar de documentos históricos. Los cambios de índices y tablones se registran sin correo. `ACCIÓN HOY` exige un plazo explícito abierto en la fecha de comprobación; los plazos vencidos se descartan y los futuros quedan en `REVISAR HOY`. Los proyectos aprobados quedan en `catalogo.md` para seguimiento interno; no generan correos al usuario hasta que aparezca una convocatoria de personal. La página principal `registro.md` muestra primero los plazos abiertos y los anuncios que requieren revisión inmediata. Las páginas generales de LABORA permanecen vigiladas y permiten descubrir nuevos enlaces cada año. `FALLO DEL VIGILANTE` indica que una fuente quedó sin comprobar. Las fechas se extraen de forma conservadora y siempre se conserva el enlace oficial.
 
 ## Activación en GitHub
 
@@ -60,4 +60,5 @@ Si una web acumula tres descargas fallidas por conexión o errores de servidor, 
 ## Entrega a Claude
 
 Claude puede ejecutar las pruebas, contrastar los PDF con sus fuentes, modificar datos de prueba y revisar `AUDITORIA.md`. No se considera independiente que el constructor ejecute sus propias pruebas. La aceptación final exige las pruebas externas de correo/móvil y de ausencia de ejecución, además de resolver o aceptar expresamente los huecos de cobertura.
+
 

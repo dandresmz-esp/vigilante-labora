@@ -489,7 +489,7 @@ def classify_event(event, today=None):
     }
 
 def deliverable(event):
-    return event.get("category") in ("accion", "revisar", "seguimiento", "fallo")
+    return event.get("category") in ("accion", "revisar", "fallo")
 
 def mail_subject(events):
     relevant=[e for e in events if e.get("category") in ("accion","revisar")]
@@ -510,7 +510,7 @@ def mail_subject(events):
 
 def mail_body(events, report):
     from catalog import REGISTER_URL
-    lines = ["VIGILANTE DE TALLERES — AVISO QUE REQUIERE ATENCIÓN", "Comprobación: " + report["finished"], "Registro ordenado: " + REGISTER_URL, ""]
+    lines = ["VIGILANTE DE TALLERES — AVISO QUE REQUIERE ATENCIÓN", "Comprobación: " + report["finished"], "Plazas y plazos: " + REGISTER_URL, ""]
     for event in events:
         heading={"accion":"ACCIÓN HOY","revisar":"REVISAR HOY","seguimiento":"PROYECTO APROBADO — SEGUIR SELECCIÓN","fallo":"FALLO DE VIGILANCIA"}.get(event.get("category"),"REVISAR")
         lines += [heading + " — " + event.get("entity", ""),event.get("label", "") or "Documento o anuncio oficial",event.get("message", ""),"Enlace oficial: " + event.get("url", "")]
@@ -553,7 +553,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     from promoters import approved_promoters, fold as promoter_fold, verified_board
-    from catalog import approved_projects, opportunity, render_register
+    from catalog import approved_projects, opportunity, render_register, render_catalogue
     # Remove these obsolete failures from old inventories and the outbox.
     for url in RETIRED_BROKEN_DOCUMENTS:
         state["resources"].pop(url, None)
@@ -717,7 +717,8 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     report = {"finished":now,"checked":len(results),"actionable_events":len(events),"suppressed_events":len(suppressed),"pending_events":len(state["pending"]),"overflow":overflow,"coverage":coverage,"delivery":"no_solicitada","external_watchdog":"no_configurado"}
     preview = mail_body(list(state["pending"].values()),report)
     (runtime/"aviso_preparado.txt").write_text(preview,encoding="utf-8")
-    (runtime/"registro.md").write_text(render_register(project_catalog,opportunities,now),encoding="utf-8")
+    (runtime/"registro.md").write_text(render_register(project_catalog,opportunities,now,coverage),encoding="utf-8")
+    (runtime/"catalogo.md").write_text(render_catalogue(project_catalog,opportunities,now),encoding="utf-8")
     write_json(state_path,state) # persist outbox before trying SMTP
     failure = any(not r["ok"] for r in results) or overflow or bool(dynamic_gaps)
     if deliver:

@@ -80,6 +80,9 @@ jobs:
             if [ -f runtime/registro.md ]; then
               cp runtime/registro.md /tmp/vigilante-state/registro.md
             fi
+            if [ -f runtime/catalogo.md ]; then
+              cp runtime/catalogo.md /tmp/vigilante-state/catalogo.md
+            fi
             cd /tmp/vigilante-state
             git init -b estado-vigilante
             git config user.name 'vigilante-bot'

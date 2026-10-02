@@ -1,6 +1,6 @@
 import unittest
 
-from catalog import approved_projects, opportunity, render_register
+from catalog import approved_projects, opportunity, render_register, render_catalogue
 
 
 class Register(unittest.TestCase):
@@ -34,7 +34,7 @@ CARLET
 
     def test_register_cites_official_source_and_keeps_sections_separate(self):
         project=approved_projects(self.sample,"https://labora.gva.es/list.pdf",{2026})[0]
-        page=render_register({project["id"]:project},{},"2026-10-02T10:00:00+00:00")
+        page=render_catalogue({project["id"]:project},{},"2026-10-02T10:00:00+00:00")
         self.assertIn("FOTAE/2026/10/46",page)
         self.assertIn("No publicado en este listado",page)
         self.assertIn("https://labora.gva.es/list.pdf",page)
@@ -46,10 +46,20 @@ CARLET
                 "entity":"Carlet","title":"Convocatoria docente FOTAE/2026/10/46",
                 "deadline":"2026-10-04 a 2026-10-06","deadline_end":"2026-10-06",
                 "detected_at":"2026-10-02T10:00:00+00:00","status":"revisar"}
-        page=render_register({project["id"]:project},{notice["url"]:notice},"2026-10-02T10:00:00+00:00")
+        page=render_catalogue({project["id"]:project},{notice["url"]:notice},"2026-10-02T10:00:00+00:00")
         row=next(line for line in page.splitlines() if line.startswith("| FOTAE/2026/10/46"))
         self.assertIn("2026-10-04 a 2026-10-06",row)
         self.assertIn("https://carlet.sedelectronica.es/board",row)
+
+    def test_action_page_shows_only_open_calls_first(self):
+        project=approved_projects(self.sample,"https://labora.gva.es/list.pdf",{2026})[0]
+        notice={"url":"https://carlet.sedelectronica.es/board","project_id":project["id"],
+                "entity":"Carlet","title":"Convocatoria docente", "deadline":"2026-10-01 a 2026-10-06",
+                "deadline_end":"2026-10-06", "detected_at":"2026-10-02T10:00:00+00:00","status":"accion"}
+        page=render_register({project["id"]:project},{notice["url"]:notice},"2026-10-02T10:00:00+00:00")
+        self.assertIn("## Plazo abierto: presenta la solicitud",page)
+        self.assertIn("https://carlet.sedelectronica.es/board",page)
+        self.assertNotIn("| FOTAE/2026",page)
 
 
 if __name__ == "__main__":
