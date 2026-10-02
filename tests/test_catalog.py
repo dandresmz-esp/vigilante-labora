@@ -1,6 +1,6 @@
 import unittest
 
-from catalog import approved_projects, opportunity, render_register, render_catalogue
+from catalog import approved_projects, opportunity, render_register, render_catalogue, render_csv
 
 
 class Register(unittest.TestCase):
@@ -60,6 +60,15 @@ CARLET
         self.assertIn("## Plazo abierto: presenta la solicitud",page)
         self.assertIn("https://carlet.sedelectronica.es/board",page)
         self.assertNotIn("| FOTAE/2026",page)
+
+    def test_excel_export_has_columns_and_no_expired_notice(self):
+        project=approved_projects(self.sample,"https://labora.gva.es/list.pdf",{2026})[0]
+        old={"url":"https://carlet.sedelectronica.es/old","deadline_end":"2026-09-30","entity":"Carlet"}
+        export=render_csv({project["id"]:project},{old["url"]:old},"2026-10-02T10:00:00+00:00","plazas")
+        self.assertTrue(export.startswith("\ufeffEntidad;Anuncio;"))
+        self.assertNotIn(old["url"],export)
+        catalogue=render_csv({project["id"]:project},{},"2026-10-02T10:00:00+00:00","catalogo")
+        self.assertIn("FOTAE/2026/10/46",catalogue)
 
 
 if __name__ == "__main__":

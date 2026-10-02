@@ -553,7 +553,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     from promoters import approved_promoters, fold as promoter_fold, verified_board
-    from catalog import approved_projects, opportunity, render_register, render_catalogue
+    from catalog import approved_projects, opportunity, render_register, render_catalogue, render_csv
     # Remove these obsolete failures from old inventories and the outbox.
     for url in RETIRED_BROKEN_DOCUMENTS:
         state["resources"].pop(url, None)
@@ -719,6 +719,8 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     (runtime/"aviso_preparado.txt").write_text(preview,encoding="utf-8")
     (runtime/"registro.md").write_text(render_register(project_catalog,opportunities,now,coverage),encoding="utf-8")
     (runtime/"catalogo.md").write_text(render_catalogue(project_catalog,opportunities,now),encoding="utf-8")
+    (runtime/"plazas.csv").write_text(render_csv(project_catalog,opportunities,now,"plazas"),encoding="utf-8")
+    (runtime/"catalogo.csv").write_text(render_csv(project_catalog,opportunities,now,"catalogo"),encoding="utf-8")
     write_json(state_path,state) # persist outbox before trying SMTP
     failure = any(not r["ok"] for r in results) or overflow or bool(dynamic_gaps)
     if deliver:

@@ -90,6 +90,11 @@ jobs:
             if [ -f runtime/catalogo.md ]; then
               cp runtime/catalogo.md /tmp/vigilante-state/catalogo.md
             fi
+            for export in plazas.csv catalogo.csv; do
+              if [ -f "runtime/$export" ]; then
+                cp "runtime/$export" "/tmp/vigilante-state/$export"
+              fi
+            done
             cd /tmp/vigilante-state
             git init -b estado-vigilante
             git config user.name 'vigilante-bot'

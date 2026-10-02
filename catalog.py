@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 from datetime import date, datetime
+import csv
+import io
 import re
 import unicodedata
 from zoneinfo import ZoneInfo
@@ -11,6 +13,8 @@ SPECIALTY = re.compile(r"(?m)^\s*\d+\s+([A-Z]{4}\d{4})\s+([^\n]{3,110})", re.I)
 PROFILE_PREFIXES = ("AGAO", "ADG", "COML")
 REGISTER_URL = "https://github.com/dandresmz-esp/vigilante-labora/blob/estado-vigilante/registro.md"
 CATALOG_URL = "https://github.com/dandresmz-esp/vigilante-labora/blob/estado-vigilante/catalogo.md"
+PLAZAS_CSV_URL = "https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/plazas.csv"
+CATALOG_CSV_URL = "https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/catalogo.csv"
 
 
 def fold(value):
@@ -170,5 +174,31 @@ def render_register(projects, opportunities, checked_at, coverage=None):
         add_items(future)
     else:
         lines.extend(["No hay aperturas futuras confirmadas.", ""])
-    lines.extend(["[Ver proyectos aprobados para seguimiento](" + CATALOG_URL + "). Su aprobación todavía no permite solicitar una plaza.", ""])
+    lines.extend(["[Descargar convocatorias para Excel](" + PLAZAS_CSV_URL + ") · [Descargar proyectos aprobados para Excel](" + CATALOG_CSV_URL + ")", "",
+                  "[Ver proyectos aprobados para seguimiento](" + CATALOG_URL + "). Su aprobación todavía no permite solicitar una plaza.", ""])
     return "\n".join(lines)
+
+
+def render_csv(projects, opportunities, checked_at, kind):
+    """Semicolon CSV with UTF-8 BOM for direct opening in Spanish Excel."""
+    output = io.StringIO()
+    writer = csv.writer(output, delimiter=";")
+    if kind == "plazas":
+        writer.writerow(["Entidad", "Anuncio", "Expediente", "Plazo", "Estado", "Enlace oficial"])
+        today = datetime.fromisoformat(checked_at).astimezone(ZoneInfo("Europe/Madrid")).date().isoformat()
+        for item in sorted(opportunities.values(), key=lambda row: row.get("deadline_end") or "9999"):
+            if item.get("deadline_end") and item["deadline_end"] < today:
+                continue
+            writer.writerow([item.get("entity", ""), item.get("title", ""), item.get("project_id", ""),
+                             item.get("deadline", ""), item.get("status", ""), item.get("url", "")])
+    elif kind == "catalogo":
+        writer.writerow(["Expediente", "Tipo", "Provincia", "Entidad promotora", "Especialidades", "Período previsto del proyecto", "Plazo de solicitud", "Perfil afín", "Fuente oficial"])
+        for item in sorted(projects.values(), key=lambda row: (row.get("province", ""), row.get("entity", ""), row.get("id", ""))):
+            writer.writerow([item.get("id", ""), item.get("type", ""), item.get("province", ""), item.get("entity", ""),
+                             "; ".join(x["code"] + " " + x["name"] for x in item.get("specialties", [])),
+                             item.get("project_period", ""), item.get("application_deadline", ""),
+                             "Sí" if item.get("profile_match") is True else "No" if item.get("profile_match") is False else "Por verificar",
+                             item.get("source_url", "")])
+    else:
+        raise ValueError("Tipo de CSV desconocido")
+    return "\ufeff" + output.getvalue()
