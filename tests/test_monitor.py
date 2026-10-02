@@ -1,6 +1,6 @@
 import io,json,tempfile,unittest
 from pathlib import Path
-from datetime import datetime,timezone
+from datetime import date,datetime,timezone
 from unittest.mock import patch
 from pypdf import PdfWriter
 import monitor as m
@@ -28,6 +28,9 @@ class Logic(unittest.TestCase):
   p=m.Page();p.feed('<p>Talleres 2026</p><a href="/documents/d/labora/calendario-2026">calendario de presentación</a>')
   c=m.candidates(p,'https://labora.gva.es/es/test','LABORA',0)
   self.assertEqual(len(c),1);self.assertEqual(c[0]['kind'],'pdf')
+ def test_discover_approved_list(self):
+  p=m.Page();p.feed('<a href="/documents/d/labora/listado-fotav-2026-valencia">Listado de proyectos aprobados 2026</a>')
+  self.assertEqual(m.candidates(p,'https://labora.gva.es/es/test','LABORA',0)[0]['kind'],'pdf')
  def test_ignore_scripts(self):
   p=m.Page();p.feed('<script>999random</script><p>Convocatoria</p>');self.assertEqual(p.text(),'Convocatoria')
  def test_picanya_api_keeps_relevant_news_only(self):
@@ -106,10 +109,26 @@ class Logic(unittest.TestCase):
   self.assertEqual(m.classify_event(event)['category'],'suprimido')
  def test_relevant_teacher_vacancy_is_actionable(self):
   event={'type':'fuente_nueva','kind':'pdf','entity':'Alzira','url':'https://example.test/2.pdf','label':'Convocatoria docente','excerpt':'Selección de personal docente del programa Escuela Taller FESTA. Plazo del 21/09/2026 al 22/09/2026','details':m.details('Plazo del 21/09/2026 al 22/09/2026')}
-  classified=m.classify_event(event)
+  classified=m.classify_event(event,today=date(2026,9,21))
   self.assertEqual(classified['category'],'accion')
   event.update(classified)
   self.assertIn('ACCIÓN HOY',m.mail_subject([event]))
+ def test_expired_calendar_is_not_action_today(self):
+  content='Selección de personal docente Escuela Taller FESTA IMAI0110. Plazo del 17/12/2025 al 19/12/2025'
+  event={'type':'fuente_nueva','kind':'pdf','entity':'LABORA','url':'https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-34-pdf','label':'calendario de presentación de documentación','excerpt':content,'details':m.details(content)}
+  self.assertEqual(m.classify_event(event,today=date(2026,9,29))['reason'],'plazo_caducado')
+ def test_current_and_future_calendar(self):
+  content='Selección de personal docente Escuela Taller FESTA AGAO. Plazo del 02/10/2026 al 06/10/2026'
+  event={'type':'fuente_nueva','kind':'pdf','entity':'LABORA','url':'https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-1','label':'calendario de presentación de documentación','excerpt':content,'details':m.details(content)}
+  self.assertEqual(m.classify_event(event,today=date(2026,10,1))['category'],'revisar')
+  self.assertEqual(m.classify_event(event,today=date(2026,10,2))['category'],'accion')
+  self.assertEqual(m.classify_event(event,today=date(2026,10,7))['reason'],'plazo_caducado')
+ def test_approved_project_is_a_lead_not_a_vacancy(self):
+  content='LISTADO PROYECTOS VALENCIA. Ejercicio 2026. Estado Ayuda: APROBADOS. FESTA/2026/24/46 ALZIRA. IMAI0110 Instalación y mantenimiento de sistemas de aislamiento.'
+  event={'type':'fuente_nueva','kind':'pdf','entity':'LABORA','url':'https://labora.gva.es/documents/d/labora/listado-festa-2026','label':'','excerpt':content,'details':m.details(content)}
+  classified=m.classify_event(event,today=date(2026,10,2))
+  self.assertEqual(classified['category'],'seguimiento')
+  self.assertNotIn('ACCIÓN HOY',m.mail_subject([dict(event,**classified)]))
  def test_stable_board_row_is_reviewable_without_downloading_wrapper(self):
   r={'entity':'Bétera','url':'https://betera.sedelectronica.es/preview-document/abc','kind':'listing_notice','label':'Convocatoria selección docente Escuela Taller FESTA'}
   with patch.object(m,'fetch') as fetch:
@@ -131,7 +150,7 @@ class Logic(unittest.TestCase):
   self.assertFalse(m.scheduled_now(datetime(2026,9,19,8,7,tzinfo=timezone.utc)))
  def test_dry_run_and_failed_delivery(self):
   r={'entity':'Silla','url':'https://silla.e-oer.com/test','kind':'pdf'}
-  result=dict(resource=r,ok=True,hash='abc',details=m.details('Plazo del 21/09/2026 al 22/09/2026'),kind='pdf',children=[],text='Convocatoria de personal docente del programa Taller de Empleo. Plazo del 21/09/2026 al 22/09/2026')
+  result=dict(resource=r,ok=True,hash='abc',details=m.details('3 días hábiles desde la publicación'),kind='pdf',children=[],text='Convocatoria de personal docente del programa Taller de Empleo. Plazo: 3 días hábiles desde la publicación')
   with tempfile.TemporaryDirectory() as t,patch.object(m,'inspect_resource',return_value=result),patch.object(m,'send_mail') as send:
    m.run({'sources':[r]},Path(t)/'state.json',t);send.assert_not_called()
    send.side_effect=RuntimeError('SMTP down')

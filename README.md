@@ -19,7 +19,7 @@ El último comando solo lee fuentes y prepara `runtime/aviso_preparado.txt`; no 
 
 Los PDF escaneados requieren Tesseract con idiomas español y catalán. GitHub instala ese lector. Si no existe en el ordenador, se registra un fallo de lectura; no se interpreta como ausencia de novedades. El OCR y sus fechas deben comprobarse sobre muestras antes de aceptación.
 
-El primer pase crea el inventario sin avisar de documentos históricos. Los cambios de índices y tablones se registran sin correo. Solo se envía `ACCIÓN HOY` o `REVISAR HOY` cuando aparecen juntas señales de programa mixto, selección de personal y convocatoria; `FALLO DEL VIGILANTE` indica que una fuente quedó sin comprobar. Las fechas se extraen de forma conservadora y siempre se conserva el enlace oficial.
+El primer pase crea el inventario sin avisar de documentos históricos. Los cambios de índices y tablones se registran sin correo. `ACCIÓN HOY` exige un plazo explícito abierto en la fecha de comprobación; los plazos vencidos se descartan y los futuros quedan en `REVISAR HOY`. Los listados de proyectos aprobados de 2026 con especialidades afines generan `PROYECTOS APROBADOS`, que pide seguir la selección de personal sin presentarlos como plazas abiertas. `FALLO DEL VIGILANTE` indica que una fuente quedó sin comprobar. Las fechas se extraen de forma conservadora y siempre se conserva el enlace oficial.
 
 ## Activación en GitHub
 

@@ -20,7 +20,7 @@ import tempfile
 import threading
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from email.message import EmailMessage
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlsplit, urlunsplit, quote, unquote
@@ -215,7 +215,7 @@ def candidates(page, base, entity, depth):
         doc = ".pdf" in p.path.lower() or "/documents/" in p.path
         selected = False
         if entity == "LABORA":
-            selected = doc and any(w in hay for w in ("calendari", "fechas-presen", "fecha", "calendario"))
+            selected = doc and any(w in hay for w in ("calendari", "fechas-presen", "fecha", "calendario", "listado", "llistat", "proyectos aprobados", "projectes aprovats", "concesion", "concessio", "concedid"))
             if not doc:
                 selected = "/programes-mixtos-d-ocupacio/" in p.path or "tallers-d-ocupacio-per-a-dones" in p.path
         elif entity == "Alzira":
@@ -409,7 +409,7 @@ IRRELEVANT_TERMS = (
     "taller cultural", "talleres culturales",
 )
 
-def classify_event(event):
+def classify_event(event, today=None):
     """Decide locally whether a detected change deserves an email."""
     if event.get("type") in ("fallo_fuente", "cobertura_incompleta", "limite_alcanzado"):
         return {"category":"fallo","message":"El vigilante no ha podido completar esta comprobación."}
@@ -422,6 +422,12 @@ def classify_event(event):
     hay = fold(" ".join((event.get("label",""),event.get("excerpt",""),event.get("url",""))))
     if any(term in hay for term in IRRELEVANT_TERMS):
         return {"category":"suprimido","reason":"actividad_no_laboral"}
+    info=event.get("details",{})
+    codes=info.get("codes",[])
+    approved=("listado proyectos" in hay or "llistat de projectes" in hay) and ("aprobados" in hay or "aprovats" in hay)
+    profile_codes=[code for code in codes if code.startswith(("AGAO","COML","ADG")) or code=="IMAI0110"]
+    if approved and "2026" in hay and profile_codes:
+        return {"category":"seguimiento","message":"Proyecto aprobado con especialidades afines. Vigila la convocatoria de selección de personal de la entidad promotora; esta concesión aún no abre una plaza.","profile_matches":profile_codes[:8]}
     program = any(term in hay for term in PROGRAM_TERMS)
     staff = any(term in hay for term in STAFF_TERMS)
     opportunity = any(term in hay for term in OPPORTUNITY_TERMS)
@@ -435,19 +441,26 @@ def classify_event(event):
     listing_match=event.get("kind")=="listing_notice" and staff and opportunity
     if not ((program and staff and opportunity) or listing_match) or (closed and not any(term in hay for term in ("convocatoria", "vacante", "vacant", "plazo", "termini", "presentacion", "presentacio"))):
         return {"category":"suprimido","reason":"sin_convocatoria_de_personal"}
-    info=event.get("details",{})
-    urgent=bool(info.get("deadlines") or info.get("relative_deadlines"))
+    today = today or datetime.now(ZoneInfo("Europe/Madrid")).date()
+    deadlines = info.get("deadlines", [])
+    live = [d for d in deadlines if date.fromisoformat(d["end"]) >= today]
+    if deadlines and not live and not info.get("relative_deadlines"):
+        return {"category":"suprimido","reason":"plazo_caducado"}
+    # A future date merits review, but "acción hoy" means the window is open.
+    urgent = any(date.fromisoformat(d["start"]) <= today <= date.fromisoformat(d["end"]) for d in live)
     return {
         "category":"accion" if urgent else "revisar",
-        "message":"Abre el enlace oficial hoy y comprueba el plazo y los requisitos antes de preparar la solicitud.",
+        "message":"Comprueba en el enlace oficial el plazo y los requisitos antes de preparar la solicitud.",
         "profile_matches":profile,
+        "active_deadlines":live,
     }
 
 def deliverable(event):
-    return event.get("category") in ("accion", "revisar", "fallo")
+    return event.get("category") in ("accion", "revisar", "seguimiento", "fallo")
 
 def mail_subject(events):
     relevant=[e for e in events if e.get("category") in ("accion","revisar")]
+    leads=[e for e in events if e.get("category")=="seguimiento"]
     failures=[e for e in events if e.get("category")=="fallo"]
     if relevant:
         lead=relevant[0]
@@ -455,6 +468,8 @@ def mail_subject(events):
         if len(relevant)==1:
             return f"{prefix}: posible plaza de taller en {lead.get('entity','municipio')}"
         return f"{prefix}: {len(relevant)} posibles plazas de talleres"
+    if leads:
+        return f"PROYECTOS APROBADOS: {len(leads)} listados para seguimiento"
     if failures:
         if len(failures)==1:return f"FALLO DEL VIGILANTE: no se pudo comprobar {failures[0].get('entity','una fuente')}"
         return f"FALLO DEL VIGILANTE: {len(failures)} fuentes sin comprobar"
@@ -463,10 +478,10 @@ def mail_subject(events):
 def mail_body(events, report):
     lines = ["VIGILANTE DE TALLERES — AVISO QUE REQUIERE ATENCIÓN", "Comprobación: " + report["finished"], ""]
     for event in events:
-        heading={"accion":"ACCIÓN HOY","revisar":"REVISAR HOY","fallo":"FALLO DE VIGILANCIA"}.get(event.get("category"),"REVISAR")
+        heading={"accion":"ACCIÓN HOY","revisar":"REVISAR HOY","seguimiento":"PROYECTO APROBADO — SEGUIR SELECCIÓN","fallo":"FALLO DE VIGILANCIA"}.get(event.get("category"),"REVISAR")
         lines += [heading + " — " + event.get("entity", ""),event.get("label", "") or "Documento o anuncio oficial",event.get("message", ""),"Enlace oficial: " + event.get("url", "")]
         info = event.get("details", {})
-        for deadline in info.get("deadlines", [])[:3]:
+        for deadline in event.get("active_deadlines",info.get("deadlines", []))[:3]:
             lines.append("Plazo detectado: " + deadline["start"] + " a " + deadline["end"])
         if info.get("relative_deadlines"):
             lines.append("Plazo breve o relativo: compruébalo en el documento oficial.")
@@ -505,7 +520,15 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     # Version 1 queued every changed index. Discard those legacy digests so the
     # new release cannot resend old municipal noise after deployment.
-    state["pending"]={k:v for k,v in state.get("pending",{}).items() if deliverable(v)}
+    refreshed = {}
+    for queued in state.get("pending", {}).values():
+        if not deliverable(queued):
+            continue
+        if queued.get("category") != "fallo":
+            queued = dict(queued, **classify_event(queued))
+        if deliverable(queued):
+            refreshed[event_id(queued)] = queued
+    state["pending"] = refreshed
     if initialize:
         # An explicit baseline starts clean and never carries historical alerts.
         state = {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
