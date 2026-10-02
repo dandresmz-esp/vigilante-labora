@@ -1,9 +1,9 @@
 {
-  "finished": "2026-10-02T10:30:15.114898+00:00",
-  "checked": 326,
-  "actionable_events": 0,
-  "suppressed_events": 2,
-  "pending_events": 0,
+  "finished": "2026-10-02T11:09:34.954566+00:00",
+  "checked": 356,
+  "actionable_events": 11,
+  "suppressed_events": 140,
+  "pending_events": 11,
   "overflow": false,
   "coverage": {
     "Alcàsser": {
@@ -49,9 +49,9 @@
       "unvalidated_sources": 0
     },
     "LABORA": {
-      "status": "lectura_verificada",
-      "resources": 9,
-      "failures": 0,
+      "status": "parcial",
+      "resources": 39,
+      "failures": 2,
       "unvalidated_sources": 0
     },
     "La Font de la Figuera": {
@@ -127,6 +127,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "sin_novedades",
-  "external_watchdog": "pendiente_de_persistir_estado"
+  "delivery": "no_solicitada",
+  "external_watchdog": "no_configurado"
 }
