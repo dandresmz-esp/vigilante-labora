@@ -37,7 +37,7 @@ PDF_RENDER_LOCK = threading.Lock()
 HOST_LOCK = threading.Lock()
 HOST_FAILURES = {}
 HOST_NEXT = {}
-EXTRACTION_VERSION = 2
+EXTRACTION_VERSION = 3
 ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "silla.e-oer.com", "silla.sede.dival.es", "sedeelectronica.alzira.es", "aytosagunto.es", "www.aytosagunto.es", "sagunto.portalemp.com", "picanya.portalemp.com", "picanya.org", "www.picanya.org"}
 # Observed document storage redirect used by IDEA's own PDF links.
 ALLOWED_HOSTS.add("0b6e09b9-fe3a-4f21-b15a-c9ff5db0fc9a.filesusr.com")
@@ -528,6 +528,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         HOST_NEXT.clear()
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
+    from promoters import approved_promoters, fold as promoter_fold, verified_board
     # Remove these obsolete failures from old inventories and the outbox.
     for url in RETIRED_BROKEN_DOCUMENTS:
         state["resources"].pop(url, None)
@@ -546,6 +547,10 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     if initialize:
         # An explicit baseline starts clean and never carries historical alerts.
         state = {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
+    discoveries = state.setdefault("promoter_discovery", {})
+    for entry in discoveries.values():
+        if entry.get("url"):
+            ALLOWED_HOSTS.add(urlsplit(entry["url"]).hostname)
     original_resources=dict(state['resources'])
     bootstrap = not original_resources
     runtime.mkdir(parents=True, exist_ok=True)
@@ -577,6 +582,24 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
                 break
             for result in pool.map(inspect_resource,batch):
                 u = canonical(result["resource"]["url"])
+                if result["ok"] and result["resource"]["entity"] == "LABORA" and result["kind"] == "pdf" and result.get("text"):
+                    probe = {"type":"fuente_nueva","kind":"pdf","entity":"LABORA","url":u,"label":result["resource"].get("label",""),"excerpt":normalize(result["text"])[:1200],"details":result["details"]}
+                    if classify_event(probe).get("category") == "seguimiento":
+                        today = datetime.now(ZoneInfo("Europe/Madrid")).date()
+                        known = {promoter_fold(source["entity"]) for source in config["sources"]}
+                        for item in approved_promoters(result["text"], {today.year,today.year+1}, tuple(config.get("promoter_provinces",["46"]))):
+                            name = item["name"]
+                            if name and promoter_fold(name) in known:
+                                continue
+                            key = promoter_fold(name) if name else item["project"]
+                            entry = discoveries.get(key,{})
+                            if not entry.get("url") and (not entry.get("attempted") or (today-date.fromisoformat(entry["attempted"])).days >= 7):
+                                board = verified_board(name) if name else None
+                                entry = {"name":name or item["project"],"project":item["project"],"attempted":today.isoformat(),"url":board}
+                                discoveries[key] = entry
+                            if entry.get("url"):
+                                ALLOWED_HOSTS.add(urlsplit(entry["url"]).hostname)
+                                result["children"].append({"entity":name.title(),"url":entry["url"],"kind":"board","depth":0,"label":"Tablón oficial de " + name.title()})
                 seen.add(u)
                 results.append(result)
                 record,event=transition(original_resources.get(u),result,utcnow())
@@ -616,7 +639,11 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
             events.append(event)
         if result["ok"] and result['text']:
             (runtime / (digest(u)+".txt")).write_text(result["text"],encoding="utf-8")
-    for gap in config.get("coverage_gaps",[]):
+    dynamic_gaps = [{"entity":entry["name"],"url":"https://labora.gva.es/","reason":"Proyecto " + entry["project"] + ": no se ha localizado un tablón oficial verificable para seguir la selección de personal."} for entry in discoveries.values() if not entry.get("url")]
+    all_gaps = config.get("coverage_gaps",[]) + dynamic_gaps
+    active_gap_entities = {gap["entity"] for gap in all_gaps}
+    state["pending"] = {key:event for key,event in state["pending"].items() if event.get("type") != "cobertura_incompleta" or event.get("entity") in active_gap_entities}
+    for gap in all_gaps:
         key = event_id(gap)
         if key not in state["gaps_reported"]:
             events.append({"type":"cobertura_incompleta","category":"fallo","entity":gap["entity"],"url":gap["url"],"message":gap["reason"]})
@@ -625,21 +652,21 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         events.append({"type":"limite_alcanzado","category":"fallo","message":"Se alcanzó el límite de recursos; cobertura incompleta. No es una ejecución íntegra."})
     for event in events:
         event['detected_at']=now
-        if event.get('url'):
+        if event.get('url') and event.get('type') != 'cobertura_incompleta':
             for key,older in list(state['pending'].items()):
                 if older.get('url')==event['url']:state['pending'].pop(key)
         state["pending"][event_id(event)] = event
     coverage = {}
-    for entity in sorted({s["entity"] for s in config["sources"]}):
+    for entity in sorted({s["entity"] for s in config["sources"]} | {r["entity"] for r in state["resources"].values()} | {g["entity"] for g in dynamic_gaps}):
         rr = [r for r in state["resources"].values() if r["entity"] == entity]
         failures = sum(r["status"] == "fallando" for r in rr)
-        gaps = sum(g["entity"] == entity for g in config.get("coverage_gaps",[]))
+        gaps = sum(g["entity"] == entity for g in all_gaps)
         coverage[entity] = {"status":"parcial" if failures or gaps or overflow else "lectura_verificada", "resources":len(rr),"failures":failures,"unvalidated_sources":gaps}
     report = {"finished":now,"checked":len(results),"actionable_events":len(events),"suppressed_events":len(suppressed),"pending_events":len(state["pending"]),"overflow":overflow,"coverage":coverage,"delivery":"no_solicitada","external_watchdog":"no_configurado"}
     preview = mail_body(list(state["pending"].values()),report)
     (runtime/"aviso_preparado.txt").write_text(preview,encoding="utf-8")
     write_json(state_path,state) # persist outbox before trying SMTP
-    failure = any(not r["ok"] for r in results) or overflow
+    failure = any(not r["ok"] for r in results) or overflow or bool(dynamic_gaps)
     if deliver:
         try:
             if state["pending"]:
