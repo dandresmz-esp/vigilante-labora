@@ -89,6 +89,11 @@ def render_register(projects, opportunities, checked_at):
     rows.sort(key=lambda p:(p["profile_match"] is not True,p["province"],p["entity"],p["id"]))
     matched = sum(p["profile_match"] is True for p in rows)
     incomplete = sum(p["status"].endswith("verificar") for p in rows)
+    linked = {}
+    for notice in opportunities.values():
+        project_id = notice.get("project_id", "")
+        if project_id in projects and (project_id not in linked or notice.get("detected_at", "") > linked[project_id].get("detected_at", "")):
+            linked[project_id] = notice
     lines = ["# Registro de talleres y convocatorias", "",
              "Actualizado: " + local_time.strftime("%d/%m/%Y %H:%M") + " (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.", "",
              f"Proyectos aprobados: **{len(rows)}**. Con especialidades afines al perfil: **{matched}**.", "",
@@ -96,11 +101,13 @@ def render_register(projects, opportunities, checked_at):
              "El período previsto del proyecto **no es** el plazo para solicitar una plaza. Los plazos de selección aparecen solo en la sección de convocatorias.", "",
              "El catálogo incluye Alicante, Castellón y Valencia. El seguimiento de tablones municipales está configurado actualmente para la provincia de Valencia.", "",
              "## Proyectos aprobados", "",
-             "| Expediente | Tipo | Provincia | Entidad promotora | Especialidades a impartir | Período previsto | Plazo de solicitud | Perfil | Fuente |", 
-             "|---|---|---|---|---|---|---|---|---|"]
+             "| Expediente | Tipo | Provincia | Entidad promotora | Especialidades a impartir | Período previsto | Plazo de solicitud | Perfil | Fuente | Anuncio de personal |", 
+             "|---|---|---|---|---|---|---|---|---|---|"]
     for p in rows:
         specialties = "; ".join(item["code"] + " " + item["name"] for item in p["specialties"]) or "Por verificar en el PDF"
-        fields = [p["id"],p["type"],p["province"],p["entity"],specialties,p["project_period"],p["application_deadline"],"Sí" if p["profile_match"] is True else "No" if p["profile_match"] is False else "Por verificar","[LABORA]("+p["source_url"]+")"]
+        notice = linked.get(p["id"])
+        deadline = notice["deadline"] if notice else p["application_deadline"]
+        fields = [p["id"],p["type"],p["province"],p["entity"],specialties,p["project_period"],deadline,"Sí" if p["profile_match"] is True else "No" if p["profile_match"] is False else "Por verificar","[LABORA]("+p["source_url"]+")","[Abrir]("+notice["url"]+")" if notice else "—"]
         lines.append("| " + " | ".join(escape(x) for x in fields) + " |")
     lines += ["", "## Convocatorias y plazos detectados", "",
               "Una convocatoria solo se vincula a un expediente cuando el anuncio indica su código.", "",

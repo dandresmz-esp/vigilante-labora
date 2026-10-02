@@ -40,6 +40,17 @@ CARLET
         self.assertIn("https://labora.gva.es/list.pdf",page)
         self.assertIn("Convocatorias y plazos detectados",page)
 
+    def test_explicit_project_code_brings_notice_deadline_to_project_row(self):
+        project=approved_projects(self.sample,"https://labora.gva.es/list.pdf",{2026})[0]
+        notice={"url":"https://carlet.sedelectronica.es/board","project_id":project["id"],
+                "entity":"Carlet","title":"Convocatoria docente FOTAE/2026/10/46",
+                "deadline":"2026-10-04 a 2026-10-06","deadline_end":"2026-10-06",
+                "detected_at":"2026-10-02T10:00:00+00:00","status":"revisar"}
+        page=render_register({project["id"]:project},{notice["url"]:notice},"2026-10-02T10:00:00+00:00")
+        row=next(line for line in page.splitlines() if line.startswith("| FOTAE/2026/10/46"))
+        self.assertIn("2026-10-04 a 2026-10-06",row)
+        self.assertIn("https://carlet.sedelectronica.es/board",row)
+
 
 if __name__ == "__main__":
     unittest.main()
