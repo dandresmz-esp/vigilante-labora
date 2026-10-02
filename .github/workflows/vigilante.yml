@@ -10,6 +10,10 @@ on:
         description: 'Crear inventario inicial sin avisar de documentos históricos'
         type: boolean
         default: false
+      prueba_correo:
+        description: 'Enviar un correo de prueba sin simular ninguna convocatoria'
+        type: boolean
+        default: false
   schedule:
     - cron: '17 * * * *'
 permissions:
@@ -56,8 +60,11 @@ jobs:
           EVENT: ${{ github.event_name }}
           SEND_MANUAL: ${{ inputs.enviar }}
           INITIALIZE: ${{ inputs.inicializar }}
+          TEST_EMAIL: ${{ inputs.prueba_correo }}
         run: |
-          if [ "$EVENT" = schedule ]; then
+          if [ "$TEST_EMAIL" = true ]; then
+            python test_email.py
+          elif [ "$EVENT" = schedule ]; then
             python monitor.py --scheduled --deliver
           elif [ "$INITIALIZE" = true ]; then
             python monitor.py --initialize
