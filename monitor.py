@@ -433,9 +433,11 @@ def classify_event(event, today=None):
         return {"category":"suprimido","reason":"actividad_no_laboral"}
     info=event.get("details",{})
     codes=info.get("codes",[])
+    today = today or datetime.now(ZoneInfo("Europe/Madrid")).date()
     approved=("listado proyectos" in hay or "llistat de projectes" in hay) and ("aprobados" in hay or "aprovats" in hay)
     profile_codes=[code for code in codes if code.startswith(("AGAO","COML","ADG")) or code=="IMAI0110"]
-    if approved and "2026" in hay and profile_codes:
+    document_years={int(year) for year in re.findall(r"\b20\d{2}\b",hay)}
+    if approved and document_years.intersection((today.year,today.year+1)) and profile_codes:
         return {"category":"seguimiento","message":"Proyecto aprobado con especialidades afines. Vigila la convocatoria de selección de personal de la entidad promotora; esta concesión aún no abre una plaza.","profile_matches":profile_codes[:8]}
     program = any(term in hay for term in PROGRAM_TERMS)
     staff = any(term in hay for term in STAFF_TERMS)
@@ -450,7 +452,6 @@ def classify_event(event, today=None):
     listing_match=event.get("kind")=="listing_notice" and staff and opportunity
     if not ((program and staff and opportunity) or listing_match) or (closed and not any(term in hay for term in ("convocatoria", "vacante", "vacant", "plazo", "termini", "presentacion", "presentacio"))):
         return {"category":"suprimido","reason":"sin_convocatoria_de_personal"}
-    today = today or datetime.now(ZoneInfo("Europe/Madrid")).date()
     deadlines = info.get("deadlines", [])
     live = [d for d in deadlines if date.fromisoformat(d["end"]) >= today]
     if deadlines and not live and not info.get("relative_deadlines"):

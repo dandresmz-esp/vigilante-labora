@@ -135,6 +135,12 @@ class Logic(unittest.TestCase):
   classified=m.classify_event(event,today=date(2026,10,2))
   self.assertEqual(classified['category'],'seguimiento')
   self.assertNotIn('ACCIÓN HOY',m.mail_subject([dict(event,**classified)]))
+ def test_next_year_approved_list_is_detected_without_reconfiguration(self):
+  content='LISTADO PROYECTOS VALENCIA. Ejercicio 2027. Estado Ayuda: APROBADOS. FESTA/2027/24/46 ALZIRA. IMAI0110.'
+  event={'type':'fuente_nueva','kind':'pdf','entity':'LABORA','url':'https://labora.gva.es/documents/d/labora/concesion-festa-valencia-2027-pdf','label':'Proyectos aprobados en Valencia','excerpt':content,'details':m.details(content)}
+  self.assertEqual(m.classify_event(event,today=date(2026,12,15))['category'],'seguimiento')
+  self.assertEqual(m.classify_event(event,today=date(2027,10,2))['category'],'seguimiento')
+  self.assertEqual(m.classify_event(event,today=date(2028,10,2))['category'],'suprimido')
  def test_stable_board_row_is_reviewable_without_downloading_wrapper(self):
   r={'entity':'Bétera','url':'https://betera.sedelectronica.es/preview-document/abc','kind':'listing_notice','label':'Convocatoria selección docente Escuela Taller FESTA'}
   with patch.object(m,'fetch') as fetch:
