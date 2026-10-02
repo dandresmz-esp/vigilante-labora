@@ -1,9 +1,9 @@
 {
-  "finished": "2026-10-02T11:54:09.027064+00:00",
-  "checked": 405,
-  "actionable_events": 20,
-  "suppressed_events": 42,
-  "pending_events": 20,
+  "finished": "2026-10-02T12:38:42.313971+00:00",
+  "checked": 406,
+  "actionable_events": 0,
+  "suppressed_events": 6,
+  "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alaquas": {
@@ -56,7 +56,7 @@
     },
     "Carlet": {
       "status": "lectura_verificada",
-      "resources": 4,
+      "resources": 5,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -193,6 +193,6 @@
       "unvalidated_sources": 1
     }
   },
-  "delivery": "no_solicitada",
-  "external_watchdog": "no_configurado"
+  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "external_watchdog": "pendiente_de_persistir_estado"
 }
