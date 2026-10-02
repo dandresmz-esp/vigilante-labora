@@ -31,6 +31,12 @@ class Logic(unittest.TestCase):
  def test_discover_approved_list(self):
   p=m.Page();p.feed('<a href="/documents/d/labora/listado-fotav-2026-valencia">Listado de proyectos aprobados 2026</a>')
   self.assertEqual(m.candidates(p,'https://labora.gva.es/es/test','LABORA',0)[0]['kind'],'pdf')
+ def test_retired_broken_lists_do_not_hide_current_concessions(self):
+  p=m.Page()
+  links=''.join(f'<a href="{url}">Listado actualizado</a>' for url in sorted(m.RETIRED_BROKEN_DOCUMENTS))
+  p.feed(links+'<a href="/documents/d/labora/concesion-festa-valencia-2026-1-pdf">Proyectos aprobados en Valencia</a>')
+  found=m.candidates(p,'https://labora.gva.es/es/programes-mixtos-d-ocupacio/escuelas-taller','LABORA',0)
+  self.assertEqual([x['url'] for x in found],['https://labora.gva.es/documents/d/labora/concesion-festa-valencia-2026-1-pdf'])
  def test_ignore_scripts(self):
   p=m.Page();p.feed('<script>999random</script><p>Convocatoria</p>');self.assertEqual(p.text(),'Convocatoria')
  def test_picanya_api_keeps_relevant_news_only(self):

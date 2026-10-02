@@ -44,6 +44,13 @@ ALLOWED_HOSTS.add("0b6e09b9-fe3a-4f21-b15a-c9ff5db0fc9a.filesusr.com")
 ALLOWED_HOSTS.update({"simatdelavalldigna.sede.dival.es","mancomunitatriberabaixa.sedelectronica.es","sede.algemesi.es","ontinyent.sedipualba.es","lafontdelafiguera.sedelectronica.es","betera.sedelectronica.es","benaguasil.sede.dival.es","alfafar.sedelectronica.es","sedavi.sede.dival.es","alcasser.sedelectronica.es","manises.sedipualba.es","www.mislata.es","rafelbunyol.sedelectronica.es","massamagrell.sedelectronica.es","ayora.sedelectronica.es"})
 MONTHS = {"enero":1,"gener":1,"febrero":2,"febrer":2,"marzo":3,"marc":3,"abril":4,"mayo":5,"maig":5,"junio":6,"juny":6,"julio":7,"juliol":7,"agosto":8,"agost":8,"septiembre":9,"setembre":9,"octubre":10,"noviembre":11,"novembre":11,"diciembre":12,"desembre":12}
 
+# LABORA still links these 2025 lists, but both official document URLs return 404.
+# They are historical concessions, not current personnel selections.
+RETIRED_BROKEN_DOCUMENTS = {
+    "https://labora.gva.es/documents/166000883/177253211/Actualizaci%C3%B3n+listados+concesi%C3%B3n+FESTA+Alicante.pdf/0106b121-b061-4f23-a7ac-d3fd66f2ad30",
+    "https://labora.gva.es/documents/166000883/177243583/Listado+proyectos+APROBADOS+FET2+2025+CASTELL%C3%93N%2C%20FTLPROYA2.pdf/509af113-7540-4369-9f87-8b4902892e3e",
+}
+
 def utcnow():
     return datetime.now(timezone.utc).isoformat()
 
@@ -206,6 +213,8 @@ def candidates(page, base, entity, depth):
     found = {}
     for link in page.links:
         url = canonical(urljoin(base, link["href"]))
+        if url in RETIRED_BROKEN_DOCUMENTS:
+            continue
         p = urlsplit(url)
         if p.scheme != "https" or p.hostname not in ALLOWED_HOSTS:
             continue
@@ -518,6 +527,10 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         HOST_NEXT.clear()
     state_path,runtime = Path(state_path),Path(runtime)
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
+    # Remove these obsolete failures from old inventories and the outbox.
+    for url in RETIRED_BROKEN_DOCUMENTS:
+        state["resources"].pop(url, None)
+    state["pending"] = {key:event for key,event in state.get("pending",{}).items() if event.get("url") not in RETIRED_BROKEN_DOCUMENTS}
     # Version 1 queued every changed index. Discard those legacy digests so the
     # new release cannot resend old municipal noise after deployment.
     refreshed = {}
