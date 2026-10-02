@@ -42,6 +42,7 @@ ALLOWED_HOSTS = {"labora.gva.es", "www.idea-alzira.com", "idea-alzira.com", "sil
 # Observed document storage redirect used by IDEA's own PDF links.
 ALLOWED_HOSTS.add("0b6e09b9-fe3a-4f21-b15a-c9ff5db0fc9a.filesusr.com")
 ALLOWED_HOSTS.update({"simatdelavalldigna.sede.dival.es","mancomunitatriberabaixa.sedelectronica.es","sede.algemesi.es","ontinyent.sedipualba.es","lafontdelafiguera.sedelectronica.es","betera.sedelectronica.es","benaguasil.sede.dival.es","alfafar.sedelectronica.es","sedavi.sede.dival.es","alcasser.sedelectronica.es","manises.sedipualba.es","www.mislata.es","rafelbunyol.sedelectronica.es","massamagrell.sedelectronica.es","ayora.sedelectronica.es"})
+ALLOWED_HOSTS.update({"sede.valencia.es","oficinavirtual.ribarroja.es"})
 MONTHS = {"enero":1,"gener":1,"febrero":2,"febrer":2,"marzo":3,"marc":3,"abril":4,"mayo":5,"maig":5,"junio":6,"juny":6,"julio":7,"juliol":7,"agosto":8,"agost":8,"septiembre":9,"setembre":9,"octubre":10,"noviembre":11,"novembre":11,"diciembre":12,"desembre":12}
 
 # LABORA still links these 2025 lists, but both official document URLs return 404.
@@ -56,6 +57,18 @@ def utcnow():
 
 def fold(text):
     return "".join(c for c in unicodedata.normalize("NFKD", text.lower()) if not unicodedata.combining(c))
+
+def relevant_sagunt_document(url, label=""):
+    hay = fold(url + " " + label)
+    return any(word in hay for word in ("taller", "escola", "escuela", "formem", "fotae", "festa", "fotav", "docent", "labora"))
+
+def listing_publication_date(label):
+    for value in re.findall(r"\b\d{1,2}/\d{1,2}/20\d{2}\b", label):
+        try:
+            return datetime.strptime(value, "%d/%m/%Y").date()
+        except ValueError:
+            pass
+    return None
 
 def digest(text):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
@@ -234,7 +247,7 @@ def candidates(page, base, entity, depth):
             if "/va/" in p.path:
                 selected = False
         elif entity == "Sagunt":
-            selected = doc or (p.hostname in ("aytosagunto.es","www.aytosagunto.es") and any(x in p.path for x in ("/administracion/empleo/","/formacion-y-empleo/")))
+            selected = (doc and relevant_sagunt_document(url,label)) or (p.hostname in ("aytosagunto.es","www.aytosagunto.es") and any(x in p.path for x in ("/administracion/empleo/","/formacion-y-empleo/")))
             selected = selected or (p.hostname == "sagunto.portalemp.com" and "/ofertas.html" in p.path)
         elif entity == "Picanya":
             selected = doc or (p.hostname == "picanya.portalemp.com" and "/ofertas.html" in p.path)
@@ -429,14 +442,19 @@ def classify_event(event, today=None):
     if event.get("kind") in ("board", "page", "snapshot"):
         return {"category":"suprimido","reason":"indice_actualizado"}
     hay = fold(" ".join((event.get("label",""),event.get("excerpt",""),event.get("url",""))))
+    published = listing_publication_date(event.get("label",""))
+    today = today or datetime.now(ZoneInfo("Europe/Madrid")).date()
+    if published and (today-published).days > 30:
+        return {"category":"suprimido","reason":"anuncio_antiguo"}
     if any(term in hay for term in IRRELEVANT_TERMS):
         return {"category":"suprimido","reason":"actividad_no_laboral"}
     info=event.get("details",{})
     codes=info.get("codes",[])
-    today = today or datetime.now(ZoneInfo("Europe/Madrid")).date()
     approved=("listado proyectos" in hay or "llistat de projectes" in hay) and ("aprobados" in hay or "aprovats" in hay)
     profile_codes=[code for code in codes if code.startswith(("AGAO","COML","ADG")) or code=="IMAI0110"]
     document_years={int(year) for year in re.findall(r"\b20\d{2}\b",hay)}
+    if event.get("entity") == "Casinos" and document_years and max(document_years) < today.year:
+        return {"category":"suprimido","reason":"documento_historico"}
     if approved and document_years.intersection((today.year,today.year+1)) and profile_codes:
         return {"category":"seguimiento","message":"Proyecto aprobado con especialidades afines. Vigila la convocatoria de selección de personal de la entidad promotora; esta concesión aún no abre una plaza.","profile_matches":profile_codes[:8]}
     program = any(term in hay for term in PROGRAM_TERMS)
@@ -449,7 +467,7 @@ def classify_event(event, today=None):
     alumnado_only = any(term in hay for term in ("seleccion de alumnado", "seleccio d'alumnat", "alumnado-trabajador", "alumnat-treballador")) and not staff
     if alumnado_only:
         return {"category":"suprimido","reason":"seleccion_de_alumnado"}
-    listing_match=event.get("kind")=="listing_notice" and staff and opportunity
+    listing_match=event.get("kind")=="listing_notice" and program and staff and opportunity
     if not ((program and staff and opportunity) or listing_match) or (closed and not any(term in hay for term in ("convocatoria", "vacante", "vacant", "plazo", "termini", "presentacion", "presentacio"))):
         return {"category":"suprimido","reason":"sin_convocatoria_de_personal"}
     deadlines = info.get("deadlines", [])
@@ -533,6 +551,10 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     for url in RETIRED_BROKEN_DOCUMENTS:
         state["resources"].pop(url, None)
     state["pending"] = {key:event for key,event in state.get("pending",{}).items() if event.get("url") not in RETIRED_BROKEN_DOCUMENTS}
+    obsolete_sagunt = {url for url,resource in state["resources"].items() if resource.get("entity") == "Sagunt" and resource.get("kind") == "pdf" and not relevant_sagunt_document(url,resource.get("label",""))}
+    for url in obsolete_sagunt:
+        state["resources"].pop(url,None)
+    state["pending"] = {key:event for key,event in state["pending"].items() if event.get("url") not in obsolete_sagunt}
     # Version 1 queued every changed index. Discard those legacy digests so the
     # new release cannot resend old municipal noise after deployment.
     refreshed = {}
@@ -548,6 +570,10 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         # An explicit baseline starts clean and never carries historical alerts.
         state = {"version":1,"resources":{},"pending":{},"gaps_reported":[]}
     discoveries = state.setdefault("promoter_discovery", {})
+    configured_entities = {promoter_fold(source["entity"]) for source in config["sources"]}
+    for key,entry in list(discoveries.items()):
+        if promoter_fold(entry.get("name","")) in configured_entities:
+            discoveries.pop(key)
     for entry in discoveries.values():
         if entry.get("url"):
             ALLOWED_HOSTS.add(urlsplit(entry["url"]).hostname)

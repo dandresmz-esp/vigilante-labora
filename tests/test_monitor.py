@@ -113,6 +113,15 @@ class Logic(unittest.TestCase):
  def test_people_workshop_is_suppressed(self):
   event={'type':'fuente_nueva','kind':'notice','entity':'Manises','url':'https://example.test/1','label':'Talleres de personas mayores','excerpt':'Inscripciones para actividades culturales','details':{}}
   self.assertEqual(m.classify_event(event)['category'],'suprimido')
+ def test_unrelated_museum_selection_is_suppressed(self):
+  event={'type':'fuente_nueva','kind':'listing_notice','entity':'Xativa','url':'https://xativa.sedelectronica.es/preview-document/1','label':'Convocatoria director del museo 02/10/2026','excerpt':'','details':{}}
+  self.assertEqual(m.classify_event(event,today=date(2026,10,2))['category'],'suprimido')
+ def test_old_workshop_listing_is_suppressed(self):
+  event={'type':'fuente_nueva','kind':'listing_notice','entity':'Casinos','url':'https://casinos.sede.dival.es/tablondeanuncios/anuncio.aspx?id=1','label':'20/1/2022 selección docente Taller de Empleo','excerpt':'','details':{}}
+  self.assertEqual(m.classify_event(event,today=date(2026,10,2))['reason'],'anuncio_antiguo')
+ def test_unrelated_sagunt_pdf_is_not_discovered(self):
+  p=m.Page();p.feed('<a href="https://aytosagunto.es/media/bop-lista-acuaticos.pdf">Lista provisional de acuáticos</a>')
+  self.assertEqual(m.candidates(p,'https://aytosagunto.es/es/ayuntamiento/administracion/empleo/','Sagunt',0),[])
  def test_relevant_teacher_vacancy_is_actionable(self):
   event={'type':'fuente_nueva','kind':'pdf','entity':'Alzira','url':'https://example.test/2.pdf','label':'Convocatoria docente','excerpt':'Selección de personal docente del programa Escuela Taller FESTA. Plazo del 21/09/2026 al 22/09/2026','details':m.details('Plazo del 21/09/2026 al 22/09/2026')}
   classified=m.classify_event(event,today=date(2026,9,21))

@@ -99,6 +99,8 @@
     {"entity":"Bétera","url":"https://betera.sedelectronica.es/board","kind":"board"},
     {"entity":"Mislata","url":"https://www.mislata.es/es/informate/tablon-de-anuncios","kind":"snapshot"},
     {"entity":"Simat de la Valldigna","url":"https://simatdelavalldigna.sede.dival.es/tablondeanuncios/","kind":"board"}
+    ,{"entity":"València","url":"https://sede.valencia.es/sede/edictos/index/materia/AE","kind":"board"}
+    ,{"entity":"Riba-roja de Túria","url":"https://oficinavirtual.ribarroja.es/PortalCiudadania/tablonEdictos.do?formAction=btTablonEdictos","kind":"board"}
   ],
   "coverage_gaps": []
 }
