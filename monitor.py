@@ -557,6 +557,14 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
     state['in_progress']={'started':utcnow(),'checked':0}
     write_json(state_path,state)
     queue = {canonical(r["url"]):dict(r,depth=0) for r in config["sources"]}
+    today = datetime.now(ZoneInfo("Europe/Madrid")).date()
+    for entry in discoveries.values():
+        if not entry.get("url") and (not entry.get("attempted") or (today-date.fromisoformat(entry["attempted"])).days >= 7):
+            entry["url"] = verified_board(entry["name"])
+            entry["attempted"] = today.isoformat()
+        if entry.get("url"):
+            ALLOWED_HOSTS.add(urlsplit(entry["url"]).hostname)
+            queue[canonical(entry["url"])] = {"entity":entry["name"].title(),"url":entry["url"],"kind":"board","depth":0,"label":"Tablón oficial de " + entry["name"].title()}
     # Discover new material before spending the budget on detached historical links.
     historical = {u:{k:r[k] for k in ("url","entity","kind","depth","label") if k in r} for u,r in state['resources'].items()}
     seen,results = set(),[]

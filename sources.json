@@ -2,6 +2,7 @@
   "version": 1,
   "max_resources": 2000,
   "max_depth": 2,
+  "promoter_provinces": ["46"],
   "sources": [
     {
       "entity": "LABORA",

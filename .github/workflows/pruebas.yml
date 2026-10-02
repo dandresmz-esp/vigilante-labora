@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['monitor.py', 'boards.py', 'sources.json', 'tests/**', 'fetch_fixtures.py', 'requirements.txt', '.github/workflows/pruebas.yml']
+    paths: ['monitor.py', 'boards.py', 'promoters.py', 'sources.json', 'tests/**', 'fetch_fixtures.py', 'requirements.txt', '.github/workflows/pruebas.yml']
 permissions:
   contents: read
 jobs:
