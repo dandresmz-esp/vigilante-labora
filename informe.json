@@ -1,11 +1,17 @@
 {
-  "finished": "2026-10-02T11:29:36.013392+00:00",
-  "checked": 354,
-  "actionable_events": 0,
-  "suppressed_events": 0,
-  "pending_events": 0,
+  "finished": "2026-10-02T11:54:09.027064+00:00",
+  "checked": 405,
+  "actionable_events": 20,
+  "suppressed_events": 42,
+  "pending_events": 20,
   "overflow": false,
   "coverage": {
+    "Alaquas": {
+      "status": "lectura_verificada",
+      "resources": 8,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
     "Alcàsser": {
       "status": "lectura_verificada",
       "resources": 7,
@@ -14,7 +20,7 @@
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 14,
+      "resources": 15,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -48,6 +54,30 @@
       "failures": 0,
       "unvalidated_sources": 0
     },
+    "Carlet": {
+      "status": "lectura_verificada",
+      "resources": 4,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Casinos": {
+      "status": "lectura_verificada",
+      "resources": 21,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Catarroja": {
+      "status": "lectura_verificada",
+      "resources": 6,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Chiva": {
+      "status": "lectura_verificada",
+      "resources": 1,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
     "LABORA": {
       "status": "lectura_verificada",
       "resources": 37,
@@ -78,6 +108,12 @@
       "failures": 0,
       "unvalidated_sources": 0
     },
+    "Oliva": {
+      "status": "lectura_verificada",
+      "resources": 4,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
     "Ontinyent": {
       "status": "lectura_verificada",
       "resources": 4,
@@ -103,9 +139,9 @@
       "unvalidated_sources": 0
     },
     "Sagunt": {
-      "status": "lectura_verificada",
-      "resources": 132,
-      "failures": 0,
+      "status": "parcial",
+      "resources": 133,
+      "failures": 4,
       "unvalidated_sources": 0
     },
     "Sedaví": {
@@ -125,8 +161,38 @@
       "resources": 2,
       "failures": 0,
       "unvalidated_sources": 0
+    },
+    "Utiel": {
+      "status": "lectura_verificada",
+      "resources": 2,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "Xativa": {
+      "status": "lectura_verificada",
+      "resources": 3,
+      "failures": 0,
+      "unvalidated_sources": 0
+    },
+    "lliria": {
+      "status": "parcial",
+      "resources": 0,
+      "failures": 0,
+      "unvalidated_sources": 1
+    },
+    "riba-roja de turia": {
+      "status": "parcial",
+      "resources": 0,
+      "failures": 0,
+      "unvalidated_sources": 1
+    },
+    "valencia": {
+      "status": "parcial",
+      "resources": 0,
+      "failures": 0,
+      "unvalidated_sources": 1
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
-  "external_watchdog": "pendiente_de_persistir_estado"
+  "delivery": "no_solicitada",
+  "external_watchdog": "no_configurado"
 }
