@@ -103,8 +103,9 @@ jobs:
             HEADER=$(git -C "$GITHUB_WORKSPACE" config --get http.https://github.com/.extraheader)
             if git -c "http.https://github.com/.extraheader=$HEADER" fetch origin estado-vigilante; then
               git reset --soft FETCH_HEAD
+              git read-tree FETCH_HEAD
             fi
-            git add .
+            git add --ignore-removal .
             if ! git diff --cached --quiet; then
               git commit -m 'Estado de la comprobación y cola de avisos'
               git -c "http.https://github.com/.extraheader=$HEADER" push origin estado-vigilante
