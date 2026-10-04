@@ -544,7 +544,7 @@ def send_mail(subject, body):
 
 def scheduled_now(now):
     local = now.astimezone(ZoneInfo("Europe/Madrid"))
-    return (local.weekday() < 5 and (8 <= local.hour <= 20 or local.hour in (6,22))) or (local.weekday() >= 5 and local.hour == 9)
+    return local.weekday() < 5 and (8 <= local.hour <= 20 or local.hour in (6,22))
 
 def run(config, state_path, runtime, deliver=False, initialize=False):
     with HOST_LOCK:

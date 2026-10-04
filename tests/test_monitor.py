@@ -176,7 +176,7 @@ class Logic(unittest.TestCase):
   self.assertTrue(m.scheduled_now(datetime(2026,9,17,6,7,tzinfo=timezone.utc)))
   self.assertFalse(m.scheduled_now(datetime(2026,9,17,3,7,tzinfo=timezone.utc)))
  def test_weekend(self):
-  self.assertTrue(m.scheduled_now(datetime(2026,9,19,7,7,tzinfo=timezone.utc)))
+  self.assertFalse(m.scheduled_now(datetime(2026,9,19,7,7,tzinfo=timezone.utc)))
   self.assertFalse(m.scheduled_now(datetime(2026,9,19,8,7,tzinfo=timezone.utc)))
  def test_dry_run_and_failed_delivery(self):
   r={'entity':'Silla','url':'https://silla.e-oer.com/test','kind':'pdf'}
