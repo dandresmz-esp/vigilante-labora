@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-05T06:42:49.957498+00:00",
-  "checked": 399,
+  "finished": "2026-10-05T07:36:13.981352+00:00",
+  "checked": 402,
   "actionable_events": 0,
-  "suppressed_events": 118,
+  "suppressed_events": 5,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -20,7 +20,7 @@
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 17,
+      "resources": 18,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -50,7 +50,7 @@
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 11,
+      "resources": 13,
       "failures": 0,
       "unvalidated_sources": 0
     },
