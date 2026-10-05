@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-05T04:34:41.037343+00:00",
+  "finished": "2026-10-05T05:57:18.332135+00:00",
   "checked": 399,
-  "actionable_events": 1,
-  "suppressed_events": 6,
+  "actionable_events": 0,
+  "suppressed_events": 1,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -181,9 +181,9 @@
       "unvalidated_sources": 0
     },
     "València": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 3,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Xativa": {
@@ -193,6 +193,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "delivery": "sin_novedades",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
