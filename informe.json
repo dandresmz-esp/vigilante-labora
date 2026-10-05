@@ -1,20 +1,20 @@
 {
-  "finished": "2026-10-05T11:33:05.113471+00:00",
-  "checked": 402,
+  "finished": "2026-10-05T12:39:29.142030+00:00",
+  "checked": 405,
   "actionable_events": 0,
-  "suppressed_events": 3,
+  "suppressed_events": 9,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alaquas": {
       "status": "lectura_verificada",
-      "resources": 8,
+      "resources": 9,
       "failures": 0,
       "unvalidated_sources": 0
     },
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 7,
+      "resources": 8,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -152,7 +152,7 @@
     },
     "Sagunt": {
       "status": "lectura_verificada",
-      "resources": 118,
+      "resources": 119,
       "failures": 0,
       "unvalidated_sources": 0
     },
