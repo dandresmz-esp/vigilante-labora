@@ -1,7 +1,7 @@
 {
-  "finished": "2026-10-06T18:34:39.487592+00:00",
+  "finished": "2026-10-06T20:32:55.750032+00:00",
   "checked": 411,
-  "actionable_events": 0,
+  "actionable_events": 3,
   "suppressed_events": 0,
   "pending_events": 0,
   "overflow": false,
@@ -115,9 +115,9 @@
       "unvalidated_sources": 0
     },
     "Oliva": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 7,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "Ontinyent": {
@@ -133,9 +133,9 @@
       "unvalidated_sources": 0
     },
     "Rafelbunyol": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 4,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "Riba-roja de Túria": {
@@ -145,9 +145,9 @@
       "unvalidated_sources": 0
     },
     "Ribera Baixa": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 18,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "Sagunt": {
@@ -193,6 +193,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "sin_novedades",
+  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
