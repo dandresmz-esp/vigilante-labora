@@ -1,7 +1,7 @@
 {
-  "finished": "2026-10-07T18:40:11.936566+00:00",
+  "finished": "2026-10-07T20:34:13.289671+00:00",
   "checked": 414,
-  "actionable_events": 0,
+  "actionable_events": 6,
   "suppressed_events": 0,
   "pending_events": 0,
   "overflow": false,
@@ -13,9 +13,9 @@
       "unvalidated_sources": 0
     },
     "Alcàsser": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 8,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "Alfafar": {
@@ -55,9 +55,9 @@
       "unvalidated_sources": 0
     },
     "Carlet": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 5,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "Casinos": {
@@ -175,24 +175,24 @@
       "unvalidated_sources": 0
     },
     "Utiel": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 2,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "València": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 3,
-      "failures": 0,
+      "failures": 2,
       "unvalidated_sources": 0
     },
     "Xativa": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 4,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     }
   },
-  "delivery": "sin_novedades",
+  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
