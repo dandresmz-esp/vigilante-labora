@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 07/10/2026 14:39 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 07/10/2026 15:35 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **94**. Con especialidades afines al perfil: **70**.
 
@@ -115,4 +115,5 @@ Una convocatoria solo se vincula a un expediente cuando el anuncio indica su có
 
 | Detectada | Entidad | Anuncio | Expediente vinculado | Plazo de solicitud | Estado | Fuente |
 |---|---|---|---|---|---|---|
+| 2026-10-07 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-93-pdf) |
 | 2026-10-07 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-92-pdf) |
