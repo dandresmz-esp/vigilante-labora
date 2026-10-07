@@ -1,8 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 06/10/2026 22:32 (hora peninsular).
-
-**Vigilancia incompleta en: Oliva, Rafelbunyol, Ribera Baixa.** Puede haber anuncios aún no detectados.
+Última comprobación: 07/10/2026 06:33 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
