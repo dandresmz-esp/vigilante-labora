@@ -1,8 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 08/10/2026 13:34 (hora peninsular).
+Última comprobación: 08/10/2026 14:44 (hora peninsular).
 
-**Vigilancia incompleta en: València.** Puede haber anuncios aún no detectados.
+**Vigilancia incompleta en: Sagunt, València.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -37,6 +37,14 @@
 - **Xativa** — EDICTE PERSONAL DOCENT. T.O. REMODELACIÓ JARDI DEL BES 25-26 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/c416e38f-3356-41b7-b76c-83895440a465)
+
+- **Xativa** — 1. Acta de convocatoria pública de empleo_firmado (1) (1)_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. FOTAE/2025/24/46 08/10/2026
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/cd36eaf9-9eba-4814-bc56-a0da41761127)
+
+- **Xativa** — 3-Anexo I TALLER EMPLEO_firmado (1) (1)_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. FOTAE/2025/24/46 08/10/2026
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/329945bf-9eae-44fc-8acd-97544e1a8b88)
 
 ## Próximas aperturas conocidas
 
