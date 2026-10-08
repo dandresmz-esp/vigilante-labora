@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 08/10/2026 08:39 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 08/10/2026 09:35 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **94**. Con especialidades afines al perfil: **70**.
 
@@ -115,5 +115,10 @@ Una convocatoria solo se vincula a un expediente cuando el anuncio indica su có
 
 | Detectada | Entidad | Anuncio | Expediente vinculado | Plazo de solicitud | Estado | Fuente |
 |---|---|---|---|---|---|---|
+| 2026-10-08 | Xativa | 0_BASES SELECCIÓN PERSONAL PROGRAMAS MIXTOS 2025_firmado 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/f0dd917b-700e-4970-9636-6f65c5b92e2c) |
+| 2026-10-08 | Xativa | 1. Acta de convocatoria pública de empleo_firmado_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/04f6161d-99ae-4188-8548-6e79e2c59acf) |
+| 2026-10-08 | Xativa | 2. Calendario presentacion solicitudes FOTAE 2025 web LABORA (1) 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/1b2c4eb7-a8a9-4362-b768-6e7e14d1e0b7) |
+| 2026-10-08 | Xativa | 3-Anexo I TALLER EMPLEO_firmado_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/15ca00dc-54bd-4616-9b89-40f93a8c7cd8) |
+| 2026-10-08 | Xativa | EDICTE PERSONAL DOCENT. T.O. REMODELACIÓ JARDI DEL BES 25-26 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/c416e38f-3356-41b7-b76c-83895440a465) |
 | 2026-10-07 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-93-pdf) |
 | 2026-10-07 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-92-pdf) |
