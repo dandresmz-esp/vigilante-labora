@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-08T08:35:27.497547+00:00",
-  "checked": 419,
+  "finished": "2026-10-08T09:34:08.486115+00:00",
+  "checked": 421,
   "actionable_events": 0,
-  "suppressed_events": 2,
+  "suppressed_events": 4,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -32,7 +32,7 @@
     },
     "Alzira": {
       "status": "lectura_verificada",
-      "resources": 10,
+      "resources": 12,
       "failures": 0,
       "unvalidated_sources": 0
     },
