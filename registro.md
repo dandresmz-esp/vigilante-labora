@@ -1,6 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 09/10/2026 20:34 (hora peninsular).
+Última comprobación: 09/10/2026 22:31 (hora peninsular).
+
+**Vigilancia incompleta en: Ayora, Chiva, La Font de la Figuera.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
