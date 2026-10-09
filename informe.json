@@ -1,15 +1,15 @@
 {
-  "finished": "2026-10-08T20:34:59.085831+00:00",
+  "finished": "2026-10-09T04:34:16.775936+00:00",
   "checked": 427,
-  "actionable_events": 2,
-  "suppressed_events": 0,
+  "actionable_events": 0,
+  "suppressed_events": 4,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alaquas": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 11,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Alcàsser": {
@@ -103,9 +103,9 @@
       "unvalidated_sources": 0
     },
     "Massamagrell": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 1,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Mislata": {
@@ -193,6 +193,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "delivery": "sin_novedades",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
