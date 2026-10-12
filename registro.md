@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 12/10/2026 08:43 (hora peninsular).
+Última comprobación: 12/10/2026 09:38 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
