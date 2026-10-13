@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-13T15:37:07.879270+00:00",
-  "checked": 435,
+  "finished": "2026-10-13T16:36:25.357735+00:00",
+  "checked": 438,
   "actionable_events": 0,
-  "suppressed_events": 0,
+  "suppressed_events": 5,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -164,7 +164,7 @@
     },
     "Silla": {
       "status": "lectura_verificada",
-      "resources": 27,
+      "resources": 30,
       "failures": 0,
       "unvalidated_sources": 0
     },
