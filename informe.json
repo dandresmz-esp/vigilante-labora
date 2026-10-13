@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-13T04:36:53.604288+00:00",
-  "checked": 427,
+  "finished": "2026-10-13T06:42:14.406028+00:00",
+  "checked": 428,
   "actionable_events": 0,
-  "suppressed_events": 2,
+  "suppressed_events": 119,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -146,7 +146,7 @@
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
-      "resources": 18,
+      "resources": 19,
       "failures": 0,
       "unvalidated_sources": 0
     },
