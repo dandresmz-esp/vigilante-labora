@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-13T12:43:24.905924+00:00",
-  "checked": 433,
+  "finished": "2026-10-13T13:41:23.533555+00:00",
+  "checked": 435,
   "actionable_events": 0,
-  "suppressed_events": 5,
+  "suppressed_events": 4,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -182,7 +182,7 @@
     },
     "València": {
       "status": "lectura_verificada",
-      "resources": 3,
+      "resources": 5,
       "failures": 0,
       "unvalidated_sources": 0
     },
