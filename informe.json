@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-13T06:42:14.406028+00:00",
-  "checked": 428,
+  "finished": "2026-10-13T07:39:07.191393+00:00",
+  "checked": 429,
   "actionable_events": 0,
-  "suppressed_events": 119,
+  "suppressed_events": 5,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -188,7 +188,7 @@
     },
     "Xativa": {
       "status": "lectura_verificada",
-      "resources": 11,
+      "resources": 12,
       "failures": 0,
       "unvalidated_sources": 0
     }
