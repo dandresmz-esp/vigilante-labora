@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-13T07:39:07.191393+00:00",
-  "checked": 429,
+  "finished": "2026-10-13T08:38:13.121428+00:00",
+  "checked": 430,
   "actionable_events": 0,
-  "suppressed_events": 5,
+  "suppressed_events": 4,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -56,7 +56,7 @@
     },
     "Carlet": {
       "status": "lectura_verificada",
-      "resources": 5,
+      "resources": 6,
       "failures": 0,
       "unvalidated_sources": 0
     },
