@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 13/10/2026 22:47 (hora peninsular).
+Última comprobación: 14/10/2026 06:47 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -13,6 +13,10 @@
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-93-pdf)
+
+- **LABORA** — calendario de presentación de documentación
+  - Plazo: 2026-10-14 a 2026-10-16
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-2)
 
 ## Revisar hoy: plazo sin confirmar
 
@@ -46,9 +50,7 @@
 
 ## Próximas aperturas conocidas
 
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-14 a 2026-10-16
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-2)
+No hay aperturas futuras confirmadas.
 
 [Descargar convocatorias para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/plazas.csv) · [Descargar proyectos aprobados para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/catalogo.csv)
 
