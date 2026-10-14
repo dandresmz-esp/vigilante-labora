@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 14/10/2026 11:45 (hora peninsular).
+Última comprobación: 14/10/2026 12:46 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -27,6 +27,10 @@
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-35-pdf)
 
 ## Revisar hoy: plazo sin confirmar
+
+- **Alzira** — Click Aquí
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_48c10bb45a8f4fb1ad9fd9712ffb1433.pdf)
 
 - **Xativa** — 0_BASES SELECCIÓN PERSONAL PROGRAMAS MIXTOS 2025_firmado 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
   - Plazo: Plazo por confirmar en el anuncio

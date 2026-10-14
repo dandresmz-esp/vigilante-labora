@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 14/10/2026 11:45 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 14/10/2026 12:46 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **94**. Con especialidades afines al perfil: **70**.
 
@@ -115,6 +115,7 @@ Una convocatoria solo se vincula a un expediente cuando el anuncio indica su có
 
 | Detectada | Entidad | Anuncio | Expediente vinculado | Plazo de solicitud | Estado | Fuente |
 |---|---|---|---|---|---|---|
+| 2026-10-14 | Alzira | Click Aquí | FESTA/2025/21/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_48c10bb45a8f4fb1ad9fd9712ffb1433.pdf) |
 | 2026-10-14 | LABORA | calendario de presentación de documentación | FESTA/2025/25/46 | 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19 | accion | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-35-pdf) |
 | 2026-10-14 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15; 2026-10-15 a 2026-10-19 | accion | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-94-pdf) |
 | 2026-10-13 | LABORA | calendario de presentación de documentación | FESTA/2026/9/03 | 2026-10-14 a 2026-10-16 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-2) |
