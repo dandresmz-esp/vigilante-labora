@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 14/10/2026 12:46 (hora peninsular).
+Última comprobación: 14/10/2026 13:45 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -31,6 +31,10 @@
 - **Alzira** — Click Aquí
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_48c10bb45a8f4fb1ad9fd9712ffb1433.pdf)
+
+- **Oliva** — Anunci Ajuntament publicació convocatòria 22530/2026 Escoles Taller Anuncios ESCOLA TALLER COMTAL 2026 Convocatòria pública per a la selecció del personal directiu, docent i auxiliar administratiu i selecció de l'alumnat/treballador 14/10/2026
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://oliva.sedelectronica.es/preview-document/ef300cf5-40f8-4436-a788-dace64100cf9)
 
 - **Xativa** — 0_BASES SELECCIÓN PERSONAL PROGRAMAS MIXTOS 2025_firmado 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
   - Plazo: Plazo por confirmar en el anuncio
