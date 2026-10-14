@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-14T08:47:08.093209+00:00",
-  "checked": 441,
+  "finished": "2026-10-14T09:45:39.244892+00:00",
+  "checked": 442,
   "actionable_events": 0,
-  "suppressed_events": 11,
+  "suppressed_events": 5,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -116,7 +116,7 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 10,
+      "resources": 11,
       "failures": 0,
       "unvalidated_sources": 0
     },
