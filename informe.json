@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-14T06:54:54.259248+00:00",
-  "checked": 438,
-  "actionable_events": 19,
-  "suppressed_events": 117,
+  "finished": "2026-10-14T07:50:41.286318+00:00",
+  "checked": 440,
+  "actionable_events": 2,
+  "suppressed_events": 28,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -31,9 +31,9 @@
       "unvalidated_sources": 0
     },
     "Alzira": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 12,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Ayora": {
@@ -61,9 +61,9 @@
       "unvalidated_sources": 0
     },
     "Casinos": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 21,
-      "failures": 18,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Catarroja": {
@@ -80,7 +80,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 40,
+      "resources": 42,
       "failures": 0,
       "unvalidated_sources": 0
     },
