@@ -1,6 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 14/10/2026 20:52 (hora peninsular).
+Última comprobación: 14/10/2026 22:45 (hora peninsular).
+
+**Vigilancia incompleta en: Algemesí.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
