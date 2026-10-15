@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 15/10/2026 16:46 (hora peninsular).
+Última comprobación: 15/10/2026 17:48 (hora peninsular).
 
 **Vigilancia incompleta en: Picanya.** Puede haber anuncios aún no detectados.
 
