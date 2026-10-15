@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 15/10/2026 06:44 (hora peninsular).
+Última comprobación: 15/10/2026 08:54 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -35,6 +35,14 @@
 - **Oliva** — Anunci Ajuntament publicació convocatòria 22530/2026 Escoles Taller Anuncios ESCOLA TALLER COMTAL 2026 Convocatòria pública per a la selecció del personal directiu, docent i auxiliar administratiu i selecció de l'alumnat/treballador 14/10/2026
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://oliva.sedelectronica.es/preview-document/ef300cf5-40f8-4436-a788-dace64100cf9)
+
+- **València** — Convocatòria Selecció personal directiu. docent i auxiliar administratiu. FESTA 2026 19 46
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/detalle/7af820420a8e0cc151e17071f60dba42f3fe9f772c635bdcc9a5a06a0b1a5000)
+
+- **València** — [PDF] Descarregar edicte
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/download/7af820420a8e0cc151e17071f60dba42f3fe9f772c635bdcc9a5a06a0b1a5000)
 
 - **Xativa** — 0_BASES SELECCIÓN PERSONAL PROGRAMAS MIXTOS 2025_firmado 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
   - Plazo: Plazo por confirmar en el anuncio
