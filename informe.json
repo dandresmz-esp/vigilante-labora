@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-15T07:50:39.613713+00:00",
+  "finished": "2026-10-15T08:47:43.272456+00:00",
   "checked": 456,
   "actionable_events": 0,
-  "suppressed_events": 125,
+  "suppressed_events": 3,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
