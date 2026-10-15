@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-15T09:46:21.989176+00:00",
-  "checked": 456,
+  "finished": "2026-10-15T10:46:19.991639+00:00",
+  "checked": 457,
   "actionable_events": 0,
-  "suppressed_events": 0,
+  "suppressed_events": 3,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -176,7 +176,7 @@
     },
     "Utiel": {
       "status": "lectura_verificada",
-      "resources": 6,
+      "resources": 7,
       "failures": 0,
       "unvalidated_sources": 0
     },

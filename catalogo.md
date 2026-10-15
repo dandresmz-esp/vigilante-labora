@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 15/10/2026 11:46 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 15/10/2026 12:46 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **94**. Con especialidades afines al perfil: **70**.
 
