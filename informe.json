@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-15T11:45:07.486744+00:00",
-  "checked": 460,
+  "finished": "2026-10-15T12:55:51.952301+00:00",
+  "checked": 465,
   "actionable_events": 1,
-  "suppressed_events": 4,
+  "suppressed_events": 9,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -20,7 +20,7 @@
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 20,
+      "resources": 21,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -80,7 +80,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 42,
+      "resources": 43,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -127,9 +127,9 @@
       "unvalidated_sources": 0
     },
     "Picanya": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 4,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "Rafelbunyol": {
@@ -164,7 +164,7 @@
     },
     "Silla": {
       "status": "lectura_verificada",
-      "resources": 30,
+      "resources": 33,
       "failures": 0,
       "unvalidated_sources": 0
     },
