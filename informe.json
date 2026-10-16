@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-16T14:46:56.612239+00:00",
-  "checked": 478,
-  "actionable_events": 0,
-  "suppressed_events": 1,
+  "finished": "2026-10-16T15:44:11.109686+00:00",
+  "checked": 479,
+  "actionable_events": 1,
+  "suppressed_events": 116,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -80,7 +80,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 48,
+      "resources": 49,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -193,6 +193,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "sin_novedades",
+  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
