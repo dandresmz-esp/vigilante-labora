@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 15/10/2026 22:44 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 16/10/2026 06:45 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **94**. Con especialidades afines al perfil: **70**.
 
@@ -130,5 +130,5 @@ Una convocatoria solo se vincula a un expediente cuando el anuncio indica su có
 | 2026-10-08 | Xativa | 2. Calendario presentacion solicitudes FOTAE 2025 web LABORA (1) 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/1b2c4eb7-a8a9-4362-b768-6e7e14d1e0b7) |
 | 2026-10-08 | Xativa | 3-Anexo I TALLER EMPLEO_firmado_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/15ca00dc-54bd-4616-9b89-40f93a8c7cd8) |
 | 2026-10-08 | Xativa | EDICTE PERSONAL DOCENT. T.O. REMODELACIÓ JARDI DEL BES 25-26 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/c416e38f-3356-41b7-b76c-83895440a465) |
-| 2026-10-07 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-93-pdf) |
-| 2026-10-07 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-92-pdf) |
+| 2026-10-07 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15 | Plazo finalizado | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-93-pdf) |
+| 2026-10-07 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15 | Plazo finalizado | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-92-pdf) |

@@ -1,20 +1,12 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 15/10/2026 22:44 (hora peninsular).
+Última comprobación: 16/10/2026 06:45 (hora peninsular).
 
-**Vigilancia incompleta en: Alaquas, Picanya.** Puede haber anuncios aún no detectados.
+**Vigilancia incompleta en: Picanya.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-08 a 2026-10-15
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-92-pdf)
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-93-pdf)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-10-14 a 2026-10-16
@@ -23,6 +15,10 @@
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15; 2026-10-15 a 2026-10-19
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-94-pdf)
+
+- **Ontinyent** — Anuncio oficial
+  - Plazo: 2026-10-16 a 2026-10-20
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=129926&modo=guardar)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19
@@ -76,9 +72,7 @@
 
 ## Próximas aperturas conocidas
 
-- **Ontinyent** — Anuncio oficial
-  - Plazo: 2026-10-16 a 2026-10-20
-  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=129926&modo=guardar)
+No hay aperturas futuras confirmadas.
 
 [Descargar convocatorias para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/plazas.csv) · [Descargar proyectos aprobados para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/catalogo.csv)
 
