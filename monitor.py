@@ -295,8 +295,9 @@ def fetch(url, validators=None):
                     raise ValueError('Origen del lector no verificado')
                 if not relay and urlsplit(response.url).hostname not in ALLOWED_HOSTS:
                     raise ValueError("Redirección fuera de fuentes permitidas")
-                data = response.read(MAX_BYTES + 1)
-                if len(data) > MAX_BYTES:
+                size_limit = 40 * 1024 * 1024 if host in ("picanya.org", "www.picanya.org") and urlsplit(url).path.startswith("/api/contents/") else MAX_BYTES
+                data = response.read(size_limit + 1)
+                if len(data) > size_limit:
                     raise ValueError("Documento demasiado grande: requiere revisión")
                 with HOST_LOCK:
                     HOST_FAILURES[host] = 0
@@ -341,7 +342,14 @@ def inspect_resource(resource):
             payload=json.loads(data.decode("utf-8"))
             items=payload.get("items",[]) if isinstance(payload,dict) else []
             words=("ocupacio","ocupación","empleo","taller","formacio","formación","docent","fotae","escola")
-            selected=[x for x in items if any(w in fold(json.dumps(x,ensure_ascii=False)) for w in words)]
+            # News bodies contain large embedded images/styles. Keep visible text
+            # and link targets, so these cannot dominate matching or hashing.
+            cleaned=[]
+            for item in items:
+                page=Page()
+                page.feed(str(item.get("body", "")))
+                cleaned.append({"title":item.get("title", ""), "subtitle":item.get("subtitle", ""), "date":item.get("date", ""), "body":page.text(), "links":[link["href"] for link in page.links]})
+            selected=[x for x in cleaned if any(w in fold(json.dumps(x,ensure_ascii=False)) for w in words)]
             text=json.dumps(selected,ensure_ascii=False,sort_keys=True)
             children=[]
             for match in re.findall(r'https://[^\s"<>\\]+',text):
@@ -455,6 +463,11 @@ def classify_event(event, today=None):
         return {"category":"suprimido","reason":"actividad_no_laboral"}
     info=event.get("details",{})
     codes=info.get("codes",[])
+    if event.get("entity") == "LABORA" and "fechas-presen" in event.get("url", ""):
+        calendar_dates = info.get("deadlines", [])
+        if calendar_dates and all(date.fromisoformat(d["end"]) < today for d in calendar_dates) and not info.get("relative_deadlines"):
+            return {"category":"suprimido", "reason":"plazo_caducado"}
+        return {"category":"revisar", "message":"LABORA ha actualizado un calendario con varias entidades. Hay que comprobar cada fila: las especialidades y los plazos del documento no corresponden necesariamente al mismo puesto.", "active_deadlines":[], "profile_matches":[], "calendar_review":True}
     approved=("listado proyectos" in hay or "llistat de projectes" in hay) and ("aprobados" in hay or "aprovats" in hay)
     profile_codes=[code for code in codes if code.startswith(("AGAO","COML","ADG")) or code=="IMAI0110"]
     document_years={int(year) for year in re.findall(r"\b20\d{2}\b",hay)}
@@ -499,8 +512,8 @@ def mail_subject(events):
         lead=relevant[0]
         prefix="ACCIÓN HOY" if any(e.get("category")=="accion" for e in relevant) else "REVISAR HOY"
         if len(relevant)==1:
-            return f"{prefix}: posible plaza de taller en {lead.get('entity','municipio')}"
-        return f"{prefix}: {len(relevant)} posibles plazas de talleres"
+            return "CALENDARIO ACTUALIZADO: comprobar nuevas convocatorias" if lead.get("calendar_review") else f"{prefix}: nuevo documento de selección en {lead.get('entity','municipio')}"
+        return f"{prefix}: {len(relevant)} documentos para revisar"
     if leads:
         return f"PROYECTOS APROBADOS: {len(leads)} listados para seguimiento"
     if failures:
@@ -517,9 +530,9 @@ def mail_body(events, report):
         info = event.get("details", {})
         for deadline in event.get("active_deadlines",info.get("deadlines", []))[:3]:
             lines.append("Plazo detectado: " + deadline["start"] + " a " + deadline["end"])
-        if info.get("relative_deadlines"):
+        if info.get("relative_deadlines") and not event.get("calendar_review"):
             lines.append("Plazo breve o relativo: compruébalo en el documento oficial.")
-        if event.get("category") in ("accion","revisar") and not info.get("deadlines") and not info.get("relative_deadlines"):
+        if event.get("category") in ("accion","revisar") and not info.get("deadlines") and not info.get("relative_deadlines") and not event.get("calendar_review"):
             lines.append("Plazo: no identificado con seguridad; revisa el enlace hoy.")
         if event.get("profile_matches"):
             lines.append("Coincidencias con tu perfil: " + ", ".join(event["profile_matches"]))

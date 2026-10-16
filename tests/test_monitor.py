@@ -144,7 +144,7 @@ class Logic(unittest.TestCase):
   content='Selección de personal docente Escuela Taller FESTA AGAO. Plazo del 02/10/2026 al 06/10/2026'
   event={'type':'fuente_nueva','kind':'pdf','entity':'LABORA','url':'https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-1','label':'calendario de presentación de documentación','excerpt':content,'details':m.details(content)}
   self.assertEqual(m.classify_event(event,today=date(2026,10,1))['category'],'revisar')
-  self.assertEqual(m.classify_event(event,today=date(2026,10,2))['category'],'accion')
+  self.assertEqual(m.classify_event(event,today=date(2026,10,2))['category'],'revisar')
   self.assertEqual(m.classify_event(event,today=date(2026,10,7))['reason'],'plazo_caducado')
  def test_approved_project_is_a_lead_not_a_vacancy(self):
   content='LISTADO PROYECTOS VALENCIA. Ejercicio 2026. Estado Ayuda: APROBADOS. FESTA/2026/24/46 ALZIRA. IMAI0110 Instalación y mantenimiento de sistemas de aislamiento.'
