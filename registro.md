@@ -1,8 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 16/10/2026 09:48 (hora peninsular).
-
-**Vigilancia incompleta en: Picanya.** Puede haber anuncios aún no detectados.
+Última comprobación: 16/10/2026 10:24 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -41,6 +39,10 @@
 - **Alzira** — Click Aquí
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_48c10bb45a8f4fb1ad9fd9712ffb1433.pdf)
+
+- **Alzira** — Edicto
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_8c9b13daa9174bf282016e7d8ce7d7d6.pdf)
 
 - **Oliva** — Anunci Ajuntament publicació convocatòria 22530/2026 Escoles Taller Anuncios ESCOLA TALLER COMTAL 2026 Convocatòria pública per a la selecció del personal directiu, docent i auxiliar administratiu i selecció de l'alumnat/treballador 14/10/2026
   - Plazo: Plazo por confirmar en el anuncio
