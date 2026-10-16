@@ -1,8 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 16/10/2026 14:55 (hora peninsular).
-
-**Vigilancia incompleta en: València.** Puede haber anuncios aún no detectados.
+Última comprobación: 16/10/2026 15:51 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
