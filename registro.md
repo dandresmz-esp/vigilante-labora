@@ -1,8 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 16/10/2026 06:45 (hora peninsular).
+Última comprobación: 16/10/2026 08:54 (hora peninsular).
 
-**Vigilancia incompleta en: Picanya.** Puede haber anuncios aún no detectados.
+**Vigilancia incompleta en: Alzira, Picanya.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -16,6 +16,10 @@
   - Plazo: 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15; 2026-10-15 a 2026-10-19
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-94-pdf)
 
+- **LABORA** — calendario de presentación de documentación
+  - Plazo: 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-16 a 2026-10-20
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-3-pdf)
+
 - **Ontinyent** — Anuncio oficial
   - Plazo: 2026-10-16 a 2026-10-20
   - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=129926&modo=guardar)
@@ -23,6 +27,10 @@
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-35-pdf)
+
+- **LABORA** — calendario de presentación de documentación
+  - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19; 2026-10-16 a 2026-10-22
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-36-pdf-3)
 
 ## Revisar hoy: plazo sin confirmar
 
