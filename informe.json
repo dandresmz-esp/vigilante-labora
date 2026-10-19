@@ -1,45 +1,45 @@
 {
-  "finished": "2026-10-19T04:48:30.725416+00:00",
-  "checked": 479,
-  "actionable_events": 25,
-  "suppressed_events": 120,
+  "finished": "2026-10-19T10:48:12.132103+00:00",
+  "checked": 485,
+  "actionable_events": 2,
+  "suppressed_events": 149,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alaquas": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 11,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Alcàsser": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 8,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Alfafar": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 21,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Algemesí": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 1,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Alzira": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 15,
-      "failures": 2,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Ayora": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 5,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Benaguasil": {
@@ -49,15 +49,15 @@
       "unvalidated_sources": 0
     },
     "Bétera": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 17,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Carlet": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 9,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Casinos": {
@@ -73,21 +73,21 @@
       "unvalidated_sources": 0
     },
     "Chiva": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 3,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 49,
+      "resources": 52,
       "failures": 0,
       "unvalidated_sources": 0
     },
     "La Font de la Figuera": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 4,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Llíria": {
@@ -103,9 +103,9 @@
       "unvalidated_sources": 0
     },
     "Massamagrell": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 1,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Mislata": {
@@ -115,9 +115,9 @@
       "unvalidated_sources": 0
     },
     "Oliva": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 15,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Ontinyent": {
@@ -133,9 +133,9 @@
       "unvalidated_sources": 0
     },
     "Rafelbunyol": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 4,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Riba-roja de Túria": {
@@ -145,9 +145,9 @@
       "unvalidated_sources": 0
     },
     "Ribera Baixa": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 20,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Sagunt": {
@@ -175,21 +175,21 @@
       "unvalidated_sources": 0
     },
     "Utiel": {
-      "status": "parcial",
-      "resources": 7,
-      "failures": 1,
+      "status": "lectura_verificada",
+      "resources": 9,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "València": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 7,
-      "failures": 7,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Xativa": {
-      "status": "parcial",
-      "resources": 13,
-      "failures": 1,
+      "status": "lectura_verificada",
+      "resources": 14,
+      "failures": 0,
       "unvalidated_sources": 0
     }
   },
