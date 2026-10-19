@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 16/10/2026 22:44 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 19/10/2026 06:48 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **94**. Con especialidades afines al perfil: **70**.
 
@@ -127,7 +127,7 @@ Una convocatoria solo se vincula a un expediente cuando el anuncio indica su có
 | 2026-10-14 | Alzira | Click Aquí | FESTA/2025/21/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_48c10bb45a8f4fb1ad9fd9712ffb1433.pdf) |
 | 2026-10-14 | LABORA | calendario de presentación de documentación | FESTA/2025/25/46 | 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19 | accion | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-35-pdf) |
 | 2026-10-14 | LABORA | calendario de presentación de documentación | FOTAE/2025/14/46 | 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15; 2026-10-15 a 2026-10-19 | accion | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-94-pdf) |
-| 2026-10-13 | LABORA | calendario de presentación de documentación | FESTA/2026/9/03 | 2026-10-14 a 2026-10-16 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-2) |
+| 2026-10-13 | LABORA | calendario de presentación de documentación | FESTA/2026/9/03 | 2026-10-14 a 2026-10-16 | Plazo finalizado | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-2) |
 | 2026-10-08 | Xativa | 1. Acta de convocatoria pública de empleo_firmado (1) (1)_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/cd36eaf9-9eba-4814-bc56-a0da41761127) |
 | 2026-10-08 | Xativa | 3-Anexo I TALLER EMPLEO_firmado (1) (1)_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/329945bf-9eae-44fc-8acd-97544e1a8b88) |
 | 2026-10-08 | Xativa | 0_BASES SELECCIÓN PERSONAL PROGRAMAS MIXTOS 2025_firmado 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026 | FOTAE/2025/24/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://xativa.sedelectronica.es/preview-document/f0dd917b-700e-4970-9636-6f65c5b92e2c) |

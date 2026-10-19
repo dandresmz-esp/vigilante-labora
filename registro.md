@@ -1,14 +1,12 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 16/10/2026 22:44 (hora peninsular).
+Última comprobación: 19/10/2026 06:48 (hora peninsular).
+
+**Vigilancia incompleta en: Alaquas, Alcàsser, Alfafar, Algemesí, Alzira, Ayora, Bétera, Carlet, Chiva, La Font de la Figuera, Manises, Massamagrell, Oliva, Rafelbunyol, Ribera Baixa, Utiel, València, Xativa.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-14 a 2026-10-16
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-2)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15; 2026-10-15 a 2026-10-19
