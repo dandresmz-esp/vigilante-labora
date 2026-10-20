@@ -1,14 +1,10 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 19/10/2026 19:31 (hora peninsular).
+Última comprobación: 20/10/2026 11:28 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-08 a 2026-10-15; 2026-10-13 a 2026-10-15; 2026-10-15 a 2026-10-19
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2025-94-pdf)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-16 a 2026-10-20
@@ -33,6 +29,10 @@
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-10-02 a 2026-10-06; 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-20 a 2026-10-23
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-5)
+
+- **LABORA** — calendario de presentación de documentación
+  - Plazo: 2026-10-19 a 2026-10-21; 2026-10-21 a 2026-10-27; 2026-10-20 a 2026-10-22
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-talento-joven-garantia-juvenil-2026-3)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19
