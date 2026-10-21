@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-20T15:10:23.293473+00:00",
-  "checked": 499,
-  "actionable_events": 11,
-  "suppressed_events": 134,
+  "finished": "2026-10-21T09:26:03.365878+00:00",
+  "checked": 504,
+  "actionable_events": 4,
+  "suppressed_events": 32,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -50,7 +50,7 @@
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 17,
+      "resources": 18,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -74,14 +74,14 @@
     },
     "Chiva": {
       "status": "lectura_verificada",
-      "resources": 3,
+      "resources": 4,
       "failures": 0,
       "unvalidated_sources": 0
     },
     "LABORA": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 55,
-      "failures": 4,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "La Font de la Figuera": {
@@ -134,7 +134,7 @@
     },
     "Rafelbunyol": {
       "status": "lectura_verificada",
-      "resources": 6,
+      "resources": 8,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -146,7 +146,7 @@
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
-      "resources": 21,
+      "resources": 22,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -163,9 +163,9 @@
       "unvalidated_sources": 0
     },
     "Silla": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 33,
-      "failures": 4,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Simat de la Valldigna": {
@@ -183,7 +183,7 @@
     "València": {
       "status": "parcial",
       "resources": 7,
-      "failures": 1,
+      "failures": 4,
       "unvalidated_sources": 0
     },
     "Xativa": {

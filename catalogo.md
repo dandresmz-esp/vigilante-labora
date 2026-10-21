@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 20/10/2026 17:10 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 21/10/2026 11:26 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **94**. Con especialidades afines al perfil: **70**.
 
@@ -123,9 +123,9 @@ Una convocatoria solo se vincula a un expediente cuando el anuncio indica su có
 | 2026-10-16 | LABORA | calendario de presentación de documentación | FESTA/2026/9/03 | 2026-10-02 a 2026-10-06; 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-20 a 2026-10-23 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-5) |
 | 2026-10-16 | Alzira | Edicto | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_8c9b13daa9174bf282016e7d8ce7d7d6.pdf) |
 | 2026-10-16 | LABORA | calendario de presentación de documentación | FESTA/2026/9/03 | 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-16 a 2026-10-20; 2026-10-20 a 2026-10-23 | accion | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-4-pdf) |
-| 2026-10-16 | LABORA | calendario de presentación de documentación | FESTA/2026/9/03 | 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-16 a 2026-10-20 | accion | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-3-pdf) |
+| 2026-10-16 | LABORA | calendario de presentación de documentación | FESTA/2026/9/03 | 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-16 a 2026-10-20 | Plazo finalizado | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-3-pdf) |
 | 2026-10-16 | LABORA | calendario de presentación de documentación | FESTA/2025/25/46 | 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19; 2026-10-16 a 2026-10-22 | accion | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-36-pdf-3) |
-| 2026-10-15 | Ontinyent | Anuncio oficial | FOTAE/2026/38/46 | 2026-10-16 a 2026-10-20 | revisar | [Anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=129926&modo=guardar) |
+| 2026-10-15 | Ontinyent | Anuncio oficial | FOTAE/2026/38/46 | 2026-10-16 a 2026-10-20 | Plazo finalizado | [Anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=129926&modo=guardar) |
 | 2026-10-15 | València | Convocatòria Selecció personal directiu. docent i auxiliar administratiu. FESTA 2026 19 46 | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://sede.valencia.es/sede/edictos/detalle/7af820420a8e0cc151e17071f60dba42f3fe9f772c635bdcc9a5a06a0b1a5000) |
 | 2026-10-15 | València | [PDF] Descarregar edicte | FESTA/2026/19/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://sede.valencia.es/sede/edictos/download/7af820420a8e0cc151e17071f60dba42f3fe9f772c635bdcc9a5a06a0b1a5000) |
 | 2026-10-14 | Oliva | Anunci Ajuntament publicació convocatòria 22530/2026 Escoles Taller Anuncios ESCOLA TALLER COMTAL 2026 Convocatòria pública per a la selecció del personal directiu, docent i auxiliar administratiu i selecció de l'alumnat/treballador 14/10/2026 | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://oliva.sedelectronica.es/preview-document/ef300cf5-40f8-4436-a788-dace64100cf9) |

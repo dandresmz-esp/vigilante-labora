@@ -1,20 +1,12 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 20/10/2026 17:10 (hora peninsular).
+Última comprobación: 21/10/2026 11:26 (hora peninsular).
 
-**Vigilancia incompleta en: LABORA, Silla, València.** Puede haber anuncios aún no detectados.
+**Vigilancia incompleta en: València.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-16 a 2026-10-20
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-3-pdf)
-
-- **Ontinyent** — Anuncio oficial
-  - Plazo: 2026-10-16 a 2026-10-20
-  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=129926&modo=guardar)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-10-19 a 2026-10-21
@@ -41,10 +33,6 @@
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-talento-joven-garantia-juvenil-2026-4-pdf)
 
 - **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-16 a 2026-10-20; 2026-10-26 a 2026-10-30
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-2-pdf)
-
-- **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-35-pdf)
 
@@ -53,6 +41,10 @@
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-36-pdf-3)
 
 ## Revisar hoy: plazo sin confirmar
+
+- **LABORA** — calendario de presentación de documentación
+  - Plazo: 2026-10-16 a 2026-10-20; 2026-10-26 a 2026-10-30
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-2-pdf)
 
 - **Alzira** — Click Aquí
   - Plazo: Plazo por confirmar en el anuncio
