@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-21T09:26:03.365878+00:00",
-  "checked": 504,
-  "actionable_events": 4,
-  "suppressed_events": 32,
+  "finished": "2026-10-21T15:17:06.187285+00:00",
+  "checked": 509,
+  "actionable_events": 0,
+  "suppressed_events": 135,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -14,13 +14,13 @@
     },
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 10,
+      "resources": 11,
       "failures": 0,
       "unvalidated_sources": 0
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 21,
+      "resources": 22,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -56,7 +56,7 @@
     },
     "Carlet": {
       "status": "lectura_verificada",
-      "resources": 10,
+      "resources": 11,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -86,7 +86,7 @@
     },
     "La Font de la Figuera": {
       "status": "lectura_verificada",
-      "resources": 4,
+      "resources": 5,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -116,7 +116,7 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 15,
+      "resources": 16,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -181,9 +181,9 @@
       "unvalidated_sources": 0
     },
     "València": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 7,
-      "failures": 4,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Xativa": {
@@ -193,6 +193,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "delivery": "sin_novedades",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
