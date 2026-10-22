@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 22/10/2026 11:28 (hora peninsular).
+Última comprobación: 22/10/2026 17:21 (hora peninsular).
 
 **Vigilancia incompleta en: Silla.** Puede haber anuncios aún no detectados.
 
