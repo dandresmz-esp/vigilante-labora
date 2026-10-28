@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-28T10:37:08.116312+00:00",
-  "checked": 542,
-  "actionable_events": 2,
-  "suppressed_events": 131,
+  "finished": "2026-10-28T17:13:21.997264+00:00",
+  "checked": 545,
+  "actionable_events": 1,
+  "suppressed_events": 135,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -86,7 +86,7 @@
     },
     "La Font de la Figuera": {
       "status": "lectura_verificada",
-      "resources": 5,
+      "resources": 6,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -122,7 +122,7 @@
     },
     "Ontinyent": {
       "status": "lectura_verificada",
-      "resources": 7,
+      "resources": 9,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -163,9 +163,9 @@
       "unvalidated_sources": 0
     },
     "Silla": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 33,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Simat de la Valldigna": {

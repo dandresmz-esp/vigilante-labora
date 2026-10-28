@@ -1,8 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 28/10/2026 11:37 (hora peninsular).
-
-**Vigilancia incompleta en: Silla.** Puede haber anuncios aún no detectados.
+Última comprobación: 28/10/2026 18:13 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -41,6 +39,10 @@
 - **Oliva** — Anunci Ajuntament publicació convocatòria 22530/2026 Escoles Taller Anuncios ESCOLA TALLER COMTAL 2026 Convocatòria pública per a la selecció del personal directiu, docent i auxiliar administratiu i selecció de l'alumnat/treballador 14/10/2026
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://oliva.sedelectronica.es/preview-document/ef300cf5-40f8-4436-a788-dace64100cf9)
+
+- **Ontinyent** — 28/10/2026 - 30/10/2026 Acta Personal Docente Hosteleria Taller d'Ocupació "Ontinyent Evoluciona"
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/anuncio.aspx?id=84107)
 
 - **València** — Convocatòria Selecció personal directiu. docent i auxiliar administratiu. FESTA 2026 19 46
   - Plazo: Plazo por confirmar en el anuncio
