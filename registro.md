@@ -1,18 +1,12 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 27/10/2026 16:57 (hora peninsular).
+Última comprobación: 28/10/2026 11:37 (hora peninsular).
+
+**Vigilancia incompleta en: Silla.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-19 a 2026-10-21; 2026-10-21 a 2026-10-27; 2026-10-20 a 2026-10-22
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-talento-joven-garantia-juvenil-2026-3)
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-19 a 2026-10-21; 2026-10-21 a 2026-10-27; 2026-10-20 a 2026-10-22; 2026-10-22 a 2026-10-26
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-talento-joven-garantia-juvenil-2026-4-pdf)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-10-16 a 2026-10-20; 2026-10-26 a 2026-10-30
@@ -31,6 +25,10 @@
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-36-pdf-3)
 
 ## Revisar hoy: plazo sin confirmar
+
+- **LABORA** — calendario de presentación de documentación
+  - Plazo: 2026-10-02 a 2026-10-06; 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-20 a 2026-10-23; 2026-11-03 a 2026-11-06
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-6-pdf)
 
 - **Alzira** — Click Aquí
   - Plazo: Plazo por confirmar en el anuncio
