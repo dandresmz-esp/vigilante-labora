@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 29/10/2026 11:15 (hora peninsular).
+Última comprobación: 29/10/2026 18:31 (hora peninsular).
 
 **Vigilancia incompleta en: Algemesí.** Puede haber anuncios aún no detectados.
 
