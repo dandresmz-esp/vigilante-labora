@@ -175,6 +175,12 @@ class Logic(unittest.TestCase):
  def test_madrid_schedule(self):
   self.assertTrue(m.scheduled_now(datetime(2026,9,17,6,7,tzinfo=timezone.utc)))
   self.assertFalse(m.scheduled_now(datetime(2026,9,17,3,7,tzinfo=timezone.utc)))
+ def test_madrid_schedule_dst_boundaries(self):
+  for month,day,offset in ((9,17,2),(10,29,1)):
+   for local_hour in (6,7,21,22):
+    self.assertTrue(m.scheduled_now(datetime(2026,month,day,local_hour-offset,23,tzinfo=timezone.utc)))
+   for local_hour in (5,23):
+    self.assertFalse(m.scheduled_now(datetime(2026,month,day,local_hour-offset,23,tzinfo=timezone.utc)))
  def test_weekend(self):
   self.assertFalse(m.scheduled_now(datetime(2026,9,19,7,7,tzinfo=timezone.utc)))
   self.assertFalse(m.scheduled_now(datetime(2026,9,19,8,7,tzinfo=timezone.utc)))

@@ -32,7 +32,7 @@ El primer pase crea el inventario sin avisar de documentos históricos. Los camb
 7. Autorizar y ejecutar una entrega manual. Confirmar recepción real en el correo y notificación del móvil. La aceptación por el servidor SMTP no acredita recepción ni lectura.
 8. Solo tras la auditoría, crear variable `VIGILANTE_ACTIVO=true`. Por defecto las ejecuciones programadas están desactivadas.
 
-La programación se dispara en el minuto 17 y el programa aplica horario Europe/Madrid (incluidos cambios de hora). Lee cada hora de 8 a 20 laborables, además de las 6 y 22; fines de semana a las 9. Los festivos se comprueban igual que otros días de la semana, sin reducir cobertura.
+La programación solicita una ejecución en el minuto 23 de cada hora, de 04 a 21 UTC en días laborables. El programa comprueba fuentes de 06 a 22 en Europe/Madrid, incluidos los cambios de hora; no lee fuentes en fin de semana. La ventana UTC cubre ambas estaciones y puede incluir una ejecución fuera de la franja local, que solo conserva la señal de vida. GitHub puede retrasar o perder eventos programados: esta configuración no garantiza puntualidad. Healthchecks debe seguir avisando de ausencias; una prueba manual no acredita recuperación de la programación.
 
 El estado y la cola de avisos se conservan con historial en la rama `estado-vigilante`; no se usa una caché temporal como base de datos. La rama conserva versiones del estado y del informe, no los PDF. Los artefactos de Actions caducan. Las actualizaciones de estado generan actividad en el repositorio; aun así el control externo debe detectar ejecuciones que no arrancan o programaciones desactivadas.
 
