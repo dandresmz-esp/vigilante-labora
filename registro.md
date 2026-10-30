@@ -1,8 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 30/10/2026 18:06 (hora peninsular).
+Última comprobación: 30/10/2026 22:37 (hora peninsular).
 
-**Vigilancia incompleta en: Algemesí.** Puede haber anuncios aún no detectados.
+**Vigilancia incompleta en: Algemesí, Bétera, Sedaví.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 

@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-30T17:06:21.988391+00:00",
+  "finished": "2026-10-30T21:37:46.234140+00:00",
   "checked": 557,
-  "actionable_events": 1,
-  "suppressed_events": 111,
+  "actionable_events": 2,
+  "suppressed_events": 4,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -49,9 +49,9 @@
       "unvalidated_sources": 0
     },
     "Bétera": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 25,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "Carlet": {
@@ -157,9 +157,9 @@
       "unvalidated_sources": 0
     },
     "Sedaví": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 2,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0
     },
     "Silla": {
