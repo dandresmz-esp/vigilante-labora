@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-29T17:31:11.579397+00:00",
-  "checked": 548,
+  "finished": "2026-10-30T10:58:20.904405+00:00",
+  "checked": 553,
   "actionable_events": 0,
-  "suppressed_events": 131,
+  "suppressed_events": 137,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -50,7 +50,7 @@
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 23,
+      "resources": 25,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -104,7 +104,7 @@
     },
     "Massamagrell": {
       "status": "lectura_verificada",
-      "resources": 1,
+      "resources": 2,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -116,7 +116,7 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 20,
+      "resources": 21,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -146,7 +146,7 @@
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
-      "resources": 24,
+      "resources": 25,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -193,6 +193,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "delivery": "sin_novedades",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
