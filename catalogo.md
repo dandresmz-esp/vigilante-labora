@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 30/10/2026 11:58 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 30/10/2026 18:06 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **94**. Con especialidades afines al perfil: **70**.
 
@@ -115,6 +115,7 @@ Una convocatoria solo se vincula a un expediente cuando el anuncio indica su có
 
 | Detectada | Entidad | Anuncio | Expediente vinculado | Plazo de solicitud | Estado | Fuente |
 |---|---|---|---|---|---|---|
+| 2026-10-30 | Carlet | COMUNICACIÓN DE SELECCIÓN DOCENTE EXPEDIENTE FESTA/2025/7/46 4469/2025 Subvencions Sol·licitades a Una altra Administració Anuncis COMUNICACIÓN DE SELECCIÓN DOCENTE EXPEDIENTE FESTA/2025/7/46 30/10/2026 | FESTA/2025/7/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://carlet.sedelectronica.es/preview-document/00ff8537-5b52-479f-b72b-f847033f61fe) |
 | 2026-10-28 | Ontinyent | 28/10/2026 - 30/10/2026 Acta Personal Docente Hosteleria Taller d'Ocupació "Ontinyent Evoluciona" | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/anuncio.aspx?id=84107) |
 | 2026-10-28 | LABORA | calendario de presentación de documentación | FESTA/2026/9/03 | 2026-10-02 a 2026-10-06; 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-20 a 2026-10-23; 2026-11-03 a 2026-11-06 | revisar | [Anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-6-pdf) |
 | 2026-10-23 | València | Convocatòria Selecció personal directiu. docent i auxiliar administratiu. FESTA 2026 19 46 | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://sede.valencia.es/sede/edictos/detalle/7af820420a8e0cc151e17071f60dba42f3fe9f772c635bdcc9a5a06a0b1a5000) |

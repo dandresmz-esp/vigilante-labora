@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-30T10:58:20.904405+00:00",
-  "checked": 553,
-  "actionable_events": 0,
-  "suppressed_events": 137,
+  "finished": "2026-10-30T17:06:21.988391+00:00",
+  "checked": 557,
+  "actionable_events": 1,
+  "suppressed_events": 111,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -56,7 +56,7 @@
     },
     "Carlet": {
       "status": "lectura_verificada",
-      "resources": 13,
+      "resources": 14,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -122,7 +122,7 @@
     },
     "Ontinyent": {
       "status": "lectura_verificada",
-      "resources": 9,
+      "resources": 12,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -193,6 +193,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "sin_novedades",
+  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado"
 }

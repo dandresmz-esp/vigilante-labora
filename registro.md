@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 30/10/2026 11:58 (hora peninsular).
+Última comprobación: 30/10/2026 18:06 (hora peninsular).
 
 **Vigilancia incompleta en: Algemesí.** Puede haber anuncios aún no detectados.
 
@@ -37,6 +37,10 @@
 - **Alzira** — Edicto
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_8c9b13daa9174bf282016e7d8ce7d7d6.pdf)
+
+- **Carlet** — COMUNICACIÓN DE SELECCIÓN DOCENTE EXPEDIENTE FESTA/2025/7/46 4469/2025 Subvencions Sol·licitades a Una altra Administració Anuncis COMUNICACIÓN DE SELECCIÓN DOCENTE EXPEDIENTE FESTA/2025/7/46 30/10/2026
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://carlet.sedelectronica.es/preview-document/00ff8537-5b52-479f-b72b-f847033f61fe)
 
 - **Oliva** — Anunci Ajuntament publicació convocatòria 22530/2026 Escoles Taller Anuncios ESCOLA TALLER COMTAL 2026 Convocatòria pública per a la selecció del personal directiu, docent i auxiliar administratiu i selecció de l'alumnat/treballador 14/10/2026
   - Plazo: Plazo por confirmar en el anuncio
