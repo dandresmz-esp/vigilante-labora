@@ -1,20 +1,10 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 30/10/2026 22:37 (hora peninsular).
-
-**Vigilancia incompleta en: Algemesí, Bétera, Sedaví.** Puede haber anuncios aún no detectados.
+Última comprobación: 02/11/2026 13:36 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-16 a 2026-10-20; 2026-10-26 a 2026-10-30
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-2-pdf)
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-19 a 2026-10-21; 2026-10-21 a 2026-10-27; 2026-10-20 a 2026-10-22; 2026-10-22 a 2026-10-26; 2026-10-26 a 2026-10-30
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-talento-joven-garantia-juvenil-2026-6-pdf)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19

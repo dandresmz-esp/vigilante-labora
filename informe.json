@@ -1,8 +1,8 @@
 {
-  "finished": "2026-10-30T21:37:46.234140+00:00",
-  "checked": 557,
-  "actionable_events": 2,
-  "suppressed_events": 4,
+  "finished": "2026-11-02T12:36:32.406706+00:00",
+  "checked": 563,
+  "actionable_events": 0,
+  "suppressed_events": 144,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -20,14 +20,14 @@
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 25,
+      "resources": 26,
       "failures": 0,
       "unvalidated_sources": 0
     },
     "Algemesí": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 1,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Alzira": {
@@ -49,9 +49,9 @@
       "unvalidated_sources": 0
     },
     "Bétera": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 25,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Carlet": {
@@ -74,13 +74,13 @@
     },
     "Chiva": {
       "status": "lectura_verificada",
-      "resources": 4,
+      "resources": 5,
       "failures": 0,
       "unvalidated_sources": 0
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 57,
+      "resources": 58,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -122,7 +122,7 @@
     },
     "Ontinyent": {
       "status": "lectura_verificada",
-      "resources": 12,
+      "resources": 14,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -146,7 +146,7 @@
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
-      "resources": 25,
+      "resources": 26,
       "failures": 0,
       "unvalidated_sources": 0
     },
@@ -157,9 +157,9 @@
       "unvalidated_sources": 0
     },
     "Sedaví": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 2,
-      "failures": 1,
+      "failures": 0,
       "unvalidated_sources": 0
     },
     "Silla": {
@@ -193,6 +193,6 @@
       "unvalidated_sources": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "delivery": "sin_novedades",
   "external_watchdog": "pendiente_de_persistir_estado"
 }
