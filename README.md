@@ -62,3 +62,7 @@ Si una web acumula tres descargas fallidas por conexión o errores de servidor, 
 Claude puede ejecutar las pruebas, contrastar los PDF con sus fuentes, modificar datos de prueba y revisar `AUDITORIA.md`. No se considera independiente que el constructor ejecute sus propias pruebas. La aceptación final exige las pruebas externas de correo/móvil y de ausencia de ejecución, además de resolver o aceptar expresamente los huecos de cobertura.
 
 
+
+
+## Calendarios retirados de LABORA
+Se conservan como histórico los calendarios previamente leídos que devuelven404, cuyos plazos explícitos han terminado y que ya no están enlazados desde las páginas actuales comprobadas correctamente. Se mantienen hashes, fechas y motivo en el estado; el informe cuenta `retired_historical` por entidad. Si una página falla, una fecha es desconocida/relativa o el enlace sigue publicado, el fallo permanece visible. Un calendario redescubierto vuelve a leerse. No se retiran convocatorias ni tablones municipales por esta regla.

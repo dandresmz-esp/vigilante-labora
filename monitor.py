@@ -222,6 +222,30 @@ def details(text):
     result["deadline_status"] = "fechas_explicitas" if result["deadlines"] else "revisar_documento"
     return result
 
+def retired_labora_calendar(record, live_urls, roots_ok, today):
+    """Archive only previously read, expired calendars detached from healthy roots.
+
+    A missing current document, unknown date, or failed root must remain a failure.
+    Keep the record and hashes: rediscovery automatically activates reading again.
+    """
+    url = canonical(record.get("url", ""))
+    if not roots_ok or url in live_urls:
+        return False
+    if (record.get("entity") != "LABORA" or record.get("kind") != "pdf"
+            or not urlsplit(url).path.startswith("/documents/d/labora/fechas-presen-documen-")
+            or not record.get("hash") or not record.get("last_success")
+            or "HTTP Error 404:" not in record.get("error", "")):
+        return False
+    details = record.get("details", {})
+    deadlines = details.get("deadlines", [])
+    if not deadlines or details.get("relative_deadlines"):
+        return False
+    try:
+        return all(date.fromisoformat(d["end"]) < today for d in deadlines)
+    except (KeyError, TypeError, ValueError):
+        return False
+
+
 def candidates(page, base, entity, depth):
     found = {}
     for link in page.links:
@@ -688,6 +712,19 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
                             if child["url"] not in seen:
                                 queue[child["url"]] = child
             if not queue and historical:
+                labora_roots = {canonical(r["url"]) for r in config["sources"] if r["entity"] == "LABORA"}
+                healthy_roots = {canonical(r["resource"]["url"]) for r in results if r["ok"]}
+                roots_ok = bool(labora_roots) and labora_roots <= healthy_roots
+                live_urls = {canonical(c["url"]) for r in results if r["ok"] for c in r.get("children", [])}
+                for u in historical:
+                    record = state["resources"][u]
+                    if u not in seen and retired_labora_calendar(record, live_urls, roots_ok, today):
+                        record["status"] = "historico_retirado"
+                        record["retirement_reason"] = "404; calendario vencido ya no enlazado desde paginas actuales verificadas"
+                        record["retirement_checked_at"] = utcnow()
+                        seen.add(u)
+                        state["pending"] = {k:e for k,e in state["pending"].items()
+                            if not (e.get("url") == u and e.get("category") == "fallo")}
                 queue={u:r for u,r in historical.items() if u not in seen}
                 historical={}
     now,events = utcnow(),[]
@@ -726,7 +763,7 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         rr = [r for r in state["resources"].values() if r["entity"] == entity]
         failures = sum(r["status"] == "fallando" for r in rr)
         gaps = sum(g["entity"] == entity for g in all_gaps)
-        coverage[entity] = {"status":"parcial" if failures or gaps or overflow else "lectura_verificada", "resources":len(rr),"failures":failures,"unvalidated_sources":gaps}
+        coverage[entity] = {"status":"parcial" if failures or gaps or overflow else "lectura_verificada", "resources":len(rr),"failures":failures,"unvalidated_sources":gaps,"retired_historical":sum(r["status"] == "historico_retirado" for r in rr)}
     report = {"finished":now,"checked":len(results),"actionable_events":len(events),"suppressed_events":len(suppressed),"pending_events":len(state["pending"]),"overflow":overflow,"coverage":coverage,"delivery":"no_solicitada","external_watchdog":"no_configurado"}
     preview = mail_body(list(state["pending"].values()),report)
     (runtime/"aviso_preparado.txt").write_text(preview,encoding="utf-8")
