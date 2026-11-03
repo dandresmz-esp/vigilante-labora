@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 03/11/2026 13:41 (hora peninsular).
+Última comprobación: 03/11/2026 20:36 (hora peninsular).
 
 **Vigilancia incompleta en: València.** Puede haber anuncios aún no detectados.
 
