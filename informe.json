@@ -1,198 +1,229 @@
 {
-  "finished": "2026-11-03T12:03:29.916118+00:00",
-  "checked": 572,
-  "actionable_events": 11,
-  "suppressed_events": 143,
-  "pending_events": 0,
+  "finished": "2026-11-03T12:41:20.231412+00:00",
+  "checked": 563,
+  "actionable_events": 2,
+  "suppressed_events": 3,
+  "pending_events": 2,
   "overflow": false,
   "coverage": {
     "Alaquas": {
       "status": "lectura_verificada",
       "resources": 15,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Alcàsser": {
       "status": "lectura_verificada",
       "resources": 15,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Alfafar": {
       "status": "lectura_verificada",
       "resources": 28,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Algemesí": {
       "status": "lectura_verificada",
       "resources": 1,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Alzira": {
       "status": "lectura_verificada",
       "resources": 19,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Ayora": {
       "status": "lectura_verificada",
       "resources": 5,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Benaguasil": {
       "status": "lectura_verificada",
       "resources": 1,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Bétera": {
       "status": "lectura_verificada",
       "resources": 26,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Carlet": {
       "status": "lectura_verificada",
       "resources": 14,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Casinos": {
       "status": "lectura_verificada",
       "resources": 21,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Catarroja": {
       "status": "lectura_verificada",
       "resources": 9,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Chiva": {
       "status": "lectura_verificada",
       "resources": 5,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "LABORA": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 59,
-      "failures": 10,
-      "unvalidated_sources": 0
+      "failures": 0,
+      "unvalidated_sources": 0,
+      "retired_historical": 10
     },
     "La Font de la Figuera": {
       "status": "lectura_verificada",
       "resources": 6,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Llíria": {
       "status": "lectura_verificada",
       "resources": 1,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Manises": {
       "status": "lectura_verificada",
       "resources": 71,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Massamagrell": {
       "status": "lectura_verificada",
-      "resources": 2,
+      "resources": 3,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Mislata": {
       "status": "lectura_verificada",
       "resources": 1,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Oliva": {
       "status": "lectura_verificada",
       "resources": 21,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Ontinyent": {
       "status": "lectura_verificada",
       "resources": 18,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Picanya": {
       "status": "lectura_verificada",
       "resources": 4,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Rafelbunyol": {
       "status": "lectura_verificada",
       "resources": 9,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Riba-roja de Túria": {
       "status": "lectura_verificada",
       "resources": 3,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
       "resources": 26,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Sagunt": {
       "status": "lectura_verificada",
       "resources": 120,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Sedaví": {
       "status": "lectura_verificada",
       "resources": 2,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Silla": {
       "status": "lectura_verificada",
       "resources": 33,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Simat de la Valldigna": {
       "status": "lectura_verificada",
       "resources": 2,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Utiel": {
       "status": "lectura_verificada",
       "resources": 9,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "València": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 7,
-      "failures": 0,
-      "unvalidated_sources": 0
+      "failures": 2,
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     },
     "Xativa": {
       "status": "lectura_verificada",
       "resources": 19,
       "failures": 0,
-      "unvalidated_sources": 0
+      "unvalidated_sources": 0,
+      "retired_historical": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
-  "external_watchdog": "pendiente_de_persistir_estado"
+  "delivery": "no_solicitada",
+  "external_watchdog": "no_configurado"
 }
