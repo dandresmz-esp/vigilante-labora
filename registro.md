@@ -1,10 +1,16 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 02/11/2026 13:36 (hora peninsular).
+Última comprobación: 03/11/2026 13:03 (hora peninsular).
+
+**Vigilancia incompleta en: LABORA.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
+
+- **LABORA** — calendario de presentación de documentación
+  - Plazo: 2026-10-02 a 2026-10-06; 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-20 a 2026-10-23; 2026-11-03 a 2026-11-06
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-6-pdf)
 
 - **LABORA** — calendario de presentación de documentación
   - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19
@@ -15,10 +21,6 @@
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-36-pdf-3)
 
 ## Revisar hoy: plazo sin confirmar
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-02 a 2026-10-06; 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-20 a 2026-10-23; 2026-11-03 a 2026-11-06
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-6-pdf)
 
 - **Alzira** — Click Aquí
   - Plazo: Plazo por confirmar en el anuncio
@@ -39,6 +41,10 @@
 - **Ontinyent** — 28/10/2026 - 30/10/2026 Acta Personal Docente Hosteleria Taller d'Ocupació "Ontinyent Evoluciona"
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/anuncio.aspx?id=84107)
+
+- **Ontinyent** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131258&modo=guardar)
 
 - **València** — Convocatòria Selecció personal directiu. docent i auxiliar administratiu. FESTA 2026 19 46
   - Plazo: Plazo por confirmar en el anuncio
