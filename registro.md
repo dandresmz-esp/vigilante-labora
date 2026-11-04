@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 04/11/2026 13:17 (hora peninsular).
+Última comprobación: 04/11/2026 20:54 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -19,6 +19,14 @@
   - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-36-pdf-3)
 
 ## Revisar hoy: plazo sin confirmar
+
+- **LABORA** — calendario de presentación de documentación
+  - Plazo: 2026-10-16 a 2026-10-20; 2026-10-26 a 2026-10-30; 2026-11-05 a 2026-11-09
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-3-2-pdf)
+
+- **LABORA** — Anuncio oficial
+  - Plazo: 2026-10-16 a 2026-10-20; 2026-10-26 a 2026-10-30; 2026-11-05 a 2026-11-09
+  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-3-3-pdf)
 
 - **Alzira** — Click Aquí
   - Plazo: Plazo por confirmar en el anuncio
@@ -82,7 +90,9 @@
 
 ## Próximas aperturas conocidas
 
-No hay aperturas futuras confirmadas.
+- **Ontinyent** — Anuncio oficial
+  - Plazo: 2026-11-05 a 2026-11-09
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131458&modo=guardar)
 
 [Descargar convocatorias para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/plazas.csv) · [Descargar proyectos aprobados para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/catalogo.csv)
 
