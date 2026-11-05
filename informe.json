@@ -1,28 +1,28 @@
 {
-  "finished": "2026-11-04T19:54:29.133389+00:00",
-  "checked": 576,
-  "actionable_events": 3,
-  "suppressed_events": 13,
+  "finished": "2026-11-05T12:31:41.193314+00:00",
+  "checked": 582,
+  "actionable_events": 1,
+  "suppressed_events": 140,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alaquas": {
       "status": "lectura_verificada",
-      "resources": 15,
+      "resources": 16,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 19,
+      "resources": 20,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 28,
+      "resources": 29,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -204,14 +204,14 @@
     },
     "Utiel": {
       "status": "lectura_verificada",
-      "resources": 9,
+      "resources": 10,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "València": {
       "status": "lectura_verificada",
-      "resources": 7,
+      "resources": 9,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -225,5 +225,6 @@
     }
   },
   "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
-  "external_watchdog": "pendiente_de_persistir_estado"
+  "external_watchdog": "pendiente_de_persistir_estado",
+  "internal_reviews": 8
 }

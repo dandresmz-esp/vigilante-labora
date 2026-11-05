@@ -1,32 +1,16 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 04/11/2026 20:54 (hora peninsular).
+Última comprobación: 05/11/2026 13:31 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
 
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-02 a 2026-10-06; 2026-10-14 a 2026-10-16; 2026-10-16 a 2026-10-20; 2026-10-20 a 2026-10-23; 2026-11-03 a 2026-11-06
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-6-pdf)
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-35-pdf)
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-06-30 a 2027-07-02; 2026-10-15 a 2026-10-19; 2026-10-16 a 2026-10-22
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-36-pdf-3)
+- **Ontinyent** — Anuncio oficial
+  - Plazo: 2026-11-05 a 2026-11-09
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131458&modo=guardar)
 
 ## Revisar hoy: plazo sin confirmar
-
-- **LABORA** — calendario de presentación de documentación
-  - Plazo: 2026-10-16 a 2026-10-20; 2026-10-26 a 2026-10-30; 2026-11-05 a 2026-11-09
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-3-2-pdf)
-
-- **LABORA** — Anuncio oficial
-  - Plazo: 2026-10-16 a 2026-10-20; 2026-10-26 a 2026-10-30; 2026-11-05 a 2026-11-09
-  - [Abrir el anuncio oficial](https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-3-3-pdf)
 
 - **Alzira** — Click Aquí
   - Plazo: Plazo por confirmar en el anuncio
@@ -60,6 +44,10 @@
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/download/7af820420a8e0cc151e17071f60dba42f3fe9f772c635bdcc9a5a06a0b1a5000)
 
+- **València** — [PDF] Descarregar edicte
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/download/01ae3f5f758ef549711016ad29ebe4bb21b32eadf4636131f6d685577ca8897b)
+
 - **Xativa** — 0_BASES SELECCIÓN PERSONAL PROGRAMAS MIXTOS 2025_firmado 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/f0dd917b-700e-4970-9636-6f65c5b92e2c)
@@ -90,9 +78,7 @@
 
 ## Próximas aperturas conocidas
 
-- **Ontinyent** — Anuncio oficial
-  - Plazo: 2026-11-05 a 2026-11-09
-  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131458&modo=guardar)
+No hay aperturas futuras confirmadas.
 
 [Descargar convocatorias para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/plazas.csv) · [Descargar proyectos aprobados para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/catalogo.csv)
 

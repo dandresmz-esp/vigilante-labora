@@ -1,0 +1,1080 @@
+{
+  "checked_at": "2026-11-05T12:31:41.193314+00:00",
+  "items": [
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-34-pdf",
+      "label": "/documents/d/labora/fechas-presen-documen-festa-2025-34-pdf",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "ADGG0208",
+          "ADGG0408",
+          "AGAO0108",
+          "AGAO0208",
+          "ELEE0108",
+          "ELEE0109",
+          "ELES0208",
+          "ELES0209",
+          "EOCB0108",
+          "EOCB0208",
+          "IMAI0108",
+          "IMAI0110"
+        ],
+        "deadlines": [
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-26",
+            "evidence": "del 19/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-23",
+            "evidence": "del 19/12/2025 al 23/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2025-12-26",
+            "evidence": "del 22/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2026-01-05",
+            "evidence": "del 22/12/2025 al 05/01/2026"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2026-01-02",
+            "end": "2026-01-07",
+            "evidence": "del 02/01/2026 al 07/01/2026"
+          },
+          {
+            "start": "2026-01-08",
+            "end": "2026-01-12",
+            "evidence": "del 08/01/2026 al 12/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-13",
+            "evidence": "del 09/01/2026 al 13/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-15",
+            "evidence": "del 09/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-13",
+            "end": "2026-01-15",
+            "evidence": "del 13/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-20",
+            "end": "2026-01-22",
+            "evidence": "del 20/01/2026 al 22/01/2026"
+          },
+          {
+            "start": "2026-02-03",
+            "end": "2026-02-04",
+            "evidence": "del 03/02/2026 al 04/02/2026"
+          },
+          {
+            "start": "2026-02-13",
+            "end": "2026-02-16",
+            "evidence": "del 13/02/2026 al 16/02/2026"
+          },
+          {
+            "start": "2026-03-13",
+            "end": "2026-03-17",
+            "evidence": "del 13/03/2026 al 17/03/2026"
+          },
+          {
+            "start": "2026-03-30",
+            "end": "2026-04-06",
+            "evidence": "del 30/03/2026 al 06/04/2026"
+          },
+          {
+            "start": "2026-03-31",
+            "end": "2026-04-07",
+            "evidence": "del 31/03/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-01",
+            "end": "2026-04-07",
+            "evidence": "del 01/04/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-13",
+            "end": "2026-04-19",
+            "evidence": "del 13/04/2026 al 19/04/2026"
+          },
+          {
+            "start": "2026-04-16",
+            "end": "2026-04-22",
+            "evidence": "del 16/04/2026 al 22/04/2026"
+          },
+          {
+            "start": "2026-04-27",
+            "end": "2026-04-29",
+            "evidence": "del 27/04/2026 al 29/04/2026"
+          },
+          {
+            "start": "2026-06-30",
+            "end": "2027-07-02",
+            "evidence": "del 30/06/2026 al 2/07/2027"
+          },
+          {
+            "start": "2026-08-31",
+            "end": "2026-09-04",
+            "evidence": "del 31/08/2026 al 04/09/2026"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-17",
+            "evidence": "del 15/09/2026 al 17/09/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-05T12:31:41.193314+00:00",
+      "last_checked": "2026-11-05T12:31:41.193314+00:00",
+      "version": "43ca42d3b28d031526833678eb22f53bdae3b31039528810901bd0adce9943ec",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-34-2-pdf",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "ADGG0208",
+          "ADGG0408",
+          "AGAO0108",
+          "AGAO0208",
+          "ELEE0108",
+          "ELEE0109",
+          "ELES0208",
+          "ELES0209",
+          "EOCB0108",
+          "EOCB0208",
+          "IMAI0108",
+          "IMAI0110"
+        ],
+        "deadlines": [
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-26",
+            "evidence": "del 19/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-23",
+            "evidence": "del 19/12/2025 al 23/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2025-12-26",
+            "evidence": "del 22/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2026-01-05",
+            "evidence": "del 22/12/2025 al 05/01/2026"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2026-01-02",
+            "end": "2026-01-07",
+            "evidence": "del 02/01/2026 al 07/01/2026"
+          },
+          {
+            "start": "2026-01-08",
+            "end": "2026-01-12",
+            "evidence": "del 08/01/2026 al 12/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-13",
+            "evidence": "del 09/01/2026 al 13/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-15",
+            "evidence": "del 09/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-13",
+            "end": "2026-01-15",
+            "evidence": "del 13/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-20",
+            "end": "2026-01-22",
+            "evidence": "del 20/01/2026 al 22/01/2026"
+          },
+          {
+            "start": "2026-02-03",
+            "end": "2026-02-04",
+            "evidence": "del 03/02/2026 al 04/02/2026"
+          },
+          {
+            "start": "2026-02-13",
+            "end": "2026-02-16",
+            "evidence": "del 13/02/2026 al 16/02/2026"
+          },
+          {
+            "start": "2026-03-13",
+            "end": "2026-03-17",
+            "evidence": "del 13/03/2026 al 17/03/2026"
+          },
+          {
+            "start": "2026-03-30",
+            "end": "2026-04-06",
+            "evidence": "del 30/03/2026 al 06/04/2026"
+          },
+          {
+            "start": "2026-03-31",
+            "end": "2026-04-07",
+            "evidence": "del 31/03/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-01",
+            "end": "2026-04-07",
+            "evidence": "del 01/04/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-13",
+            "end": "2026-04-19",
+            "evidence": "del 13/04/2026 al 19/04/2026"
+          },
+          {
+            "start": "2026-04-16",
+            "end": "2026-04-22",
+            "evidence": "del 16/04/2026 al 22/04/2026"
+          },
+          {
+            "start": "2026-04-27",
+            "end": "2026-04-29",
+            "evidence": "del 27/04/2026 al 29/04/2026"
+          },
+          {
+            "start": "2026-06-30",
+            "end": "2027-07-02",
+            "evidence": "del 30/06/2026 al 2/07/2027"
+          },
+          {
+            "start": "2026-08-31",
+            "end": "2026-09-04",
+            "evidence": "del 31/08/2026 al 04/09/2026"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-17",
+            "evidence": "del 15/09/2026 al 17/09/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-05T12:31:41.193314+00:00",
+      "last_checked": "2026-11-05T12:31:41.193314+00:00",
+      "version": "43ca42d3b28d031526833678eb22f53bdae3b31039528810901bd0adce9943ec",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-34-6-pdf",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "ADGG0208",
+          "ADGG0408",
+          "AGAO0108",
+          "AGAO0208",
+          "ELEE0108",
+          "ELEE0109",
+          "ELES0208",
+          "ELES0209",
+          "EOCB0108",
+          "EOCB0208",
+          "IMAI0108",
+          "IMAI0110"
+        ],
+        "deadlines": [
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-26",
+            "evidence": "del 19/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-23",
+            "evidence": "del 19/12/2025 al 23/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2025-12-26",
+            "evidence": "del 22/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2026-01-05",
+            "evidence": "del 22/12/2025 al 05/01/2026"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2026-01-02",
+            "end": "2026-01-07",
+            "evidence": "del 02/01/2026 al 07/01/2026"
+          },
+          {
+            "start": "2026-01-08",
+            "end": "2026-01-12",
+            "evidence": "del 08/01/2026 al 12/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-13",
+            "evidence": "del 09/01/2026 al 13/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-15",
+            "evidence": "del 09/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-13",
+            "end": "2026-01-15",
+            "evidence": "del 13/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-20",
+            "end": "2026-01-22",
+            "evidence": "del 20/01/2026 al 22/01/2026"
+          },
+          {
+            "start": "2026-02-03",
+            "end": "2026-02-04",
+            "evidence": "del 03/02/2026 al 04/02/2026"
+          },
+          {
+            "start": "2026-02-13",
+            "end": "2026-02-16",
+            "evidence": "del 13/02/2026 al 16/02/2026"
+          },
+          {
+            "start": "2026-03-13",
+            "end": "2026-03-17",
+            "evidence": "del 13/03/2026 al 17/03/2026"
+          },
+          {
+            "start": "2026-03-30",
+            "end": "2026-04-06",
+            "evidence": "del 30/03/2026 al 06/04/2026"
+          },
+          {
+            "start": "2026-03-31",
+            "end": "2026-04-07",
+            "evidence": "del 31/03/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-01",
+            "end": "2026-04-07",
+            "evidence": "del 01/04/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-13",
+            "end": "2026-04-19",
+            "evidence": "del 13/04/2026 al 19/04/2026"
+          },
+          {
+            "start": "2026-04-16",
+            "end": "2026-04-22",
+            "evidence": "del 16/04/2026 al 22/04/2026"
+          },
+          {
+            "start": "2026-04-27",
+            "end": "2026-04-29",
+            "evidence": "del 27/04/2026 al 29/04/2026"
+          },
+          {
+            "start": "2026-06-30",
+            "end": "2027-07-02",
+            "evidence": "del 30/06/2026 al 2/07/2027"
+          },
+          {
+            "start": "2026-08-31",
+            "end": "2026-09-04",
+            "evidence": "del 31/08/2026 al 04/09/2026"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-17",
+            "evidence": "del 15/09/2026 al 17/09/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-05T12:31:41.193314+00:00",
+      "last_checked": "2026-11-05T12:31:41.193314+00:00",
+      "version": "55de8b21740267f5a1806d30ae152caa5db049e502b7a57bd281c9183c7ea4b9",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-35-pdf",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "ADGG0208",
+          "ADGG0408",
+          "AGAO0108",
+          "AGAO0208",
+          "ELEE0108",
+          "ELEE0109",
+          "ELES0208",
+          "ELES0209",
+          "EOCB0108",
+          "EOCB0208",
+          "IMAI0108",
+          "IMAI0110"
+        ],
+        "deadlines": [
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-26",
+            "evidence": "del 19/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-23",
+            "evidence": "del 19/12/2025 al 23/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2025-12-26",
+            "evidence": "del 22/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2026-01-05",
+            "evidence": "del 22/12/2025 al 05/01/2026"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2026-01-02",
+            "end": "2026-01-07",
+            "evidence": "del 02/01/2026 al 07/01/2026"
+          },
+          {
+            "start": "2026-01-08",
+            "end": "2026-01-12",
+            "evidence": "del 08/01/2026 al 12/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-13",
+            "evidence": "del 09/01/2026 al 13/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-15",
+            "evidence": "del 09/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-13",
+            "end": "2026-01-15",
+            "evidence": "del 13/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-20",
+            "end": "2026-01-22",
+            "evidence": "del 20/01/2026 al 22/01/2026"
+          },
+          {
+            "start": "2026-02-03",
+            "end": "2026-02-04",
+            "evidence": "del 03/02/2026 al 04/02/2026"
+          },
+          {
+            "start": "2026-02-13",
+            "end": "2026-02-16",
+            "evidence": "del 13/02/2026 al 16/02/2026"
+          },
+          {
+            "start": "2026-03-13",
+            "end": "2026-03-17",
+            "evidence": "del 13/03/2026 al 17/03/2026"
+          },
+          {
+            "start": "2026-03-30",
+            "end": "2026-04-06",
+            "evidence": "del 30/03/2026 al 06/04/2026"
+          },
+          {
+            "start": "2026-03-31",
+            "end": "2026-04-07",
+            "evidence": "del 31/03/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-01",
+            "end": "2026-04-07",
+            "evidence": "del 01/04/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-13",
+            "end": "2026-04-19",
+            "evidence": "del 13/04/2026 al 19/04/2026"
+          },
+          {
+            "start": "2026-04-16",
+            "end": "2026-04-22",
+            "evidence": "del 16/04/2026 al 22/04/2026"
+          },
+          {
+            "start": "2026-04-27",
+            "end": "2026-04-29",
+            "evidence": "del 27/04/2026 al 29/04/2026"
+          },
+          {
+            "start": "2026-06-30",
+            "end": "2027-07-02",
+            "evidence": "del 30/06/2026 al 2/07/2027"
+          },
+          {
+            "start": "2026-08-31",
+            "end": "2026-09-04",
+            "evidence": "del 31/08/2026 al 04/09/2026"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-17",
+            "evidence": "del 15/09/2026 al 17/09/2026"
+          },
+          {
+            "start": "2026-10-15",
+            "end": "2026-10-19",
+            "evidence": "del 15/10/2026 al 19/10/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-05T12:31:41.193314+00:00",
+      "last_checked": "2026-11-05T12:31:41.193314+00:00",
+      "version": "e1467b3e5a1791113cc6c453e3efb4c4ad0bf47f334d347ef06b000a6c01e588",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2025-36-pdf-3",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "ADGG0208",
+          "ADGG0408",
+          "AGAO0108",
+          "AGAO0208",
+          "ELEE0108",
+          "ELEE0109",
+          "ELES0208",
+          "ELES0209",
+          "EOCB0108",
+          "EOCB0208",
+          "IMAI0108",
+          "IMAI0110"
+        ],
+        "deadlines": [
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-17",
+            "end": "2025-12-19",
+            "evidence": "del 17/12/2025 al 19/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-26",
+            "evidence": "del 19/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-19",
+            "end": "2025-12-23",
+            "evidence": "del 19/12/2025 al 23/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2025-12-26",
+            "evidence": "del 22/12/2025 al 26/12/2025"
+          },
+          {
+            "start": "2025-12-22",
+            "end": "2026-01-05",
+            "evidence": "del 22/12/2025 al 05/01/2026"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-23",
+            "end": "2025-12-30",
+            "evidence": "del 23/12/2025 al 30/12/2025"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2025-12-29",
+            "end": "2026-01-02",
+            "evidence": "del 29/12/2025 al 02/01/2026"
+          },
+          {
+            "start": "2026-01-02",
+            "end": "2026-01-07",
+            "evidence": "del 02/01/2026 al 07/01/2026"
+          },
+          {
+            "start": "2026-01-08",
+            "end": "2026-01-12",
+            "evidence": "del 08/01/2026 al 12/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-13",
+            "evidence": "del 09/01/2026 al 13/01/2026"
+          },
+          {
+            "start": "2026-01-09",
+            "end": "2026-01-15",
+            "evidence": "del 09/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-13",
+            "end": "2026-01-15",
+            "evidence": "del 13/01/2026 al 15/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-14",
+            "end": "2026-01-16",
+            "evidence": "del 14/01/2026 al 16/01/2026"
+          },
+          {
+            "start": "2026-01-20",
+            "end": "2026-01-22",
+            "evidence": "del 20/01/2026 al 22/01/2026"
+          },
+          {
+            "start": "2026-02-03",
+            "end": "2026-02-04",
+            "evidence": "del 03/02/2026 al 04/02/2026"
+          },
+          {
+            "start": "2026-02-13",
+            "end": "2026-02-16",
+            "evidence": "del 13/02/2026 al 16/02/2026"
+          },
+          {
+            "start": "2026-03-13",
+            "end": "2026-03-17",
+            "evidence": "del 13/03/2026 al 17/03/2026"
+          },
+          {
+            "start": "2026-03-30",
+            "end": "2026-04-06",
+            "evidence": "del 30/03/2026 al 06/04/2026"
+          },
+          {
+            "start": "2026-03-31",
+            "end": "2026-04-07",
+            "evidence": "del 31/03/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-01",
+            "end": "2026-04-07",
+            "evidence": "del 01/04/2026 al 07/04/2026"
+          },
+          {
+            "start": "2026-04-13",
+            "end": "2026-04-19",
+            "evidence": "del 13/04/2026 al 19/04/2026"
+          },
+          {
+            "start": "2026-04-16",
+            "end": "2026-04-22",
+            "evidence": "del 16/04/2026 al 22/04/2026"
+          },
+          {
+            "start": "2026-04-27",
+            "end": "2026-04-29",
+            "evidence": "del 27/04/2026 al 29/04/2026"
+          },
+          {
+            "start": "2026-06-30",
+            "end": "2027-07-02",
+            "evidence": "del 30/06/2026 al 2/07/2027"
+          },
+          {
+            "start": "2026-08-31",
+            "end": "2026-09-04",
+            "evidence": "del 31/08/2026 al 04/09/2026"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-17",
+            "evidence": "del 15/09/2026 al 17/09/2026"
+          },
+          {
+            "start": "2026-10-15",
+            "end": "2026-10-19",
+            "evidence": "del 15/10/2026 al 19/10/2026"
+          },
+          {
+            "start": "2026-10-16",
+            "end": "2026-10-22",
+            "evidence": "del 16/10/2026 al 22/10/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-05T12:31:41.193314+00:00",
+      "last_checked": "2026-11-05T12:31:41.193314+00:00",
+      "version": "659786b9468b2809f002f59ac735d37b2dc57f8586d64b61d37dd84c88fba372",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-6-pdf",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "AGAO0108",
+          "AGAO0208",
+          "ELES0108",
+          "ELES0208",
+          "EOCB0209",
+          "EOCB0211",
+          "EOCO0036"
+        ],
+        "deadlines": [
+          {
+            "start": "2026-10-02",
+            "end": "2026-10-06",
+            "evidence": "del 02/10/2026 al 06/10/2026"
+          },
+          {
+            "start": "2026-10-14",
+            "end": "2026-10-16",
+            "evidence": "del 14/10/2026 al 16/10/2026"
+          },
+          {
+            "start": "2026-10-16",
+            "end": "2026-10-20",
+            "evidence": "del 16/10/2026 al 20/10/2026"
+          },
+          {
+            "start": "2026-10-20",
+            "end": "2026-10-23",
+            "evidence": "del 20/10/2026 al 23/10/2026"
+          },
+          {
+            "start": "2026-11-03",
+            "end": "2026-11-06",
+            "evidence": "del 03/11/2026 al 06/11/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-05T12:31:41.193314+00:00",
+      "last_checked": "2026-11-05T12:31:41.193314+00:00",
+      "version": "190f5a4b3d6fc66b52ab811e1b2b07b68a93cc464de5aedc19e32636ead20413",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-3-2-pdf",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "HOTR0208",
+          "HOTR0508"
+        ],
+        "deadlines": [
+          {
+            "start": "2026-10-16",
+            "end": "2026-10-20",
+            "evidence": "del 16/10/2026 al 20/10/2026"
+          },
+          {
+            "start": "2026-10-26",
+            "end": "2026-10-30",
+            "evidence": "del 26/10/2026 al 30/10/2026"
+          },
+          {
+            "start": "2026-11-05",
+            "end": "2026-11-09",
+            "evidence": "del 05/11/2026 al 09/11/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-05T12:31:41.193314+00:00",
+      "last_checked": "2026-11-05T12:31:41.193314+00:00",
+      "version": "955a9267bad933c7eb6351596967d27a4a1cba563a124875e418500a16954a6a",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-3-3-pdf",
+      "label": "",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "HOTR0208",
+          "HOTR0508"
+        ],
+        "deadlines": [
+          {
+            "start": "2026-10-16",
+            "end": "2026-10-20",
+            "evidence": "del 16/10/2026 al 20/10/2026"
+          },
+          {
+            "start": "2026-10-26",
+            "end": "2026-10-30",
+            "evidence": "del 26/10/2026 al 30/10/2026"
+          },
+          {
+            "start": "2026-11-05",
+            "end": "2026-11-09",
+            "evidence": "del 05/11/2026 al 09/11/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-05T12:31:41.193314+00:00",
+      "last_checked": "2026-11-05T12:31:41.193314+00:00",
+      "version": "955a9267bad933c7eb6351596967d27a4a1cba563a124875e418500a16954a6a",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    }
+  ]
+}
