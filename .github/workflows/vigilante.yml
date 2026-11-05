@@ -90,7 +90,7 @@ jobs:
             if [ -f runtime/catalogo.md ]; then
               cp runtime/catalogo.md /tmp/vigilante-state/catalogo.md
             fi
-            for export in plazas.csv catalogo.csv; do
+            for export in plazas.csv catalogo.csv revision_alex.json; do
               if [ -f "runtime/$export" ]; then
                 cp "runtime/$export" "/tmp/vigilante-state/$export"
               fi

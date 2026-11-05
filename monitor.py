@@ -487,11 +487,17 @@ def classify_event(event, today=None):
         return {"category":"suprimido","reason":"actividad_no_laboral"}
     info=event.get("details",{})
     codes=info.get("codes",[])
+    # Daniel explicitly confirmed on 5 Nov that he has no hospitality accreditation.
+    # Do not suppress mixed notices or support/management roles because they mention HOTR.
+    hospitality = codes and all(str(code).upper().startswith("HOTR") for code in codes)
+    support_role = any(term in hay for term in ("apoyo", "suport", "reforc", "refuerzo", "director", "administrativ"))
+    if hospitality and "docent" in hay and not support_role:
+        return {"category":"suprimido", "reason":"especialidad_hosteleria_no_acreditada"}
     if event.get("entity") == "LABORA" and "fechas-presen" in event.get("url", ""):
         calendar_dates = info.get("deadlines", [])
         if calendar_dates and all(date.fromisoformat(d["end"]) < today for d in calendar_dates) and not info.get("relative_deadlines"):
             return {"category":"suprimido", "reason":"plazo_caducado"}
-        return {"category":"revisar", "message":"LABORA ha actualizado un calendario con varias entidades. Hay que comprobar cada fila: las especialidades y los plazos del documento no corresponden necesariamente al mismo puesto.", "active_deadlines":[], "profile_matches":[], "calendar_review":True}
+        return {"category":"revision_interna", "message":"Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.", "active_deadlines":[], "profile_matches":[], "calendar_review":True}
     approved=("listado proyectos" in hay or "llistat de projectes" in hay) and ("aprobados" in hay or "aprovats" in hay)
     profile_codes=[code for code in codes if code.startswith(("AGAO","COML","ADG")) or code=="IMAI0110"]
     document_years={int(year) for year in re.findall(r"\b20\d{2}\b",hay)}
@@ -524,6 +530,27 @@ def classify_event(event, today=None):
         "profile_matches":profile,
         "active_deadlines":live,
     }
+
+
+def refresh_review_queue(state, checked_at):
+    """Keep non-notified calendars visible, including unchanged documents after deployment."""
+    queue = state.setdefault("review_queue", {})
+    for url, resource in state.get("resources", {}).items():
+        if resource.get("status") != "verificada":
+            continue  # An access failure must not silently erase a pending review.
+        event = {"entity": resource.get("entity", ""), "kind": resource.get("kind", ""),
+                 "url": url, "label": resource.get("label", ""),
+                 "excerpt": "", "details": {key:resource.get("details", {}).get(key, []) for key in ("codes", "deadlines", "relative_deadlines")}}
+        classified = classify_event(event)
+        if classified.get("category") == "revision_interna":
+            old = queue.get(url, {})
+            queue[url] = dict(event, first_seen=old.get("first_seen", checked_at),
+                             last_checked=checked_at, version=resource.get("hash", ""),
+                             state="pendiente_revision_por_fila", **classified)
+        else:
+            queue.pop(url, None)
+    return queue
+
 
 def deliverable(event):
     return event.get("category") in ("accion", "revisar", "fallo")
@@ -765,6 +792,16 @@ def run(config, state_path, runtime, deliver=False, initialize=False):
         gaps = sum(g["entity"] == entity for g in all_gaps)
         coverage[entity] = {"status":"parcial" if failures or gaps or overflow else "lectura_verificada", "resources":len(rr),"failures":failures,"unvalidated_sources":gaps,"retired_historical":sum(r["status"] == "historico_retirado" for r in rr)}
     report = {"finished":now,"checked":len(results),"actionable_events":len(events),"suppressed_events":len(suppressed),"pending_events":len(state["pending"]),"overflow":overflow,"coverage":coverage,"delivery":"no_solicitada","external_watchdog":"no_configurado"}
+    review_queue = refresh_review_queue(state, now)
+    # Calendars remain in the internal queue, never in the application-action index.
+    for url in list(opportunities):
+        resource = state["resources"].get(url, {})
+        probe = {"entity":resource.get("entity", ""), "url":url, "kind":resource.get("kind", ""),
+                 "label":resource.get("label", ""), "details":resource.get("details", {})}
+        if url in review_queue or classify_event(probe).get("reason") == "especialidad_hosteleria_no_acreditada":
+            opportunities.pop(url, None)
+    report["internal_reviews"] = len(review_queue)
+    write_json(runtime/"revision_alex.json", {"checked_at":now,"items":list(review_queue.values())})
     preview = mail_body(list(state["pending"].values()),report)
     (runtime/"aviso_preparado.txt").write_text(preview,encoding="utf-8")
     (runtime/"registro.md").write_text(render_register(project_catalog,opportunities,now,coverage),encoding="utf-8")
