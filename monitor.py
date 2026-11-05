@@ -491,7 +491,8 @@ def classify_event(event, today=None):
     # Do not suppress mixed notices or support/management roles because they mention HOTR.
     hospitality = codes and all(str(code).upper().startswith("HOTR") for code in codes)
     support_role = any(term in hay for term in ("apoyo", "suport", "reforc", "refuerzo", "director", "administrativ"))
-    if hospitality and "docent" in hay and not support_role:
+    is_calendar = event.get("entity") == "LABORA" and "fechas-presen" in event.get("url", "")
+    if hospitality and "docent" in hay and not support_role and not is_calendar:
         return {"category":"suprimido", "reason":"especialidad_hosteleria_no_acreditada"}
     if event.get("entity") == "LABORA" and "fechas-presen" in event.get("url", ""):
         calendar_dates = info.get("deadlines", [])

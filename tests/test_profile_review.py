@@ -55,6 +55,11 @@ class ProfileReview(unittest.TestCase):
         m.refresh_review_queue(state, '2026-11-05T14:00:00+00:00')
         self.assertIn(event['url'], queue)
 
+    def test_hospitality_calendar_still_reviewed_for_other_roles(self):
+        event = self.hospitality('Calendario seleccion personal docente')
+        event.update(entity='LABORA',url='https://labora.gva.es/documents/d/labora/fechas-presen-documen-fixture')
+        self.assertEqual(m.classify_event(event,today=date(2026,11,5))['category'],'revision_interna')
+
     def test_failure_still_notified(self):
         self.assertTrue(m.deliverable(m.classify_event({'type':'fallo_fuente'})))
 
