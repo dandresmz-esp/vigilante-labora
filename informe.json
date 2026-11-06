@@ -1,21 +1,21 @@
 {
-  "finished": "2026-11-05T20:46:22.515107+00:00",
-  "checked": 583,
+  "finished": "2026-11-06T12:14:54.653700+00:00",
+  "checked": 588,
   "actionable_events": 0,
-  "suppressed_events": 122,
+  "suppressed_events": 135,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alaquas": {
       "status": "lectura_verificada",
-      "resources": 16,
+      "resources": 17,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 20,
+      "resources": 21,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -57,7 +57,7 @@
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 26,
+      "resources": 28,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -218,7 +218,7 @@
     },
     "Xativa": {
       "status": "lectura_verificada",
-      "resources": 19,
+      "resources": 20,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
