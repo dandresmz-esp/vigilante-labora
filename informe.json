@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-06T12:14:54.653700+00:00",
-  "checked": 588,
+  "finished": "2026-11-06T19:37:02.578283+00:00",
+  "checked": 590,
   "actionable_events": 0,
-  "suppressed_events": 135,
+  "suppressed_events": 9,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -15,14 +15,14 @@
     },
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 21,
+      "resources": 22,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 29,
+      "resources": 30,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
