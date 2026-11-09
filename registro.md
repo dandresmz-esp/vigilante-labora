@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 06/11/2026 20:37 (hora peninsular).
+Última comprobación: 09/11/2026 14:01 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -36,6 +36,18 @@
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131258&modo=guardar)
 
+- **Ontinyent** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131751&modo=guardar)
+
+- **Ontinyent** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131749&modo=guardar)
+
+- **Ontinyent** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131680&modo=guardar)
+
 - **València** — Convocatòria Selecció personal directiu. docent i auxiliar administratiu. FESTA 2026 19 46
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/detalle/7af820420a8e0cc151e17071f60dba42f3fe9f772c635bdcc9a5a06a0b1a5000)
@@ -47,34 +59,6 @@
 - **València** — [PDF] Descarregar edicte
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/download/01ae3f5f758ef549711016ad29ebe4bb21b32eadf4636131f6d685577ca8897b)
-
-- **Xativa** — 0_BASES SELECCIÓN PERSONAL PROGRAMAS MIXTOS 2025_firmado 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
-  - Plazo: Plazo por confirmar en el anuncio
-  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/f0dd917b-700e-4970-9636-6f65c5b92e2c)
-
-- **Xativa** — 1. Acta de convocatoria pública de empleo_firmado_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
-  - Plazo: Plazo por confirmar en el anuncio
-  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/04f6161d-99ae-4188-8548-6e79e2c59acf)
-
-- **Xativa** — 2. Calendario presentacion solicitudes FOTAE 2025 web LABORA (1) 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
-  - Plazo: Plazo por confirmar en el anuncio
-  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/1b2c4eb7-a8a9-4362-b768-6e7e14d1e0b7)
-
-- **Xativa** — 3-Anexo I TALLER EMPLEO_firmado_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
-  - Plazo: Plazo por confirmar en el anuncio
-  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/15ca00dc-54bd-4616-9b89-40f93a8c7cd8)
-
-- **Xativa** — EDICTE PERSONAL DOCENT. T.O. REMODELACIÓ JARDI DEL BES 25-26 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. EXPEDIENT FOTAE/2025/24/46 08/10/2026
-  - Plazo: Plazo por confirmar en el anuncio
-  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/c416e38f-3356-41b7-b76c-83895440a465)
-
-- **Xativa** — 1. Acta de convocatoria pública de empleo_firmado (1) (1)_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. FOTAE/2025/24/46 08/10/2026
-  - Plazo: Plazo por confirmar en el anuncio
-  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/cd36eaf9-9eba-4814-bc56-a0da41761127)
-
-- **Xativa** — 3-Anexo I TALLER EMPLEO_firmado (1) (1)_signed 8362/2025 Subvencions Sol·licitades a Una altra Administració Ajudes i Subvencions CONVOCATÒRIA PÚBLICA D'OCUPACIÓ DOCENT DE REFORÇ SUPLENT. FOTAE/2025/24/46 08/10/2026
-  - Plazo: Plazo por confirmar en el anuncio
-  - [Abrir el anuncio oficial](https://xativa.sedelectronica.es/preview-document/329945bf-9eae-44fc-8acd-97544e1a8b88)
 
 ## Próximas aperturas conocidas
 

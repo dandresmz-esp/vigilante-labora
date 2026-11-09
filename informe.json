@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-06T19:37:02.578283+00:00",
-  "checked": 590,
-  "actionable_events": 0,
-  "suppressed_events": 9,
+  "finished": "2026-11-09T13:01:22.280677+00:00",
+  "checked": 601,
+  "actionable_events": 3,
+  "suppressed_events": 141,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -43,7 +43,7 @@
     },
     "Ayora": {
       "status": "lectura_verificada",
-      "resources": 5,
+      "resources": 6,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -134,14 +134,14 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 22,
+      "resources": 23,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Ontinyent": {
       "status": "lectura_verificada",
-      "resources": 21,
+      "resources": 30,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -224,7 +224,7 @@
       "retired_historical": 0
     }
   },
-  "delivery": "sin_novedades",
+  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado",
-  "internal_reviews": 8
+  "internal_reviews": 7
 }
