@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T12:47:40.053742+00:00",
+  "checked_at": "2026-11-10T20:33:09.662556+00:00",
   "items": [
     {
       "entity": "LABORA",
@@ -177,7 +177,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-10T12:47:40.053742+00:00",
+      "last_checked": "2026-11-10T20:33:09.662556+00:00",
       "version": "43ca42d3b28d031526833678eb22f53bdae3b31039528810901bd0adce9943ec",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -362,7 +362,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-10T12:47:40.053742+00:00",
+      "last_checked": "2026-11-10T20:33:09.662556+00:00",
       "version": "43ca42d3b28d031526833678eb22f53bdae3b31039528810901bd0adce9943ec",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -547,7 +547,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-10T12:47:40.053742+00:00",
+      "last_checked": "2026-11-10T20:33:09.662556+00:00",
       "version": "55de8b21740267f5a1806d30ae152caa5db049e502b7a57bd281c9183c7ea4b9",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -737,7 +737,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-10T12:47:40.053742+00:00",
+      "last_checked": "2026-11-10T20:33:09.662556+00:00",
       "version": "e1467b3e5a1791113cc6c453e3efb4c4ad0bf47f334d347ef06b000a6c01e588",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -932,7 +932,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-10T12:47:40.053742+00:00",
+      "last_checked": "2026-11-10T20:33:09.662556+00:00",
       "version": "659786b9468b2809f002f59ac735d37b2dc57f8586d64b61d37dd84c88fba372",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
