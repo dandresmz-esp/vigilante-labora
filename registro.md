@@ -1,14 +1,12 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 09/11/2026 14:01 (hora peninsular).
+Última comprobación: 10/11/2026 13:47 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
 
-- **Ontinyent** — Anuncio oficial
-  - Plazo: 2026-11-05 a 2026-11-09
-  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131458&modo=guardar)
+No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.
 
 ## Revisar hoy: plazo sin confirmar
 
@@ -59,6 +57,14 @@
 - **València** — [PDF] Descarregar edicte
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/download/01ae3f5f758ef549711016ad29ebe4bb21b32eadf4636131f6d685577ca8897b)
+
+- **València** — [PDF] Descarregar edicte
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/download/8dabf3813b7c54c96c9f1928674eaf7ef54c1c94abe5f0ddd088c5b8f6f49aca)
+
+- **València** — [PDF] Descarregar edicte
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/download/d0c19bedc6da3d0b506f7fa1d593249d56bb2f0ce7a2603af5833b0dca2293a4)
 
 ## Próximas aperturas conocidas
 
