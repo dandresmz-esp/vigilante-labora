@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 12/11/2026 21:56 (hora peninsular).
+Última comprobación: 13/11/2026 13:22 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -68,7 +68,9 @@ No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.
 
 ## Próximas aperturas conocidas
 
-No hay aperturas futuras confirmadas.
+- **Ontinyent** — Anuncio oficial
+  - Plazo: 2026-11-17 a 2026-11-19
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=132102&modo=guardar)
 
 [Descargar convocatorias para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/plazas.csv) · [Descargar proyectos aprobados para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/catalogo.csv)
 
