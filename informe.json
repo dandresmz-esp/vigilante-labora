@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-13T12:22:27.236510+00:00",
-  "checked": 639,
-  "actionable_events": 1,
-  "suppressed_events": 156,
+  "finished": "2026-11-13T19:52:16.109623+00:00",
+  "checked": 642,
+  "actionable_events": 0,
+  "suppressed_events": 9,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -92,7 +92,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 65,
+      "resources": 66,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 10
@@ -134,7 +134,7 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 25,
+      "resources": 27,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -224,7 +224,7 @@
       "retired_historical": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "delivery": "sin_novedades",
   "external_watchdog": "pendiente_de_persistir_estado",
   "internal_reviews": 5
 }
