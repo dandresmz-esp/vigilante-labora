@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-13T19:52:16.109623+00:00",
-  "checked": 642,
+  "finished": "2026-11-16T12:54:39.148254+00:00",
+  "checked": 650,
   "actionable_events": 0,
-  "suppressed_events": 9,
+  "suppressed_events": 147,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -15,14 +15,14 @@
     },
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 24,
+      "resources": 25,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 34,
+      "resources": 35,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -57,7 +57,7 @@
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 29,
+      "resources": 31,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -85,7 +85,7 @@
     },
     "Chiva": {
       "status": "lectura_verificada",
-      "resources": 5,
+      "resources": 6,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -134,7 +134,7 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 27,
+      "resources": 29,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -218,7 +218,7 @@
     },
     "Xativa": {
       "status": "lectura_verificada",
-      "resources": 21,
+      "resources": 22,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
