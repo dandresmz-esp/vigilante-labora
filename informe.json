@@ -1,14 +1,14 @@
 {
-  "finished": "2026-11-16T12:54:39.148254+00:00",
-  "checked": 650,
+  "finished": "2026-11-17T13:36:40.540994+00:00",
+  "checked": 662,
   "actionable_events": 0,
-  "suppressed_events": 147,
+  "suppressed_events": 38,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alaquas": {
       "status": "lectura_verificada",
-      "resources": 23,
+      "resources": 25,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -64,7 +64,7 @@
     },
     "Carlet": {
       "status": "lectura_verificada",
-      "resources": 18,
+      "resources": 19,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -92,7 +92,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 66,
+      "resources": 67,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 10
@@ -155,7 +155,7 @@
     },
     "Rafelbunyol": {
       "status": "lectura_verificada",
-      "resources": 10,
+      "resources": 12,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -169,7 +169,7 @@
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
-      "resources": 27,
+      "resources": 32,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -204,7 +204,7 @@
     },
     "Utiel": {
       "status": "lectura_verificada",
-      "resources": 10,
+      "resources": 11,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
