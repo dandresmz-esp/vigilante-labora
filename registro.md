@@ -1,8 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 18/11/2026 14:13 (hora peninsular).
+Última comprobación: 18/11/2026 22:35 (hora peninsular).
 
-**Vigilancia incompleta en: València.** Puede haber anuncios aún no detectados.
+**Vigilancia incompleta en: Massamagrell, València.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 

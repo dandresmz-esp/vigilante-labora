@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-18T13:13:30.103215+00:00",
-  "checked": 682,
-  "actionable_events": 13,
-  "suppressed_events": 155,
+  "finished": "2026-11-18T21:35:01.570221+00:00",
+  "checked": 684,
+  "actionable_events": 1,
+  "suppressed_events": 8,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -92,7 +92,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 71,
+      "resources": 72,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 10
@@ -119,9 +119,9 @@
       "retired_historical": 0
     },
     "Massamagrell": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 3,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -162,7 +162,7 @@
     },
     "Riba-roja de Túria": {
       "status": "lectura_verificada",
-      "resources": 3,
+      "resources": 4,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -226,5 +226,5 @@
   },
   "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado",
-  "internal_reviews": 8
+  "internal_reviews": 9
 }
