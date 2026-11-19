@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-18T21:35:01.570221+00:00",
-  "checked": 684,
-  "actionable_events": 1,
-  "suppressed_events": 8,
+  "finished": "2026-11-19T13:24:48.180561+00:00",
+  "checked": 700,
+  "actionable_events": 6,
+  "suppressed_events": 159,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -15,14 +15,14 @@
     },
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 25,
+      "resources": 26,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 35,
+      "resources": 36,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -50,7 +50,7 @@
     },
     "Benaguasil": {
       "status": "lectura_verificada",
-      "resources": 1,
+      "resources": 4,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -92,7 +92,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 72,
+      "resources": 73,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 10
@@ -119,9 +119,9 @@
       "retired_historical": 0
     },
     "Massamagrell": {
-      "status": "parcial",
-      "resources": 3,
-      "failures": 1,
+      "status": "lectura_verificada",
+      "resources": 5,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -169,7 +169,7 @@
     },
     "Ribera Baixa": {
       "status": "lectura_verificada",
-      "resources": 34,
+      "resources": 35,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -204,15 +204,15 @@
     },
     "Utiel": {
       "status": "lectura_verificada",
-      "resources": 12,
+      "resources": 17,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "València": {
-      "status": "parcial",
-      "resources": 13,
-      "failures": 13,
+      "status": "lectura_verificada",
+      "resources": 15,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -226,5 +226,5 @@
   },
   "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado",
-  "internal_reviews": 9
+  "internal_reviews": 10
 }
