@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-19T13:24:48.180561+00:00",
-  "checked": 700,
-  "actionable_events": 6,
-  "suppressed_events": 159,
+  "finished": "2026-11-19T21:43:48.421812+00:00",
+  "checked": 701,
+  "actionable_events": 1,
+  "suppressed_events": 123,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -56,9 +56,9 @@
       "retired_historical": 0
     },
     "Bétera": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 31,
-      "failures": 0,
+      "failures": 1,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -134,7 +134,7 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 29,
+      "resources": 30,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0

@@ -1,6 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 19/11/2026 14:24 (hora peninsular).
+Última comprobación: 19/11/2026 22:43 (hora peninsular).
+
+**Vigilancia incompleta en: Bétera.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
