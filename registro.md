@@ -1,6 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 20/11/2026 14:05 (hora peninsular).
+Última comprobación: 20/11/2026 22:17 (hora peninsular).
+
+**Vigilancia incompleta en: Alfafar.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -9,6 +11,10 @@
 No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.
 
 ## Revisar hoy: plazo sin confirmar
+
+- **Alzira** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_bd54fc7eaf3c4e24ab5ffa46c793cae5.pdf)
 
 - **Carlet** — COMUNICACIÓN DE SELECCIÓN DOCENTE EXPEDIENTE FESTA/2025/7/46 4469/2025 Subvencions Sol·licitades a Una altra Administració Anuncis COMUNICACIÓN DE SELECCIÓN DOCENTE EXPEDIENTE FESTA/2025/7/46 30/10/2026
   - Plazo: Plazo por confirmar en el anuncio
@@ -42,6 +48,10 @@ No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131680&modo=guardar)
 
+- **Ontinyent** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=132650&modo=guardar)
+
 - **València** — Convocatòria Selecció personal directiu. docent i auxiliar administratiu. FESTA 2026 19 46
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/detalle/7af820420a8e0cc151e17071f60dba42f3fe9f772c635bdcc9a5a06a0b1a5000)
@@ -69,6 +79,10 @@ No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.
 - **València** — Acta baremació provisional Docent Suport+Anglés_FESTA 2026 19 46
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/detalle/d0c19bedc6da3d0b506f7fa1d593249d56bb2f0ce7a2603af5833b0dca2293a4)
+
+- **València** — [PDF] Descarregar edicte
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://sede.valencia.es/sede/edictos/download/7a6707bef9fa942be428ba17dbe202805f6632d7de4530f4850b54fd4a2d25b8)
 
 ## Próximas aperturas conocidas
 
