@@ -1,6 +1,6 @@
 # Registro de talleres y convocatorias
 
-Actualizado: 19/11/2026 22:43 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
+Actualizado: 20/11/2026 14:05 (hora peninsular). Fuente: documentos oficiales revisados por el vigilante.
 
 Proyectos aprobados: **110**. Con especialidades afines al perfil: **82**.
 
@@ -137,7 +137,7 @@ Una convocatoria solo se vincula a un expediente cuando el anuncio indica su có
 | 2026-11-19 | Massamagrell | CONVOCATORIA DE SELECCIÓN AUXILIAR ADMINISTRATIVO T.E. MOLÍ DE BAIX XIV 4429/2025 Subvenciones Solicitadas a Otra Administración Ocupació pública Apertura de plazo de presentación de documentación de candidatos para la selección de UN AUXILIAR ADMINISTRATIVO/A del programa TALLER DE EMPLEO MOLÍ DE BAIX XIV - Expte: FOTAE/2025/15/46 19/11/2026 | FOTAE/2025/15/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://massamagrell.sedelectronica.es/preview-document/0217c877-8068-4a11-9cee-4c0b56b7d7c8) |
 | 2026-11-19 | València | [PDF] Descarregar edicte | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://sede.valencia.es/sede/edictos/download/bdd65e389babdb145621dead19096f71d3b3f8bc02ad29cedef74709178e6853) |
 | 2026-11-19 | València | Acta baremació provisional Docent Suport+Anglés_FESTA 2026 19 46 | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://sede.valencia.es/sede/edictos/detalle/d0c19bedc6da3d0b506f7fa1d593249d56bb2f0ce7a2603af5833b0dca2293a4) |
-| 2026-11-13 | Ontinyent | Anuncio oficial | FOTAE/2026/38/46 | 2026-11-17 a 2026-11-19 | revisar | [Anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=132102&modo=guardar) |
+| 2026-11-13 | Ontinyent | Anuncio oficial | FOTAE/2026/38/46 | 2026-11-17 a 2026-11-19 | Plazo finalizado | [Anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=132102&modo=guardar) |
 | 2026-11-10 | València | [PDF] Descarregar edicte | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://sede.valencia.es/sede/edictos/download/8dabf3813b7c54c96c9f1928674eaf7ef54c1c94abe5f0ddd088c5b8f6f49aca) |
 | 2026-11-10 | València | [PDF] Descarregar edicte | Sin vinculación confirmada | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://sede.valencia.es/sede/edictos/download/d0c19bedc6da3d0b506f7fa1d593249d56bb2f0ce7a2603af5833b0dca2293a4) |
 | 2026-11-09 | Ontinyent | Anuncio oficial | FOTAE/2026/38/46 | Plazo por confirmar en el anuncio | revisar | [Anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=131751&modo=guardar) |

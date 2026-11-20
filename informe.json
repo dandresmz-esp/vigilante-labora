@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-19T21:43:48.421812+00:00",
-  "checked": 701,
-  "actionable_events": 1,
-  "suppressed_events": 123,
+  "finished": "2026-11-20T13:05:29.580379+00:00",
+  "checked": 709,
+  "actionable_events": 0,
+  "suppressed_events": 150,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -15,14 +15,14 @@
     },
     "Alcàsser": {
       "status": "lectura_verificada",
-      "resources": 26,
+      "resources": 27,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Alfafar": {
       "status": "lectura_verificada",
-      "resources": 36,
+      "resources": 37,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -56,9 +56,9 @@
       "retired_historical": 0
     },
     "Bétera": {
-      "status": "parcial",
-      "resources": 31,
-      "failures": 1,
+      "status": "lectura_verificada",
+      "resources": 32,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -92,7 +92,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 73,
+      "resources": 76,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 10
@@ -134,7 +134,7 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 30,
+      "resources": 31,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -155,7 +155,7 @@
     },
     "Rafelbunyol": {
       "status": "lectura_verificada",
-      "resources": 12,
+      "resources": 13,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -224,7 +224,7 @@
       "retired_historical": 0
     }
   },
-  "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
+  "delivery": "sin_novedades",
   "external_watchdog": "pendiente_de_persistir_estado",
-  "internal_reviews": 10
+  "internal_reviews": 13
 }
