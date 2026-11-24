@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T14:52:08.628981+00:00",
+  "checked_at": "2026-11-24T15:01:08.530020+00:00",
   "items": [
     {
       "entity": "LABORA",
@@ -177,7 +177,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "43ca42d3b28d031526833678eb22f53bdae3b31039528810901bd0adce9943ec",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -362,7 +362,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "43ca42d3b28d031526833678eb22f53bdae3b31039528810901bd0adce9943ec",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -547,7 +547,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "55de8b21740267f5a1806d30ae152caa5db049e502b7a57bd281c9183c7ea4b9",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -737,7 +737,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "e1467b3e5a1791113cc6c453e3efb4c4ad0bf47f334d347ef06b000a6c01e588",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -932,7 +932,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-05T12:31:41.193314+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "659786b9468b2809f002f59ac735d37b2dc57f8586d64b61d37dd84c88fba372",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -992,7 +992,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-18T13:13:30.103215+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "3ce8128874bc1cb8fc7bc68e4bf510d259e7851a3aa8226f0ad89b81dec1c3e5",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1041,7 +1041,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-18T13:13:30.103215+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "37da374a0f9d04c32c09f5c2b28116ab277ff560c7cbdb832d7dd9c345205fe5",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1090,7 +1090,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-18T13:13:30.103215+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "37da374a0f9d04c32c09f5c2b28116ab277ff560c7cbdb832d7dd9c345205fe5",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1156,7 +1156,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-18T21:35:01.570221+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "0e4c9c38282f6ddc2686cb5a00b7e0488bf0030b1be94d647ff017fa371904c3",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1219,7 +1219,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-19T13:24:48.180561+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "89c574e4b3af99920294c4a61d4b2ae9e2a9b31db4ead57f380d074e9c327635",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1287,7 +1287,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-20T13:05:29.580379+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "cafd3f87b762ea1b7064835d6f74476874c956a019a6afa2e09a579ac6122d21",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1343,7 +1343,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-20T13:05:29.580379+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "616ae55e940ac798a7355e728485543ef0a48bb1700d20dc8ba763d4d142c630",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1411,7 +1411,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-20T13:05:29.580379+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "41e70931b5f369973b4438040c0aa0a62f4f94e0f6cff3d9b4f1dbb40ab972a4",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1484,7 +1484,7 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-23T14:52:08.628981+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "c972d249ba3bb87e936a837405a283de9a02724d2bb6cfedcbd6b789e1321044",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
@@ -1571,8 +1571,269 @@
         "relative_deadlines": []
       },
       "first_seen": "2026-11-23T14:52:08.628981+00:00",
-      "last_checked": "2026-11-23T14:52:08.628981+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
       "version": "285e66dc854b0147fddd707006d3c4c4cec45d347825b9ba3dc9f5c55ac7c0c4",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-festa-2026-12",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "AFDA0511",
+          "AGAO0108",
+          "AGAO0208",
+          "ELES0108",
+          "ELES0208",
+          "EOCB0108",
+          "EOCB0109",
+          "EOCB0209",
+          "EOCB0211",
+          "EOCO0036",
+          "IMAI0108",
+          "IMAI0110"
+        ],
+        "deadlines": [
+          {
+            "start": "2026-10-02",
+            "end": "2026-10-06",
+            "evidence": "del 02/10/2026 al 06/10/2026"
+          },
+          {
+            "start": "2026-10-14",
+            "end": "2026-10-16",
+            "evidence": "del 14/10/2026 al 16/10/2026"
+          },
+          {
+            "start": "2026-10-16",
+            "end": "2026-10-20",
+            "evidence": "del 16/10/2026 al 20/10/2026"
+          },
+          {
+            "start": "2026-10-20",
+            "end": "2026-10-23",
+            "evidence": "del 20/10/2026 al 23/10/2026"
+          },
+          {
+            "start": "2026-11-03",
+            "end": "2026-11-06",
+            "evidence": "del 03/11/2026 al 06/11/2026"
+          },
+          {
+            "start": "2026-11-18",
+            "end": "2026-11-24",
+            "evidence": "del 18/11/2026 al 24/11/2026"
+          },
+          {
+            "start": "2026-11-18",
+            "end": "2026-11-24",
+            "evidence": "del 18/11/2026 al 24/11/2026"
+          },
+          {
+            "start": "2026-11-25",
+            "end": "2026-11-27",
+            "evidence": "del 25/11/2026 al 27/11/2026"
+          },
+          {
+            "start": "2026-11-25",
+            "end": "2026-11-27",
+            "evidence": "del 25/11/2026 al 27/11/2026"
+          },
+          {
+            "start": "2026-11-25",
+            "end": "2026-11-27",
+            "evidence": "del 25/11/2026 al 27/11/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-24T15:01:08.530020+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
+      "version": "29504d9eb094d0843fd654c90555822b2061b228dbbe4d30ca5dbddf2a3b64e4",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-fotae-2026-9",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "ADGD0208",
+          "ADGD0308",
+          "ADGG0208",
+          "ADGG0408",
+          "ADGG0508",
+          "ADGN0108",
+          "AGAO0108",
+          "ELEE0108",
+          "EOCB0108",
+          "EOCB0208",
+          "HOTR0208",
+          "HOTR0508",
+          "SSCB0110",
+          "SSCB0209",
+          "SSCS0208"
+        ],
+        "deadlines": [
+          {
+            "start": "2026-10-16",
+            "end": "2026-10-20",
+            "evidence": "del 16/10/2026 al 20/10/2026"
+          },
+          {
+            "start": "2026-10-26",
+            "end": "2026-10-30",
+            "evidence": "del 26/10/2026 al 30/10/2026"
+          },
+          {
+            "start": "2026-11-05",
+            "end": "2026-11-09",
+            "evidence": "del 05/11/2026 al 09/11/2026"
+          },
+          {
+            "start": "2026-11-17",
+            "end": "2026-11-19",
+            "evidence": "del 17/11/2026 al 19/11/2026"
+          },
+          {
+            "start": "2026-11-18",
+            "end": "2026-11-24",
+            "evidence": "del 18/11/2026 al 24/11/2026"
+          },
+          {
+            "start": "2026-11-23",
+            "end": "2026-11-25",
+            "evidence": "del 23/11/2026 al 25/11/2026"
+          },
+          {
+            "start": "2026-11-24",
+            "end": "2026-11-27",
+            "evidence": "del 24/11/2026 al 27/11/2026"
+          },
+          {
+            "start": "2026-11-24",
+            "end": "2026-11-27",
+            "evidence": "del 24/11/2026 al 27/11/2026"
+          },
+          {
+            "start": "2026-11-24",
+            "end": "2026-11-27",
+            "evidence": "del 24/11/2026 al 27/11/2026"
+          },
+          {
+            "start": "2026-11-25",
+            "end": "2026-11-27",
+            "evidence": "del 25/11/2026 al 27/11/2026"
+          },
+          {
+            "start": "2026-11-25",
+            "end": "2026-11-27",
+            "evidence": "del 25/11/2026 al 27/11/2026"
+          },
+          {
+            "start": "2026-11-25",
+            "end": "2026-11-27",
+            "evidence": "del 25/11/2026 al 27/11/2026"
+          },
+          {
+            "start": "2026-11-26",
+            "end": "2026-11-30",
+            "evidence": "del 26/11/2026 al 30/11/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-24T15:01:08.530020+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
+      "version": "1f8374c6a8487c530595df23a726089867eb33c681c80815664776c6337b1503",
+      "state": "pendiente_revision_por_fila",
+      "category": "revision_interna",
+      "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",
+      "active_deadlines": [],
+      "profile_matches": [],
+      "calendar_review": true
+    },
+    {
+      "entity": "LABORA",
+      "kind": "pdf",
+      "url": "https://labora.gva.es/documents/d/labora/fechas-presen-documen-talento-joven-garantia-juvenil-2026-13",
+      "label": "calendario de presentación de documentación",
+      "excerpt": "",
+      "details": {
+        "codes": [
+          "ADGD0308",
+          "ADGG0208",
+          "ADGG0408",
+          "ADGG0508",
+          "EOCB0109",
+          "EOCB0209",
+          "EOCB0311",
+          "SSCB0110",
+          "SSCB0209",
+          "SSCB0211"
+        ],
+        "deadlines": [
+          {
+            "start": "2026-10-19",
+            "end": "2026-10-21",
+            "evidence": "del 19/10/2026 al 21/10/2026"
+          },
+          {
+            "start": "2026-10-21",
+            "end": "2026-10-27",
+            "evidence": "del 21/10/2026 al 27/10/2026"
+          },
+          {
+            "start": "2026-10-20",
+            "end": "2026-10-22",
+            "evidence": "del 20/10/2026 al 22/10/2026"
+          },
+          {
+            "start": "2026-10-22",
+            "end": "2026-10-26",
+            "evidence": "del 22/10/2026 al 26/10/2026"
+          },
+          {
+            "start": "2026-10-26",
+            "end": "2026-10-30",
+            "evidence": "del 26/10/2026 al 30/10/2026"
+          },
+          {
+            "start": "2026-11-24",
+            "end": "2026-11-26",
+            "evidence": "del 24/11/2026 al 26/11/2026"
+          },
+          {
+            "start": "2026-11-24",
+            "end": "2026-11-26",
+            "evidence": "del 24/11/2026 al 26/11/2026"
+          },
+          {
+            "start": "2026-11-25",
+            "end": "2026-11-27",
+            "evidence": "del 25/11/2026 al 27/11/2026"
+          }
+        ],
+        "relative_deadlines": []
+      },
+      "first_seen": "2026-11-24T15:01:08.530020+00:00",
+      "last_checked": "2026-11-24T15:01:08.530020+00:00",
+      "version": "7985e0abd229296f33f96cd4d5c1bd66c81f6266ee0bc5dbc6fe1bef4504e4aa",
       "state": "pendiente_revision_por_fila",
       "category": "revision_interna",
       "message": "Calendario para revision de Alex: comprobar cada fila y su encaje antes de avisar a Daniel.",

@@ -1,18 +1,36 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 23/11/2026 15:52 (hora peninsular).
+Última comprobación: 24/11/2026 16:01 (hora peninsular).
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
 ## Plazo abierto: presenta la solicitud
 
-No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.
+- **Silla** — Anuncio oficial
+  - Plazo: 2026-11-24 a 2026-11-27
+  - [Abrir el anuncio oficial](https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=132707&modo=guardar)
 
 ## Revisar hoy: plazo sin confirmar
 
 - **Alzira** — Anuncio oficial
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_bd54fc7eaf3c4e24ab5ffa46c793cae5.pdf)
+
+- **Alzira** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_eab47b62135a40a8b6b75426f0fa5bd2.pdf)
+
+- **Alzira** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_2b4bd0a00eac49ecb1ead4e3145ab213.pdf)
+
+- **Alzira** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_6f6b1796ef2445279c431803d5e93625.pdf)
+
+- **Alzira** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_7c17ec3f67f74acdb5748354360f57f0.pdf)
 
 - **Ayora** — Diligencia_Edicto de Alcaldía_plazos 794/2026 Subvenciones Solicitadas a Otra Administración Empleo Público Proceso selección DIRECTOR con capacidad docente y DOCENTE de la especialidad del Certificado de Profesionalidad para FOTAE/2026/50/46 23/11/2026
   - Plazo: Plazo por confirmar en el anuncio
@@ -45,6 +63,10 @@ No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.
 - **Bétera** — EDICTO PUBLICACIÓN INSTRUCCIONES SELECCIÓN PERSONAL 3450/2026 Escuelas Taller Empleo Público SELECCIÓN PERSONAL DIRECTIVO, DOCENTE Y AUXILIAR ADMINISTRATIVO ESCUELA TALLER - FESTA 2026 23/11/2026
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://betera.sedelectronica.es/preview-document/55d803fd-6364-44bc-b81e-b6ab87f5e235)
+
+- **Bétera** — EDICTO PUBLICACIÓN INSTRUCCIONES SELECCIÓN PERSONAL 3448/2026 Escuelas Taller Empleo Público SELECCIÓN PERSONAL DOCENTE FOTAE 2026 24/11/2026
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://betera.sedelectronica.es/preview-document/3b5134d0-3fca-4606-b277-a7b1153f02a5)
 
 - **Carlet** — COMUNICACIÓN DE SELECCIÓN DOCENTE EXPEDIENTE FESTA/2025/7/46 4469/2025 Subvencions Sol·licitades a Una altra Administració Anuncis COMUNICACIÓN DE SELECCIÓN DOCENTE EXPEDIENTE FESTA/2025/7/46 30/10/2026
   - Plazo: Plazo por confirmar en el anuncio
@@ -136,9 +158,7 @@ No hay convocatorias con plazo abierto confirmado en las fuentes vigiladas.
 
 ## Próximas aperturas conocidas
 
-- **Silla** — Anuncio oficial
-  - Plazo: 2026-11-24 a 2026-11-27
-  - [Abrir el anuncio oficial](https://silla.sede.dival.es/tablondeanuncios/documento.aspx?id=132707&modo=guardar)
+No hay aperturas futuras confirmadas.
 
 [Descargar convocatorias para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/plazas.csv) · [Descargar proyectos aprobados para Excel](https://github.com/dandresmz-esp/vigilante-labora/raw/refs/heads/estado-vigilante/catalogo.csv)
 
