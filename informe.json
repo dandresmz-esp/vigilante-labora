@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-24T15:01:08.530020+00:00",
-  "checked": 771,
-  "actionable_events": 5,
-  "suppressed_events": 161,
+  "finished": "2026-11-25T14:39:58.796681+00:00",
+  "checked": 775,
+  "actionable_events": 204,
+  "suppressed_events": 155,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -49,9 +49,9 @@
       "retired_historical": 0
     },
     "Benaguasil": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 13,
-      "failures": 0,
+      "failures": 13,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -70,16 +70,16 @@
       "retired_historical": 0
     },
     "Casinos": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 23,
-      "failures": 0,
+      "failures": 23,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Catarroja": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 9,
-      "failures": 0,
+      "failures": 9,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -92,7 +92,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 84,
+      "resources": 87,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 10
@@ -112,9 +112,9 @@
       "retired_historical": 0
     },
     "Manises": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 71,
-      "failures": 0,
+      "failures": 71,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -140,9 +140,9 @@
       "retired_historical": 0
     },
     "Ontinyent": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 58,
-      "failures": 0,
+      "failures": 58,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -182,23 +182,23 @@
       "retired_historical": 0
     },
     "Sedaví": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 2,
-      "failures": 0,
+      "failures": 2,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Silla": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 40,
-      "failures": 0,
+      "failures": 22,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Simat de la Valldigna": {
-      "status": "lectura_verificada",
+      "status": "parcial",
       "resources": 2,
-      "failures": 0,
+      "failures": 2,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -218,13 +218,41 @@
     },
     "Xativa": {
       "status": "lectura_verificada",
-      "resources": 26,
+      "resources": 27,
       "failures": 0,
       "unvalidated_sources": 0,
+      "retired_historical": 0
+    },
+    "almussafes": {
+      "status": "parcial",
+      "resources": 0,
+      "failures": 0,
+      "unvalidated_sources": 1,
+      "retired_historical": 0
+    },
+    "picassent": {
+      "status": "parcial",
+      "resources": 0,
+      "failures": 0,
+      "unvalidated_sources": 1,
+      "retired_historical": 0
+    },
+    "tavernes de la valldigna": {
+      "status": "parcial",
+      "resources": 0,
+      "failures": 0,
+      "unvalidated_sources": 1,
+      "retired_historical": 0
+    },
+    "xirivella": {
+      "status": "parcial",
+      "resources": 0,
+      "failures": 0,
+      "unvalidated_sources": 1,
       "retired_historical": 0
     }
   },
   "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado",
-  "internal_reviews": 18
+  "internal_reviews": 15
 }
