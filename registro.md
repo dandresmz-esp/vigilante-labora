@@ -1,8 +1,8 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 25/11/2026 15:39 (hora peninsular).
+Última comprobación: 26/11/2026 15:02 (hora peninsular).
 
-**Vigilancia incompleta en: Benaguasil, Casinos, Catarroja, Manises, Ontinyent, Sedaví, Silla, Simat de la Valldigna, almussafes, picassent, tavernes de la valldigna, xirivella.** Puede haber anuncios aún no detectados.
+**Vigilancia incompleta en: almussafes, picassent, tavernes de la valldigna, xirivella.** Puede haber anuncios aún no detectados.
 
 **El aviso para presentar la solicitud llega por correo cuando se detecta una convocatoria con plazo abierto.** Comprueba siempre el anuncio oficial antes de enviarla.
 
@@ -33,6 +33,10 @@
 - **Alzira** — Anuncio oficial
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_7c17ec3f67f74acdb5748354360f57f0.pdf)
+
+- **Alzira** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://www.idea-alzira.com/_files/ugd/bfeeef_807034df88344d74b27b40b50a97ce18.pdf)
 
 - **Ayora** — Diligencia_Edicto de Alcaldía_plazos 794/2026 Subvenciones Solicitadas a Otra Administración Empleo Público Proceso selección DIRECTOR con capacidad docente y DOCENTE de la especialidad del Certificado de Profesionalidad para FOTAE/2026/50/46 23/11/2026
   - Plazo: Plazo por confirmar en el anuncio
@@ -117,6 +121,10 @@
 - **Ontinyent** — Anuncio oficial
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=132650&modo=guardar)
+
+- **Ontinyent** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://ontinyent.sedipualba.es/tablondeanuncios/documento.aspx?id=132971&modo=guardar)
 
 - **Silla** — Anuncio oficial
   - Plazo: Plazo por confirmar en el anuncio

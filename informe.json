@@ -1,14 +1,14 @@
 {
-  "finished": "2026-11-25T14:39:58.796681+00:00",
-  "checked": 775,
-  "actionable_events": 204,
-  "suppressed_events": 155,
+  "finished": "2026-11-26T14:02:26.337961+00:00",
+  "checked": 798,
+  "actionable_events": 2,
+  "suppressed_events": 362,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
     "Alaquas": {
       "status": "lectura_verificada",
-      "resources": 25,
+      "resources": 26,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -36,7 +36,7 @@
     },
     "Alzira": {
       "status": "lectura_verificada",
-      "resources": 26,
+      "resources": 27,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -49,15 +49,15 @@
       "retired_historical": 0
     },
     "Benaguasil": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 13,
-      "failures": 13,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 36,
+      "resources": 38,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -70,16 +70,16 @@
       "retired_historical": 0
     },
     "Casinos": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 23,
-      "failures": 23,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Catarroja": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 9,
-      "failures": 9,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -92,7 +92,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 87,
+      "resources": 90,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 10
@@ -112,9 +112,9 @@
       "retired_historical": 0
     },
     "Manises": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 71,
-      "failures": 71,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -134,15 +134,15 @@
     },
     "Oliva": {
       "status": "lectura_verificada",
-      "resources": 32,
+      "resources": 34,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Ontinyent": {
-      "status": "parcial",
-      "resources": 58,
-      "failures": 58,
+      "status": "lectura_verificada",
+      "resources": 64,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -162,7 +162,7 @@
     },
     "Riba-roja de Túria": {
       "status": "lectura_verificada",
-      "resources": 4,
+      "resources": 5,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -182,23 +182,23 @@
       "retired_historical": 0
     },
     "Sedaví": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 2,
-      "failures": 2,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Silla": {
-      "status": "parcial",
-      "resources": 40,
-      "failures": 22,
+      "status": "lectura_verificada",
+      "resources": 43,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Simat de la Valldigna": {
-      "status": "parcial",
+      "status": "lectura_verificada",
       "resources": 2,
-      "failures": 2,
+      "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
@@ -218,7 +218,7 @@
     },
     "Xativa": {
       "status": "lectura_verificada",
-      "resources": 27,
+      "resources": 31,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -254,5 +254,5 @@
   },
   "delivery": "aceptada_por_SMTP_pendiente_confirmar_recepcion",
   "external_watchdog": "pendiente_de_persistir_estado",
-  "internal_reviews": 15
+  "internal_reviews": 17
 }
