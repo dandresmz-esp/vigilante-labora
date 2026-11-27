@@ -1,8 +1,8 @@
 {
-  "finished": "2026-11-26T14:02:26.337961+00:00",
-  "checked": 798,
-  "actionable_events": 2,
-  "suppressed_events": 362,
+  "finished": "2026-11-27T14:01:03.807852+00:00",
+  "checked": 814,
+  "actionable_events": 4,
+  "suppressed_events": 145,
   "pending_events": 0,
   "overflow": false,
   "coverage": {
@@ -50,14 +50,14 @@
     },
     "Benaguasil": {
       "status": "lectura_verificada",
-      "resources": 13,
+      "resources": 22,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
     },
     "Bétera": {
       "status": "lectura_verificada",
-      "resources": 38,
+      "resources": 40,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0
@@ -92,7 +92,7 @@
     },
     "LABORA": {
       "status": "lectura_verificada",
-      "resources": 90,
+      "resources": 92,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 10
@@ -113,7 +113,7 @@
     },
     "Manises": {
       "status": "lectura_verificada",
-      "resources": 71,
+      "resources": 74,
       "failures": 0,
       "unvalidated_sources": 0,
       "retired_historical": 0

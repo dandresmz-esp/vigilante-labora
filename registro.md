@@ -1,6 +1,6 @@
 # Plazas de talleres: qué hacer hoy
 
-Última comprobación: 26/11/2026 15:02 (hora peninsular).
+Última comprobación: 27/11/2026 15:01 (hora peninsular).
 
 **Vigilancia incompleta en: almussafes, picassent, tavernes de la valldigna, xirivella.** Puede haber anuncios aún no detectados.
 
@@ -65,6 +65,22 @@
 - **Benaguasil** — Anuncio oficial
   - Plazo: Plazo por confirmar en el anuncio
   - [Abrir el anuncio oficial](https://benaguasil.sede.dival.es/tablondeanuncios/documento.aspx?id=132677&modo=guardar)
+
+- **Benaguasil** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://benaguasil.sede.dival.es/tablondeanuncios/documento.aspx?id=133002&modo=guardar)
+
+- **Benaguasil** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://benaguasil.sede.dival.es/tablondeanuncios/documento.aspx?id=133004&modo=guardar)
+
+- **Benaguasil** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://benaguasil.sede.dival.es/tablondeanuncios/documento.aspx?id=133005&modo=guardar)
+
+- **Benaguasil** — Anuncio oficial
+  - Plazo: Plazo por confirmar en el anuncio
+  - [Abrir el anuncio oficial](https://benaguasil.sede.dival.es/tablondeanuncios/documento.aspx?id=133007&modo=guardar)
 
 - **Bétera** — EDICTO PUBLICACIÓN INSTRUCCIONES SELECCIÓN PERSONAL 3450/2026 Escuelas Taller Empleo Público SELECCIÓN PERSONAL DIRECTIVO, DOCENTE Y AUXILIAR ADMINISTRATIVO ESCUELA TALLER - FESTA 2026 23/11/2026
   - Plazo: Plazo por confirmar en el anuncio
